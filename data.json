@@ -1,0 +1,4967 @@
+{
+  "1": [
+    {
+      "q": "診る",
+      "f": "みる",
+      "a": "melihat, memeriksa",
+      "e": "dokter *melihat* pasien\nperawat *memeriksa* kondisi tubuh",
+      "c": 1,
+      "x": "dipakai khusus oleh tenaga medis\nbeda dengan 見る (miru) yang umum\nbiasanya objeknya pasien atau kondisi tubuh",
+      "t": "を"
+    },
+    {
+      "q": "捜す",
+      "f": "さがす",
+      "a": "mencari",
+      "e": "polisi sedang *mencari* pelaku",
+      "c": 1,
+      "x": "untuk mencari orang atau benda yang hilang/tersembunyi\nbernuansa 'memburu' atau 'menyelidiki'\nlebih formal daripada 探す",
+      "t": "を"
+    },
+    {
+      "q": "探す",
+      "f": "さがす",
+      "a": "mencari",
+      "e": "saya *mencari* kunci yang hilang",
+      "c": 1,
+      "x": "untuk mencari benda atau orang yang diinginkan\nlebih kasual dan umum digunakan\nbisa juga untuk mencari kerja atau informasi",
+      "t": "を"
+    },
+    {
+      "q": "［時間に］遅れる",
+      "f": "おくれる",
+      "a": "terlambat",
+      "e": "saya *terlambat* datang ke sekolah",
+      "c": 1,
+      "x": "pakai partikel に (時間に遅れる)\nberlawanan dengan 間に合う (tepat waktu)\nbisa juga untuk jam tangan yang 'terlambat'",
+      "t": "に"
+    },
+    {
+      "q": "［時間に］間に合う",
+      "f": "まにあう",
+      "a": "sempat",
+      "e": "saya masih *sempat* naik kereta terakhir",
+      "c": 1,
+      "x": "pakai partikel に (時間に間に合う)\nberarti 'tepat waktu' atau 'tidak terlambat'\njuga bisa berarti 'berguna' atau 'mencukupi'",
+      "t": "に"
+    },
+    {
+      "f": "やる",
+      "a": "melakukan",
+      "e": "saya *melakukan* pekerjaan rumah",
+      "c": 1,
+      "x": "lebih kasual daripada する (suru)\nbisa berarti 'memberi' ke bawahan atau tanaman\nbisa juga berarti 'mengirim' atau 'memainkan'",
+      "t": "を"
+    },
+    {
+      "q": "拾う",
+      "f": "ひろう",
+      "a": "mendapat, mengambil",
+      "e": "saya *mendapat* uang di jalan\nadik *mengambil* buku di meja",
+      "c": 1,
+      "x": "fokus pada 'memungut' benda yang jatuh/berserakan\nbisa juga berarti 'menemukan' sesuatu secara kebetulan\nhati-hati: bisa berarti 'menyelamatkan' orang yang terlantar",
+      "t": "を"
+    },
+    {
+      "q": "連絡する",
+      "f": "れんらくする",
+      "a": "menghubungi",
+      "e": "saya akan *menghubungi* teman nanti",
+      "c": 1,
+      "x": "bentuk sopan untuk 'mengontak'\npakai partikel に (orang yang dihubungi)\nlebih ke 'memberi kabar' daripada sekadar telepon",
+      "t": "を"
+    },
+    {
+      "q": "気分がいい",
+      "f": "きぶんがいい",
+      "a": "perasaan enak, segar",
+      "e": "hari ini saya merasa *perasaan enak*",
+      "c": 1,
+      "x": "menyatakan kondisi fisik/mental yang baik\nberlawanan dengan 気分が悪い (kibun ga warui)\nbeda dengan 機嫌がいい (kigen ga ii) yang lebih ke mood sesaat"
+    },
+    {
+      "q": "気分が悪い",
+      "f": "きぶんがわるい",
+      "a": "perasaan tidak enak",
+      "e": "sejak pagi saya *perasaan tidak enak*",
+      "c": 1,
+      "x": "bisa berarti 'mual' secara fisik\nbisa berarti 'merasa tidak nyaman' secara mental\nsopan untuk mengatakan 'saya sakit'"
+    },
+    {
+      "q": "運動会",
+      "f": "うんどうかい",
+      "a": "festival olahraga",
+      "e": "besok ada *festival olahraga* di sekolah",
+      "c": 1,
+      "x": "acara khas sekolah Jepang\nbiasanya diadakan setahun sekali\nmelibatkan lomba lari, tari, dan permainan kelompok"
+    },
+    {
+      "q": "フリーマーケット",
+      "f": "ふりーまーけっと",
+      "a": "pasar loak",
+      "e": "saya membeli baju di *pasar loak*",
+      "c": 1,
+      "x": "serapan dari 'flea market'\nbiasanya diadakan di akhir pekan\ntempat menjual barang bekas"
+    },
+    {
+      "q": "場所",
+      "f": "ばしょ",
+      "a": "tempat",
+      "e": "ini adalah *tempat* yang tenang",
+      "c": 1,
+      "x": "menunjuk lokasi fisik secara spesifik\nlebih formal daripada ところ (tokoro)\nbisa juga berarti 'kesempatan' dalam konteks tertentu"
+    },
+    {
+      "q": "ボランティア",
+      "f": "ぼらんてぃあ",
+      "a": "kegiatan sukarela",
+      "e": "saya ikut *kegiatan sukarela* minggu ini",
+      "c": 1,
+      "x": "serapan dari 'volunteer'\nbiasanya tidak dibayar\nsangat umum dalam budaya Jepang, terutama saat bencana"
+    },
+    {
+      "q": "財布",
+      "f": "さいふ",
+      "a": "dompet",
+      "e": "saya kehilangan *dompet*",
+      "c": 1,
+      "x": "biasanya berisi uang dan kartu\nada berbagai jenis: 長財布 (nagazaifu/dompet panjang)\nhilangnya dompet adalah masalah besar di Jepang"
+    },
+    {
+      "q": "ゴミ",
+      "f": "ごみ",
+      "a": "sampah",
+      "e": "tolong buang *sampah* itu",
+      "c": 1,
+      "x": "biasa ditulis dengan katakana\npemisahan sampah di Jepang sangat ketat\nbisa juga berarti 'informasi tidak berguna'"
+    },
+    {
+      "q": "国会議事堂",
+      "f": "こっかいぎじどう",
+      "a": "gedung parlemen",
+      "e": "saya mengunjungi *gedung parlemen*",
+      "c": 1,
+      "x": "bangunan penting di Tokyo\nbisa dikunjungi wisatawan\ntempat berlangsungnya sidang parlemen Jepang"
+    },
+    {
+      "q": "平日",
+      "f": "へいじつ",
+      "a": "hari kerja",
+      "e": "*hari kerja* sangat sibuk",
+      "c": 1,
+      "x": "berlawanan dengan 休日 (kyuujitsu/hari libur)\nbiasanya Senin sampai Jumat\nbeda dengan 週日 (shuujitsu) yang lebih jarang dipakai"
+    },
+    {
+      "q": "〜弁",
+      "f": "べん",
+      "a": "dialek",
+      "e": "dia berbicara dengan *dialek* Kansai",
+      "c": 1,
+      "x": "sufiks untuk menyebut dialek daerah\ncontoh: 大阪弁 (Osaka-ben), 東北弁 (Touhoku-ben)\nterkadang bisa menjadi kebanggaan atau stereotip"
+    },
+    {
+      "q": "今度",
+      "f": "こんど",
+      "a": "lain kali, kali ini",
+      "e": "*lain kali* kita pergi bersama",
+      "c": 1,
+      "x": "bisa berarti 'kali ini' atau 'lain kali'\ntergantung konteks waktu\nlebih kasual daripada 次回 (jikai)"
+    },
+    {
+      "f": "ずいぶん",
+      "a": "sangat, cukup (banyak)",
+      "e": "hari ini *sangat* dingin",
+      "c": 1,
+      "x": "menekankan perbedaan dari biasanya\nsering digunakan untuk hal yang di luar dugaan\nlebih kuat daripada とても (totemo)"
+    },
+    {
+      "q": "直接",
+      "f": "ちょくせつ",
+      "a": "langsung",
+      "e": "saya bertanya *langsung* ke guru",
+      "c": 1,
+      "x": "berlawanan dengan 間接 (kansetsu/tidak langsung)\nmenekankan tanpa perantara\nbisa juga berarti 'tatap muka'"
+    },
+    {
+      "f": "いつでも",
+      "a": "kapan saja",
+      "e": "kamu boleh datang *kapan saja*",
+      "c": 1,
+      "x": "bentuk kata tanya + でも (demo)\nmenunjukkan tidak ada batasan waktu\nbersifat ramah dan mengundang"
+    },
+    {
+      "f": "どこでも",
+      "a": "di mana saja",
+      "e": "saya bisa belajar *di mana saja*",
+      "c": 1,
+      "x": "bentuk kata tanya + でも (demo)\nmenunjukkan tidak ada batasan tempat\nsering digunakan untuk menunjukkan fleksibilitas"
+    },
+    {
+      "q": "誰でも",
+      "f": "だれでも",
+      "a": "siapa saja",
+      "e": "*siapa saja* bisa ikut",
+      "c": 1,
+      "x": "bentuk kata tanya + でも (demo)\nmenunjukkan tidak ada batasan orang\nbersifat inklusif"
+    },
+    {
+      "q": "何でも",
+      "f": "なんでも",
+      "a": "apa saja",
+      "e": "saya makan *apa saja*",
+      "c": 1,
+      "x": "bentuk kata tanya + でも (demo)\nmenunjukkan tidak ada batasan benda/hal\nbisa berarti 'katanya' jika di awal kalimat"
+    },
+    {
+      "f": "こんな〜",
+      "a": "seperti ini",
+      "e": "saya belum pernah melihat hal *seperti ini*",
+      "c": 1,
+      "x": "menunjuk sesuatu yang dekat dengan pembicara\nbentuk kasual dari このような (kono you na)\nberlawanan dengan そんな (sonna) dan あんな (anna)"
+    },
+    {
+      "f": "そんな〜",
+      "a": "seperti itu (dekat lawan bicara)",
+      "e": "saya tidak percaya hal *seperti itu (dekat lawan bicara)*",
+      "c": 1,
+      "x": "menunjuk sesuatu yang dekat dengan lawan bicara\nbentuk kasual dari そのような (sono you na)\nbisa berarti 'tidak mungkin!' sebagai seruan"
+    },
+    {
+      "f": "あんな〜",
+      "a": "seperti itu (jauh dari keduanya)",
+      "e": "saya ingin pergi ke tempat *seperti itu (jauh dari keduanya)*",
+      "c": 1,
+      "x": "menunjuk sesuatu yang jauh dari kedua pihak\nbentuk kasual dari あのような (ano you na)\nsering mengandung nuansa mengagumi atau meremehkan"
+    },
+    {
+      "q": "片付く",
+      "f": "かたづく",
+      "a": "menjadi rapi",
+      "e": "kamar ini sudah *menjadi rapi*",
+      "c": 1,
+      "x": "bentuk intransitif (otomatis rapi)\nberlawanan dengan 片付ける (katazukeru/merapikan)\nberarti 'beres' atau 'terselesaikan'",
+      "t": "が"
+    },
+    {
+      "q": "燃えるゴミ",
+      "f": "もえるごみ",
+      "a": "sampah yang bisa dibakar",
+      "e": "ini adalah *sampah yang bisa dibakar*",
+      "c": 1,
+      "x": "kategori sampah di Jepang\nberlawanan dengan 燃えないゴミ (moenai gomi)\nbiasanya dibuang hari tertentu dalam seminggu"
+    },
+    {
+      "q": "置き場",
+      "f": "おきば",
+      "a": "tempat meletakkan",
+      "e": "ini adalah *tempat meletakkan* sepeda",
+      "c": 1,
+      "x": "biasanya digabung dengan kata benda lain\ncontoh: 自転車置き場 (jitensha okiba)\nmenunjukkan tempat khusus untuk menyimpan sesuatu"
+    },
+    {
+      "q": "瓶",
+      "f": "びん",
+      "a": "botol kaca",
+      "e": "tolong buang *botol kaca* ini",
+      "c": 1,
+      "x": "berlawanan dengan 缶 (kan/kaleng)\nharus dipisah saat daur ulang di Jepang\nbisa juga berarti 'botol' secara umum"
+    },
+    {
+      "q": "缶",
+      "f": "かん",
+      "a": "kaleng",
+      "e": "saya membuka *kaleng* minuman",
+      "c": 1,
+      "x": "biasanya untuk minuman atau makanan kaleng\nberlawanan dengan 瓶 (bin/botol kaca)\nada tempat daur ulang khusus di Jepang"
+    },
+    {
+      "q": "宇宙",
+      "f": "うちゅう",
+      "a": "luar angkasa",
+      "e": "saya ingin ke *luar angkasa*",
+      "c": 1,
+      "x": "bisa berarti 'alam semesta' secara luas\nbeda dengan 宇宙空間 (uchuukan/ruang angkasa)\nsering digunakan dalam cerita fiksi ilmiah"
+    },
+    {
+      "q": "宇宙船",
+      "f": "うちゅうせん",
+      "a": "kapal luar angkasa",
+      "e": "dia naik *kapal luar angkasa*",
+      "c": 1,
+      "x": "biasa muncul di anime/manga\nbeda dengan ロケット (roket/roket)\nlebih ke 'pesawat luar angkasa' secara umum"
+    },
+    {
+      "q": "怖い",
+      "f": "こわい",
+      "a": "menakutkan, takut",
+      "e": "film itu sangat *menakutkan*",
+      "c": 1,
+      "x": "bisa berarti 'takut' secara emosional\njangan tertukar dengan 恐い (juga dibaca kowai)\nbeda dengan 恐ろしい (osoroshii) yang lebih intens"
+    },
+    {
+      "q": "宇宙ステーション",
+      "f": "うちゅうすてーしょん",
+      "a": "stasiun luar angkasa",
+      "e": "dia bekerja di *stasiun luar angkasa*",
+      "c": 1,
+      "x": "serapan dari 'space station'\nbiasa disingkat 宇宙ステ (uchuu sute)\ntempat tinggal dan penelitian astronot"
+    },
+    {
+      "q": "違う",
+      "f": "ちがう",
+      "a": "berbeda",
+      "e": "jawaban ini *berbeda*",
+      "c": 1,
+      "x": "bisa berarti 'salah' secara informal\nbentuk negatif dari 違う tidak lazim\nsering digunakan untuk mengoreksi orang lain",
+      "t": "が"
+    },
+    {
+      "q": "宇宙飛行士",
+      "f": "うちゅうひこうし",
+      "a": "astronot",
+      "e": "saya ingin menjadi *astronot*",
+      "c": 1,
+      "x": "profesi yang sangat diidamkan di Jepang\nbeda dengan 宇宙人 (uchuujin/alien)\nada ujian khusus untuk menjadi astronot Jepang"
+    }
+  ],
+  "2": [
+    {
+      "q": "〜様",
+      "f": "さま",
+      "a": "Yth. ~",
+      "e": "kepada *Yth. * Tanaka",
+      "c": 4,
+      "x": "sufiks kehormatan paling sopan\nuntuk alamat surat atau nama pelanggan\nlebih formal daripada 〜さん (san)"
+    },
+    {
+      "q": "お知らせ",
+      "f": "おしらせ",
+      "a": "pengumuman",
+      "e": "ini adalah *pengumuman* penting",
+      "c": 2,
+      "x": "bentuk sopan dari 知らせ (shirase)\nsering digunakan di sekolah atau kantor\nbeda dengan 告知 (kokuchi) yang lebih resmi"
+    },
+    {
+      "q": "可燃ゴミ",
+      "f": "かねんごみ",
+      "a": "sampah yang bisa dibakar",
+      "e": "ini termasuk *sampah yang bisa dibakar*",
+      "c": 1,
+      "x": "bentuk lain dari 燃えるゴミ (moeru gomi)\nbiasanya sampah dapur dan kertas\nharus dibuang di hari yang ditentukan"
+    },
+    {
+      "q": "燃える",
+      "f": "もえる",
+      "a": "terbakar\nbernyala\nmenyala",
+      "e": "rumah itu *terbakar*\napi itu *bernyala*\nlampu itu *menyala*",
+      "c": 1,
+      "x": "bentuk intransitif (terbakar dengan sendirinya)\nberlawanan dengan 燃やす (moyasu/membakar)\njuga berarti 'berkobar' secara emosional (semangat)",
+      "t": "が"
+    },
+    {
+      "q": "生ゴミ",
+      "f": "なまごみ",
+      "a": "sampah dapur\nsampah basah",
+      "e": "ini adalah *sampah dapur*\nbuang ke tempat *sampah basah*",
+      "c": 1,
+      "x": "disebut juga 生ごみ (nama gomi)\nsisa makanan yang mudah membusuk\nharus segera dibuang karena berbau"
+    },
+    {
+      "q": "紙くず",
+      "f": "かみくず",
+      "a": "kertas bekas",
+      "e": "tolong buang *kertas bekas* ini",
+      "c": 1,
+      "x": "potongan kertas sisa atau bekas\nmasuk kategori 資源ゴミ (shigen gomi)\njangan dicampur dengan sampah biasa"
+    },
+    {
+      "q": "不燃ゴミ",
+      "f": "ふねんごみ",
+      "a": "sampah yang tidak bisa dibakar",
+      "e": "ini termasuk *sampah yang tidak bisa dibakar*",
+      "c": 1,
+      "x": "berlawanan dengan 可燃ゴミ (kanen gomi)\ncontoh: logam, kaca, keramik\nbiasanya dibuang di hari yang berbeda"
+    },
+    {
+      "q": "収集日",
+      "f": "しゅうしゅうび",
+      "a": "hari pengumpulan",
+      "e": "besok adalah *hari pengumpulan* sampah",
+      "c": 1,
+      "x": "berbeda-beda tergantung daerah\nbiasanya terbagi per jenis sampah\nharus membuang sebelum jam tertentu"
+    },
+    {
+      "q": "ガラス製品",
+      "f": "がらすせいひん",
+      "a": "produk kaca",
+      "e": "ini adalah *produk kaca*",
+      "c": 1,
+      "x": "termasuk 不燃ゴミ (funen gomi)\nharus dibungkus kertas agar tidak melukai petugas\nbeda dengan 瓶 (bin/botol) yang sering didaur ulang terpisah"
+    },
+    {
+      "q": "瀬戸物",
+      "f": "せともの",
+      "a": "barang keramik",
+      "e": "ini adalah *barang keramik*",
+      "c": 1,
+      "x": "asal kata dari kota Seto (penghasil keramik)\ntermasuk 不燃ゴミ (funen gomi)\nhati-hati karena bisa pecah dan berbahaya"
+    },
+    {
+      "q": "金属製台所用品",
+      "f": "きんぞくせいだいどころようひん",
+      "a": "peralatan dapur dari logam",
+      "e": "ini termasuk *peralatan dapur dari logam*",
+      "c": 1,
+      "x": "termasuk 不燃ゴミ (funen gomi) jika kecil\njika besar termasuk 粗大ゴミ (sodai gomi)\npisahkan dari sampah lain untuk daur ulang"
+    },
+    {
+      "q": "資源ゴミ",
+      "f": "しげんごみ",
+      "a": "sampah daur ulang",
+      "e": "ini adalah *sampah daur ulang*",
+      "c": 1,
+      "x": "berbeda dengan sampah biasa\ncontoh: botol plastik, kaleng, kertas koran\nharus dipisah sesuai jenisnya"
+    },
+    {
+      "q": "ペットボトル",
+      "f": "ぺっとぼとる",
+      "a": "botol plastik",
+      "e": "tolong buang *botol plastik* ini",
+      "c": 1,
+      "x": "singkatan dari polyethylene terephthalate bottle\nharus dibersihkan dan dibuang tutupnya terpisah\ntermasuk 資源ゴミ (shigen gomi)"
+    },
+    {
+      "q": "事前申し込み",
+      "f": "じぜんもうしこみ",
+      "a": "pendaftaran sebelumnya",
+      "e": "harap lakukan *pendaftaran sebelumnya*",
+      "c": 2,
+      "x": "berlawanan dengan 当日申し込み (toujitsu moushikomi)\nsering untuk acara atau seminar\nbiasanya ada batas waktu tertentu"
+    },
+    {
+      "q": "粗大ゴミ",
+      "f": "そだいごみ",
+      "a": "sampah ukuran besar",
+      "e": "ini termasuk *sampah ukuran besar*",
+      "c": 1,
+      "x": "biasanya ukuran >30cm\ncontoh: furnitur, kasur, elektronik\nharus daftar dan bayar sebelum dibuang"
+    },
+    {
+      "q": "飼う",
+      "f": "かう",
+      "a": "memelihara",
+      "e": "saya *memelihara* anjing",
+      "c": 1,
+      "x": "untuk hewan peliharaan\nbeda dengan 育てる (sodateru/membesarkan) yang lebih ke anak\nbiasanya untuk anjing, kucing, burung",
+      "t": "を"
+    },
+    {
+      "q": "［道を］走る",
+      "f": "はしる",
+      "a": "berlari [di jalan]",
+      "e": "dia *berlari [di jalan]* setiap pagi",
+      "c": 1,
+      "x": "pakai partikel を untuk tempat yang dilalui\nintransitif tapi bisa pakai を untuk rute\nbeda dengan 競争 (kyousou/berlomba) yang lebih ke kompetisi",
+      "t": "を"
+    },
+    {
+      "q": "見える",
+      "f": "みえる",
+      "a": "terlihat",
+      "e": "gunung itu *terlihat* dari sini",
+      "c": 1,
+      "x": "bentuk potential dari 見る (miru)\nmenyatakan sesuatu terlihat tanpa sengaja\nbeda dengan 見られる (mirareru) yang lebih ke kemampuan",
+      "t": "が"
+    },
+    {
+      "q": "聞こえる",
+      "f": "きこえる",
+      "a": "terdengar",
+      "e": "suara musik *terdengar* dari luar",
+      "c": 1,
+      "x": "bentuk potential dari 聞く (kiku)\nmenyatakan suara terdengar tanpa sengaja\nbeda dengan 聞ける (kikeru) yang lebih ke kemampuan mendengar",
+      "t": "が"
+    },
+    {
+      "f": "できる",
+      "a": "terjadi\nselesai\ndibuat",
+      "e": "kecelakaan itu *terjadi*\npekerjaan ini sudah *selesai*\nrencana ini sudah *dibuat*",
+      "c": 1,
+      "x": "bisa berarti 'mampu' atau 'terjadi'\npakai partikel が (objek kemampuan)\njangan tertukar dengan 出来る (kanji yang sama)",
+      "t": "が"
+    },
+    {
+      "q": "開く",
+      "f": "ひらく",
+      "a": "membuka, mengadakan [kelas]",
+      "e": "saya *membuka* buku\ndia *mengadakan [kelas]* bahasa Jepang",
+      "c": 1,
+      "x": "transitif (membuka sesuatu)\nintransitifnya adalah 開く (aku)\njuga berarti 'mengadakan' acara atau kelas",
+      "t": "を"
+    },
+    {
+      "q": "心配［な］",
+      "f": "しんぱい",
+      "a": "mengkhawatirkan",
+      "e": "situasi ini *mengkhawatirkan*",
+      "c": 1,
+      "x": "bisa sebagai kata sifat (na-adj) atau kata benda\nbentuk kata kerja: 心配する (shinpai suru)\nbeda dengan 不安 (fuan) yang lebih ke rasa cemas"
+    },
+    {
+      "q": "ペット",
+      "f": "ぺっと",
+      "a": "hewan peliharaan",
+      "e": "anjing adalah *hewan peliharaan*",
+      "c": 1,
+      "x": "serapan dari 'pet'\nbiasanya anjing, kucing, burung, ikan\nada aturan khusus memelihara di apartemen Jepang"
+    },
+    {
+      "q": "鳥",
+      "f": "とり",
+      "a": "burung",
+      "e": "itu adalah *burung*",
+      "c": 1,
+      "x": "bisa berarti 'ayam' dalam konteks makanan\nbanyak jenis: 雀 (suzume), 鳩 (hato)\njika dipelihara disebut ペットの鳥"
+    },
+    {
+      "q": "声",
+      "f": "こえ",
+      "a": "suara",
+      "e": "saya mendengar *suara* aneh",
+      "c": 1,
+      "x": "untuk suara manusia atau hewan\nbeda dengan 音 (oto) untuk suara benda\nbisa berarti 'pendapat' dalam konteks tertentu"
+    },
+    {
+      "q": "波",
+      "f": "なみ",
+      "a": "ombak, gelombang",
+      "e": "*ombak* besar datang\n*gelombang* radio kuat",
+      "c": 1,
+      "x": "untuk ombak laut dan gelombang fisik\njuga berarti 'tren' atau 'mode'\nada istilah 津波 (tsunami/gelombang pasang)"
+    },
+    {
+      "q": "花火",
+      "f": "はなび",
+      "a": "kembang api",
+      "e": "kami menonton *kembang api*",
+      "c": 1,
+      "x": "acara musim panas khas Jepang\nada 花火大会 (hanabi taikai)\njangan ditulis terbalik: 火花 (hibana/percikan api)"
+    },
+    {
+      "q": "道具",
+      "f": "どうぐ",
+      "a": "alat",
+      "e": "ini adalah *alat* penting",
+      "c": 1,
+      "x": "untuk alat bantu kerja atau hobi\nbeda dengan 機械 (kikai/mesin) yang lebih kompleks\ncontoh: 大工道具 (daiku dougu/alat tukang kayu)"
+    },
+    {
+      "q": "クリーニング",
+      "f": "くりーにんぐ",
+      "a": "laundry",
+      "e": "saya pergi ke *laundry*",
+      "c": 1,
+      "x": "serapan dari 'cleaning'\nbiasanya untuk dry cleaning\nbeda dengan 洗濯 (sentaku/mencuci pakaian biasa)"
+    },
+    {
+      "q": "マンション",
+      "f": "まんしょん",
+      "a": "apartemen",
+      "e": "saya tinggal di *apartemen*",
+      "c": 1,
+      "x": "di Jepang berarti apartemen mewah\nbeda dengan アパート (apaato) yang lebih sederhana\nbiasanya beton dan memiliki keamanan"
+    },
+    {
+      "q": "キッチン",
+      "f": "きっちん",
+      "a": "dapur",
+      "e": "ibu ada di *dapur*",
+      "c": 1,
+      "x": "serapan dari 'kitchen'\nlebih kasual daripada 台所 (daidokoro)\nsering digunakan di iklan properti"
+    },
+    {
+      "q": "〜教室",
+      "f": "きょうしつ",
+      "a": "les, kelas",
+      "e": "saya ikut *les*\ndia masuk *kelas* bahasa",
+      "c": 1,
+      "x": "bisa untuk tempat les atau kursus\ncontoh: ピアノ教室 (piano kyoushitsu)\nbeda dengan 授業 (jugyou) yang lebih ke pelajaran"
+    },
+    {
+      "q": "パーティールーム",
+      "f": "ぱーてぃるーむ",
+      "a": "ruang pesta",
+      "e": "kami berkumpul di *ruang pesta*",
+      "c": 1,
+      "x": "fasilitas di apartemen atau hotel\nbiasanya bisa disewa untuk acara\nserapan dari 'party room'"
+    },
+    {
+      "q": "方",
+      "f": "かた",
+      "a": "orang",
+      "e": "orang itu adalah *orang* baik",
+      "c": 2,
+      "x": "bentuk sopan dari 人 (hito)\nbiasanya untuk menyebut orang lain\nbisa berarti 'cara' jika bacaannya かた (kata)"
+    },
+    {
+      "q": "〜後",
+      "f": "ご",
+      "a": "setelah, sesudah",
+      "e": "*setelah* makan saya belajar\n*sesudah* itu saya tidur",
+      "c": 1,
+      "x": "sufiks yang berarti 'setelah'\nbiasa dipakai dengan kata benda\nbeda dengan 後 (ato) yang lebih kasual"
+    },
+    {
+      "f": "ほか［の］",
+      "a": "lain",
+      "e": "saya punya rencana *lain*",
+      "c": 1,
+      "x": "bisa ditulis 外\nberarti 'lain' atau 'selain'\nformula: 〜のほかに (selain ~)"
+    },
+    {
+      "f": "はっきり",
+      "a": "jelas",
+      "e": "jawabannya *jelas*",
+      "c": 1,
+      "x": "adverbia yang berarti 'dengan jelas'\nbisa juga sebagai kata kerja はっきりする\nberlawanan dengan 曖昧 (aimai/samar)"
+    },
+    {
+      "q": "建てる",
+      "f": "たてる",
+      "a": "membangun",
+      "e": "mereka *membangun* rumah",
+      "c": 1,
+      "x": "untuk membangun struktur/bangunan\nintransitifnya adalah 建つ (tatsu)\nbeda dengan 作る (tsukuru/membuat) secara umum",
+      "t": "を"
+    },
+    {
+      "q": "素晴らしい",
+      "f": "すばらしい",
+      "a": "luar biasa",
+      "e": "film itu *luar biasa*",
+      "c": 1,
+      "x": "kata sifat untuk memuji\nlebih kuat daripada いい (ii)\nbisa juga berarti 'megah' atau 'indah'"
+    },
+    {
+      "q": "主人公",
+      "f": "しゅじんこう",
+      "a": "tokoh utama",
+      "e": "dia adalah *tokoh utama*",
+      "c": 1,
+      "x": "untuk cerita, film, drama\nbeda dengan 主役 (shuyaku) untuk peran utama\nbisa disingkat 主 (nushi) dalam konteks tertentu"
+    }
+  ],
+  "3": [
+    {
+      "q": "形",
+      "f": "かたち",
+      "a": "bentuk",
+      "e": "ini adalah *bentuk* aneh",
+      "c": 1,
+      "x": "bisa berarti 'bentuk fisik'\njuga berarti 'wujud' atau 'keadaan'\nbeda dengan 姿 (sugata) yang lebih ke penampilan"
+    },
+    {
+      "q": "不思議［な］",
+      "f": "ふしぎ",
+      "a": "aneh, ajaib",
+      "e": "kejadian itu *aneh*\ncerita itu *ajaib*",
+      "c": 1,
+      "x": "na-adj untuk hal yang misterius\nbisa sebagai kata benda: 不思議 (fushigi)\nbeda dengan 奇妙 (kimyou) yang lebih ke aneh negatif"
+    },
+    {
+      "q": "例えば",
+      "f": "たとえば",
+      "a": "misalnya",
+      "e": "*misalnya* kita pergi besok",
+      "c": 1,
+      "x": "kata hubung untuk memberi contoh\nbisa disingkat たとえ\nsering dipasangkan dengan 〜が (tatoeba ~ ga)"
+    },
+    {
+      "q": "昔",
+      "f": "むかし",
+      "a": "dulu",
+      "e": "*dulu* saya tinggal di desa",
+      "c": 1,
+      "x": "menunjuk masa lalu yang jauh\nberlawanan dengan 今 (ima/sekarang)\nada ungkapan 昔話 (mukashibanashi/cerita rakyat)"
+    },
+    {
+      "q": "合鍵",
+      "f": "あいかぎ",
+      "a": "kunci cadangan",
+      "e": "ini adalah *kunci cadangan*",
+      "c": 1,
+      "x": "biasanya dibuat di toko kunci\ndi apartemen Jepang sering dilarang tanpa izin\nbeda dengan スペアキー (supea kii) serapan"
+    },
+    {
+      "q": "ヒール・かかと修理",
+      "f": "ひーるかかとしゅうり",
+      "a": "perbaikan hak/sol",
+      "e": "saya meminta *perbaikan hak/sol*",
+      "c": 2,
+      "x": "layanan di toko perbaikan sepatu\nヒール untuk hak sepatu tinggi\nかかと untuk sepatu datar"
+    },
+    {
+      "q": "つま先修理",
+      "f": "つまさきしゅうり",
+      "a": "perbaikan ujung sepatu",
+      "e": "ini butuh *perbaikan ujung sepatu*",
+      "c": 2,
+      "x": "layanan perbaikan sepatu\nsering diperlukan karena sering dipakai\nbiasanya ditempel sol karet baru"
+    },
+    {
+      "q": "中敷き交換",
+      "f": "なかじきこうかん",
+      "a": "ganti pengalas dalam",
+      "e": "saya ingin *ganti pengalas dalam*",
+      "c": 2,
+      "x": "layanan perbaikan sepatu\npengalas dalam yang bisa dilepas\nberguna untuk kenyamanan dan kebersihan"
+    },
+    {
+      "q": "ファスナー交換",
+      "f": "ふぁすなーこうかん",
+      "a": "ganti ritsleting",
+      "e": "tas ini perlu *ganti ritsleting*",
+      "c": 2,
+      "x": "serapan dari 'fastener'\njuga disebut ジッパー (jippaa)\nlayanan perbaikan tas atau pakaian"
+    },
+    {
+      "q": "ハンドル・持ち手交換",
+      "f": "はんどるもちてこうかん",
+      "a": "ganti pegangan",
+      "e": "koper ini perlu *ganti pegangan*",
+      "c": 2,
+      "x": "layanan perbaikan koper atau tas\nハンドル untuk pegangan yang bisa diputar\n持ち手 untuk pegangan yang statis"
+    },
+    {
+      "q": "ほつれ・縫い目の修理",
+      "f": "ほつれぬいめのしゅうり",
+      "a": "perbaikan jahitan",
+      "e": "baju ini perlu *perbaikan jahitan*",
+      "c": 2,
+      "x": "layanan perbaikan pakaian\nほつれ untuk jahitan yang terurai\n縫い目 untuk jahitan secara umum"
+    },
+    {
+      "q": "ドライクリーニング",
+      "f": "どらいくりーにんぐ",
+      "a": "mencuci tanpa air",
+      "e": "baju ini harus *mencuci tanpa air*",
+      "c": 2,
+      "x": "serapan dari 'dry cleaning'\nuntuk pakaian yang tidak bisa dicuci air\nmenggunakan bahan kimia khusus"
+    },
+    {
+      "q": "水洗い",
+      "f": "みずあらい",
+      "a": "mencuci dengan air",
+      "e": "baju ini bisa *mencuci dengan air*",
+      "c": 1,
+      "x": "berlawanan dengan ドライクリーニング\nbisa berarti 'cuci tangan' bukan mesin\nsering tertera di label pakaian"
+    },
+    {
+      "q": "染み抜き",
+      "f": "しみぬき",
+      "a": "menghilangkan noda",
+      "e": "saya ingin *menghilangkan noda*",
+      "c": 2,
+      "x": "layanan khusus untuk noda membandel\n染み (shimi) adalah noda\nbiasanya diproses sebelum laundry"
+    },
+    {
+      "q": "撥水加工",
+      "f": "はっすいかこう",
+      "a": "pengolahan anti air",
+      "e": "jaket ini punya *pengolahan anti air*",
+      "c": 1,
+      "x": "lapisan khusus untuk menolak air\nbeda dengan 防水 (bousui/waterproof)\n撥水 hanya tahan air ringan"
+    },
+    {
+      "q": "サイズ直し",
+      "f": "さいずなおし",
+      "a": "permak ukuran",
+      "e": "celana ini butuh *permak ukuran*",
+      "c": 2,
+      "x": "layanan tailor untuk mengubah ukuran\nbisa untuk memperbesar atau memperkecil\nbiasanya untuk celana panjang"
+    },
+    {
+      "q": "縮む",
+      "f": "ちぢむ",
+      "a": "menyusut",
+      "e": "baju ini *menyusut* setelah dicuci",
+      "c": 1,
+      "x": "bentuk intransitif (menyusut dengan sendirinya)\nberlawanan dengan 縮める (chijimeru/menyusutkan)\nbiasanya karena dicuci atau kena panas",
+      "t": "が"
+    },
+    {
+      "q": "伸びる",
+      "f": "のびる",
+      "a": "memanjang, bertambah",
+      "e": "karet itu *memanjang*\nwaktu rapat *bertambah*",
+      "c": 1,
+      "x": "bentuk intransitif (memanjang dengan sendirinya)\nberlawanan dengan 伸ばす (nobasu/memanjangkan)\njuga berarti 'tumbuh' atau 'bertambah'",
+      "t": "が"
+    },
+    {
+      "q": "宅配便の受け付け",
+      "f": "たくはいびんのうけつけ",
+      "a": "penerimaan paket",
+      "e": "di sini ada *penerimaan paket*",
+      "c": 2,
+      "x": "layanan di konbini atau kantor pos\n宅配便 (takkyuubin) adalah layanan pengiriman\n受け付け (uketsuke) berarti penerimaan"
+    },
+    {
+      "q": "ファクス",
+      "f": "ふぁくす",
+      "a": "fax",
+      "e": "saya mengirim dokumen lewat *fax*",
+      "c": 2,
+      "x": "serapan dari 'fax'\nmasih digunakan di kantor Jepang\nbiasa ditulis ファックス"
+    },
+    {
+      "q": "［パンが］売れる",
+      "f": "うれる",
+      "a": "terjual",
+      "e": "roti ini cepat *terjual*",
+      "c": 1,
+      "x": "bentuk intransitif (terjual dengan sendirinya)\nberlawanan dengan 売る (uru/menjual)\nbiasanya untuk barang yang laris",
+      "t": "が"
+    },
+    {
+      "q": "踊る",
+      "f": "おどる",
+      "a": "menari",
+      "e": "mereka *menari* di panggung",
+      "c": 1,
+      "x": "intransitif (tidak memerlukan objek langsung)\nbeda dengan 舞う (mau) yang lebih ke gerakan anggun\nbisa juga berarti 'beraksi' dalam konteks tertentu",
+      "t": "が"
+    },
+    {
+      "q": "噛む",
+      "f": "かむ",
+      "a": "mengunyah, menggigit",
+      "e": "saya *mengunyah* makanan\nanjing itu *menggigit* sepatu",
+      "c": 1,
+      "x": "transitif (memerlukan objek langsung)\njuga berarti 'menggigit' untuk hewan\nbisa untuk ungkapan 'mengunyah permen karet'",
+      "t": "を"
+    },
+    {
+      "q": "選ぶ",
+      "f": "えらぶ",
+      "a": "memilih",
+      "e": "saya *memilih* baju ini",
+      "c": 1,
+      "x": "transitif (memilih sesuatu)\nbeda dengan 選定する (sentei suru) yang lebih formal\njuga bisa berarti 'memilih' dalam pemilu",
+      "t": "を"
+    },
+    {
+      "q": "［大学に］通う",
+      "f": "かよう",
+      "a": "pergi pulang [ke universitas]",
+      "e": "saya *pergi pulang [ke universitas]* setiap hari",
+      "c": 1,
+      "x": "intransitif, pakai partikel に untuk tujuan\nmenunjukkan aktivitas rutin pergi-pulang\nbeda dengan 行く (iku) yang hanya sekali jalan",
+      "t": "に"
+    },
+    {
+      "q": "メモする",
+      "f": "めもする",
+      "a": "mencatat",
+      "e": "saya *mencatat* hal penting",
+      "c": 1,
+      "x": "suru verb (transitif)\nberasal dari kata メモ (memo)\nbisa juga ditulis メモを取る (memo wo toru)",
+      "t": "を"
+    },
+    {
+      "q": "真面目［な］",
+      "f": "まじめ",
+      "a": "serius",
+      "e": "dia orang yang *serius*",
+      "c": 1,
+      "x": "na-adjective\nbisa berarti 'rajin' atau 'sungguh-sungguh'\nberlawanan dengan 不真面目 (fumajime/tidak serius)"
+    },
+    {
+      "q": "熱心［な］",
+      "f": "ねっしん",
+      "a": "tekun",
+      "e": "dia belajar dengan *tekun*",
+      "c": 1,
+      "x": "na-adjective\nmenunjukkan antusiasme tinggi\nbeda dengan 真面目 (majime) yang lebih ke sifat serius"
+    },
+    {
+      "q": "偉い",
+      "f": "えらい",
+      "a": "hebat",
+      "e": "kamu sangat *hebat*",
+      "c": 1,
+      "x": "i-adjective\nbisa berarti 'hebat' atau 'terhormat'\nhati-hati: bisa berarti 'menyusahkan' dalam konteks sarkasme"
+    },
+    {
+      "q": "丁度いい",
+      "f": "ちょうどいい",
+      "a": "pas, cocok",
+      "e": "ukuran ini *pas*\ntas ini *cocok* untukmu",
+      "c": 1,
+      "x": "frasa yang berarti 'tepat' atau 'pas'\n丁度 (choudo) berarti 'tepat'\nいい (ii) berarti 'baik'"
+    },
+    {
+      "q": "景色",
+      "f": "けしき",
+      "a": "pemandangan",
+      "e": "ini *pemandangan* indah",
+      "c": 1,
+      "x": "lebih ke pemandangan alam\nbeda dengan 眺め (nagame) yang lebih ke sudut pandang\nbiasanya dipuji dengan kata きれい"
+    },
+    {
+      "q": "美容院",
+      "f": "びよういん",
+      "a": "salon kecantikan",
+      "e": "saya pergi ke *salon kecantikan*",
+      "c": 1,
+      "x": "untuk salon potong rambut wanita\nbeda dengan 床屋 (tokoya) untuk pria\nbisa juga disebut ヘアサロン (hea saron)"
+    },
+    {
+      "q": "台所",
+      "f": "だいどころ",
+      "a": "dapur",
+      "e": "ibu ada di *dapur*",
+      "c": 1,
+      "x": "lebih formal daripada キッチン (kitchin)\njuga berarti 'keuangan rumah tangga'\nada ungkapan 台所事情 (daidokoro jijou/keuangan keluarga)"
+    },
+    {
+      "q": "経験［がある］/［をする］",
+      "f": "けいけん",
+      "a": "pengalaman\nberpengalaman\nmengalami",
+      "e": "ini adalah *pengalaman* berharga\ndia sudah *berpengalaman* kerja\ndia pernah *mengalami* kejadian itu",
+      "c": 1,
+      "x": "bisa sebagai kata benda atau kata kerja (経験する)\n経験がある = berpengalaman\n経験をする = mengalami"
+    },
+    {
+      "q": "力",
+      "f": "ちから",
+      "a": "tenaga",
+      "e": "dia punya *tenaga* besar",
+      "c": 1,
+      "x": "bisa berarti 'kekuatan fisik' atau 'kemampuan'\njuga berarti 'usaha' atau 'daya'\nada ungkapan 力になる (chikara ni naru/membantu)"
+    },
+    {
+      "q": "［学生に］人気［がある］",
+      "f": "にんき",
+      "a": "populer/disukai",
+      "e": "guru itu *populer/disukai* siswa",
+      "c": 1,
+      "x": "kata benda yang berarti 'popularitas'\npakai がある atau がいる\nberlawanan dengan 不人気 (funinki/tidak populer)"
+    },
+    {
+      "q": "味",
+      "f": "あじ",
+      "a": "rasa",
+      "e": "makanan ini punya *rasa* enak",
+      "c": 1,
+      "x": "untuk rasa makanan dan minuman\njuga berarti 'cita rasa' atau 'kesan'\nbeda dengan 風味 (fuumi) yang lebih ke aroma dan rasa"
+    },
+    {
+      "q": "ガム",
+      "f": "がむ",
+      "a": "permen karet",
+      "e": "saya makan *permen karet*",
+      "c": 1,
+      "x": "serapan dari 'gum'\nsering disebut チューインガム (chuuingamu)\njangan tertukar dengan ゴム (gomu/karet)"
+    },
+    {
+      "q": "品物",
+      "f": "しなもの",
+      "a": "barang",
+      "e": "ini adalah *barang* mahal",
+      "c": 1,
+      "x": "lebih formal daripada もの (mono)\nbiasanya untuk barang dagangan\nbeda dengan 商品 (shouhin) yang lebih spesifik ke produk jualan"
+    },
+    {
+      "q": "番組",
+      "f": "ばんぐみ",
+      "a": "acara TV",
+      "e": "saya menonton *acara TV*",
+      "c": 1,
+      "x": "singkatan dari 放送番組 (housou bangumi)\nbisa untuk TV atau radio\nada berbagai genre: ドラマ番組, ニュース番組"
+    }
+  ],
+  "4": [
+    {
+      "q": "値段",
+      "f": "ねだん",
+      "a": "harga",
+      "e": "*harga* barang ini mahal",
+      "c": 1,
+      "x": "untuk harga barang yang dijual\nbeda dengan 価格 (kakaku) yang lebih formal\njuga berbeda dengan 料金 (ryoukin) untuk biaya jasa"
+    },
+    {
+      "q": "給料",
+      "f": "きゅうりょう",
+      "a": "gaji",
+      "e": "dia menerima *gaji* bulanan",
+      "c": 1,
+      "x": "untuk gaji karyawan tetap\nbeda dengan 賃金 (chingin) untuk upah per jam\nbiasanya diterima bulanan"
+    },
+    {
+      "q": "ボーナス",
+      "f": "ぼーなす",
+      "a": "bonus",
+      "e": "saya mendapat *bonus*",
+      "c": 1,
+      "x": "serapan dari 'bonus'\nbiasanya diberikan 2x setahun di Jepang (musim panas dan akhir tahun)\nmerupakan bagian penting dari budaya kerja Jepang"
+    },
+    {
+      "q": "ゲーム",
+      "f": "げーむ",
+      "a": "game, permainan",
+      "e": "saya bermain *game*\nini *permainan* seru",
+      "c": 1,
+      "x": "serapan dari 'game'\nbisa untuk video game atau permainan secara umum\njuga berarti 'pertandingan' dalam olahraga"
+    },
+    {
+      "q": "ドラマ",
+      "f": "どらま",
+      "a": "drama",
+      "e": "saya menonton *drama*",
+      "c": 1,
+      "x": "serapan dari 'drama'\npopuler di Jepang dengan episode mingguan\nbeda dengan 演劇 (engeki) untuk teater panggung"
+    },
+    {
+      "q": "歌手",
+      "f": "かしゅ",
+      "a": "penyanyi",
+      "e": "dia adalah *penyanyi* terkenal",
+      "c": 1,
+      "x": "gabungan 歌 (uta/lagu) + 手 (shu/orang)\nbeda dengan シンガー (shingaa) serapan\nbisa untuk penyanyi profesional atau amatir"
+    },
+    {
+      "q": "小説",
+      "f": "しょうせつ",
+      "a": "novel",
+      "e": "saya membaca *novel*",
+      "c": 1,
+      "x": "karya sastra prosa fiksi\nada berbagai genre: 恋愛小説 (ren'ai shousetsu/novel cinta)\nbeda dengan 漫画 (manga/komik)"
+    },
+    {
+      "q": "小説家",
+      "f": "しょうせつか",
+      "a": "novelis",
+      "e": "dia seorang *novelis*",
+      "c": 1,
+      "x": "gabungan 小説 (shousetsu) + 家 (ka/ahli)\nbeda dengan 作家 (sakka/penulis) yang lebih umum\nada penghargaan bergengsi seperti 芥川賞 (Akutagawa Shou)"
+    },
+    {
+      "q": "〜家",
+      "f": "か",
+      "a": "ahli, spesialis",
+      "e": "dia adalah *ahli* seni",
+      "c": 1,
+      "x": "sufiks yang berarti 'orang yang ahli'\ncontoh: 画家 (gaka/pelukis), 音楽家 (ongakuka/musisi)\nbeda dengan 〜者 (sha) yang lebih ke 'orang yang melakukan'"
+    },
+    {
+      "q": "〜機",
+      "f": "き",
+      "a": "mesin",
+      "e": "ini adalah *mesin* baru",
+      "c": 1,
+      "x": "sufiks untuk mesin atau alat\ncontoh: 洗濯機 (sentakuki/mesin cuci), 冷蔵機 (reizouki/kulkas)\nbisa juga berarti 'kesempatan' dengan kanji berbeda"
+    },
+    {
+      "q": "自分",
+      "f": "じぶん",
+      "a": "diri sendiri",
+      "e": "saya percaya pada *diri sendiri*",
+      "c": 1,
+      "x": "bisa berarti 'saya' dalam percakapan kasual\njuga berarti 'diri sendiri' untuk orang ketiga\nhati-hati dengan penggunaannya karena nuansa informal"
+    },
+    {
+      "q": "将来",
+      "f": "しょうらい",
+      "a": "masa depan",
+      "e": "saya memikirkan *masa depan*",
+      "c": 1,
+      "x": "berlawanan dengan 過去 (kako/masa lalu)\nbisa untuk rencana atau impian\nbeda dengan 未来 (mirai) yang lebih ke waktu yang akan datang"
+    },
+    {
+      "q": "暫く",
+      "f": "しばらく",
+      "a": "sebentar, sementara",
+      "e": "tunggu *sebentar*\nsaya pergi *sementara*",
+      "c": 1,
+      "x": "adverbia yang berarti 'untuk sementara'\nbisa berarti 'lama' tergantung konteks\nsering digunakan dalam ungkapan しばらくお待ちください (tunggu sebentar)"
+    },
+    {
+      "q": "大抵",
+      "f": "たいてい",
+      "a": "biasanya, kebanyakan",
+      "e": "saya *biasanya* bangun pagi\n*kebanyakan* orang setuju",
+      "c": 1,
+      "x": "adverbia yang menunjukkan kebiasaan atau mayoritas\nbeda dengan 普段 (fudan) yang lebih ke kebiasaan rutin\nbisa berarti 'hampir selalu'"
+    },
+    {
+      "f": "それに",
+      "a": "dan juga",
+      "e": "saya suka kopi, *dan juga* teh",
+      "c": 1,
+      "x": "konjungsi untuk menambahkan informasi\nlebih kasual daripada さらに (sarani)\nbeda dengan そして (soshite) yang lebih ke urutan"
+    },
+    {
+      "f": "それで",
+      "a": "dan, lalu",
+      "e": "saya sakit, *dan, lalu* saya istirahat",
+      "c": 1,
+      "x": "konjungsi untuk sebab-akibat atau kelanjutan\nberarti 'karena itu' atau 'lalu'\nbeda dengan それから (sorekara) yang lebih ke urutan waktu"
+    },
+    {
+      "q": "実は",
+      "f": "じつは",
+      "a": "sebenarnya, terus terang",
+      "e": "*sebenarnya* saya sudah tahu\n*terus terang* saya tidak setuju",
+      "c": 1,
+      "x": "adverbia untuk mengawali penjelasan jujur\nsering digunakan saat mengaku atau memberitahu kabar\nbisa berarti 'sejujurnya'"
+    },
+    {
+      "q": "会話",
+      "f": "かいわ",
+      "a": "percakapan",
+      "e": "kami melakukan *percakapan*",
+      "c": 1,
+      "x": "percakapan antara dua orang atau lebih\nbeda dengan 対話 (taiwa) yang lebih formal\njuga berbeda dengan 会談 (kaidan) untuk pertemuan resmi"
+    },
+    {
+      "q": "参加する",
+      "f": "さんかする",
+      "a": "mengikuti",
+      "e": "saya *mengikuti* acara itu",
+      "c": 1,
+      "x": "suru verb (transitif)\nberarti ikut serta dalam acara atau kegiatan\nbeda dengan 出席する (shusseki suru) yang lebih ke kehadiran formal",
+      "t": "を"
+    },
+    {
+      "q": "日にち",
+      "f": "ひにち",
+      "a": "tanggal",
+      "e": "*tanggal* hari ini penting",
+      "c": 1,
+      "x": "menunjuk tanggal spesifik dalam kalender\nbeda dengan 日付 (hiduke) yang lebih ke penulisan tanggal\nsering digunakan untuk jadwal atau janji"
+    },
+    {
+      "q": "無料",
+      "f": "むりょう",
+      "a": "gratis, cuma-cuma",
+      "e": "ini *gratis*\nmakanan ini *cuma-cuma*",
+      "c": 1,
+      "x": "berlawanan dengan 有料 (yuurii/berbayar)\nsering terlihat di iklan dan layanan\nbeda dengan タダ (tada) yang lebih kasual"
+    },
+    {
+      "q": "誘う",
+      "f": "さそう",
+      "a": "mengajak",
+      "e": "saya *mengajak* teman pergi",
+      "c": 1,
+      "x": "transitif (mengajak seseorang)\npakai partikel を untuk orang yang diajak\nbeda dengan 招待する (shoutai suru) yang lebih formal",
+      "t": "を"
+    },
+    {
+      "q": "敷金",
+      "f": "しききん",
+      "a": "uang jaminan",
+      "e": "saya membayar *uang jaminan*",
+      "c": 2,
+      "x": "uang jaminan sewa apartemen di Jepang\nbiasanya 1-2 bulan sewa\nakan dikembalikan setelah dikurangi biaya perbaikan"
+    },
+    {
+      "q": "礼金",
+      "f": "れいきん",
+      "a": "uang terima kasih",
+      "e": "harus bayar *uang terima kasih*",
+      "c": 2,
+      "x": "uang yang tidak dikembalikan saat sewa apartemen\nbiasanya 1-2 bulan sewa\nmerupakan budaya unik Jepang untuk pemilik kontrakan"
+    },
+    {
+      "q": "管理費",
+      "f": "かんりひ",
+      "a": "biaya perawatan",
+      "e": "ini termasuk *biaya perawatan*",
+      "c": 2,
+      "x": "biaya bulanan untuk perawatan gedung apartemen\nterpisah dari biaya sewa\ntermasuk kebersihan, keamanan, dan fasilitas bersama"
+    },
+    {
+      "q": "〜向き",
+      "f": "むき",
+      "a": "menghadap ke",
+      "e": "rumah ini *menghadap ke* selatan",
+      "c": 1,
+      "x": "menunjukkan arah hadap (rumah, kamar)\njuga berarti 'cocok untuk' (〜向きだ)\nbeda dengan 向け (muke) yang lebih ke 'diperuntukkan untuk'"
+    },
+    {
+      "q": "徒歩",
+      "f": "とほ",
+      "a": "berjalan kaki",
+      "e": "saya pergi dengan *berjalan kaki*",
+      "c": 1,
+      "x": "sering digunakan dalam iklan properti\ncontoh: 駅徒歩5分 (eki toho 5 fun/5 menit jalan kaki dari stasiun)\nberlawanan dengan 車 (kuruma) atau 自転車 (jitensha)"
+    },
+    {
+      "q": "一戸建て",
+      "f": "いっこだて",
+      "a": "rumah terpisah",
+      "e": "dia tinggal di *rumah terpisah*",
+      "c": 1,
+      "x": "rumah yang berdiri sendiri (bukan apartemen)\nbiasanya memiliki tanah dan pekarangan\nberlawanan dengan 集合住宅 (shuugou juutaku/apartemen)"
+    },
+    {
+      "q": "開く",
+      "f": "あく",
+      "a": "terbuka, buka",
+      "e": "pintu itu *terbuka*\ntoko sudah *buka*",
+      "c": 1,
+      "x": "bentuk intransitif (terbuka dengan sendirinya)\nberlawanan dengan 開ける (akeru/membuka)\nbiasanya untuk pintu, toko, atau acara",
+      "t": "が"
+    },
+    {
+      "q": "閉まる",
+      "f": "しまる",
+      "a": "tertutup, tutup",
+      "e": "pintu itu *tertutup*\ntoko sudah *tutup*",
+      "c": 1,
+      "x": "bentuk intransitif (tertutup dengan sendirinya)\nberlawanan dengan 閉める (shimeru/menutup)\nbiasanya untuk pintu, jendela, atau toko",
+      "t": "が"
+    },
+    {
+      "q": "付く",
+      "f": "つく",
+      "a": "menyala, terpasang",
+      "e": "lampu *menyala*\ntombol sudah *terpasang*",
+      "c": 1,
+      "x": "bentuk intransitif\nberlawanan dengan 付ける (tsukeru/menyalakan/memasang)\njuga berarti 'menempel' atau 'melekat'",
+      "t": "が"
+    },
+    {
+      "q": "消える",
+      "f": "きえる",
+      "a": "padam",
+      "e": "lampu tiba-tiba *padam*",
+      "c": 1,
+      "x": "bentuk intransitif (padam dengan sendirinya)\nberlawanan dengan 消す (kesu/mematikan)\njuga berarti 'menghilang' atau 'lenyap'",
+      "t": "が"
+    },
+    {
+      "q": "壊れる",
+      "f": "こわれる",
+      "a": "rusak",
+      "e": "mesin itu *rusak*",
+      "c": 1,
+      "x": "bentuk intransitif (rusak dengan sendirinya)\nberlawanan dengan 壊す (kowasu/merusak)\nbisa untuk mesin, barang elektronik, atau hubungan",
+      "t": "が"
+    },
+    {
+      "q": "割れる",
+      "f": "われる",
+      "a": "pecah",
+      "e": "gelas itu *pecah*",
+      "c": 1,
+      "x": "bentuk intransitif (pecah dengan sendirinya)\nberlawanan dengan 割る (waru/memecahkan)\nbiasanya untuk kaca, piring, atau benda keras",
+      "t": "が"
+    },
+    {
+      "q": "折れる",
+      "f": "おれる",
+      "a": "patah",
+      "e": "ranting itu *patah*",
+      "c": 1,
+      "x": "bentuk intransitif (patah dengan sendirinya)\nberlawanan dengan 折る (oru/mematahkan)\nbiasanya untuk ranting, pensil, atau tulang",
+      "t": "が"
+    },
+    {
+      "q": "破れる",
+      "f": "やぶれる",
+      "a": "robek",
+      "e": "kertas itu *robek*",
+      "c": 1,
+      "x": "bentuk intransitif (robek dengan sendirinya)\nberlawanan dengan 破る (yaburu/merobek)\nbiasanya untuk kertas, kain, atau rekor",
+      "t": "が"
+    },
+    {
+      "q": "汚れる",
+      "f": "よごれる",
+      "a": "menjadi kotor",
+      "e": "baju ini *menjadi kotor*",
+      "c": 1,
+      "x": "bentuk intransitif (menjadi kotor)\nberlawanan dengan 汚す (yogosu/mengotori)\njuga berarti 'tercemar' secara moral",
+      "t": "が"
+    },
+    {
+      "q": "外れる",
+      "f": "はずれる",
+      "a": "terlepas",
+      "e": "kancing itu *terlepas*",
+      "c": 1,
+      "x": "bentuk intransitif (terlepas dengan sendirinya)\nberlawanan dengan 外す (hazusu/melepas)\njuga berarti 'melenceng' atau 'tidak tepat'",
+      "t": "が"
+    },
+    {
+      "q": "止まる",
+      "f": "とまる",
+      "a": "berhenti",
+      "e": "kereta itu *berhenti*",
+      "c": 1,
+      "x": "bentuk intransitif (berhenti dengan sendirinya)\nberlawanan dengan 止める (tomeru/menghentikan)\nuntuk kendaraan, mesin, atau waktu",
+      "t": "が"
+    },
+    {
+      "q": "間違える",
+      "f": "まちがえる",
+      "a": "melakukan kesalahan",
+      "e": "saya *melakukan kesalahan* dalam ujian",
+      "c": 1,
+      "x": "transitif (membuat kesalahan pada sesuatu)\npakai partikel を\nbeda dengan 間違う (machigau) yang lebih kasual",
+      "t": "を"
+    }
+  ],
+  "5": [
+    {
+      "q": "落とす",
+      "f": "おとす",
+      "a": "menjatuhkan, kehilangan",
+      "e": "saya *menjatuhkan* HP\nsaya *kehilangan* dompet",
+      "c": 1,
+      "x": "transitif (menjatuhkan atau kehilangan sesuatu)\nberlawanan dengan 落ちる (ochiru/jatuh/hilang)\nbisa juga berarti 'menghilangkan'",
+      "t": "を"
+    },
+    {
+      "q": "掛かる",
+      "f": "かかる",
+      "a": "terkunci",
+      "e": "pintu itu *terkunci*",
+      "c": 1,
+      "x": "bentuk intransitif (terkunci dengan sendirinya)\nberlawanan dengan 掛ける (kakeru/mengunci/memasang)\njuga berarti 'memerlukan waktu' atau 'tergantung'",
+      "t": "が"
+    },
+    {
+      "q": "拭く",
+      "f": "ふく",
+      "a": "mengelap",
+      "e": "saya *mengelap* meja",
+      "c": 1,
+      "x": "transitif (mengelap sesuatu)\npakai partikel を\nbeda dengan 掃除する (souji suru/membersihkan) yang lebih umum",
+      "t": "を"
+    },
+    {
+      "q": "取り替える",
+      "f": "とりかえる",
+      "a": "mengganti",
+      "e": "saya *mengganti* baterai",
+      "c": 1,
+      "x": "transitif (mengganti sesuatu dengan yang baru)\npakai partikel を\nbeda dengan 交換する (koukan suru) yang lebih formal",
+      "t": "を"
+    },
+    {
+      "q": "片付ける",
+      "f": "かたづける",
+      "a": "membereskan",
+      "e": "saya *membereskan* kamar",
+      "c": 1,
+      "x": "transitif (merapikan atau membereskan sesuatu)\nberlawanan dengan 片付く (katazuku/menjadi rapi)\nbisa untuk kamar, meja, atau masalah",
+      "t": "を"
+    },
+    {
+      "q": "スピーチ［をする］",
+      "f": "すぴーち",
+      "a": "pidato, berpidato",
+      "e": "dia memberi *pidato*\ndia *berpidato* di depan umum",
+      "c": 1,
+      "x": "kata benda, untuk kata kerjanya pakai スピーチをする\nbeda dengan 演説 (enzetsu) untuk pidato politik\nserapan dari 'speech'"
+    },
+    {
+      "q": "返事［をする］",
+      "f": "へんじ",
+      "a": "jawaban, memberi jawaban",
+      "e": "itu adalah *jawaban*\ndia *memberi jawaban* cepat",
+      "c": 1,
+      "x": "kata benda, untuk kata kerjanya pakai 返事をする\nbeda dengan 回答 (kaitou) untuk jawaban formal\nbisa juga berarti 'balasan surat'"
+    },
+    {
+      "q": "［お］皿",
+      "f": "さら",
+      "a": "piring",
+      "e": "ini adalah *piring*",
+      "c": 1,
+      "x": "awalan お untuk sopan\nbiasanya untuk piring datar\nbeda dengan プレート (pureeto) untuk piring gaya Barat"
+    },
+    {
+      "q": "［お］茶碗",
+      "f": "ちゃわん",
+      "a": "mangkuk",
+      "e": "nasi ada di *mangkuk*",
+      "c": 1,
+      "x": "awalan お untuk sopan\nbiasanya untuk mangkuk nasi\nterbuat dari keramik atau kayu"
+    },
+    {
+      "q": "コップ",
+      "f": "こっぷ",
+      "a": "gelas",
+      "e": "air ada di *gelas*",
+      "c": 1,
+      "x": "serapan dari 'cup'\nuntuk gelas pendek (bukan gelas panjang)\nbeda dengan グラス (gurasu) untuk gelas kaca umum"
+    },
+    {
+      "q": "ガラス",
+      "f": "がらす",
+      "a": "kaca",
+      "e": "jendela dari *kaca*",
+      "c": 1,
+      "x": "bahan/material kaca\nbeda dengan グラス (gurasu/gelas minum)\nhati-hati: jangan tertukar dengan ガラ (gara/pola)"
+    },
+    {
+      "q": "袋",
+      "f": "ふくろ",
+      "a": "kantong",
+      "e": "saya membawa *kantong*",
+      "c": 1,
+      "x": "untuk kantong kertas, plastik, atau kain\nbeda dengan バッグ (baggu/tas)\nada ゴミ袋 (gomi bukuro/kantong sampah)"
+    },
+    {
+      "q": "書類",
+      "f": "しょるい",
+      "a": "dokumen",
+      "e": "ini adalah *dokumen* penting",
+      "c": 1,
+      "x": "lebih formal daripada 紙 (kami/kertas)\nbiasanya untuk dokumen resmi atau kerjaan\nbeda dengan 資料 (shiryou/materi)"
+    },
+    {
+      "q": "枝",
+      "f": "えだ",
+      "a": "ranting",
+      "e": "itu adalah *ranting*",
+      "c": 1,
+      "x": "cabang kecil dari pohon\nbeda dengan 幹 (miki/batang pohon)\njuga berarti 'cabang' dalam arti keluarga atau organisasi"
+    },
+    {
+      "q": "駅員",
+      "f": "えきいん",
+      "a": "petugas stasiun",
+      "e": "saya bertanya ke *petugas stasiun*",
+      "c": 1,
+      "x": "gabungan 駅 (stasiun) + 員 (petugas)\nberpakaian seragam dan membantu penumpang\nbeda dengan 駅長 (ekichou/kepala stasiun)"
+    },
+    {
+      "q": "交番",
+      "f": "こうばん",
+      "a": "pos polisi",
+      "e": "dia pergi ke *pos polisi*",
+      "c": 1,
+      "x": "pos polisi kecil di sudut jalan di Jepang\nbiasanya ada di kota-kota\ntempat bertanya arah atau lapor kehilangan"
+    },
+    {
+      "q": "今の電車",
+      "f": "いまのでんしゃ",
+      "a": "kereta tadi",
+      "e": "saya naik *kereta tadi*",
+      "c": 1,
+      "x": "frasa yang berarti 'kereta yang baru saja lewat'\n今の (ima no) berarti 'yang tadi'\nsering digunakan saat membicarakan transportasi"
+    },
+    {
+      "q": "忘れ物",
+      "f": "わすれもの",
+      "a": "barang tertinggal",
+      "e": "itu adalah *barang tertinggal*",
+      "c": 1,
+      "x": "bentuk kata benda dari 忘れる (wasureru/lupa)\nada tempat khusus di stasiun untuk barang tertinggal\nberlawanan dengan 拾い物 (hiroimono/barang temuan)"
+    },
+    {
+      "f": "このくらい",
+      "a": "segini",
+      "e": "cukup *segini* saja",
+      "c": 1,
+      "x": "menunjukkan jumlah atau tingkat yang tidak persis\nbisa untuk ukuran, harga, atau waktu\nlebih kasual daripada この程度 (kono teido)"
+    },
+    {
+      "q": "〜側",
+      "f": "がわ",
+      "a": "sebelah",
+      "e": "saya duduk di *sebelah* kiri",
+      "c": 1,
+      "x": "sufiks yang berarti 'sisi' atau 'arah'\ncontoh: 左側 (hidarigawa/sebelah kiri)\nbeda dengan 〜辺 (hen) yang lebih ke area sekitar"
+    },
+    {
+      "q": "〜辺",
+      "f": "へん",
+      "a": "sekitar",
+      "e": "saya tinggal di *sekitar* sini",
+      "c": 1,
+      "x": "sufiks yang berarti 'sekitar area'\ncontoh: この辺 (kono hen)\nbeda dengan 〜側 (gawa) yang lebih ke sisi spesifik"
+    },
+    {
+      "q": "覚えていない",
+      "f": "おぼえていない",
+      "a": "tidak ingat",
+      "e": "saya *tidak ingat* itu",
+      "c": 1,
+      "x": "bentuk negatif dari 覚えている (ingat)\nuntuk menyatakan lupa (tidak ingat)\nbeda dengan 忘れる (wasureru) yang lebih ke tindakan lupa",
+      "t": "が"
+    },
+    {
+      "q": "網棚",
+      "f": "あみだな",
+      "a": "rak bagasi",
+      "e": "tas saya ada di *rak bagasi*",
+      "c": 1,
+      "x": "rak di atas tempat duduk di kereta Jepang\nterbuat dari anyaman kawat\nuntuk menyimpan tas atau barang bawaan"
+    },
+    {
+      "q": "確か",
+      "f": "たしか",
+      "a": "kalau tidak salah",
+      "e": "*kalau tidak salah* dia datang kemarin",
+      "c": 1,
+      "x": "adverbia yang berarti 'kalau tidak salah'\njuga berarti 'pasti' atau 'tegas'\nuntuk menyatakan ingatan yang tidak 100% yakin"
+    },
+    {
+      "q": "地震",
+      "f": "じしん",
+      "a": "gempa",
+      "e": "terjadi *gempa* besar",
+      "c": 1,
+      "x": "Jepang sering mengalami gempa\nada sistem peringatan dini (緊急地震速報)\npenting tahu cara evakuasi saat gempa"
+    },
+    {
+      "q": "壁",
+      "f": "かべ",
+      "a": "dinding",
+      "e": "ada lukisan di *dinding*",
+      "c": 1,
+      "x": "untuk dinding dalam atau luar ruangan\nbeda dengan 塀 (hei/tembok pembatas)\nada ungkapan 壁にぶつかる (menemui hambatan)"
+    },
+    {
+      "q": "針",
+      "f": "はり",
+      "a": "jarum",
+      "e": "ini adalah *jarum*",
+      "c": 1,
+      "x": "untuk jarum jahit, jarum suntik, atau jarum jam\nbeda dengan 針金 (harigame/kawat)\njangan tertukar dengan 刃 (ha/pisau)"
+    },
+    {
+      "q": "指す",
+      "f": "さす",
+      "a": "menunjuk",
+      "e": "dia *menunjuk* arah",
+      "c": 1,
+      "x": "transitif (menunjuk sesuatu)\npakai partikel を\njuga berarti 'menunjuk' dalam arti memilih atau merujuk",
+      "t": "を"
+    },
+    {
+      "q": "駅前",
+      "f": "えきまえ",
+      "a": "depan stasiun",
+      "e": "saya menunggu di *depan stasiun*",
+      "c": 1,
+      "x": "area depan pintu keluar stasiun\nbiasanya tempat berkumpul atau menunggu\nada banyak toko dan halte bus di 駅前"
+    },
+    {
+      "q": "倒れる",
+      "f": "たおれる",
+      "a": "jatuh",
+      "e": "pohon itu *jatuh*",
+      "c": 1,
+      "x": "intransitif (jatuh dengan sendirinya)\nberlawanan dengan 倒す (taosu/merobohkan)\njuga berarti 'runtuh' atau 'gulung tikar'",
+      "t": "が"
+    },
+    {
+      "q": "〜の方",
+      "f": "のほう",
+      "a": "sebelah",
+      "e": "rumah saya di *sebelah* sana",
+      "c": 1,
+      "x": "menunjukkan arah atau perbandingan\ncontoh: 右の方 (migi no hou/sebelah kanan)\nlebih lembut daripada hanya 〜側 (gawa)"
+    },
+    {
+      "q": "レポーター",
+      "f": "れぽーたー",
+      "a": "wartawan\njurnalis\npelapor",
+      "e": "dia seorang *wartawan*\ndia bekerja sebagai *jurnalis*\ndia menjadi *pelapor* berita",
+      "c": 1,
+      "x": "serapan dari 'reporter'\nuntuk wartawan TV atau media\nbeda dengan 記者 (kisha) untuk wartawan koran"
+    },
+    {
+      "q": "状態",
+      "f": "じょうたい",
+      "a": "keadaan",
+      "e": "ini adalah *keadaan* darurat",
+      "c": 1,
+      "x": "lebih formal daripada 様子 (yousu)\nuntuk kondisi atau situasi yang spesifik\nbisa untuk mesin, kesehatan, atau situasi"
+    },
+    {
+      "q": "様子",
+      "f": "ようす",
+      "a": "kondisi",
+      "e": "lihat *kondisi* dia",
+      "c": 1,
+      "x": "lebih kasual daripada 状態 (joutai)\njuga berarti 'penampilan' atau 'tanda-tanda'\nbisa untuk orang, hewan, atau suasana"
+    },
+    {
+      "q": "太っている",
+      "f": "ふとっている",
+      "a": "gemuk",
+      "e": "dia *gemuk*",
+      "c": 1,
+      "x": "bentuk ている dari 太る (futoru/menjadi gemuk)\nberlawanan dengan 痩せている (yaseteiru/kurus)\nhati-hati: bisa dianggap kurang sopan",
+      "t": "が"
+    },
+    {
+      "q": "痩せている",
+      "f": "やせている",
+      "a": "kurus",
+      "e": "dia *kurus*",
+      "c": 1,
+      "x": "bentuk ている dari 痩せる (yaseru/menjadi kurus)\nberlawanan dengan 太っている (futotteiru/gemuk)\njuga bisa berarti 'menurunkan berat badan'",
+      "t": "が"
+    },
+    {
+      "q": "膨らんでいる",
+      "f": "ふくらんでいる",
+      "a": "kembung",
+      "e": "balon itu *kembung*",
+      "c": 1,
+      "x": "bentuk ている dari 膨らむ (fukuramu/menggembung)\nberlawanan dengan 縮む (chijimu/menyusut)\nuntuk balon, pipi, atau perut",
+      "t": "が"
+    },
+    {
+      "q": "穴が開いている",
+      "f": "あながあいている",
+      "a": "bolong",
+      "e": "baju ini *bolong*",
+      "c": 1,
+      "x": "frasa yang berarti 'berlubang'\n穴 (ana/lubang) + が + 開いている (terbuka)\nuntuk baju, dinding, atau benda lain",
+      "t": "が"
+    },
+    {
+      "q": "曲がっている",
+      "f": "まがっている",
+      "a": "bengkok",
+      "e": "jalan itu *bengkok*",
+      "c": 1,
+      "x": "bentuk ている dari 曲がる (magaru/membengkok)\nberlawanan dengan 真っ直ぐ (massugu/lurus)\nuntuk jalan, tongkat, atau punggung",
+      "t": "が"
+    },
+    {
+      "q": "歪んでいる",
+      "f": "ゆがんでいる",
+      "a": "melengkung",
+      "e": "kaca itu *melengkung*",
+      "c": 1,
+      "x": "bentuk ている dari 歪む (yugamu/melengkung)\nberlawanan dengan 平ら (taira/datar)\nuntuk kaca, cermin, atau hubungan",
+      "t": "が"
+    }
+  ],
+  "6": [
+    {
+      "q": "凹んでいる",
+      "f": "へこんでいる",
+      "a": "penyok",
+      "e": "mobil itu *penyok*",
+      "c": 1,
+      "x": "bentuk ている dari 凹む (hekomu/penyok)\nberlawanan dengan 膨らむ (fukuramu/menggembung)\nuntuk mobil, kaleng, atau tanah",
+      "t": "が"
+    },
+    {
+      "q": "捻れている",
+      "f": "ねじれている",
+      "a": "terpelintir",
+      "e": "kabel itu *terpelintir*",
+      "c": 1,
+      "x": "bentuk ている dari 捻れる (nejireru/terpelintir)\nberlawanan dengan 真っ直ぐ (massugu/lurus)\nuntuk kabel, tali, atau politik",
+      "t": "が"
+    },
+    {
+      "q": "欠けている",
+      "f": "かけている",
+      "a": "sumbing",
+      "e": "gelas itu *sumbing*",
+      "c": 1,
+      "x": "bentuk ている dari 欠ける (kakeru/sumbing)\nberlawanan dengan 完全 (kanzen/sempurna)\nuntuk gelas, piring, atau bulan",
+      "t": "が"
+    },
+    {
+      "q": "ヒビが入っている",
+      "f": "ひびがはいっている",
+      "a": "retak",
+      "e": "tembok itu *retak*",
+      "c": 1,
+      "x": "frasa yang berarti 'retak'\nヒビ (hibi/retakan) + が + 入っている (masuk)\nuntuk tembok, gelas, atau ponsel",
+      "t": "が"
+    },
+    {
+      "q": "腐っている",
+      "f": "くさっている",
+      "a": "busuk",
+      "e": "makanan itu *busuk*",
+      "c": 1,
+      "x": "bentuk ている dari 腐る (kasaru/busuk)\nberlawanan dengan 新鮮 (shinsen/segar)\nuntuk makanan, kayu, atau moral",
+      "t": "が"
+    },
+    {
+      "q": "乾いている",
+      "f": "かわいている",
+      "a": "kering",
+      "e": "baju ini sudah *kering*",
+      "c": 1,
+      "x": "bentuk ている dari 乾く (kawaku/menjadi kering)\nberlawanan dengan 濡れている (nureteiru/basah)\nuntuk baju, tanah, atau tenggorokan",
+      "t": "が"
+    },
+    {
+      "q": "濡れている",
+      "f": "ぬれている",
+      "a": "basah",
+      "e": "sepatu ini *basah*",
+      "c": 1,
+      "x": "bentuk ている dari 濡れる (nureru/menjadi basah)\nberlawanan dengan 乾いている (kawaiteiru/kering)\nuntuk baju, rambut, atau jalan",
+      "t": "が"
+    },
+    {
+      "q": "凍っている",
+      "f": "こおっている",
+      "a": "beku",
+      "e": "air itu sudah *beku*",
+      "c": 1,
+      "x": "bentuk ている dari 凍る (kooru/membeku)\nberlawanan dengan 溶ける (tokeru/mencair)\nuntuk air, danau, atau makanan",
+      "t": "が"
+    },
+    {
+      "q": "貼る",
+      "f": "はる",
+      "a": "menempelkan",
+      "e": "saya *menempelkan* poster di dinding",
+      "c": 1,
+      "x": "transitif (menempelkan sesuatu)\nberlawanan dengan 貼ってある (hatte aru/tertempel)\nuntuk poster, stiker, atau plester",
+      "t": "を"
+    },
+    {
+      "q": "掛ける",
+      "f": "かける",
+      "a": "menggantungkan",
+      "e": "saya *menggantungkan* jaket",
+      "c": 1,
+      "x": "transitif (menggantungkan sesuatu)\nberlawanan dengan 掛かる (kakaru/tergantung)\nuntuk jaket, lukisan, atau handuk",
+      "t": "を"
+    },
+    {
+      "q": "飾る",
+      "f": "かざる",
+      "a": "menghiasi",
+      "e": "saya *menghiasi* kamar",
+      "c": 1,
+      "x": "transitif (menghiasi sesuatu)\nobjeknya tempat yang dihias\nbeda dengan 装飾する (soushoku suru) yang lebih formal",
+      "t": "を"
+    },
+    {
+      "q": "並べる",
+      "f": "ならべる",
+      "a": "menata",
+      "e": "saya *menata* buku",
+      "c": 1,
+      "x": "transitif (menata sesuatu)\nberlawanan dengan 並ぶ (narabu/berbaris)\nuntuk buku, kursi, atau barang",
+      "t": "を"
+    },
+    {
+      "q": "植える",
+      "f": "うえる",
+      "a": "menanam",
+      "e": "saya *menanam* bunga",
+      "c": 1,
+      "x": "transitif (menanam sesuatu)\nobjeknya tanaman atau pohon\nbeda dengan 植付ける (ue tsukeru) yang lebih ke menancapkan",
+      "t": "を"
+    },
+    {
+      "q": "戻す",
+      "f": "もどす",
+      "a": "mengembalikan",
+      "e": "saya *mengembalikan* buku",
+      "c": 1,
+      "x": "transitif (mengembalikan sesuatu)\nberlawanan dengan 戻る (modoru/kembali)\nuntuk buku, barang, atau kondisi",
+      "t": "を"
+    },
+    {
+      "q": "纏める",
+      "f": "まとめる",
+      "a": "merangkum",
+      "e": "saya *merangkum* pelajaran",
+      "c": 1,
+      "x": "transitif (merangkum atau mengumpulkan)\nuntuk catatan, laporan, atau pendapat\njuga berarti 'mengatur' atau 'menyatukan'",
+      "t": "を"
+    },
+    {
+      "q": "仕舞う",
+      "f": "しまう",
+      "a": "menyimpan",
+      "e": "saya *menyimpan* barang",
+      "c": 1,
+      "x": "transitif (menyimpan sesuatu ke tempat)\nberlawanan dengan 出す (dasu/mengeluarkan)\njuga berarti 'selesai' dalam bentuk 〜てしまう",
+      "t": "を"
+    },
+    {
+      "q": "決める",
+      "f": "きめる",
+      "a": "menentukan",
+      "e": "saya *menentukan* jadwal",
+      "c": 1,
+      "x": "transitif (menentukan sesuatu)\nberlawanan dengan 決まる (kimaru/tertentu)\nuntuk jadwal, aturan, atau keputusan",
+      "t": "を"
+    },
+    {
+      "q": "予習する",
+      "f": "よしゅうする",
+      "a": "belajar persiapan",
+      "e": "saya *belajar persiapan* sebelum kelas",
+      "c": 1,
+      "x": "suru verb (transitif)\nbelajar sebelum pelajaran\nberlawanan dengan 復習する (fukushuu suru)",
+      "t": "を"
+    },
+    {
+      "q": "復習する",
+      "f": "ふくしゅうする",
+      "a": "belajar pengulangan",
+      "e": "saya *belajar pengulangan* setelah kelas",
+      "c": 1,
+      "x": "suru verb (transitif)\nbelajar ulang setelah pelajaran\nberlawanan dengan 予習する (yoshuu suru)",
+      "t": "を"
+    },
+    {
+      "f": "そのままにする",
+      "a": "membiarkan begitu",
+      "e": "biarkan saja *membiarkan begitu*",
+      "c": 1,
+      "x": "frasa yang berarti 'membiarkan dalam keadaan' \npakai partikel を untuk objek\nberlawanan dengan 変える (kaeru/mengubah)",
+      "t": "を"
+    },
+    {
+      "q": "授業",
+      "f": "じゅぎょう",
+      "a": "kelas, pelajaran",
+      "e": "saya ikut *kelas*\nini *pelajaran* penting",
+      "c": 1,
+      "x": "untuk pelajaran di sekolah atau kursus\nbeda dengan 講義 (kougi/kuliah) yang lebih formal\nbiasanya berlangsung 45-90 menit"
+    },
+    {
+      "q": "講義",
+      "f": "こうぎ",
+      "a": "kuliah",
+      "e": "saya mengikuti *kuliah*",
+      "c": 1,
+      "x": "untuk kuliah di universitas\nlebih formal daripada 授業 (jugyou)\ndosen memberikan 講義, mahasiswa mendengarkan"
+    },
+    {
+      "q": "ミーティング",
+      "f": "みーてぃんぐ",
+      "a": "rapat",
+      "e": "kami mengadakan *rapat*",
+      "c": 1,
+      "x": "serapan dari 'meeting'\nlebih kasual daripada 会議 (kaigi)\nbiasanya untuk rapat kecil atau tim"
+    },
+    {
+      "q": "予定",
+      "f": "よてい",
+      "a": "rencana, jadwal",
+      "e": "ini adalah *rencana* saya\nsaya cek *jadwal* hari ini",
+      "c": 1,
+      "x": "untuk rencana kegiatan atau jadwal\nbeda dengan 計画 (keikaku) yang lebih terstruktur\nbisa diubah atau dibatalkan"
+    },
+    {
+      "q": "ガイドブック",
+      "f": "がいどぶっく",
+      "a": "buku petunjuk",
+      "e": "saya membaca *buku petunjuk*",
+      "c": 1,
+      "x": "serapan dari 'guidebook'\nuntuk turis, wisata, atau panduan\nbeda dengan 取扱説明書 (toriatsukai setsumeisho) untuk manual produk"
+    },
+    {
+      "q": "カレンダー",
+      "f": "かれんだー",
+      "a": "kalender",
+      "e": "saya melihat *kalender*",
+      "c": 1,
+      "x": "serapan dari 'calendar'\nada 壁掛けカレンダー (kakake karendaa/kalender dinding)\nbeda dengan 暦 (koyomi) yang lebih tradisional"
+    },
+    {
+      "q": "ポスター",
+      "f": "ぽすたー",
+      "a": "plakat, poster",
+      "e": "itu adalah *plakat*\nsaya melihat *poster*",
+      "c": 1,
+      "x": "serapan dari 'poster'\nuntuk iklan, event, atau dekorasi\nbeda dengan 看板 (kanban/papan iklan)"
+    },
+    {
+      "q": "予定表",
+      "f": "よていひょう",
+      "a": "jadwal acara",
+      "e": "ini adalah *jadwal acara*",
+      "c": 1,
+      "x": "gabungan 予定 (yotei) + 表 (hyou/tabel)\nbiasanya untuk jadwal acara, turnamen, atau kereta\nlebih spesifik daripada 予定 saja"
+    },
+    {
+      "q": "ゴミ箱",
+      "f": "ごみばこ",
+      "a": "tempat sampah\ntong sampah",
+      "e": "buang di *tempat sampah*\nsampah masuk *tong sampah*",
+      "c": 1,
+      "x": "gabungan ゴミ (gomi) + 箱 (hako/kotak)\nada berbagai jenis sesuai pemisahan sampah di Jepang\nbiasanya ada di dapur, kamar, atau ruang publik"
+    },
+    {
+      "q": "人形",
+      "f": "にんぎょう",
+      "a": "boneka\norang-orangan",
+      "e": "ini *boneka* lucu\nitu *orang-orangan* sawah",
+      "c": 1,
+      "x": "untuk boneka mainan atau orang-orangan sawah (案山子)\nada 雛人形 (hina ningyou/boneka festival)\nbeda dengan ぬいぐるみ (nuigurumi/boneka kain)"
+    },
+    {
+      "q": "花瓶",
+      "f": "かびん",
+      "a": "vas bunga",
+      "e": "bunga ada di *vas bunga*",
+      "c": 1,
+      "x": "gabungan 花 (hana) + 瓶 (bin/botol)\nuntuk tempat bunga potong\nbiasanya dari kaca atau keramik"
+    },
+    {
+      "q": "鏡",
+      "f": "かがみ",
+      "a": "cermin",
+      "e": "saya melihat *cermin*",
+      "c": 1,
+      "x": "untuk cermin di kamar, kamar mandi, atau kendaraan\nada ungkapan 鏡を見る (kagami wo miru/bercermin)\njangan tertukar dengan 鑑 (kagami/contoh)"
+    },
+    {
+      "q": "引き出し",
+      "f": "ひきだし",
+      "a": "laci",
+      "e": "uang ada di *laci*",
+      "c": 1,
+      "x": "gabungan 引き (tarik) + 出し (keluar)\nbiasanya di meja atau lemari\nada ungkapan 引き出しに入れる (masukkan ke laci)"
+    },
+    {
+      "q": "玄関",
+      "f": "げんかん",
+      "a": "pintu masuk",
+      "e": "sepatu ada di *pintu masuk*",
+      "c": 1,
+      "x": "area pintu masuk rumah Jepang\ntempat melepas sepatu sebelum masuk\nada ungkapan 玄関先 (genkansaki/area depan pintu)"
+    },
+    {
+      "q": "廊下",
+      "f": "ろうか",
+      "a": "koridor, lorong",
+      "e": "saya berjalan di *koridor*\nitu adalah *lorong* panjang",
+      "c": 1,
+      "x": "untuk koridor di sekolah, kantor, atau rumah\nberlawanan dengan 部屋 (heya/ruangan)\nhati-hati: jangan lari di 廊下"
+    },
+    {
+      "q": "池",
+      "f": "いけ",
+      "a": "kolam",
+      "e": "ikan ada di *kolam*",
+      "c": 1,
+      "x": "untuk kolam alami atau buatan\nada 鯉の池 (koi no ike/kolam ikan koi)\nbeda dengan プール (puuru/kolam renang)"
+    },
+    {
+      "q": "元の所",
+      "f": "もとのところ",
+      "a": "tempat semula",
+      "e": "kembalikan ke *tempat semula*",
+      "c": 1,
+      "x": "frasa yang berarti 'tempat asal'\n元 (moto/asal) + 所 (tokoro/tempat)\nsering digunakan saat meminjam atau meminjamkan"
+    },
+    {
+      "q": "周り",
+      "f": "まわり",
+      "a": "sekitar",
+      "e": "lihat *sekitar* kamu",
+      "c": 1,
+      "x": "menunjukkan area sekitar\nbisa untuk lokasi fisik atau orang sekitar\nbeda dengan 環境 (kankyou/lingkungan)"
+    },
+    {
+      "q": "緊急食品",
+      "f": "きんきゅうしょくひん",
+      "a": "makanan darurat",
+      "e": "siapkan *makanan darurat*",
+      "c": 1,
+      "x": "gabungan 緊急 (kinkyuu/darurat) + 食品 (shokuhin/makanan)\nmakanan tahan lama seperti kaleng atau biskuit\ntermasuk perlengkapan bencana"
+    },
+    {
+      "q": "準備",
+      "f": "じゅんび",
+      "a": "persiapan",
+      "e": "lakukan *persiapan*",
+      "c": 1,
+      "x": "kata benda, untuk kata kerjanya pakai 準備する\nberlawanan dengan 片付け (katazuke/merapikan)\npenting untuk bencana, perjalanan, atau acara"
+    }
+  ],
+  "7": [
+    {
+      "q": "生活する",
+      "f": "せいかつする",
+      "a": "hidup",
+      "e": "saya *hidup* di Jepang",
+      "c": 1,
+      "x": "suru verb (transitif)\nberarti 'menjalani kehidupan'\nbeda dengan 生きる (ikiru) yang lebih ke hidup secara biologis",
+      "t": "を"
+    },
+    {
+      "q": "懐中電灯",
+      "f": "かいちゅうでんとう",
+      "a": "senter",
+      "e": "pakai *senter* saat gelap",
+      "c": 1,
+      "x": "gabungan 懐中 (saku) + 電灯 (lampu)\nuntuk penerangan darurat\nbiasa disingkat 懐中 (kaichuu)"
+    },
+    {
+      "f": "〜とか、〜とか",
+      "a": "〜 atau 〜",
+      "e": "apel *atau* jeruk",
+      "c": 1,
+      "x": "konjungsi untuk memberi contoh\nlebih kasual daripada 〜や〜や\nbisa digunakan di akhir kalimat dengan 〜とか"
+    },
+    {
+      "q": "丸い",
+      "f": "まるい",
+      "a": "bulat, bundar",
+      "e": "bola itu *bulat*\nbentuknya *bundar*",
+      "c": 1,
+      "x": "i-adjective untuk bentuk bulat atau bundar\nberlawanan dengan 四角い (shikakui/persegi)\nbeda dengan 円い (juga dibaca marui) untuk bentuk lingkaran"
+    },
+    {
+      "q": "ある〜",
+      "f": "",
+      "a": "suatu 〜",
+      "e": "pada *suatu* hari",
+      "c": 1,
+      "x": "kata depan yang berarti 'suatu'\nhanya digunakan dalam bentuk ある + kata benda\ncontoh: ある時 (aru toki/suatu saat)"
+    },
+    {
+      "q": "夢を見る",
+      "f": "ゆめをみる",
+      "a": "bermimpi",
+      "e": "saya *bermimpi* indah",
+      "c": 1,
+      "x": "frasa yang berarti 'bermimpi'\nmenggunakan partikel を\nbeda dengan 夢を抱く (yume wo idaku/memiliki impian)",
+      "t": "を"
+    },
+    {
+      "q": "嬉しい",
+      "f": "うれしい",
+      "a": "senang",
+      "e": "saya *senang* hari ini",
+      "c": 1,
+      "x": "i-adjective untuk kebahagiaan sesaat\nberlawanan dengan 悲しい (kanashii/sedih)\nbeda dengan 楽しい (tanoshii) yang lebih ke kesenangan aktivitas"
+    },
+    {
+      "q": "嫌［な］",
+      "f": "いや",
+      "a": "tidak suka, benci",
+      "e": "saya *tidak suka* hujan\nsaya *benci* menunggu",
+      "c": 1,
+      "x": "na-adjective\nlebih kasual daripada 嫌い (kirai)\nbisa berarti 'tidak mau' atau 'enggan'"
+    },
+    {
+      "f": "すると",
+      "a": "kemudian",
+      "e": "*kemudian* dia datang",
+      "c": 1,
+      "x": "konjungsi untuk urutan kejadian\nberarti 'lalu' atau 'setelah itu'\nlebih naratif daripada それで (sore de)"
+    },
+    {
+      "q": "目が覚める",
+      "f": "めがさめる",
+      "a": "bangun, sadar",
+      "e": "saya *bangun* pagi\nakhirnya dia *sadar*",
+      "c": 1,
+      "x": "frasa intransitif (bangun dengan sendirinya)\npakai partikel が\nberlawanan dengan 目を覚ます (me wo samasu/membangunkan)",
+      "t": "が"
+    },
+    {
+      "q": "非常",
+      "f": "ひじょう",
+      "a": "darurat",
+      "e": "ini kondisi *darurat*",
+      "c": 1,
+      "x": "berarti 'keadaan darurat'\njuga berarti 'sangat' atau 'luar biasa'\nada 非常口 (hijouguchi/pintu darurat)"
+    },
+    {
+      "q": "場合",
+      "f": "ばあい",
+      "a": "kasus, situasi",
+      "e": "dalam *kasus* ini\ndalam *situasi* darurat",
+      "c": 1,
+      "x": "menunjukkan kondisi atau situasi\nsering digunakan dalam kalimat pengandaian\nlebih formal daripada とき (toki)"
+    },
+    {
+      "q": "備え",
+      "f": "そなえ",
+      "a": "persiapan",
+      "e": "lakukan *persiapan* bencana",
+      "c": 1,
+      "x": "kata benda dari 備える (sonaeru/mempersiapkan)\nada ungkapan 備えあれば憂いなし (sonae areba urei nashi/sedia payung sebelum hujan)"
+    },
+    {
+      "q": "知人",
+      "f": "ちじん",
+      "a": "kenalan",
+      "e": "dia adalah *kenalan* saya",
+      "c": 1,
+      "x": "lebih formal daripada 友達 (tomodachi/teman)\nbeda dengan 知り合い (shiriai/kenalan) yang lebih kasual\nbiasanya untuk hubungan tidak terlalu dekat"
+    },
+    {
+      "q": "消火器",
+      "f": "しょうかき",
+      "a": "alat pemadam",
+      "e": "gunakan *alat pemadam*",
+      "c": 1,
+      "x": "gabungan 消火 (shouka/padam api) + 器 (ki/alat)\nada di gedung, sekolah, dan tempat umum\nperiksa tanggal kedaluwarsa secara rutin"
+    },
+    {
+      "q": "備える",
+      "f": "そなえる",
+      "a": "mempersiapkan",
+      "e": "kita harus *mempersiapkan* diri",
+      "c": 1,
+      "x": "transitif (mempersiapkan sesuatu untuk keadaan darurat)\nuntuk persiapan bencana, perlengkapan, atau diri sendiri\nbeda dengan 準備する (junbi suru) yang lebih umum",
+      "t": "を"
+    },
+    {
+      "q": "貯える",
+      "f": "たくわえる",
+      "a": "menyimpan, menimbun",
+      "e": "saya *menyimpan* makanan\nmereka *menimbun* air",
+      "c": 1,
+      "x": "transitif (menyimpan atau menimbun)\nuntuk makanan, uang, atau energi\nbeda dengan 蓄える (juga takuwaeru) untuk pengetahuan",
+      "t": "を"
+    },
+    {
+      "q": "用意する",
+      "f": "よういする",
+      "a": "menyiapkan",
+      "e": "saya *menyiapkan* makanan",
+      "c": 1,
+      "x": "suru verb (transitif)\nmenyiapkan sesuatu untuk keperluan tertentu\nbeda dengan 準備する (junbi suru) yang lebih ke persiapan matang",
+      "t": "を"
+    },
+    {
+      "q": "地域",
+      "f": "ちいき",
+      "a": "daerah",
+      "e": "ini *daerah* rawan",
+      "c": 1,
+      "x": "menunjukkan area atau wilayah geografis\nlebih formal daripada 地方 (chihou)\nada 地域社会 (chiiki shakai/masyarakat setempat)"
+    },
+    {
+      "q": "避難場所",
+      "f": "ひなんばしょ",
+      "a": "tempat evakuasi",
+      "e": "pergi ke *tempat evakuasi*",
+      "c": 1,
+      "x": "gabungan 避難 (hinan/evakuasi) + 場所 (basho/tempat)\nbiasanya sekolah, taman, atau gedung publik\nada tanda khusus penunjuk lokasi di Jepang"
+    },
+    {
+      "q": "万一",
+      "f": "まんいち",
+      "a": "jika terjadi sesuatu",
+      "e": "*jika terjadi sesuatu*, hubungi saya",
+      "c": 1,
+      "x": "adverbia untuk situasi yang tidak diinginkan\nberarti 'jika terjadi hal terburuk'\nsering digunakan dalam persiapan bencana"
+    },
+    {
+      "q": "落ち着く",
+      "f": "おちつく",
+      "a": "tenang",
+      "e": "tetap *tenang* saat gempa",
+      "c": 1,
+      "x": "intransitif (menjadi tenang)\npakai partikel が\nberlawanan dengan 慌てる (awateru/panik)",
+      "t": "が"
+    },
+    {
+      "q": "火の始末",
+      "f": "ひのしまつ",
+      "a": "mematikan api",
+      "e": "*mematikan api* sebelum tidur",
+      "c": 1,
+      "x": "frasa untuk memastikan api sudah padam\n始末 (shimatsu) berarti 'penanganan'\npenting dalam budaya Jepang untuk mencegah kebakaran"
+    },
+    {
+      "q": "始末",
+      "f": "しまつ",
+      "a": "penanganan, penyelesaian",
+      "e": "*penanganan* masalah\n*penyelesaian* masalah",
+      "c": 1,
+      "x": "bisa berarti 'penanganan' atau 'penyelesaian'\njuga bisa berarti 'tingkah laku' negatif\nada ungkapan 始末に負えない (shimatsu ni oenai/sulit ditangani)"
+    },
+    {
+      "q": "出口の確保",
+      "f": "でぐちのかくほ",
+      "a": "mengamankan pintu keluar",
+      "e": "*mengamankan pintu keluar*",
+      "c": 1,
+      "x": "frasa penting dalam evakuasi\n確保 (kakuho) berarti 'memastikan ketersediaan'\nprioritas utama saat keadaan darurat"
+    },
+    {
+      "q": "確保",
+      "f": "かくほ",
+      "a": "mengamankan",
+      "e": "*mengamankan* tempat",
+      "c": 1,
+      "x": "kata benda yang berarti 'memastikan'\nuntuk sumber daya, tempat, atau keselamatan\nbisa sebagai kata kerja 確保する (kakuho suru)"
+    },
+    {
+      "q": "慌てる",
+      "f": "あわてる",
+      "a": "panik",
+      "e": "jangan *panik*",
+      "c": 1,
+      "x": "intransitif (menjadi panik)\nberlawanan dengan 落ち着く (ochitsuku/tenang)\nsering digunakan dalam peringatan bencana",
+      "t": "が"
+    },
+    {
+      "q": "飛び出す",
+      "f": "とびだす",
+      "a": "meloncat keluar",
+      "e": "dia *meloncat keluar*",
+      "c": 1,
+      "x": "intransitif (keluar dengan cepat)\ngabungan 飛ぶ (tobu/lompat) + 出す (dasu/keluar)\nuntuk tindakan keluar secara tiba-tiba",
+      "t": "が"
+    },
+    {
+      "q": "収まる",
+      "f": "おさまる",
+      "a": "mereda",
+      "e": "gempa sudah *mereda*",
+      "c": 1,
+      "x": "intransitif (mereda, mereda)\nberlawanan dengan 収める (osameru/mengakhiri)\nuntuk gempa, amarah, atau kerusuhan",
+      "t": "が"
+    },
+    {
+      "q": "正しい",
+      "f": "ただしい",
+      "a": "benar",
+      "e": "itu jawaban *benar*",
+      "c": 1,
+      "x": "i-adjective untuk kebenaran\nberlawanan dengan 間違った (machigatta/salah)\nlebih formal daripada 合っている (atteiru)"
+    },
+    {
+      "q": "情報",
+      "f": "じょうほう",
+      "a": "informasi",
+      "e": "dapatkan *informasi* terbaru",
+      "c": 1,
+      "x": "untuk informasi secara umum\nbeda dengan 知らせ (shirase/pemberitahuan)\npenting saat bencana untuk cek sumber resmi"
+    },
+    {
+      "q": "山崩れ",
+      "f": "やまくずれ",
+      "a": "longsor gunung",
+      "e": "terjadi *longsor gunung*",
+      "c": 1,
+      "x": "gabungan 山 (yama/gunung) + 崩れ (kuzure/longsor)\nterjadi akibat hujan deras atau gempa\nbeda dengan 地滑り (jisuberi/tanah longsor)"
+    },
+    {
+      "q": "崖崩れ",
+      "f": "がけくずれ",
+      "a": "longsor tebing",
+      "e": "terjadi *longsor tebing*",
+      "c": 1,
+      "x": "gabungan 崖 (gake/tebing) + 崩れ (kuzure/longsor)\nsering terjadi di daerah pegunungan\nberbahaya bagi jalan dan pemukiman"
+    },
+    {
+      "q": "津波",
+      "f": "つなみ",
+      "a": "tsunami",
+      "e": "*tsunami* datang",
+      "c": 1,
+      "x": "gelombang laut raksasa akibat gempa\nistilah Jepang yang mendunia\nada sistem peringatan dini di Jepang"
+    },
+    {
+      "q": "注意",
+      "f": "ちゅうい",
+      "a": "perhatian, hati-hati",
+      "e": "beri *perhatian*\nharus *hati-hati*",
+      "c": 1,
+      "x": "bisa berarti 'perhatian' atau 'peringatan'\nsebagai kata kerja: 注意する (chuui suru/perhatikan)\nsering terlihat di rambu peringatan"
+    },
+    {
+      "q": "避難［する］",
+      "f": "ひなん",
+      "a": "evakuasi",
+      "e": "segera *evakuasi*",
+      "c": 1,
+      "x": "kata benda, untuk kata kerjanya pakai 避難する\npenting saat bencana alam\nada 避難勧告 (hinan kankoku/rekomendasi evakuasi)"
+    },
+    {
+      "q": "必ず",
+      "f": "かならず",
+      "a": "pasti",
+      "e": "saya *pasti* datang",
+      "c": 1,
+      "x": "adverbia yang berarti 'pasti' atau 'selalu'\nlebih kuat daripada きっと (kitto)\nsering digunakan dalam janji atau aturan"
+    },
+    {
+      "q": "台風",
+      "f": "たいふう",
+      "a": "topan",
+      "e": "*topan* akan datang",
+      "c": 1,
+      "x": "badai tropis di wilayah Pasifik\nmusim topan di Jepang biasanya Agustus-September\nada peringatan 台風情報 (taifuu jouhou)"
+    },
+    {
+      "q": "気象情報",
+      "f": "きしょうじょうほう",
+      "a": "informasi cuaca",
+      "e": "cek *informasi cuaca*",
+      "c": 1,
+      "x": "gabungan 気象 (kishou/cuaca) + 情報 (jouhou/informasi)\npenting untuk persiapan bencana\nbisa didapat dari TV, radio, atau aplikasi"
+    },
+    {
+      "q": "点検",
+      "f": "てんけん",
+      "a": "pemeriksaan",
+      "e": "lakukan *pemeriksaan*",
+      "c": 1,
+      "x": "pemeriksaan rutin untuk keamanan\nuntuk kendaraan, bangunan, atau peralatan\nsebagai kata kerja: 点検する (tenken suru)"
+    }
+  ],
+  "8": [
+    {
+      "q": "真ん中",
+      "f": "まんなか",
+      "a": "tengah",
+      "e": "dia berdiri di *tengah* ruangan",
+      "c": 1,
+      "x": "menunjukkan titik pusat atau tengah\nbeda dengan 中央 (chuuou) yang lebih formal\nbisa untuk posisi, waktu, atau urutan"
+    },
+    {
+      "q": "隅",
+      "f": "すみ",
+      "a": "pojok, sudut",
+      "e": "dia duduk di *pojok*\nkucing ada di *sudut*",
+      "c": 1,
+      "x": "menunjukkan sudut atau pojok ruangan\nbeda dengan 角 (kado) yang lebih ke sudut luar\nbisa untuk ruangan, kotak, atau area"
+    },
+    {
+      "f": "まだ［〜ない］",
+      "a": "masih, belum",
+      "e": "saya *masih* belajar\nsaya *belum* makan",
+      "c": 1,
+      "x": "adverbia untuk keadaan yang berlanjut\npositif: masih (belum selesai)\nnegatif: belum (dengan 〜ない)"
+    },
+    {
+      "q": "リュック",
+      "f": "りゅっく",
+      "a": "ransel",
+      "e": "saya membawa *ransel*",
+      "c": 1,
+      "x": "serapan dari 'rucksack'\nransel untuk sekolah atau backpacking\nbeda dengan ランドセル (randoseru/tas sekolah anak SD Jepang)"
+    },
+    {
+      "q": "非常袋",
+      "f": "ひじょうぶくろ",
+      "a": "kantong darurat",
+      "e": "siapkan *kantong darurat*",
+      "c": 1,
+      "x": "gabungan 非常 (hijou/darurat) + 袋 (fukuro/kantong)\nberisi perlengkapan bencana\nharus selalu siap di rumah atau mobil"
+    },
+    {
+      "q": "非常時",
+      "f": "ひじょうじ",
+      "a": "saat darurat",
+      "e": "gunakan ini saat *darurat*",
+      "c": 1,
+      "x": "gabungan 非常 (hijou/darurat) + 時 (toki/saat)\nmenunjukkan situasi darurat\nberlawanan dengan 平常時 (heijouji/saat biasa)"
+    },
+    {
+      "q": "続ける",
+      "f": "つづける",
+      "a": "melanjutkan",
+      "e": "saya *melanjutkan* belajar",
+      "c": 1,
+      "x": "transitif (melanjutkan sesuatu)\nberlawanan dengan やめる (yameru/berhenti)\nuntuk kegiatan, pekerjaan, atau hubungan",
+      "t": "を"
+    },
+    {
+      "q": "見つける",
+      "f": "みつける",
+      "a": "menemukan",
+      "e": "saya *menemukan* kunci",
+      "c": 1,
+      "x": "transitif (menemukan sesuatu)\nberbeda dengan 探す (sagasu/mencari) yang proses\nbisa untuk benda, jawaban, atau kesempatan",
+      "t": "を"
+    },
+    {
+      "q": "［休みを］取る",
+      "f": "とる",
+      "a": "mengambil [cuti]",
+      "e": "saya *mengambil* cuti",
+      "c": 1,
+      "x": "transitif (mengambil cuti)\npakai partikel を\nfrasa tetap: 休みを取る (yasumi wo toru)",
+      "t": "を"
+    },
+    {
+      "q": "［試験を］受ける",
+      "f": "うける",
+      "a": "mengikuti [ujian]",
+      "e": "saya *mengikuti* ujian",
+      "c": 1,
+      "x": "transitif (mengikuti ujian)\npakai partikel を\nfrasa tetap: 試験を受ける (shiken wo ukeru)",
+      "t": "を"
+    },
+    {
+      "q": "申し込む",
+      "f": "もうしこむ",
+      "a": "mendaftar",
+      "e": "saya *mendaftar* kursus",
+      "c": 1,
+      "x": "transitif (mendaftar atau mengajukan)\npakai partikel を atau に\nlebih formal daripada 応募する (oubo suru)",
+      "t": "を"
+    },
+    {
+      "q": "休憩する",
+      "f": "きゅうけいする",
+      "a": "beristirahat",
+      "e": "kita *beristirahat* sebentar",
+      "c": 1,
+      "x": "suru verb (intransitif)\nistirahat sejenak dari aktivitas\nbeda dengan 休む (yasumu) yang lebih ke libur atau tidur",
+      "t": "が"
+    },
+    {
+      "q": "連休",
+      "f": "れんきゅう",
+      "a": "liburan berturutan",
+      "e": "saya pergi saat *liburan berturutan*",
+      "c": 1,
+      "x": "gabungan 連 (ren/berturut) + 休 (kyuu/libur)\ncontoh: 3 hari berturut-turut libur\ndi Jepang ada Golden Week (libur panjang)"
+    },
+    {
+      "q": "作文",
+      "f": "さくぶん",
+      "a": "karangan",
+      "e": "saya menulis *karangan*",
+      "c": 1,
+      "x": "tugas menulis karangan di sekolah\nbeda dengan 小説 (shousetsu/novel)\nuntuk latihan menulis ekspresi diri"
+    },
+    {
+      "q": "発表［する］",
+      "f": "はっぴょう",
+      "a": "presentasi, mempresentasikan",
+      "e": "saya melakukan *presentasi*\nsaya *mempresentasikan* hasil",
+      "c": 1,
+      "x": "kata benda, untuk kata kerjanya pakai 発表する\nuntuk presentasi di depan kelas atau kantor\nbeda dengan プレゼン (purezen) yang lebih kasual"
+    },
+    {
+      "q": "展覧会",
+      "f": "てんらんかい",
+      "a": "pameran",
+      "e": "saya pergi ke *pameran*",
+      "c": 1,
+      "x": "gabungan 展覧 (tenran/pameran) + 会 (kai/acara)\nuntuk pameran seni, lukisan, atau karya\nbeda dengan 展示会 (tenjikai) untuk produk atau dagangan"
+    },
+    {
+      "q": "結婚式",
+      "f": "けっこんしき",
+      "a": "upacara pernikahan",
+      "e": "saya hadir di *upacara pernikahan*",
+      "c": 1,
+      "x": "gabungan 結婚 (kekkon/pernikahan) + 式 (shiki/upacara)\nada gaya Barat (チャペル) dan Jepang (神社)\nbiasanya diberi amplop uang (ご祝儀)"
+    },
+    {
+      "q": "［お］葬式",
+      "f": "そうしき",
+      "a": "upacara kematian",
+      "e": "dia datang ke *upacara kematian*",
+      "c": 1,
+      "x": "gabungan 葬 (sou/pemakaman) + 式 (shiki/upacara)\nawalan お untuk sopan\ndi Jepang biasanya upacara Buddha atau Shinto"
+    },
+    {
+      "q": "式",
+      "f": "しき",
+      "a": "upacara",
+      "e": "itu adalah *upacara* penting",
+      "c": 1,
+      "x": "sufiks untuk berbagai jenis upacara\ncontoh: 卒業式 (sotsugyoushiki/upacara kelulusan)\nada tata cara dan protokol tertentu"
+    },
+    {
+      "q": "本社",
+      "f": "ほんしゃ",
+      "a": "kantor pusat",
+      "e": "dia bekerja di *kantor pusat*",
+      "c": 1,
+      "x": "gabungan 本 (hon/utama) + 社 (sha/perusahaan)\nberlawanan dengan 支店 (shiten/kantor cabang)\nbiasanya tempat pengambilan keputusan utama"
+    },
+    {
+      "q": "支店",
+      "f": "してん",
+      "a": "kantor cabang",
+      "e": "ini adalah *kantor cabang*",
+      "c": 1,
+      "x": "gabungan 支 (shi/cabang) + 店 (ten/toko)\nberlawanan dengan 本社 (honsha/kantor pusat)\nada di berbagai lokasi untuk melayani pelanggan"
+    },
+    {
+      "q": "教会",
+      "f": "きょうかい",
+      "a": "gereja",
+      "e": "mereka pergi ke *gereja*",
+      "c": 1,
+      "x": "untuk gereja Kristen\nbeda dengan 寺院 (jiin/kuil Buddha)\ndan 神社 (jinja/kuil Shinto)"
+    },
+    {
+      "q": "大学院",
+      "f": "だいがくいん",
+      "a": "program S2\nprogram S3",
+      "e": "dia masuk *program S2\ndia lanjut *program S3*",
+      "c": 1,
+      "x": "gabungan 大学 (daigaku/universitas) + 院 (in/lembaga)\npendidikan setelah S1\nS2 = 修士課程 (shuushi katei), S3 = 博士課程 (hakushi katei)"
+    },
+    {
+      "q": "動物園",
+      "f": "どうぶつえん",
+      "a": "kebun binatang",
+      "e": "saya pergi ke *kebun binatang*",
+      "c": 1,
+      "x": "gabungan 動物 (doubutsu/hewan) + 園 (en/taman)\ntempat wisata keluarga di Jepang\nada berbagai hewan dari seluruh dunia"
+    },
+    {
+      "q": "温泉",
+      "f": "おんせん",
+      "a": "pemandian air panas",
+      "e": "saya mandi di *pemandian air panas*",
+      "c": 1,
+      "x": "wisata populer di Jepang\nair panas alami dari gunung berapi\nada 露天風呂 (rotenburo/pemandian terbuka)"
+    },
+    {
+      "q": "帰り",
+      "f": "かえり",
+      "a": "pulang",
+      "e": "dalam perjalanan *pulang*",
+      "c": 1,
+      "x": "kata benda dari 帰る (kaeru/pulang)\nberlawanan dengan 行き (iki/pergi)\nsering digunakan dalam 帰り道 (kaerimichi/jalan pulang)"
+    },
+    {
+      "q": "お子さん",
+      "f": "おこさん",
+      "a": "anak orang lain",
+      "e": "itu *anak orang lain*",
+      "c": 4,
+      "x": "bentuk sopan untuk anak orang lain\ndari 子 (ko/anak) + さん (san)\njangan dipakai untuk anak sendiri (調子 kodomo)"
+    },
+    {
+      "q": "〜号",
+      "f": "ごう",
+      "a": "nomor 〜",
+      "e": "kereta *nomor* 5",
+      "c": 1,
+      "x": "sufiks untuk nomor\ncontoh: 5号車 (go gousha/gerbong nomor 5)\njuga untuk nomor majalah, jalan, atau bangunan"
+    },
+    {
+      "f": "ずっと",
+      "a": "terus, seterusnya",
+      "e": "dia belajar *terus*\nsaya menunggu *seterusnya*",
+      "c": 1,
+      "x": "adverbia untuk durasi panjang\nberarti 'sepanjang waktu' atau 'terus-menerus'\njuga berarti 'jauh lebih' untuk perbandingan"
+    },
+    {
+      "q": "残る",
+      "f": "のこる",
+      "a": "tinggal, tersisa",
+      "e": "makanan masih *tinggal*\nwaktu *tersisa* sedikit",
+      "c": 1,
+      "x": "intransitif (tersisa)\nberlawanan dengan 残す (nokosu/menyisakan)\nuntuk makanan, waktu, atau kenangan",
+      "t": "が"
+    },
+    {
+      "q": "入学試験",
+      "f": "にゅうがくしけん",
+      "a": "ujian masuk",
+      "e": "saya belajar untuk *ujian masuk*",
+      "c": 1,
+      "x": "gabungan 入学 (nyuugaku/masuk sekolah) + 試験 (shiken/ujian)\nuntuk masuk universitas atau sekolah\nbeda dengan 卒業試験 (sotsugyou shiken/ujian kelulusan)"
+    },
+    {
+      "q": "月に",
+      "f": "つきに",
+      "a": "dalam sebulan",
+      "e": "saya pergi ke gym dua kali *dalam sebulan*",
+      "c": 1,
+      "x": "frasa untuk menyatakan frekuensi per bulan\npakai pola: [angka] + 回 (kai) + 月に\ncontoh: 3回月に (san kai tsuki ni/tiga kali sebulan)"
+    },
+    {
+      "q": "村",
+      "f": "むら",
+      "a": "desa, kampung",
+      "e": "dia tinggal di *desa*\nsaya pulang ke *kampung*",
+      "c": 1,
+      "x": "lebih kecil dari 町 (machi/kota)\nbeda dengan 田舎 (inaka/pedesaan) yang lebih umum\nbiasanya penduduk sedikit dan alam masih asri"
+    },
+    {
+      "q": "卒業［する］",
+      "f": "そつぎょう",
+      "a": "kelulusan, lulus",
+      "e": "*kelulusan* tahun ini\nsaya *lulus* dari universitas",
+      "c": 1,
+      "x": "kata benda, untuk kata kerjanya pakai 卒業する\nberlawanan dengan 入学 (nyuugaku/masuk sekolah)\nada upacara 卒業式 (sotsugyoushiki) di bulan Maret",
+      "t": "が"
+    },
+    {
+      "q": "映画館",
+      "f": "えいがかん",
+      "a": "bioskop",
+      "e": "saya menonton film di *bioskop*",
+      "c": 1,
+      "x": "gabungan 映画 (eiga/film) + 館 (kan/gedung)\ntempat menonton film layar lebar\nbeda dengan 映画室 (eigashitsu/ruang film)"
+    },
+    {
+      "q": "空",
+      "f": "そら",
+      "a": "langit",
+      "e": "*langit* hari ini biru",
+      "c": 1,
+      "x": "untuk langit di atas bumi\nbisa untuk menyatakan cuaca\nada ungkapan 空を飛ぶ (sora wo tobu/terbang di langit)"
+    },
+    {
+      "q": "閉じる",
+      "f": "とじる",
+      "a": "menutup",
+      "e": "tolong *menutup* pintu",
+      "c": 1,
+      "x": "transitif (menutup sesuatu)\nbeda dengan 閉める (shimeru) yang lebih ke mengunci\nuntuk pintu, buku, atau mata",
+      "t": "を"
+    },
+    {
+      "q": "都会",
+      "f": "とかい",
+      "a": "kota besar",
+      "e": "Tokyo adalah *kota besar*",
+      "c": 1,
+      "x": "gabungan 都 (to/kota besar) + 会 (kai/bertemu)\nberlawanan dengan 田舎 (inaka/pedesaan)\nciri: padat penduduk, banyak gedung tinggi"
+    },
+    {
+      "q": "子供達",
+      "f": "こどもたち",
+      "a": "anak-anak",
+      "e": "*anak-anak* sedang bermain",
+      "c": 1,
+      "x": "gabungan 子供 (kodomo/anak) + 達 (tachi/jamak)\nbentuk jamak dari 子供 (anak)\nlebih sopan daripada 子供ら (kodomora)"
+    },
+    {
+      "q": "［ご］自由に",
+      "f": "じゆうに",
+      "a": "silakan dengan bebas",
+      "e": "silakan ambil *dengan bebas*",
+      "c": 4,
+      "x": "frasa sopan untuk mempersilakan\ndari 自由 (jiyuu/bebas) + partikel に\nawalan ご untuk lebih hormat\nartinya 'lakukan sesuka Anda'"
+    }
+  ],
+  "9": [
+    {
+      "q": "専門",
+      "f": "せんもん",
+      "a": "bidang keilmuan",
+      "e": "ini adalah *bidang keilmuan* saya",
+      "c": 1,
+      "x": "spesialisasi atau bidang yang ditekuni\nbeda dengan 専攻 (senkou/major) untuk jurusan kuliah\nbisa untuk pekerjaan atau penelitian"
+    },
+    {
+      "q": "医学",
+      "f": "いがく",
+      "a": "ilmu kedokteran",
+      "e": "dia belajar *ilmu kedokteran*",
+      "c": 1,
+      "x": "ilmu untuk menjadi dokter\nbelajar tentang penyakit, diagnosis, dan pengobatan\ntempuh 6 tahun di universitas Jepang"
+    },
+    {
+      "q": "薬学",
+      "f": "やくがく",
+      "a": "ilmu farmasi",
+      "e": "dia mengambil *ilmu farmasi*",
+      "c": 1,
+      "x": "ilmu tentang obat-obatan\nlulusan bisa menjadi apoteker\nbelajar tentang efek, dosis, dan interaksi obat"
+    },
+    {
+      "q": "化学",
+      "f": "かがく",
+      "a": "ilmu kimia",
+      "e": "saya suka *ilmu kimia*",
+      "c": 1,
+      "x": "ilmu tentang zat, reaksi, dan molekul\njangan tertukar dengan 科学 (kagaku/sains)\nada cabang: kimia organik, anorganik, fisik"
+    },
+    {
+      "q": "生化学",
+      "f": "せいかがく",
+      "a": "ilmu biokimia",
+      "e": "dia meneliti *ilmu biokimia*",
+      "c": 1,
+      "x": "gabungan 生物 (seibutsu/biologi) + 化学 (kagaku/kimia)\nbelajar proses kimia dalam makhluk hidup\npenting untuk obat-obatan dan penelitian medis"
+    },
+    {
+      "q": "生物学",
+      "f": "せいぶつがく",
+      "a": "ilmu biologi",
+      "e": "dia belajar *ilmu biologi*",
+      "c": 1,
+      "x": "ilmu tentang makhluk hidup\nada cabang: zoologi (hewan), botani (tumbuhan)\nbelajar tentang sel, genetika, dan ekosistem"
+    },
+    {
+      "q": "農学",
+      "f": "のうがく",
+      "a": "ilmu pertanian",
+      "e": "dia mengambil *ilmu pertanian*",
+      "c": 1,
+      "x": "ilmu tentang pertanian dan perkebunan\nbelajar tentang tanaman, tanah, dan hasil panen\npenting untuk ketahanan pangan"
+    },
+    {
+      "q": "地学",
+      "f": "ちがく",
+      "a": "ilmu geologi",
+      "e": "dia tertarik dengan *ilmu geologi*",
+      "c": 1,
+      "x": "ilmu tentang bumi\nbelajar tentang batuan, mineral, dan gempa\nbeda dengan 地理学 (chirigaku/geografi)"
+    },
+    {
+      "q": "地理学",
+      "f": "ちりがく",
+      "a": "ilmu geografi",
+      "e": "saya belajar *ilmu geografi*",
+      "c": 1,
+      "x": "ilmu tentang permukaan bumi\nbelajar tentang peta, iklim, dan populasi\nbeda dengan 地学 (chigaku/geologi)"
+    },
+    {
+      "q": "数学",
+      "f": "すうがく",
+      "a": "ilmu matematika",
+      "e": "dia jago *ilmu matematika*",
+      "c": 1,
+      "x": "ilmu tentang angka, rumus, dan logika\nada cabang: aljabar, geometri, kalkulus\ndasar untuk sains dan teknik"
+    },
+    {
+      "q": "物理学",
+      "f": "ぶつりがく",
+      "a": "ilmu fisika",
+      "e": "dia belajar *ilmu fisika*",
+      "c": 1,
+      "x": "ilmu tentang materi, energi, dan gaya\nbelajar tentang gerak, listrik, dan mekanika kuantum\ndasar untuk teknik dan astronomi"
+    },
+    {
+      "q": "工学",
+      "f": "こうがく",
+      "a": "ilmu teknik",
+      "e": "dia kuliah *ilmu teknik*",
+      "c": 1,
+      "x": "ilmu tentang penerapan sains untuk teknologi\nada banyak cabang: sipil, elektro, mesin\nbelajar tentang desain dan pembangunan"
+    },
+    {
+      "q": "土木工学",
+      "f": "どぼくこうがく",
+      "a": "ilmu teknik sipil",
+      "e": "dia belajar *ilmu teknik sipil*",
+      "c": 1,
+      "x": "gabungan 土木 (doboku/konstruksi) + 工学 (kougaku/teknik)\nbelajar tentang jembatan, gedung, dan jalan\npenting untuk infrastruktur kota"
+    },
+    {
+      "q": "電気工学",
+      "f": "でんきこうがく",
+      "a": "ilmu teknik elektro",
+      "e": "dia mengambil *ilmu teknik elektro*",
+      "c": 1,
+      "x": "belajar tentang listrik, sirkuit, dan elektronik\nuntuk perangkat elektronik, pembangkit listrik\nada cabang: telekomunikasi, kendali, komputer"
+    },
+    {
+      "q": "機械工学",
+      "f": "きかいこうがく",
+      "a": "ilmu teknik mesin",
+      "e": "dia belajar *ilmu teknik mesin*",
+      "c": 1,
+      "x": "belajar tentang mesin, robot, dan kendaraan\nuntuk desain, manufaktur, dan perawatan\ndasar untuk industri otomotif dan manufaktur"
+    },
+    {
+      "q": "コンピューター工学",
+      "f": "こんぴゅーたーこうがく",
+      "a": "ilmu informatika",
+      "e": "saya mengambil *ilmu informatika*",
+      "c": 1,
+      "x": "serapan dari 'computer engineering'\nbelajar tentang hardware dan software komputer\nbeda dengan 情報工学 (jouhou kougaku/ilmu informasi)"
+    },
+    {
+      "q": "遺伝子工学",
+      "f": "いでんしこうがく",
+      "a": "ilmu genetika",
+      "e": "dia meneliti *ilmu genetika*",
+      "c": 1,
+      "x": "gabungan 遺伝子 (idenshi/gen) + 工学 (kougaku/teknik)\nbelajar tentang rekayasa genetika\nuntuk penelitian DNA, kloning, dan terapi gen"
+    },
+    {
+      "q": "建築学",
+      "f": "けんちくがく",
+      "a": "ilmu arsitektur",
+      "e": "dia belajar *ilmu arsitektur*",
+      "c": 1,
+      "x": "ilmu tentang desain bangunan\nbelajar tentang estetika, struktur, dan fungsi\nbeda dengan 土木工学 (teknik sipil) yang lebih ke konstruksi"
+    },
+    {
+      "q": "天文学",
+      "f": "てんもんがく",
+      "a": "ilmu astronomi",
+      "e": "dia tertarik dengan *ilmu astronomi*",
+      "c": 1,
+      "x": "ilmu tentang bintang, planet, dan alam semesta\nbelajar tentang teleskop dan pergerakan langit\nbeda dengan 占星術 (senseijutsu/astrologi)"
+    },
+    {
+      "q": "環境科学",
+      "f": "かんきょうかがく",
+      "a": "ilmu lingkungan",
+      "e": "dia belajar *ilmu lingkungan*",
+      "c": 1,
+      "x": "gabungan 環境 (kankyou/lingkungan) + 科学 (kagaku/sains)\nbelajar tentang polusi, konservasi, dan ekosistem\npenting untuk keberlanjutan planet"
+    },
+    {
+      "q": "政治学",
+      "f": "せいじがく",
+      "a": "ilmu politik",
+      "e": "dia mengambil *ilmu politik*",
+      "c": 1,
+      "x": "ilmu tentang pemerintahan dan kekuasaan\nbelajar tentang sistem politik, kebijakan, dan ideologi\nbisa untuk karir di pemerintahan atau LSM"
+    },
+    {
+      "q": "国際関係学",
+      "f": "こくさいかんけいがく",
+      "a": "ilmu hubungan internasional",
+      "e": "dia belajar *ilmu hubungan internasional*",
+      "c": 1,
+      "x": "gabungan 国際 (kokusai/internasional) + 関係学 (kankeigaku/hubungan)\nbelajar tentang diplomasi, konflik, dan kerja sama antar negara\nbisa untuk karir di PBB atau kedutaan"
+    },
+    {
+      "q": "法律学",
+      "f": "ほうりつがく",
+      "a": "ilmu hukum",
+      "e": "dia kuliah *ilmu hukum*",
+      "c": 1,
+      "x": "ilmu tentang undang-undang dan keadilan\nbelajar tentang hukum pidana, perdata, dan tata negara\nuntuk menjadi pengacara, jaksa, atau hakim"
+    },
+    {
+      "q": "経済学",
+      "f": "けいざいがく",
+      "a": "ilmu ekonomi",
+      "e": "dia belajar *ilmu ekonomi*",
+      "c": 1,
+      "x": "ilmu tentang produksi, distribusi, dan konsumsi\nbelajar tentang pasar, inflasi, dan perdagangan\nada cabang: mikroekonomi dan makroekonomi"
+    },
+    {
+      "q": "経営学",
+      "f": "けいえいがく",
+      "a": "ilmu manajemen",
+      "e": "dia mengambil *ilmu manajemen*",
+      "c": 1,
+      "x": "ilmu tentang pengelolaan organisasi\nbelajar tentang strategi, SDM, dan pemasaran\nbisa untuk karir di bisnis atau korporasi"
+    },
+    {
+      "q": "社会学",
+      "f": "しゃかいがく",
+      "a": "ilmu sosial",
+      "e": "dia belajar *ilmu sosial*",
+      "c": 1,
+      "x": "ilmu tentang masyarakat dan perilaku sosial\nbelajar tentang keluarga, kelas sosial, dan budaya\nbeda dengan 心理学 (shinrigaku/psikologi)"
+    },
+    {
+      "q": "教育学",
+      "f": "きょういくがく",
+      "a": "ilmu pendidikan",
+      "e": "dia belajar *ilmu pendidikan*",
+      "c": 1,
+      "x": "ilmu tentang proses belajar mengajar\nbelajar tentang kurikulum, metode, dan psikologi pendidikan\nuntuk menjadi guru atau peneliti pendidikan"
+    },
+    {
+      "q": "文学",
+      "f": "ぶんがく",
+      "a": "ilmu sastra",
+      "e": "dia suka *ilmu sastra*",
+      "c": 1,
+      "x": "ilmu tentang karya tulis dan sastra\nbelajar tentang puisi, novel, dan drama\nada sastra Jepang, Barat, dan Asia"
+    },
+    {
+      "q": "言語学",
+      "f": "げんごがく",
+      "a": "ilmu linguistik",
+      "e": "saya belajar *ilmu linguistik*",
+      "c": 1,
+      "x": "ilmu tentang bahasa dan strukturnya\nbelajar tentang fonetik, tata bahasa, dan makna\nbeda dengan 外国語学 (gaikokugogaku/studi bahasa asing)"
+    },
+    {
+      "q": "心理学",
+      "f": "しんりがく",
+      "a": "ilmu psikologi",
+      "e": "dia tertarik dengan *ilmu psikologi*",
+      "c": 1,
+      "x": "ilmu tentang perilaku dan proses mental\nbelajar tentang emosi, kognisi, dan kepribadian\nada cabang: klinis, industri, sosial"
+    },
+    {
+      "q": "哲学",
+      "f": "てつがく",
+      "a": "ilmu filsafat",
+      "e": "dia belajar *ilmu filsafat*",
+      "c": 1,
+      "x": "ilmu tentang kebijaksanaan dan eksistensi\nbelajar tentang logika, etika, dan metafisika\nbanyak pemikir terkenal dari Yunani hingga modern"
+    },
+    {
+      "q": "宗教学",
+      "f": "しゅうきょうがく",
+      "a": "ilmu agama",
+      "e": "dia belajar *ilmu agama*",
+      "c": 1,
+      "x": "ilmu tentang berbagai agama dan kepercayaan\nbelajar tentang ritual, kitab suci, dan sejarah agama\nbeda dengan 神学 (shingaku/teologi) yang spesifik Kristen"
+    },
+    {
+      "q": "芸術",
+      "f": "げいじゅつ",
+      "a": "seni",
+      "e": "dia belajar *seni*",
+      "c": 1,
+      "x": "karya kreatif yang memiliki nilai estetika\nmeliputi seni lukis, patung, teater, tari\nbeda dengan 美術 (bijutsu/seni rupa) yang lebih spesifik visual"
+    },
+    {
+      "q": "美術",
+      "f": "びじゅつ",
+      "a": "seni rupa",
+      "e": "dia belajar *seni rupa*",
+      "c": 1,
+      "x": "seni yang dapat dilihat (visual art)\nmeliputi lukisan, patung, fotografi\nada 美術館 (bijutsukan/museum seni)"
+    },
+    {
+      "q": "音楽",
+      "f": "おんがく",
+      "a": "musik",
+      "e": "saya suka *musik*",
+      "c": 1,
+      "x": "seni tentang suara dan irama\nmeliputi vokal dan instrumental\nada genre: klasik, jazz, rock, pop"
+    },
+    {
+      "q": "体育学",
+      "f": "たいいくがく",
+      "a": "ilmu olahraga",
+      "e": "dia belajar *ilmu olahraga*",
+      "c": 1,
+      "x": "ilmu tentang aktivitas fisik dan kesehatan\nbelajar tentang fisiologi, latihan, dan nutrisi\nbisa untuk karir di pelatih atau guru olahraga"
+    },
+    {
+      "q": "運動する",
+      "f": "うんどうする",
+      "a": "berolahraga",
+      "e": "saya *berolahraga* setiap hari",
+      "c": 1,
+      "x": "suru verb (intransitif)\nmelakukan aktivitas fisik untuk kesehatan\nbeda dengan トレーニングする (toreeningu suru/latihan)",
+      "t": "が"
+    },
+    {
+      "q": "成功する",
+      "f": "せいこうする",
+      "a": "berhasil",
+      "e": "dia akhirnya *berhasil*",
+      "c": 1,
+      "x": "suru verb (intransitif)\nmencapai tujuan yang diinginkan\nberlawanan dengan 失敗する (shippai suru/gagal)",
+      "t": "が"
+    },
+    {
+      "q": "［試験に］失敗する",
+      "f": "しっぱいする",
+      "a": "gagal",
+      "e": "saya *gagal* ujian",
+      "c": 1,
+      "x": "suru verb (intransitif)\npakai partikel に untuk sesuatu yang gagal\nberlawanan dengan 成功する (seikou suru/berhasil)",
+      "t": "に"
+    },
+    {
+      "q": "［試験に］合格する",
+      "f": "ごうかくする",
+      "a": "lulus",
+      "e": "saya *lulus* ujian",
+      "c": 1,
+      "x": "suru verb (intransitif)\npakai partikel に untuk ujian yang dilalui\nberlawanan dengan 不合格する (fugoukaku suru/tidak lulus)",
+      "t": "に"
+    }
+  ],
+  "10": [
+    {
+      "q": "［雨が］止む",
+      "f": "やむ",
+      "a": "berhenti",
+      "e": "hujan *berhenti*",
+      "c": 1,
+      "x": "intransitif (berhenti dengan sendirinya)\nbiasanya untuk hujan, angin, atau suara\nberlawanan dengan 降る (furu/turun hujan)",
+      "t": "が"
+    },
+    {
+      "q": "晴れる",
+      "f": "はれる",
+      "a": "cerah",
+      "e": "cuaca hari ini *cerah*",
+      "c": 1,
+      "x": "intransitif (menjadi cerah)\nberlawanan dengan 曇る (kumoru/mendung)\njuga berarti 'lega' atau 'terbebas dari tuduhan'",
+      "t": "が"
+    },
+    {
+      "q": "曇る",
+      "f": "くもる",
+      "a": "mendung",
+      "e": "langit mulai *mendung*",
+      "c": 1,
+      "x": "intransitif (menjadi mendung)\nberlawanan dengan 晴れる (hareru/cerah)\njuga berarti 'suram' untuk ekspresi wajah",
+      "t": "が"
+    },
+    {
+      "q": "［熱が］続く",
+      "f": "つづく",
+      "a": "berlangsung",
+      "e": "demamnya *berlangsung* lama",
+      "c": 1,
+      "x": "intransitif (berlangsung atau lanjut)\nberlawanan dengan 終わる (owaru/berakhir)\nuntuk demam, hujan, atau acara",
+      "t": "が"
+    },
+    {
+      "q": "［風邪を］引く",
+      "f": "ひく",
+      "a": "masuk angin",
+      "e": "saya *masuk angin*",
+      "c": 1,
+      "x": "transitif (mengalami flu atau pilek)\npakai partikel を\nfrasa tetap: 風邪を引く (kaze wo hiku)",
+      "t": "を"
+    },
+    {
+      "q": "冷やす",
+      "f": "ひやす",
+      "a": "mendinginkan",
+      "e": "tolong *mendinginkan* minuman",
+      "c": 1,
+      "x": "transitif (mendinginkan sesuatu)\nberlawanan dengan 温める (atatameru/memanaskan)\nuntuk minuman, makanan, atau ruangan",
+      "t": "を"
+    },
+    {
+      "q": "［道が］込む",
+      "f": "こむ",
+      "a": "macet",
+      "e": "jalan ini *macet*",
+      "c": 1,
+      "x": "intransitif (menjadi ramai/macet)\nberlawanan dengan 空く (suku/sepi)\nuntuk jalan, toko, atau tempat umum",
+      "t": "が"
+    },
+    {
+      "q": "［道が］空く",
+      "f": "すく",
+      "a": "sepi",
+      "e": "jalan sudah *sepi*",
+      "c": 1,
+      "x": "intransitif (menjadi sepi/lengang)\nberlawanan dengan 込む (komu/macet)\nuntuk jalan, kereta, atau tempat parkir",
+      "t": "が"
+    },
+    {
+      "q": "［試合に］/［パーティーに］出る",
+      "f": "でる",
+      "a": "mengikuti\nmenghadiri",
+      "e": "saya *mengikuti* pertandingan\nsaya *menghadiri* pesta",
+      "c": 1,
+      "x": "intransitif, pakai partikel に untuk acara yang diikuti\nberlawanan dengan 欠席する (kesseki suru/absen)\nbeda dengan 参加する (sanka suru) yang lebih formal",
+      "t": "に"
+    },
+    {
+      "q": "無理をする",
+      "f": "むりをする",
+      "a": "memaksakan diri",
+      "e": "jangan *memaksakan diri*",
+      "c": 1,
+      "x": "transitif (melakukan sesuatu yang tidak masuk akal)\npakai partikel を\nfrasa tetap: 無理をする (muri wo suru)",
+      "t": "を"
+    },
+    {
+      "q": "十分［な］",
+      "f": "じゅうぶん",
+      "a": "cukup",
+      "e": "waktu ini sudah *cukup*",
+      "c": 1,
+      "x": "na-adjective\nberarti 'cukup' atau 'memadai'\njuga sebagai adverbia: 十分に (juubun ni)"
+    },
+    {
+      "q": "可笑しい",
+      "f": "おかしい",
+      "a": "aneh, lucu",
+      "e": "ini sangat *aneh*\nceritanya *lucu*",
+      "c": 1,
+      "x": "i-adjective\nbisa berarti 'aneh' atau 'lucu' tergantung konteks\njuga berarti 'salah' atau 'tidak wajar'"
+    },
+    {
+      "q": "五月蝿い",
+      "f": "うるさい",
+      "a": "bising",
+      "e": "tempat ini *bising*",
+      "c": 1,
+      "x": "i-adjective (biasa ditulis dengan hiragana)\nberarti 'berisik' atau 'ganggu'\njuga bisa berarti 'ceriwis' atau 'merepotkan'"
+    },
+    {
+      "q": "先生",
+      "f": "せんせい",
+      "a": "guru, dokter",
+      "e": "dia adalah *guru*\nsaya pergi ke *dokter*",
+      "c": 1,
+      "x": "panggilan untuk guru, dokter, atau profesional\nlebih sopan daripada 教師 (kyoushi)\njangan dipakai untuk diri sendiri"
+    },
+    {
+      "q": "火傷［をする］",
+      "f": "やけど",
+      "a": "luka bakar\nterbakar",
+      "e": "dia kena *luka bakar*\ntangannya *terbakar*",
+      "c": 1,
+      "x": "kata benda, untuk kata kerjanya pakai 火傷をする\nhati-hati dengan api dan air panas\nsegera aliri air dingin saat terkena"
+    },
+    {
+      "q": "怪我［をする］",
+      "f": "けが",
+      "a": "luka, terluka",
+      "e": "dia mengalami *luka*\nsaya *terluka* saat jatuh",
+      "c": 1,
+      "x": "kata benda, untuk kata kerjanya pakai 怪我をする\nbisa ringan atau serius\ndi Jepang ada asuransi kecelakaan (保険)"
+    },
+    {
+      "q": "咳［をする］/［が出る］",
+      "f": "せき",
+      "a": "batuk",
+      "e": "saya sedang *batuk*",
+      "c": 1,
+      "x": "kata benda, untuk kata kerjanya pakai 咳をする atau 咳が出る\ngejala umum pilek atau flu\ntutup mulut saat batuk (etiket Jepang)"
+    },
+    {
+      "q": "インフルエンザ",
+      "f": "いんふるえんざ",
+      "a": "influenza",
+      "e": "dia terkena *influenza*",
+      "c": 1,
+      "x": "serapan dari 'influenza'\npenyakit virus menular\nada vaksinasi musiman di Jepang"
+    },
+    {
+      "q": "太陽",
+      "f": "たいよう",
+      "a": "matahari",
+      "e": "*matahari* bersinar terang",
+      "c": 1,
+      "x": "pusat tata surya\nberlawanan dengan 月 (tsuki/bulan)\nhati-hati: jangan lihat langsung dengan mata"
+    },
+    {
+      "q": "星",
+      "f": "ほし",
+      "a": "bintang",
+      "e": "banyak *bintang* di langit",
+      "c": 1,
+      "x": "benda langit yang bersinar di malam hari\ntermasuk planet (惑星 wakusei) dan bintang (恒星 kousei)\nada 流れ星 (nagareboshi/bintang jatuh)"
+    },
+    {
+      "q": "風",
+      "f": "かぜ",
+      "a": "angin",
+      "e": "*angin* bertiup kencang",
+      "c": 1,
+      "x": "udara yang bergerak\njangan tertukar dengan 風邪 (kaze/flu) meski sama bacaan\nada 台風 (taifuu/topan) dan 突風 (toppuu/angin kencang)"
+    },
+    {
+      "q": "東",
+      "f": "ひがし",
+      "a": "timur",
+      "e": "matahari terbit dari *timur*",
+      "c": 1,
+      "x": "salah satu dari 4 arah mata angin\nberlawanan dengan 西 (nishi/barat)\nada 東北 (touhoku/timur laut) dan 東南 (tounan/tenggara)"
+    },
+    {
+      "q": "西",
+      "f": "にし",
+      "a": "barat",
+      "e": "matahari terbenam di *barat*",
+      "c": 1,
+      "x": "salah satu dari 4 arah mata angin\nberlawanan dengan 東 (higashi/timur)\nada 西北 (seihoku/barat laut) dan 西南 (seinan/barat daya)"
+    },
+    {
+      "q": "南",
+      "f": "みなみ",
+      "a": "selatan",
+      "e": "rumahnya di *selatan*",
+      "c": 1,
+      "x": "salah satu dari 4 arah mata angin\nberlawanan dengan 北 (kita/utara)\ndaerah selatan Jepang lebih hangat"
+    },
+    {
+      "q": "北",
+      "f": "きた",
+      "a": "utara",
+      "e": "angin dari *utara* dingin",
+      "c": 1,
+      "x": "salah satu dari 4 arah mata angin\nberlawanan dengan 南 (minami/selatan)\ndaerah utara Jepang lebih dingin"
+    },
+    {
+      "q": "国際〜",
+      "f": "こくさい",
+      "a": "internasional",
+      "e": "ini acara *internasional*",
+      "c": 1,
+      "x": "awalan yang berarti 'internasional'\ncontoh: 国際交流 (kokusai kouryuu/pertukaran internasional)\nberlawanan dengan 国内 (kokunai/domestik)"
+    },
+    {
+      "q": "水道",
+      "f": "すいどう",
+      "a": "air PAM",
+      "e": "*air PAM* tidak keluar",
+      "c": 1,
+      "x": "gabungan 水 (mizu/air) + 道 (dou/jalan)\nair yang disalurkan oleh perusahaan\nbayar tagihan bulanan di Jepang"
+    },
+    {
+      "q": "エンジン",
+      "f": "えんじん",
+      "a": "mesin",
+      "e": "*mesin* mobil rusak",
+      "c": 1,
+      "x": "serapan dari 'engine'\nuntuk kendaraan atau peralatan\nbeda dengan モーター (mootaa/motor listrik)"
+    },
+    {
+      "q": "チーム",
+      "f": "ちーむ",
+      "a": "tim",
+      "e": "kami satu *tim*",
+      "c": 1,
+      "x": "serapan dari 'team'\nuntuk olahraga, pekerjaan, atau proyek\nbeda dengan グループ (guruupu/group) yang lebih umum"
+    },
+    {
+      "q": "今夜",
+      "f": "こんや",
+      "a": "malam ini",
+      "e": "saya belajar *malam ini*",
+      "c": 1,
+      "x": "gabungan 今 (kon/malam) + 夜 (ya/malam ini)\nlebih spesifik daripada 今晩 (konban)\nberlawanan dengan 今夜 (saya/malam ini juga)"
+    },
+    {
+      "q": "夕方",
+      "f": "ゆうがた",
+      "a": "sore",
+      "e": "saya pulang *sore*",
+      "c": 1,
+      "x": "waktu sekitar matahari terbenam\nantara 16:00-18:00 tergantung musim\nberlawanan dengan 朝方 (asagata/pagi hari)"
+    },
+    {
+      "q": "前",
+      "f": "まえ",
+      "a": "sebelum",
+      "e": "makan *sebelum* tidur",
+      "c": 1,
+      "x": "menunjukkan waktu atau posisi sebelumnya\nberlawanan dengan 後 (ato/sesudah)\nbisa berarti 'depan' untuk posisi"
+    },
+    {
+      "q": "遅く",
+      "f": "おそく",
+      "a": "larut",
+      "e": "saya tidur *larut*",
+      "c": 1,
+      "x": "adverbia dari 遅い (osoi/terlambat)\nberlawanan dengan 早く (hayaku/cepat)\nbisa untuk waktu atau kecepatan"
+    },
+    {
+      "q": "こんなに",
+      "f": "こんなに",
+      "a": "begini",
+      "e": "kenapa *begini* banyak",
+      "c": 1,
+      "x": "adverbia untuk menunjukkan tingkat yang dekat dengan pembicara\nberlawanan dengan そんなに (sonna ni) dan あんなに (anna ni)\nuntuk jumlah, ukuran, atau tingkat"
+    },
+    {
+      "q": "そんなに",
+      "f": "そんなに",
+      "a": "begitu",
+      "e": "jangan makan *begitu* banyak",
+      "c": 1,
+      "x": "adverbia untuk menunjukkan tingkat yang dekat dengan lawan bicara\nberlawanan dengan こんなに (konna ni) dan あんなに (anna ni)\nsering dipakai dalam kalimat negatif"
+    },
+    {
+      "q": "あんなに",
+      "f": "あんなに",
+      "a": "begitu",
+      "e": "dia lari *begitu* cepat",
+      "c": 1,
+      "x": "adverbia untuk menunjukkan tingkat yang jauh dari kedua pihak\nberlawanan dengan こんなに (konna ni) dan そんなに (sonna ni)\nuntuk mengagumi atau mengkritik"
+    },
+    {
+      "q": "ヨーロッパ",
+      "f": "よーろっぱ",
+      "a": "Eropa",
+      "e": "saya ingin ke *Eropa*",
+      "c": 1,
+      "x": "nama benua Eropa\nbanyak negara seperti Prancis, Jerman, Italia\nbeda dengan 欧州 (oushuu) yang lebih formal"
+    },
+    {
+      "q": "元気",
+      "f": "げんき",
+      "a": "sehat",
+      "e": "saya sekarang *sehat*",
+      "c": 1,
+      "x": "na-adjective\nberarti 'sehat' atau 'bersemangat'\nsalam お元気ですか (o-genki desu ka/Apa kabar?)"
+    },
+    {
+      "q": "胃",
+      "f": "い",
+      "a": "lambung",
+      "e": "*lambung* saya sakit",
+      "c": 1,
+      "x": "organ dalam untuk mencerna makanan\nsakit maag disebut 胃痛 (itsu)\njangan makan pedas jika sakit lambung"
+    },
+    {
+      "q": "ストレス",
+      "f": "すとれす",
+      "a": "stres",
+      "e": "saya mengalami *stres*",
+      "c": 1,
+      "x": "serapan dari 'stress'\ntekanan mental akibat pekerjaan atau masalah\nada cara mengatasi: ストレス解消 (sutoresu kaishou)"
+    }
+  ],
+  "11": [
+    {
+      "q": "星占い",
+      "f": "ほしうらない",
+      "a": "horoskop",
+      "e": "saya membaca *horoskop* setiap pagi",
+      "c": 1,
+      "x": "gabungan 星 (bintang) + 占い (ramalan)\npopuler di koran dan majalah Jepang\nbiasanya berdasarkan zodiak atau shio"
+    },
+    {
+      "q": "牡牛座",
+      "f": "おうしざ",
+      "a": "taurus",
+      "e": "zodiak saya adalah *taurus*",
+      "c": 1,
+      "x": "salah satu dari 12 rasi bintang zodiak\nuntuk orang yang lahir 20 April - 20 Mei\ndalam bahasa Jepang, 牡牛 berarti 'banteng jantan'"
+    },
+    {
+      "q": "働き過ぎ",
+      "f": "はたらきすぎ",
+      "a": "terlalu banyak bekerja",
+      "e": "dia *terlalu banyak bekerja* setiap hari",
+      "c": 1,
+      "x": "gabungan 働き (kerja) + 過ぎ (terlalu)\nfenomena umum di Jepang (karoshi)\nbisa menyebabkan masalah kesehatan"
+    },
+    {
+      "q": "困る",
+      "f": "こまる",
+      "a": "bingung, kesulitan",
+      "e": "saya *bingung* karena tidak punya uang\nsaya *kesulitan* memahami soal itu",
+      "c": 1,
+      "x": "menyatakan situasi sulit atau membingungkan\nsering digunakan saat tidak tahu harus berbuat apa\nbeda dengan 迷う (mayou) yang lebih ke ragu memilih",
+      "t": "が"
+    },
+    {
+      "q": "宝籤",
+      "f": "たからくじ",
+      "a": "lotre",
+      "e": "saya membeli *lotre*",
+      "c": 1,
+      "x": "gabungan 宝 (harta) + 籤 (undian)\ndijual di Jepang dengan hadiah uang tunai\nada tahun baru 宝くじ (toshikoshi takarakuji)"
+    },
+    {
+      "q": "［宝籤が］当たる",
+      "f": "あたる",
+      "a": "menang [lotre]",
+      "e": "saya *menang* lotre",
+      "c": 1,
+      "x": "untuk undian, lotre, atau tebakan yang tepat\nberlawanan dengan 外れる (hazureru/kalah)\njuga berarti 'tepat sasaran' secara umum",
+      "t": "が"
+    },
+    {
+      "q": "健康",
+      "f": "けんこう",
+      "a": "kesehatan",
+      "e": "*kesehatan* itu sangat penting",
+      "c": 1,
+      "x": "kondisi fisik dan mental yang baik\nada ungkapan 健康は第一 (kenkou wa daiichi/kesehatan nomor satu)\norang Jepang sering cek kesehatan rutin"
+    },
+    {
+      "q": "恋愛",
+      "f": "れんあい",
+      "a": "asmara",
+      "e": "kami membicarakan *asmara*",
+      "c": 1,
+      "x": "hubungan cinta antara pria dan wanita\nbeda dengan 愛 (ai) yang lebih luas\nbanyak drama dan lagu Jepang bertema 恋愛"
+    },
+    {
+      "q": "恋人",
+      "f": "こいびと",
+      "a": "pacar",
+      "e": "saya pergi dengan *pacar*",
+      "c": 1,
+      "x": "gabungan 恋 (cinta) + 人 (orang)\npasangan yang sedang berpacaran\nbeda dengan 彼氏 (kareshi/pacar pria) dan 彼女 (kanojo/pacar wanita)"
+    },
+    {
+      "q": "ラッキーアイテム",
+      "f": "らっきーあいてむ",
+      "a": "barang keberuntungan",
+      "e": "ini adalah *barang keberuntungan* saya",
+      "c": 1,
+      "x": "serapan dari 'lucky item'\nbarang yang dipercaya membawa keberuntungan\nsering disebut di ramalan zodiak Jepang"
+    },
+    {
+      "q": "石",
+      "f": "いし",
+      "a": "batu",
+      "e": "ada *batu* di jalan",
+      "c": 1,
+      "x": "benda alam yang keras\nada berbagai jenis: 宝石 (houseki/batu mulia)\nungkapan 石の上にも三年 (ishi no ue ni mo sannen/bersabar akan membuahkan hasil)"
+    },
+    {
+      "q": "晴れのち曇り",
+      "f": "はれのちくもり",
+      "a": "cerah kemudian berawan",
+      "e": "cuaca hari ini *cerah kemudian berawan*",
+      "c": 1,
+      "x": "frasa ramalan cuaca\nのち (nochi) berarti 'kemudian'\nurutan: 晴れ → 曇り"
+    },
+    {
+      "q": "曇り時々雨",
+      "f": "くもりときどきあめ",
+      "a": "berawan kadang-kadang hujan",
+      "e": "hari ini *berawan kadang-kadang hujan*",
+      "c": 1,
+      "x": "frasa ramalan cuaca\n時々 (tokidoki) berarti 'kadang-kadang'\nhujan tidak sepanjang hari"
+    },
+    {
+      "q": "曇り所によって雨",
+      "f": "くもりところによってあめ",
+      "a": "berawan, di beberapa tempat hujan",
+      "e": "cuaca *berawan* dan di beberapa tempat *hujan*",
+      "c": 1,
+      "x": "frasa ramalan cuaca\n所によって (tokoro ni yotte) berarti 'di beberapa tempat'\nhujan hanya di area tertentu"
+    },
+    {
+      "q": "降水確率",
+      "f": "こうすいかくりつ",
+      "a": "kemungkinan hujan",
+      "e": "*kemungkinan hujan* hari ini tinggi",
+      "c": 1,
+      "x": "gabungan 降水 (hujan) + 確率 (probabilitas)\ndalam persen (0-100%)\ndi Jepang, 50% berarti kemungkinan hujan cukup tinggi"
+    },
+    {
+      "q": "最高気温",
+      "f": "さいこうきおん",
+      "a": "suhu tertinggi",
+      "e": "*suhu tertinggi* hari ini 30 derajat",
+      "c": 1,
+      "x": "gabungan 最高 (tertinggi) + 気温 (suhu)\nberlawanan dengan 最低気温 (saiteikion)\ndiumumkan dalam ramalan cuaca harian"
+    },
+    {
+      "q": "最低気温",
+      "f": "さいていきおん",
+      "a": "suhu terendah",
+      "e": "*suhu terendah* hari ini 20 derajat",
+      "c": 1,
+      "x": "gabungan 最低 (terendah) + 気温 (suhu)\nberlawanan dengan 最高気温 (saikoukion)\nbiasanya terjadi pagi atau malam hari"
+    },
+    {
+      "q": "にわか雨",
+      "f": "にわかあめ",
+      "a": "hujan tiba-tiba",
+      "e": "tadi ada *hujan tiba-tiba*",
+      "c": 1,
+      "x": "hujan yang turun tiba-tiba dan singkat\nsulit diprediksi\nbawa payung setiap saat di musim hujan Jepang"
+    },
+    {
+      "q": "雷",
+      "f": "かみなり",
+      "a": "guntur",
+      "e": "*guntur* terdengar keras",
+      "c": 1,
+      "x": "suara keras dari awan saat hujan badai\nsering disertai kilat (稲妻 inazuma)\nmitologi Jepang: dewa petir bernama 雷神 (Raijin)"
+    },
+    {
+      "q": "虹",
+      "f": "にじ",
+      "a": "pelangi",
+      "e": "ada *pelangi* di langit",
+      "c": 1,
+      "x": "fenomena optik setelah hujan\n7 warna (merah, jingga, kuning, hijau, biru, nila, ungu)\npertanda baik dalam budaya Jepang"
+    },
+    {
+      "q": "雲",
+      "f": "くも",
+      "a": "awan",
+      "e": "*awan* terlihat gelap",
+      "c": 1,
+      "x": "kumpulan uap air di langit\nberbagai jenis: 入道雲 (nyuudougumo/awan kumulonimbus)\nawan gelap pertanda hujan"
+    },
+    {
+      "q": "湿度",
+      "f": "しつど",
+      "a": "kelembaban",
+      "e": "*kelembaban* hari ini tinggi",
+      "c": 1,
+      "x": "kadar air di udara\nmusim hujan Jepang (梅雨) kelembaban sangat tinggi\nmempengaruhi rasa panas atau dingin"
+    },
+    {
+      "q": "蒸し暑い",
+      "f": "むしあつい",
+      "a": "panas lembab, gerah",
+      "e": "hari ini *panas lembab*\nsaya merasa *gerah*",
+      "c": 1,
+      "x": "gabungan 蒸し (kukus) + 暑い (panas)\nrasa tidak nyaman karena panas dan lembab\nkhas musim panas Jepang sebelum musim hujan"
+    },
+    {
+      "q": "爽やか［な］",
+      "f": "さわやか",
+      "a": "segar",
+      "e": "udara pagi terasa *segar*",
+      "c": 1,
+      "x": "na-adjective\nrasa segar dan nyaman\nbiasa untuk angin pagi atau suasana setelah hujan\njuga untuk kepribadian yang ramah"
+    },
+    {
+      "q": "夕立",
+      "f": "ゆうだち",
+      "a": "hujan sore tiba-tiba",
+      "e": "tadi ada *hujan sore tiba-tiba*",
+      "c": 1,
+      "x": "hujan deras tiba-tiba di sore hari musim panas\nsering disertai petir\nfenomena khas musim panas Jepang"
+    },
+    {
+      "q": "逃げる",
+      "f": "にげる",
+      "a": "melarikan diri",
+      "e": "dia *melarikan diri* dari bahaya",
+      "c": 1,
+      "x": "menjauh dari bahaya atau masalah\nberlawanan dengan 戦う (tatakau/bertarung)\njuga berarti 'menghindari' tanggung jawab",
+      "t": "が"
+    },
+    {
+      "q": "騒ぐ",
+      "f": "さわぐ",
+      "a": "ribut, membuat keributan",
+      "e": "anak-anak *ribut* di kelas\nmereka *membuat keributan* di jalan",
+      "c": 1,
+      "x": "membuat suara keras atau kegaduhan\nberlawanan dengan 静かする (shizuka suru/tenang)\nbisa untuk orang, hewan, atau angin",
+      "t": "が"
+    },
+    {
+      "q": "諦める",
+      "f": "あきらめる",
+      "a": "menyerah",
+      "e": "jangan *menyerah* pada mimpi",
+      "c": 1,
+      "x": "berhenti berusaha karena yakin tidak akan berhasil\nberlawanan dengan 頑張る (ganbaru/berusaha keras)\nsering dikatakan sebagai hal negatif dalam budaya Jepang",
+      "t": "を"
+    },
+    {
+      "q": "投げる",
+      "f": "なげる",
+      "a": "melempar",
+      "e": "dia *melempar* bola",
+      "c": 1,
+      "x": "melemparkan benda dengan tangan\nberlawanan dengan 受ける (ukeru/menangkap)\njuga berarti 'meninggalkan' atau 'melepaskan'",
+      "t": "を"
+    },
+    {
+      "q": "守る",
+      "f": "まもる",
+      "a": "melindungi, menjaga",
+      "e": "dia *melindungi* anak itu\nsaya *menjaga* janji",
+      "c": 1,
+      "x": "menjaga agar tetap aman atau tidak dilanggar\nuntuk orang, hewan, aturan, atau janji\nberlawanan dengan 破る (yaburu/melanggar)",
+      "t": "を"
+    },
+    {
+      "q": "［式が］始まる",
+      "f": "はじまる",
+      "a": "dimulai",
+      "e": "acara *dimulai* sekarang",
+      "c": 1,
+      "x": "sesuatu mulai terjadi atau berlangsung\nberlawanan dengan 終わる (owaru/berakhir)\nuntuk acara, film, atau musim",
+      "t": "が"
+    },
+    {
+      "q": "［会議に］出席する",
+      "f": "しゅっせきする",
+      "a": "menghadiri",
+      "e": "saya *menghadiri* rapat",
+      "c": 1,
+      "x": "hadir di acara atau pertemuan resmi\nberlawanan dengan 欠席する (kesseki suru/tidak hadir)\nlebih formal daripada 出る (deru)",
+      "t": "に"
+    },
+    {
+      "q": "伝える",
+      "f": "つたえる",
+      "a": "menyampaikan",
+      "e": "saya *menyampaikan* pesan itu",
+      "c": 1,
+      "x": "menyampaikan informasi dari satu orang ke orang lain\nuntuk pesan, berita, atau perasaan\nbeda dengan 教える (oshieru/mengajarkan)",
+      "t": "を"
+    },
+    {
+      "q": "［車に］注意する",
+      "f": "ちゅういする",
+      "a": "berhati-hati",
+      "e": "harus *berhati-hati* di jalan",
+      "c": 1,
+      "x": "waspada terhadap bahaya atau kesalahan\npakai partikel に untuk objek yang diwaspadai\nbeda dengan 気をつける (ki wo tsukeru) yang lebih kasual",
+      "t": "に"
+    },
+    {
+      "q": "［席を］外す",
+      "f": "はずす",
+      "a": "meninggalkan tempat",
+      "e": "saya *meninggalkan tempat* sebentar",
+      "c": 1,
+      "x": "meninggalkan posisi atau tempat untuk sementara\nberlawanan dengan 席に着く (seki ni tsuku/duduk di tempat)\nsering digunakan saat ke toilet atau keluar ruangan",
+      "t": "を"
+    },
+    {
+      "q": "戻る",
+      "f": "もどる",
+      "a": "kembali",
+      "e": "saya *kembali* ke rumah",
+      "c": 1,
+      "x": "pergi ke tempat sebelumnya\nberlawanan dengan 行く (iku/pergi)\nuntuk tempat, kondisi, atau topik pembicaraan",
+      "t": "が"
+    },
+    {
+      "q": "［電話が］ある",
+      "f": "ある",
+      "a": "ada",
+      "e": "*ada* telepon untukmu",
+      "c": 1,
+      "x": "menyatakan keberadaan benda mati\nberlawanan dengan ない (nai/tidak ada)\njuga berarti 'memiliki' atau 'terjadi'",
+      "t": "が"
+    },
+    {
+      "q": "リサイクリング",
+      "f": "りさいくりんぐ",
+      "a": "daur ulang",
+      "e": "*daur ulang* itu penting",
+      "c": 1,
+      "x": "serapan dari 'recycling'\nsangat penting di Jepang karena pemilahan sampah\nada aturan ketat untuk botol plastik, kaleng, dan kertas"
+    },
+    {
+      "q": "駄目［な］",
+      "f": "だめ",
+      "a": "tidak boleh, tidak baik",
+      "e": "itu *tidak boleh*\nitu *tidak baik*",
+      "c": 1,
+      "x": "na-adjective\nmenyatakan sesuatu tidak diperbolehkan atau tidak berguna\njuga berarti 'sia-sia' atau 'gagal'\nsering digunakan untuk melarang anak"
+    },
+    {
+      "q": "同じ",
+      "f": "おなじ",
+      "a": "sama",
+      "e": "kami punya pendapat yang *sama*",
+      "c": 1,
+      "x": "menyatakan identitas atau kesamaan\nbisa sebagai kata sifat atau kata benda\nberlawanan dengan 違う (chigau/berbeda)"
+    }
+  ],
+  "12": [
+    {
+      "q": "警察",
+      "f": "けいさつ",
+      "a": "polisi",
+      "e": "*polisi* datang ke lokasi",
+      "c": 1,
+      "x": "institusi penegak hukum di Jepang\nnomor darurat 110\nada 交番 (kouban/polsek kecil) di berbagai tempat"
+    },
+    {
+      "q": "席",
+      "f": "せき",
+      "a": "tempat, kursi",
+      "e": "ini *tempat* saya\ntolong duduk di *kursi* itu",
+      "c": 1,
+      "x": "tempat duduk atau posisi tertentu\nada 席を外す (seki wo hazusu/meninggalkan tempat)\njangan duduk di 優先席 (yuusenseki/kursi prioritas) jika tidak berhak"
+    },
+    {
+      "q": "マーク",
+      "f": "まーく",
+      "a": "tanda, cap",
+      "e": "beri *tanda* di jawaban yang benar\nada *cap* di dokumen itu",
+      "c": 1,
+      "x": "serapan dari 'mark'\nuntuk tanda, simbol, atau cap\nada チェックマーク (chekku maaku/tanda centang)"
+    },
+    {
+      "q": "ボール",
+      "f": "ぼーる",
+      "a": "bola",
+      "e": "dia menendang *bola*",
+      "c": 1,
+      "x": "serapan dari 'ball'\nuntuk olahraga seperti sepak bola, basket\nbeda dengan 球 (kyuu) yang lebih umum"
+    },
+    {
+      "q": "締め切り",
+      "f": "しめきり",
+      "a": "batas waktu",
+      "e": "*batas waktu* pengumpulan besok",
+      "c": 1,
+      "x": "batas akhir untuk mengumpulkan sesuatu\nsering digunakan untuk tugas, pendaftaran, atau kontes\njangan sampai 締め切りを過ぎる (melewati batas waktu)"
+    },
+    {
+      "q": "規則",
+      "f": "きそく",
+      "a": "peraturan",
+      "e": "harus mengikuti *peraturan*",
+      "c": 1,
+      "x": "aturan yang harus dipatuhi\nada 校則 (kousoku/peraturan sekolah)\nberlawanan dengan 違反 (ihan/pelanggaran)"
+    },
+    {
+      "q": "危険",
+      "f": "きけん",
+      "a": "bahaya",
+      "e": "itu sangat *bahaya*",
+      "c": 1,
+      "x": "kondisi yang dapat menyebabkan cedera atau kerusakan\nada tanda 危険 (kiken) di tempat berbahaya\nberlawanan dengan 安全 (anzen/aman)"
+    },
+    {
+      "q": "使用禁止",
+      "f": "しようきんし",
+      "a": "dilarang pakai",
+      "e": "alat ini *dilarang pakai*",
+      "c": 1,
+      "x": "gabungan 使用 (pemakaian) + 禁止 (larangan)\nada di peralatan rusak atau area terlarang\nberlawanan dengan 使用可能 (shiyou kanou/dapat dipakai)"
+    },
+    {
+      "q": "立入禁止",
+      "f": "たちいりきんし",
+      "a": "dilarang masuk",
+      "e": "area ini *dilarang masuk*",
+      "c": 1,
+      "x": "gabungan 立入 (masuk) + 禁止 (larangan)\nada di area konstruksi atau zona berbahaya\nberlawanan dengan 入場許可 (nyuujou kyoka/izin masuk)"
+    },
+    {
+      "q": "徐行",
+      "f": "じょこう",
+      "a": "berjalan perlahan-lahan",
+      "e": "kendaraan harus *berjalan perlahan-lahan*",
+      "c": 1,
+      "x": "perintah untuk kendaraan berjalan lambat\nada di tikungan tajam atau dekat sekolah\nberlawanan dengan 加速 (kasoku/akselerasi)"
+    },
+    {
+      "q": "入口",
+      "f": "いりぐち",
+      "a": "pintu masuk",
+      "e": "masuk lewat *pintu masuk*",
+      "c": 1,
+      "x": "tempat untuk memasuki bangunan atau area\nberlawanan dengan 出口 (deguchi/pintu keluar)\nsering ada tanda 入口 (iriguchi) di gedung Jepang"
+    },
+    {
+      "q": "出口",
+      "f": "でぐち",
+      "a": "pintu keluar",
+      "e": "keluar lewat *pintu keluar*",
+      "c": 1,
+      "x": "tempat untuk meninggalkan bangunan atau area\nberlawanan dengan 入口 (iriguchi/pintu masuk)\npenting tahu lokasi 出口 saat keadaan darurat"
+    },
+    {
+      "q": "非常口",
+      "f": "ひじょうぐち",
+      "a": "pintu darurat",
+      "e": "gunakan *pintu darurat* saat keadaan darurat",
+      "c": 1,
+      "x": "pintu khusus untuk evakuasi saat darurat\nada tanda hijau dengan gambar orang berlari\njangan diblokir oleh barang apapun"
+    },
+    {
+      "q": "割引",
+      "f": "わりびき",
+      "a": "diskon",
+      "e": "hari ini ada *diskon*",
+      "c": 1,
+      "x": "pengurangan harga dari harga asli\nada 学生割引 (gakusei waribiki/diskon pelajar)\nsering terlihat di supermarket dan toko"
+    },
+    {
+      "q": "飲み放題",
+      "f": "のみほうだい",
+      "a": "minum sepuasnya",
+      "e": "di sini bisa *minum sepuasnya*",
+      "c": 1,
+      "x": "gabungan 飲み (minum) + 放題 (sepuasnya)\nada di restoran atau bar dengan harga tetap\nbiasanya untuk minuman beralkohol"
+    },
+    {
+      "q": "使用中",
+      "f": "しようちゅう",
+      "a": "sedang dipakai",
+      "e": "toilet sedang *dipakai*",
+      "c": 1,
+      "x": "menunjukkan sesuatu sedang digunakan\nada di pintu toilet atau fasilitas umum\nberlawanan dengan 空き (aki/kosong)"
+    },
+    {
+      "q": "募集中",
+      "f": "ぼしゅうちゅう",
+      "a": "sedang mencari",
+      "e": "perusahaan sedang *mencari* karyawan",
+      "c": 1,
+      "x": "menunjukkan sedang menerima pendaftaran\nuntuk karyawan, peserta, atau donasi\nada スタッフ募集中 (sutaffu boshuuchuu/sedang cari staf)"
+    },
+    {
+      "q": "〜中",
+      "f": "ちゅう",
+      "a": "sedang 〜",
+      "e": "saya *sedang* belajar",
+      "c": 1,
+      "x": "sufiks yang berarti 'sedang dalam proses'\ncontoh: 勉強中 (benkyouchuu/sedang belajar)\nberlawanan dengan 完了 (kanryou/selesai)"
+    },
+    {
+      "q": "どういう〜",
+      "f": "どういう",
+      "a": "bagaimana 〜",
+      "e": "ini *bagaimana* maksudnya",
+      "c": 1,
+      "x": "kata tanya untuk meminta penjelasan\nbisa berarti 'jenis apa' atau 'maksudnya apa'\ncontoh: どういう意味 (dou iu imi/apa maksudnya)"
+    },
+    {
+      "q": "いくら［〜ても］",
+      "f": "いくら",
+      "a": "bagaimanapun",
+      "e": "*bagaimanapun* saya tetap mencoba",
+      "c": 1,
+      "x": "menyatakan meskipun dilakukan sebanyak apapun\ndiikuti 〜ても (~temo)\ncontoh: いくら食べても (ikura tabetemo/bagaimanapun makannya)"
+    },
+    {
+      "q": "もう〜ない",
+      "f": "もう",
+      "a": "tidak lagi",
+      "e": "saya *tidak lagi* pergi ke sana",
+      "c": 1,
+      "x": "menyatakan perubahan keadaan dari sebelumnya\ndiikuti bentuk negatif\ncontoh: もう食べない (mou tabenai/tidak makan lagi)"
+    },
+    {
+      "q": "あと〜",
+      "f": "あと",
+      "a": "sisa 〜",
+      "e": "*sisa* waktu sedikit lagi",
+      "c": 1,
+      "x": "menyatakan sisa waktu atau jumlah\ncontoh: あと5分 (ato go fun/sisa 5 menit)\njangan tertukar dengan 後 (ato/sesudah)"
+    },
+    {
+      "q": "〜ほど",
+      "f": "ほど",
+      "a": "kira-kira 〜",
+      "e": "butuh waktu *kira-kira* satu jam",
+      "c": 1,
+      "x": "menyatakan perkiraan jumlah atau derajat\ncontoh: 10人ほど (juunin hodo/kira-kira 10 orang)\njuga berarti 'semakin... semakin...' dengan pola 〜ほど〜ほど"
+    },
+    {
+      "q": "駐車違反",
+      "f": "ちゅうしゃいはん",
+      "a": "pelanggaran parkir",
+      "e": "dia kena *pelanggaran parkir*",
+      "c": 1,
+      "x": "gabungan 駐車 (parkir) + 違反 (pelanggaran)\ndenda di Jepang bisa mahal\nada tempat parkir berbayar untuk menghindari ini"
+    },
+    {
+      "q": "罰金",
+      "f": "ばっきん",
+      "a": "denda",
+      "e": "harus bayar *denda*",
+      "c": 1,
+      "x": "uang yang harus dibayar sebagai hukuman\nbeda dengan 反則金 (hansokukin/denda pelanggaran ringan)\nbisa untuk parkir, ngebut, atau pelanggaran lain"
+    },
+    {
+      "q": "起きる",
+      "f": "おきる",
+      "a": "terjadi",
+      "e": "kecelakaan *terjadi* tadi pagi",
+      "c": 1,
+      "x": "sesuatu mulai ada atau berlangsung\nberlawanan dengan 収まる (osamaru/mereda)\nuntuk kecelakaan, gempa, atau masalah",
+      "t": "が"
+    },
+    {
+      "q": "助け合う",
+      "f": "たすけあう",
+      "a": "saling membantu",
+      "e": "kita harus *saling membantu*",
+      "c": 1,
+      "x": "saling membantu satu sama lain\ngabungan 助ける (tasukeru/menolong) + 合う (au/saling)\npenting dalam masyarakat Jepang (相互扶助)",
+      "t": "を"
+    },
+    {
+      "q": "もともと",
+      "f": "もともと",
+      "a": "memang dari awal",
+      "e": "dia *memang dari awal* pintar",
+      "c": 1,
+      "x": "menyatakan keadaan asli sejak awal\nbisa ditulis 元元\nberlawanan dengan 後から (atokara/belakangan)"
+    },
+    {
+      "q": "悲しい",
+      "f": "かなしい",
+      "a": "sedih",
+      "e": "saya merasa *sedih*",
+      "c": 1,
+      "x": "i-adjective untuk kesedihan\nberlawanan dengan 嬉しい (ureshii/senang)\nbisa untuk perasaan kehilangan atau kekecewaan"
+    },
+    {
+      "q": "もっと",
+      "f": "もっと",
+      "a": "lebih",
+      "e": "saya ingin *lebih* belajar",
+      "c": 1,
+      "x": "adverbia untuk menyatakan lebih banyak/lebih intens\nberlawanan dengan もっと少なく (motto sukunaku/lebih sedikit)\nsering digunakan dalam perbandingan"
+    },
+    {
+      "q": "挨拶［をする］",
+      "f": "あいさつ",
+      "a": "salam, memberi salam",
+      "e": "ucapkan *salam* kepada guru\nsaya *memberi salam* saat masuk",
+      "c": 1,
+      "x": "kata benda, untuk kata kerjanya pakai 挨拶をする\npenting dalam budaya Jepang\nada おはよう (ohayou), こんにちは (konnichiwa), こんばんは (konbanwa)"
+    },
+    {
+      "q": "相手",
+      "f": "あいて",
+      "a": "lawan bicara, pasangan",
+      "e": "dia adalah *lawan bicara* saya\nitu *pasangan* saya",
+      "c": 1,
+      "x": "orang yang berinteraksi dengan kita\ndalam percakapan, olahraga, atau hubungan\nada 相手をする (aite wo suru/menemani)"
+    },
+    {
+      "q": "気持ち",
+      "f": "きもち",
+      "a": "perasaan",
+      "e": "*perasaan* saya campur aduk",
+      "c": 1,
+      "x": "keadaan emosional seseorang\nada 気持ちいい (kimochi ii/nyaman)\nbeda dengan 気分 (kibun) yang lebih ke kondisi fisik"
+    },
+    {
+      "q": "営業中",
+      "f": "えいぎょうちゅう",
+      "a": "sedang buka",
+      "e": "toko sedang *buka*",
+      "c": 1,
+      "x": "menunjukkan toko sedang beroperasi\nberlawanan dengan 準備中 (junbichuu/sedang persiapan)\nada di pintu toko atau restoran Jepang"
+    },
+    {
+      "q": "準備中",
+      "f": "じゅんびちゅう",
+      "a": "sedang persiapan",
+      "e": "toko sedang *persiapan*",
+      "c": 1,
+      "x": "menunjukkan toko sedang mempersiapkan diri\nberlawanan dengan 営業中 (eigyouchuu/sedang buka)\nsering terlihat sebelum jam buka"
+    },
+    {
+      "q": "閉店",
+      "f": "へいてん",
+      "a": "tutup toko",
+      "e": "toko sudah *tutup*",
+      "c": 1,
+      "x": "toko sudah menutup operasi\nberlawanan dengan 開店 (kaiten/buka toko)\nbisa untuk hari itu atau permanen"
+    },
+    {
+      "q": "定休日",
+      "f": "ていきゅうび",
+      "a": "hari libur tetap",
+      "e": "hari ini *hari libur tetap*",
+      "c": 1,
+      "x": "hari libur reguler toko atau restoran\nbiasanya seminggu sekali\ndi Jepang banyak toko tutup hari Rabu atau Kamis"
+    },
+    {
+      "q": "化粧室",
+      "f": "けしょうしつ",
+      "a": "toilet, kamar kecil, WC",
+      "e": "saya ke *toilet*\ndia mencari *kamar kecil*\ndi mana *WC*",
+      "c": 1,
+      "x": "kata halus untuk toilet\nada di restoran atau department store\nbiasanya lebih bersih dari トイレ (toilet biasa)"
+    },
+    {
+      "q": "禁煙席",
+      "f": "きんえんせき",
+      "a": "tempat duduk bebas rokok",
+      "e": "saya duduk di *tempat bebas rokok*",
+      "c": 1,
+      "x": "gabungan 禁煙 (bebas rokok) + 席 (tempat duduk)\nberlawanan dengan 喫煙席 (kitsuenseki/tempat merokok)\nbanyak restoran Jepang memisahkan area"
+    },
+    {
+      "q": "予約席",
+      "f": "よやくせき",
+      "a": "tempat duduk reservasi",
+      "e": "ini *tempat reservasi*",
+      "c": 1,
+      "x": "gabungan 予約 (reservasi) + 席 (tempat duduk)\nharus dipesan sebelumnya\nberlawanan dengan 自由席 (jiyuuseki/tempat bebas)"
+    }
+  ],
+  "13": [
+    {
+      "q": "火気厳禁",
+      "f": "かきげんきん",
+      "a": "dilarang api",
+      "e": "area ini *dilarang api*",
+      "c": 1,
+      "x": "peringatan dilarang menggunakan api\nada di pom bensin, pabrik, atau hutan\nmelanggar bisa menyebabkan kebakaran besar"
+    },
+    {
+      "q": "割れ物注意",
+      "f": "われものちゅうい",
+      "a": "hati-hati barang pecah belah",
+      "e": "paket ini *hati-hati barang pecah belah*",
+      "c": 1,
+      "x": "stiker pada paket berisi kaca atau keramik\nuntuk peringatan kurir dan penerima\nbarang seperti gelas, piring, atau botol"
+    },
+    {
+      "q": "運転初心者注意",
+      "f": "うんてんしょしんしゃちゅうい",
+      "a": "hati-hati pengemudi pemula",
+      "e": "harap *hati-hati pengemudi pemula*",
+      "c": 1,
+      "x": "stiker di mobil pengemudi pemula Jepang\nbentuk daun hijau dan kuning (若葉マーク)\npengemudi lain diharap lebih sabar"
+    },
+    {
+      "q": "工事中",
+      "f": "こうじちゅう",
+      "a": "sedang pembangunan",
+      "e": "jalan sedang *pembangunan*",
+      "c": 1,
+      "x": "menunjukkan area sedang dalam konstruksi\nada di jalan, gedung, atau trotoar\npekerja memakai helm dan rompi oranye"
+    },
+    {
+      "q": "塩素系漂白剤不可",
+      "f": "えんそけいひょうはくざいふか",
+      "a": "tidak boleh pemutih klorin",
+      "e": "baju ini *tidak boleh pemutih klorin*",
+      "c": 1,
+      "x": "label pada pakaian yang tidak tahan pemutih\npemutih klorin bisa merusak warna dan serat\ngunakan pemutih oksigen jika perlu"
+    },
+    {
+      "q": "手洗い",
+      "f": "てあらい",
+      "a": "cuci tangan",
+      "e": "baju harus *cuci tangan*",
+      "c": 1,
+      "x": "label pada pakaian yang tidak boleh dicuci mesin\nbiasanya untuk bahan halus seperti sutra atau wol\ngunakan deterjen lembut dan air dingin"
+    },
+    {
+      "q": "アイロン（低温）",
+      "f": "あいろん（ていおん）",
+      "a": "setrika suhu rendah",
+      "e": "baju ini *setrika suhu rendah*",
+      "c": 1,
+      "x": "label pada pakaian yang tidak tahan panas tinggi\nsuhu sekitar 80-120°C\nbiasanya untuk bahan sintetis seperti poliester"
+    },
+    {
+      "q": "［歯を］磨く",
+      "f": "みがく",
+      "a": "menggosok [gigi]",
+      "e": "saya *menggosok gigi* setiap pagi",
+      "c": 1,
+      "x": "membersihkan gigi dengan sikat dan pasta gigi\nfrasa tetap: 歯を磨く (ha wo migaku)\njuga bisa untuk sepatu (靴を磨く) atau lantai",
+      "t": "を"
+    },
+    {
+      "q": "組み立てる",
+      "f": "くみたてる",
+      "a": "merakit",
+      "e": "saya *merakit* meja",
+      "c": 1,
+      "x": "menyatukan bagian-bagian menjadi satu kesatuan\nberlawanan dengan 分解する (bunkai suru/membongkar)\nuntuk furnitur, mesin, atau mainan",
+      "t": "を"
+    },
+    {
+      "q": "折る",
+      "f": "おる",
+      "a": "melipat",
+      "e": "saya *melipat* kertas",
+      "c": 1,
+      "x": "membuat sesuatu menjadi berlipat\nberbeda dengan 畳む (tatamu) untuk pakaian\njuga berarti 'mematahkan' untuk tulang atau ranting",
+      "t": "を"
+    },
+    {
+      "q": "［忘れ物に］気が付く",
+      "f": "きがつく",
+      "a": "menyadari [barang tertinggal]",
+      "e": "saya *menyadari barang tertinggal*",
+      "c": 1,
+      "x": "menjadi sadar tentang sesuatu yang sebelumnya tidak diketahui\npakai partikel に untuk hal yang disadari\nberlawanan dengan 見逃す (minogasu/melewatkan)"
+    },
+    {
+      "q": "［醤油を］付ける",
+      "f": "つける",
+      "a": "mencelupkan [kecap asin]",
+      "e": "saya *mencelupkan kecap asin*",
+      "c": 1,
+      "x": "mencelupkan makanan ke dalam saus atau kecap\nuntuk sashimi, tempura, atau sushi\njuga berarti 'menempelkan' atau 'menyalakan'",
+      "t": "を"
+    },
+    {
+      "q": "見つかる",
+      "f": "みつかる",
+      "a": "ditemukan",
+      "e": "barang itu *ditemukan*",
+      "c": 1,
+      "x": "sesuatu yang hilang akhirnya ditemukan\nbentuk intransitif dari 見つける (mitsukeru/menemukan)\njuga berarti 'ketahuan' untuk rahasia atau kejahatan",
+      "t": "が"
+    },
+    {
+      "q": "質問する",
+      "f": "しつもんする",
+      "a": "bertanya",
+      "e": "saya *bertanya* kepada guru",
+      "c": 1,
+      "x": "mengajukan pertanyaan untuk mendapatkan informasi\npakai partikel を untuk pertanyaan, に untuk orang yang ditanya\nbeda dengan 聞く (kiku) yang lebih kasual",
+      "t": "を"
+    },
+    {
+      "q": "［傘を］差す",
+      "f": "さす",
+      "a": "memakai [payung]\nberpayung",
+      "e": "saya *memakai payung*\ndia *berpayung* saat hujan",
+      "c": 1,
+      "x": "membuka dan menggunakan payung\nfrasa tetap: 傘を差す (kasa wo sasu)\nberlawanan dengan 傘を閉じる (kasa wo tojiru/menutup payung)",
+      "t": "を"
+    },
+    {
+      "q": "スポーツクラブ",
+      "f": "すぽーつくらぶ",
+      "a": "klub olahraga",
+      "e": "saya ikut *klub olahraga*",
+      "c": 1,
+      "x": "serapan dari 'sports club'\ntempat untuk berolahraga bersama\nada berbagai fasilitas seperti gym, kolam renang, studio yoga"
+    },
+    {
+      "q": "［お］城",
+      "f": "しろ",
+      "a": "kastil",
+      "e": "itu *kastil* besar",
+      "c": 1,
+      "x": "bangunan bersejarah benteng Jepang\ncontoh: 姫路城 (Himeji-jo)\nbanyak yang jadi tujuan wisata"
+    },
+    {
+      "q": "説明書",
+      "f": "せつめいしょ",
+      "a": "buku petunjuk",
+      "e": "baca *buku petunjuk* dulu",
+      "c": 1,
+      "x": "gabungan 説明 (penjelasan) + 書 (dokumen)\nbiasanya untuk produk elektronik atau peralatan\nbaca sebelum menggunakan barang baru"
+    },
+    {
+      "q": "図",
+      "f": "ず",
+      "a": "diagram",
+      "e": "lihat *diagram* ini",
+      "c": 1,
+      "x": "gambaran visual dari informasi atau proses\nada 地図 (chizu/peta) dan 回路図 (kairozu/diagram sirkuit)\nmemudahkan penjelasan dibanding teks"
+    },
+    {
+      "q": "線",
+      "f": "せん",
+      "a": "garis",
+      "e": "tarik *garis* lurus",
+      "c": 1,
+      "x": "goresan panjang dan tipis\nada 直線 (chokusen/garis lurus) dan 曲線 (kyokusen/garis lengkung)\nuntuk menggambar, menulis, atau batas area"
+    },
+    {
+      "q": "矢印",
+      "f": "やじるし",
+      "a": "tanda panah",
+      "e": "ikuti *tanda panah*",
+      "c": 1,
+      "x": "simbol menunjuk arah\nada di papan petunjuk jalan atau diagram\nberbagai bentuk: ke kanan, kiri, atas, bawah"
+    },
+    {
+      "q": "紺",
+      "f": "こん",
+      "a": "biru tua",
+      "e": "warna ini *biru tua*",
+      "c": 1,
+      "x": "warna biru gelap seperti langit malam\npopuler untuk seragam, jas, dan kimono\nbeda dengan 青 (ao/biru terang)"
+    },
+    {
+      "q": "醤油",
+      "f": "しょうゆ",
+      "a": "kecap asin",
+      "e": "tambahkan *kecap asin*",
+      "c": 1,
+      "x": "bumbu dapur Jepang dari kedelai\nada berbagai jenis: koikuchi (kental), usukuchi (cair)\npenting untuk masakan Jepang seperti sushi dan teriyaki"
+    },
+    {
+      "q": "ソース",
+      "f": "そーす",
+      "a": "saus",
+      "e": "tambahkan *saus*",
+      "c": 1,
+      "x": "serapan dari 'sauce'\nsaus kental untuk okonomiyaki, tonkatsu, atau yakisoba\nbeda dengan 醤油 (shouyu/kecap asin)"
+    },
+    {
+      "q": "お客［さん］",
+      "f": "おきゃく",
+      "a": "tamu, pelanggan",
+      "e": "ada *tamu* datang\n*pelanggan* sedang menunggu",
+      "c": 2,
+      "x": "bentuk sopan untuk 'tamu' atau 'pelanggan'\ndari 客 (kyaku) + awalan お\npelayan toko memanggil pelanggan dengan お客様 (okyaku-sama)"
+    },
+    {
+      "q": "〜か〜",
+      "f": "か",
+      "a": "〜 atau 〜",
+      "e": "mau teh *atau* kopi",
+      "c": 1,
+      "x": "partikel untuk menyatakan pilihan\nbisa diulang untuk lebih dari dua pilihan\ncontoh: これかそれか (kore ka sore ka/ini atau itu)"
+    },
+    {
+      "q": "昨夜",
+      "f": "ゆうべ",
+      "a": "tadi malam",
+      "e": "*tadi malam* saya belajar",
+      "c": 1,
+      "x": "waktu antara sore hari hingga sebelum tidur\nbisa ditulis 夕べ\nbeda dengan 今夜 (kon'ya/malam ini)"
+    },
+    {
+      "q": "さっき",
+      "f": "さっき",
+      "a": "tadi",
+      "e": "*tadi* saya makan",
+      "c": 1,
+      "x": "waktu yang tidak lama yang lalu (menit yang lalu)\nbeda dengan さっき (sakki) untuk waktu lebih lama\nberlawanan dengan 今 (ima/sekarang)"
+    },
+    {
+      "q": "茶道",
+      "f": "さどう",
+      "a": "upacara teh",
+      "e": "dia belajar *upacara teh*",
+      "c": 1,
+      "x": "seni tradisional Jepang menyajikan teh hijau\nada aturan dan gerakan khusus\nbanyak orang Jepang mengambil kelas untuk mempelajarinya"
+    },
+    {
+      "q": "お茶を立てる",
+      "f": "おちゃをたてる",
+      "a": "membuat teh (upacara teh)",
+      "e": "dia *membuat teh*",
+      "c": 1,
+      "x": "frasa untuk membuat teh dalam upacara teh\nmenggunakan 茶筅 (chasen/pengocok teh bambu)\nbeda dengan お茶を入れる (ocha wo ireru/membuat teh biasa)",
+      "t": "を"
+    },
+    {
+      "q": "先に",
+      "f": "さきに",
+      "a": "lebih dulu",
+      "e": "saya pergi *lebih dulu*",
+      "c": 1,
+      "x": "menyatakan melakukan sesuatu sebelum orang lain\nberlawanan dengan 後で (atode/nanti)\nsering diucapkan saat meninggalkan tempat (お先に o-saki ni)"
+    },
+    {
+      "q": "乗せる",
+      "f": "のせる",
+      "a": "meletakkan di atas",
+      "e": "dia *meletakkan* barang di meja",
+      "c": 1,
+      "x": "menempatkan sesuatu di atas permukaan\nberlawanan dengan 降ろす (orosu/menurunkan)\njuga berarti 'mengajak' orang naik kendaraan",
+      "t": "を"
+    },
+    {
+      "q": "苦い",
+      "f": "にがい",
+      "a": "pahit",
+      "e": "obat ini *pahit*",
+      "c": 1,
+      "x": "i-adjective untuk rasa pahit\ncontoh: kopi, obat, atau sayuran tertentu\nberlawanan dengan 甘い (amai/manis)"
+    },
+    {
+      "q": "親子どんぶり",
+      "f": "おやこどんぶり",
+      "a": "oyakodon",
+      "e": "saya makan *oyakodon*",
+      "c": 1,
+      "x": "gabungan 親子 (orangtua-anak) + どんぶり (mangkuk)\nmasakan ayam dan telur di atas nasi\nnama karena ayam (orangtua) dan telur (anak)"
+    },
+    {
+      "q": "材料",
+      "f": "ざいりょう",
+      "a": "bahan",
+      "e": "siapkan *bahan* masakan",
+      "c": 1,
+      "x": "sesuatu yang digunakan untuk membuat sesuatu\nuntuk masakan: telur, tepung, sayuran\nbeda dengan 原料 (genryou/bahan mentah industri)"
+    },
+    {
+      "q": "〜分",
+      "f": "ぶん",
+      "a": "untuk 〜 porsi",
+      "e": "ini *untuk 2 porsi*",
+      "c": 1,
+      "x": "sufiks untuk menunjukkan porsi atau bagian\ncontoh: 三人分 (sannin bun/untuk 3 orang)\njuga bisa untuk waktu: 十分 (juupun/10 menit)"
+    },
+    {
+      "q": "〜グラム",
+      "f": "ぐらむ",
+      "a": "〜 gram",
+      "e": "butuh *200 gram* gula",
+      "c": 1,
+      "x": "serapan dari 'gram'\nsatuan berat dalam sistem metrik\n1 kg = 1000 gram, untuk takaran masak"
+    },
+    {
+      "q": "〜個",
+      "f": "こ",
+      "a": "〜 buah",
+      "e": "beli *3 buah* telur",
+      "c": 1,
+      "x": "penghitung umum untuk benda kecil\nuntuk telur, apel, atau kotak\ncontoh: 1個 (ikko), 2個 (niko), 3個 (sanko)"
+    },
+    {
+      "q": "玉ねぎ",
+      "f": "たまねぎ",
+      "a": "bawang bombai",
+      "e": "iris *bawang bombai*",
+      "c": 1,
+      "x": "sayuran bulat dengan lapisan-lapisan\nbisa membuat mata perih saat dipotong\nbahan dasar banyak masakan Jepang dan Barat"
+    },
+    {
+      "q": "４分の１",
+      "f": "よんぶんのいち",
+      "a": "seperempat",
+      "e": "gunakan *seperempat* bagian",
+      "c": 1,
+      "x": "pecahan yang berarti 1/4\nbentuk persen: 25%\nuntuk takaran masak, waktu, atau ukuran"
+    }
+  ],
+  "14": [
+    {
+      "q": "調味料",
+      "f": "ちょうみりょう",
+      "a": "bumbu",
+      "e": "tambahkan *bumbu* ke masakan",
+      "c": 1,
+      "x": "gabungan 調味 (membumbui) + 料 (bahan)\ncontoh: garam, gula, kecap, merica\npenting untuk menambah rasa pada masakan"
+    },
+    {
+      "q": "適当な大きさに",
+      "f": "てきとうなおおきさに",
+      "a": "ukuran yang sesuai",
+      "e": "potong dengan *ukuran yang sesuai*",
+      "c": 1,
+      "x": "frasa dalam resep masakan\n適当 (tekitou) berarti 'sesuai' atau 'seperlunya'\ntidak terlalu besar atau terlalu kecil"
+    },
+    {
+      "q": "鍋",
+      "f": "なべ",
+      "a": "panci",
+      "e": "masak sup di *panci*",
+      "c": 1,
+      "x": "alat masak untuk merebus atau memasak sup\nberbagai ukuran dan bahan (stainless, teflon, tanah liat)\nada 土鍋 (donabe/panci tanah liat) untuk hot pot"
+    },
+    {
+      "q": "火に掛ける",
+      "f": "ひにかける",
+      "a": "memasak\nmemanaskan\nmenaruh di atas api",
+      "e": "ibu sedang *memasak*\nair sedang *dipanaskan*\ntaruh panci di *atas api*",
+      "c": 1,
+      "x": "frasa yang berarti 'menaruh di atas api untuk memasak'\nuntuk panci, wajan, atau ketel\nberlawanan dengan 火を消す (hi wo kesu/mematikan api)",
+      "t": "を"
+    },
+    {
+      "q": "煮る",
+      "f": "にる",
+      "a": "merebus",
+      "e": "saya *merebus* sayur",
+      "c": 1,
+      "x": "memasak dalam air mendidih\nbiasanya untuk sayur, daging, atau telur\nbeda dengan 茹でる (yuderu) yang lebih untuk telur/pasta",
+      "t": "を"
+    },
+    {
+      "q": "煮える",
+      "f": "にえる",
+      "a": "matang",
+      "e": "sayur sudah *matang*",
+      "c": 1,
+      "x": "bentuk intransitif dari 煮る (matang dengan sendirinya)\nberlawanan dengan 煮る (menu/mentah)\nbiasa untuk makanan yang direbus hingga empuk",
+      "t": "が"
+    },
+    {
+      "q": "丼",
+      "f": "どんぶり",
+      "a": "mangkuk besar",
+      "e": "makan pakai *mangkuk besar*",
+      "c": 1,
+      "x": "mangkuk besar untuk masakan Jepang\nuntuk donburi (nasi dengan topping)\nada ukuran lebih kecil: 小丼 (kodon)"
+    },
+    {
+      "q": "経つ",
+      "f": "たつ",
+      "a": "lewat\nberlalu",
+      "e": "waktu sudah *lewat*\ntahun ini cepat *berlalu*",
+      "c": 1,
+      "x": "waktu berlalu atau berjalan\nbiasanya untuk waktu, hari, atau tahun\nberlawanan dengan 来る (kuru/datang) untuk waktu",
+      "t": "が"
+    },
+    {
+      "q": "焼く",
+      "f": "やく",
+      "a": "membakar\nmemanggang",
+      "e": "dia *membakar* ikan\nsaya *memanggang* roti",
+      "c": 1,
+      "x": "memasak dengan api langsung atau panas tinggi\nuntuk ikan, daging, roti, atau kue\nbeda dengan 炙る (aburu) yang lebih ke membakar permukaan",
+      "t": "を"
+    },
+    {
+      "q": "揚げる",
+      "f": "あげる",
+      "a": "menggoreng",
+      "e": "ibu *menggoreng* ayam",
+      "c": 1,
+      "x": "memasak dengan minyak banyak (deep frying)\nuntuk tempura, katsu, atau kentang goreng\nberlawanan dengan 煮る (niru/merebus)",
+      "t": "を"
+    },
+    {
+      "q": "炒める",
+      "f": "いためる",
+      "a": "menumis",
+      "e": "dia *menumis* sayur",
+      "c": 1,
+      "x": "memasak dengan minyak sedikit di wajan panas\nuntuk sayuran, daging, atau tahu\nbiasanya dengan api besar dan cepat",
+      "t": "を"
+    },
+    {
+      "q": "茹でる",
+      "f": "ゆでる",
+      "a": "merebus",
+      "e": "saya *merebus* telur",
+      "c": 1,
+      "x": "memasak dalam air mendidih\nkhusus untuk telur, pasta, atau sayuran\nbeda dengan 煮る (niru) yang lebih lama dan meresap",
+      "t": "を"
+    },
+    {
+      "q": "蒸す",
+      "f": "むす",
+      "a": "mengukus",
+      "e": "dia *mengukus* bakpao",
+      "c": 1,
+      "x": "memasak dengan uap panas\nuntuk bakpao, dimsum, atau sayuran\nlebih sehat karena tidak pakai minyak",
+      "t": "を"
+    },
+    {
+      "q": "炊く",
+      "f": "たく",
+      "a": "menanak nasi",
+      "e": "ibu *menanak nasi*",
+      "c": 1,
+      "x": "khusus untuk menanak nasi atau biji-bijian\nbisa pakai rice cooker atau panci\nfrasa tetap: ご飯を炊く (gohan wo taku)",
+      "t": "を"
+    },
+    {
+      "q": "剥く",
+      "f": "むく",
+      "a": "mengupas",
+      "e": "dia *mengupas* apel",
+      "c": 1,
+      "x": "membuang kulit buah atau sayuran\nuntuk apel, jeruk, kentang, atau wortel\nbeda dengan 皮を取る (kawa wo toru/ambil kulit)",
+      "t": "を"
+    },
+    {
+      "q": "刻む",
+      "f": "きざむ",
+      "a": "mencincang",
+      "e": "dia *mencincang* bawang",
+      "c": 1,
+      "x": "memotong menjadi potongan kecil-kecil\nuntuk bawang, sayuran, atau daging\nhasilnya biasanya untuk bumbu atau topping",
+      "t": "を"
+    },
+    {
+      "q": "掻き混ぜる",
+      "f": "かきまぜる",
+      "a": "mengaduk\nmencampur",
+      "e": "dia *mengaduk* sup\nsaya *mencampur* bahan",
+      "c": 1,
+      "x": "menggerakkan sendok atau spatula untuk mencampur\nuntuk sup, adonan, atau tumisan\nagar bumbu merata dan tidak gosong",
+      "t": "を"
+    },
+    {
+      "q": "砂糖",
+      "f": "さとう",
+      "a": "gula",
+      "e": "tambahkan *gula*",
+      "c": 1,
+      "x": "bumbu manis dari tebu atau bit\nada berbagai jenis: 白砂糖 (putih), 黒砂糖 (merah)\npenting untuk kue, minuman, dan masakan"
+    },
+    {
+      "q": "塩",
+      "f": "しお",
+      "a": "garam",
+      "e": "beri sedikit *garam*",
+      "c": 1,
+      "x": "bumbu asin dari air laut\nada 食塩 (shokuen/garam meja) dan 天然塩 (tennen'en/garam alami)\npenting untuk hampir semua masakan"
+    },
+    {
+      "q": "酢",
+      "f": "す",
+      "a": "cuka",
+      "e": "tambahkan *cuka*",
+      "c": 1,
+      "x": "bumbu asam hasil fermentasi\nada 米酢 (komesu/cuka beras) dan 穀物酢 (kokumotsusu/cuka biji-bijian)\nuntuk salad, acar, atau sushi"
+    },
+    {
+      "q": "味噌",
+      "f": "みそ",
+      "a": "miso\ntauco",
+      "e": "sup pakai *miso*\nsambal pakai *tauco*",
+      "c": 1,
+      "x": "bumbu fermentasi dari kedelai\nada yang merah (akamiso) dan putih (shiromiso)\nuntuk sup miso, bumbu ikan, atau sambal"
+    },
+    {
+      "q": "油",
+      "f": "あぶら",
+      "a": "minyak\nlemak",
+      "e": "panaskan *minyak*\nmakanan ini banyak *lemak*",
+      "c": 1,
+      "x": "cairan dari tumbuhan atau hewan\nada サラダ油 (saradaabura/minyak salad) dan ごま油 (gomaabura/minyak wijen)\nuntuk menggoreng, menumis, atau dressing"
+    },
+    {
+      "q": "マヨネーズ",
+      "f": "まよねーず",
+      "a": "mayones",
+      "e": "tambahkan *mayones*",
+      "c": 1,
+      "x": "serapan dari 'mayonnaise'\nsaus kental dari telur dan minyak\npopuler di Jepang untuk salad, sandwich, dan okonomiyaki"
+    },
+    {
+      "q": "ケチャップ",
+      "f": "けちゃっぷ",
+      "a": "saus tomat",
+      "e": "pakai *saus tomat*",
+      "c": 1,
+      "x": "serapan dari 'ketchup'\nsaus manis-asam dari tomat\nuntuk omelet, spaghetti, atau kentang goreng"
+    },
+    {
+      "q": "辛子",
+      "f": "からし",
+      "a": "mustard",
+      "e": "tambahkan *mustard*",
+      "c": 1,
+      "x": "bumbu pedas dari biji sawi\nada 和からし (wa karashi/mustard Jepang) dan 洋からし (you karashi/mustard Barat)\nuntuk hot dog, sandwich, atau oden"
+    },
+    {
+      "q": "胡椒",
+      "f": "こしょう",
+      "a": "merica",
+      "e": "taburkan *merica*",
+      "c": 1,
+      "x": "bumbu pedas dari biji merica\nada 黒胡椒 (kuro koshou/merica hitam) dan 白胡椒 (shiro koshou/merica putih)\nuntuk sup, daging, atau sayuran"
+    },
+    {
+      "q": "唐辛子",
+      "f": "とうがらし",
+      "a": "cabai",
+      "e": "tambahkan *cabai*",
+      "c": 1,
+      "x": "bumbu pedas dari tanaman capsicum\nada yang segar (生唐辛子) atau kering (乾燥唐辛子)\nuntuk sambal, kimchi, atau kari"
+    },
+    {
+      "q": "生姜",
+      "f": "しょうが",
+      "a": "jahe",
+      "e": "pakai *jahe*",
+      "c": 1,
+      "x": "rempah dengan rasa pedas hangat\nada jahe segar (生生姜) dan acar (ガリ)\nuntuk sup, tumisan, atau sushi"
+    },
+    {
+      "q": "山葵",
+      "f": "わさび",
+      "a": "wasabi",
+      "e": "makan sushi pakai *wasabi*",
+      "c": 1,
+      "x": "rempah pedas khas Jepang\nbiasa disajikan dengan sushi dan soba\nasli dari akar wasabi, tapi sering pakai pengganti"
+    },
+    {
+      "q": "カレー粉",
+      "f": "かれーこ",
+      "a": "bubuk kari",
+      "e": "pakai *bubuk kari*",
+      "c": 1,
+      "x": "serapan dari 'curry powder'\ncampuran berbagai rempah (kunyit, ketumbar, jinten)\nuntuk kari Jepang, nasi goreng, atau sup"
+    },
+    {
+      "q": "台所用品",
+      "f": "だいどころようひん",
+      "a": "peralatan dapur",
+      "e": "beli *peralatan dapur*",
+      "c": 1,
+      "x": "gabungan 台所 (dapur) + 用品 (peralatan)\ncontoh: panci, wajan, pisau, talenan\npenting untuk memasak sehari-hari"
+    },
+    {
+      "q": "薬缶",
+      "f": "やかん",
+      "a": "ketel\nceret",
+      "e": "air dipanaskan di *ketel*\ntuangkan dari *ceret*",
+      "c": 1,
+      "x": "alat untuk memanaskan air\nbiasa dari stainless steel atau kaca\nada yang manual di kompor dan listrik"
+    },
+    {
+      "q": "蓋",
+      "f": "ふた",
+      "a": "tutup",
+      "e": "tutup dengan *tutup*",
+      "c": 1,
+      "x": "penutup panci, wajan, atau wadah\nfungsi menjaga panas dan mencegah cipratan\nada yang dari kaca (lihat isi) atau logam"
+    },
+    {
+      "q": "お玉",
+      "f": "おたま",
+      "a": "sendok sayur",
+      "e": "ambil sup pakai *sendok sayur*",
+      "c": 1,
+      "x": "gabungan お (awalan sopan) + 玉 (bulat)\nsendok cekung untuk mengambil sup atau kuah\nada yang dari plastik, logam, atau kayu"
+    },
+    {
+      "q": "俎板",
+      "f": "まないた",
+      "a": "talenan",
+      "e": "potong di *talenan*",
+      "c": 1,
+      "x": "alas untuk memotong bahan makanan\nbahan dari kayu, plastik, atau bambu\npisahkan untuk daging, ikan, dan sayuran"
+    },
+    {
+      "q": "包丁",
+      "f": "ほうちょう",
+      "a": "pisau dapur",
+      "e": "potong pakai *pisau dapur*",
+      "c": 1,
+      "x": "pisau untuk memotong bahan makanan\nada berbagai jenis: 出刃包丁 (deba bouchou/untuk ikan), 菜切り包丁 (nakiri bouchou/untuk sayur)\njaga ketajaman agar aman digunakan"
+    },
+    {
+      "q": "布巾",
+      "f": "ふきん",
+      "a": "kain lap",
+      "e": "lap meja dengan *kain lap*",
+      "c": 1,
+      "x": "kain untuk membersihkan meja atau peralatan dapur\nada dari katun atau microfiber\npisahkan untuk piring, tangan, dan meja"
+    },
+    {
+      "q": "フライパン",
+      "f": "ふらいぱん",
+      "a": "wajan",
+      "e": "goreng di *wajan*",
+      "c": 1,
+      "x": "serapan dari 'frying pan'\nuntuk menggoreng, menumis, atau memanggang\nada lapisan anti lengket (teflon) dan stainless"
+    },
+    {
+      "q": "電子オーブンレンジ",
+      "f": "でんしおーぶんれんじ",
+      "a": "oven microwave",
+      "e": "panaskan di *oven microwave*",
+      "c": 1,
+      "x": "gabungan 電子 (elektronik) + オーブン (oven) + レンジ (microwave)\nuntuk memanaskan, memanggang, atau mencairkan\nbiasa disebut 電子レンジ (denshi renji)"
+    },
+    {
+      "q": "炊飯器",
+      "f": "すいはんき",
+      "a": "rice cooker",
+      "e": "masak nasi pakai *rice cooker*",
+      "c": 1,
+      "x": "gabungan 炊飯 (menanak nasi) + 器 (alat)\nalat listrik untuk memasak nasi\ndi Jepang hampir setiap rumah punya"
+    }
+  ],
+  "15": [
+    {
+      "q": "しゃもじ",
+      "f": "しゃもじ",
+      "a": "sendok nasi",
+      "e": "ambil nasi pakai *sendok nasi*",
+      "c": 1,
+      "x": "sendok khusus untuk mengambil nasi dari rice cooker\ntidak lengket karena biasanya dari plastik atau bambu\nsering tergantung di dekat rice cooker"
+    },
+    {
+      "q": "缶切り",
+      "f": "かんきり",
+      "a": "pembuka kaleng",
+      "e": "pakai *pembuka kaleng* ini",
+      "c": 1,
+      "x": "gabungan 缶 (kaleng) + 切り (pemotong)\nuntuk membuka tutup kaleng makanan\nada yang manual dan elektrik"
+    },
+    {
+      "q": "栓抜き",
+      "f": "せんぬき",
+      "a": "pembuka botol",
+      "e": "buka botol dengan *pembuka botol*",
+      "c": 1,
+      "x": "gabungan 栓 (sumbat) + 抜き (pencabut)\nuntuk membuka tutup botol bir atau minuman\nbiasanya dari logam"
+    },
+    {
+      "q": "笊",
+      "f": "ざる",
+      "a": "saringan",
+      "e": "gunakan *saringan* untuk mie",
+      "c": 1,
+      "x": "alat untuk meniriskan air dari makanan\nbiasa untuk mie, sayuran rebus, atau tahu\nada dari bambu (zaru soba) atau plastik"
+    },
+    {
+      "q": "ポット",
+      "f": "ぽっと",
+      "a": "termos",
+      "e": "air panas ada di *termos*",
+      "c": 1,
+      "x": "serapan dari 'pot'\nuntuk menyimpan air panas\nada 魔法瓶 (mahoubin) untuk termos vakum"
+    },
+    {
+      "q": "ガス台",
+      "f": "がすだい",
+      "a": "kompor gas",
+      "e": "masak di *kompor gas*",
+      "c": 1,
+      "x": "gabungan ガス (gas) + 台 (meja)\nkompor dengan api dari gas\nbisa 2 atau 3 tungku, berlawanan dengan 電気コンロ (denki konro/kompor listrik)"
+    },
+    {
+      "q": "流し［台］",
+      "f": "ながしだい",
+      "a": "bak cuci piring",
+      "e": "cuci piring di *bak cuci piring*",
+      "c": 1,
+      "x": "tempat mencuci piring di dapur\nbiasanya dari stainless steel\nada keran air dan tempat sabun"
+    },
+    {
+      "q": "換気扇",
+      "f": "かんきせん",
+      "a": "kipas ventilasi",
+      "e": "nyalakan *kipas ventilasi*",
+      "c": 1,
+      "x": "gabungan 換気 (ventilasi) + 扇 (kipas)\nuntuk mengeluarkan asap atau uap dari dapur\nada di dinding dekat kompor"
+    },
+    {
+      "q": "［花が］咲く",
+      "f": "さく",
+      "a": "[bunga] mekar",
+      "e": "*bunga mekar* di taman",
+      "c": 1,
+      "x": "kuncup bunga terbuka\nmusim semi di Jepang terkenal dengan 桜が咲く (sakura ga saku)\nberlawanan dengan 散る (chiru/gugur)",
+      "t": "が"
+    },
+    {
+      "q": "［色が］変わる",
+      "f": "かわる",
+      "a": "[warna] berubah",
+      "e": "*warna berubah* menjadi merah",
+      "c": 1,
+      "x": "menjadi berbeda dari sebelumnya\nberlawanan dengan 同じ (onaji/tetap sama)\nuntuk warna, cuaca, atau situasi",
+      "t": "が"
+    },
+    {
+      "q": "困る",
+      "f": "こまる",
+      "a": "bingung, kesulitan",
+      "e": "saya *bingung* harus bagaimana\ndia *kesulitan* menjawab",
+      "c": 1,
+      "x": "menghadapi masalah atau situasi sulit\nsering diucapkan saat tidak tahu solusi\nbeda dengan 迷う (mayou) yang lebih ke ragu memilih",
+      "t": "が"
+    },
+    {
+      "q": "［丸を］付ける",
+      "f": "つける",
+      "a": "memberi tanda lingkaran",
+      "e": "*beri tanda lingkaran* pada jawaban benar",
+      "c": 1,
+      "x": "frasa untuk memberi tanda lingkaran (maru)\ndi Jepang, 丸 (maru) berarti benar\nberlawanan dengan バツを付ける (batsu wo tsukeru/memberi tanda silang)",
+      "t": "を"
+    },
+    {
+      "q": "治る",
+      "f": "なおる",
+      "a": "sembuh",
+      "e": "lukanya sudah *sembuh*",
+      "c": 1,
+      "x": "kembali sehat setelah sakit atau luka\nberlawanan dengan 病気になる (byouki ni naru/jadi sakit)\nuntuk penyakit, luka, atau kondisi fisik",
+      "t": "が"
+    },
+    {
+      "q": "直る",
+      "f": "なおる",
+      "a": "diperbaiki, membaik",
+      "e": "komputernya sudah *diperbaiki*\nkondisinya mulai *membaik*",
+      "c": 1,
+      "x": "kembali normal setelah rusak atau salah\nberlawanan dengan 壊れる (kowareru/rusak)\nuntuk mesin, hubungan, atau perilaku",
+      "t": "が"
+    },
+    {
+      "q": "クリックする",
+      "f": "くりっくする",
+      "a": "klik",
+      "e": "*klik* tombol ini",
+      "c": 1,
+      "x": "suru verb dari 'click'\ntekan tombol mouse komputer\njuga untuk touchpad atau layar sentuh",
+      "t": "を"
+    },
+    {
+      "q": "入力する",
+      "f": "にゅうりょくする",
+      "a": "memasukkan data",
+      "e": "*memasukkan data* ke sistem",
+      "c": 1,
+      "x": "suru verb untuk memasukkan informasi ke komputer\nuntuk teks, angka, atau perintah\nberlawanan dengan 出力する (shutsuryoku suru/mengeluarkan data)",
+      "t": "を"
+    },
+    {
+      "q": "向こう",
+      "f": "むこう",
+      "a": "di sana, seberang",
+      "e": "dia ada di *sana*\ntoko ada di *seberang*",
+      "c": 1,
+      "x": "menunjukkan lokasi yang jauh dari pembicara\nbisa berarti 'seberang jalan' atau 'sisi lain'\nberlawanan dengan こちら (kochira/di sini)"
+    },
+    {
+      "q": "島",
+      "f": "しま",
+      "a": "pulau",
+      "e": "tinggal di *pulau* kecil",
+      "c": 1,
+      "x": "daratan yang dikelilingi air\nJepang adalah negara kepulauan\nada 本州 (Honshu), 北海道 (Hokkaido), 九州 (Kyushu), 四国 (Shikoku)"
+    },
+    {
+      "q": "港",
+      "f": "みなと",
+      "a": "pelabuhan",
+      "e": "kapal tiba di *pelabuhan*",
+      "c": 1,
+      "x": "tempat kapal bersandar dan bongkar muat\nada 漁港 (gyokou/pelabuhan ikan) dan 貿易港 (bouekikou/pelabuhan dagang)\nkota pelabuhan terkenal: Yokohama, Kobe, Nagasaki"
+    },
+    {
+      "q": "近所",
+      "f": "きんじょ",
+      "a": "lingkungan sekitar",
+      "e": "dia tinggal di *lingkungan sekitar* sini",
+      "c": 1,
+      "x": "area di dekat tempat tinggal\nada 近所付き合い (kinjo tsukiai/hubungan dengan tetangga)\npenting untuk menjaga hubungan baik di Jepang"
+    },
+    {
+      "q": "屋上",
+      "f": "おくじょう",
+      "a": "atap gedung",
+      "e": "naik ke *atap gedung*",
+      "c": 1,
+      "x": "bagian atas gedung yang datar\nbisa untuk taman, jemuran, atau tempat nongkrong\nbeda dengan 屋根 (yane/atap miring)"
+    },
+    {
+      "q": "外国",
+      "f": "がいこく",
+      "a": "luar negeri",
+      "e": "pergi ke *luar negeri*",
+      "c": 1,
+      "x": "negara selain Jepang\nberlawanan dengan 国内 (kokunai/dalam negeri)\nbepergian ke luar negeri disebut 海外旅行 (kaigai ryokou)"
+    },
+    {
+      "q": "山登り",
+      "f": "やまのぼり",
+      "a": "mendaki gunung",
+      "e": "hobi saya *mendaki gunung*",
+      "c": 1,
+      "x": "gabungan 山 (gunung) + 登り (naik)\naktivitas mendaki gunung\npopuler di Jepang, terutama Gunung Fuji"
+    },
+    {
+      "q": "歴史",
+      "f": "れきし",
+      "a": "sejarah",
+      "e": "belajar *sejarah* Jepang",
+      "c": 1,
+      "x": "peristiwa masa lalu dan catatannya\nada 日本史 (nihonshi/sejarah Jepang) dan 世界史 (sekaishi/sejarah dunia)\npelajaran wajib di sekolah Jepang"
+    },
+    {
+      "q": "機会",
+      "f": "きかい",
+      "a": "kesempatan",
+      "e": "ini *kesempatan* bagus",
+      "c": 1,
+      "x": "waktu yang tepat untuk melakukan sesuatu\nada 機会があれば (kikai ga areba/jika ada kesempatan)\nbeda dengan チャンス (chansu) yang lebih kasual"
+    },
+    {
+      "q": "許可",
+      "f": "きょか",
+      "a": "izin",
+      "e": "butuh *izin* dulu",
+      "c": 1,
+      "x": "persetujuan untuk melakukan sesuatu\nsebagai kata kerja: 許可する (kyoka suru/mengizinkan)\nberlawanan dengan 禁止 (kinnshi/larang)"
+    },
+    {
+      "q": "丸",
+      "f": "まる",
+      "a": "lingkaran",
+      "e": "gambar *lingkaran* di kertas",
+      "c": 1,
+      "x": "bentuk bulat sempurna\ndi Jepang, 丸 (maru) berarti benar\nberlawanan dengan バツ (batsu/tanda silang)"
+    },
+    {
+      "q": "振り仮名",
+      "f": "ふりがな",
+      "a": "furigana",
+      "e": "kanji ada *furigana*",
+      "c": 1,
+      "x": "hiragana kecil di atas atau samping kanji\nuntuk membantu membaca kanji\nsering ada di buku anak-anak atau manga"
+    },
+    {
+      "q": "設備",
+      "f": "せつび",
+      "a": "fasilitas",
+      "e": "*fasilitas* di sini lengkap",
+      "c": 1,
+      "x": "peralatan atau sistem yang disediakan\nada 設備が整っている (setsubi ga totonotteiru/fasilitas lengkap)\nuntuk bangunan, kantor, atau kamar hotel"
+    },
+    {
+      "q": "レバー",
+      "f": "ればー",
+      "a": "tuas",
+      "e": "tarik *tuas* ini",
+      "c": 1,
+      "x": "serapan dari 'lever'\nbatang untuk mengoperasikan mesin\nada di kursi mobil, mesin, atau peralatan"
+    },
+    {
+      "q": "キー",
+      "f": "きー",
+      "a": "tombol, keyboard",
+      "e": "tekan *tombol* enter\npakai *keyboard* untuk mengetik",
+      "c": 1,
+      "x": "serapan dari 'key'\nuntuk tombol pada keyboard, remote, atau mesin\njuga berarti 'kunci' dalam musik atau olahraga"
+    },
+    {
+      "q": "カーテン",
+      "f": "かーてん",
+      "a": "tirai, gorden",
+      "e": "tutup *tirai* jendela\npasang *gorden* baru",
+      "c": 1,
+      "x": "serapan dari 'curtain'\npenutup jendela dari kain\nada レースカーテン (reesu kaaten/tirai tipis) dan 遮光カーテン (shakou kaaten/tirai tebal)"
+    },
+    {
+      "q": "紐",
+      "f": "ひも",
+      "a": "tali",
+      "e": "ikat dengan *tali*",
+      "c": 1,
+      "x": "benang tebal untuk mengikat\nada berbagai jenis: nilon, katun, kulit\nuntuk sepatu, kado, atau tas"
+    },
+    {
+      "q": "葉",
+      "f": "は",
+      "a": "daun",
+      "e": "*daun* jatuh dari pohon",
+      "c": 1,
+      "x": "bagian hijau pada tumbuhan\nada 紅葉 (kouyou/daun musim gugur)\nberfotosintesis untuk makanan tumbuhan"
+    },
+    {
+      "q": "もっと",
+      "f": "もっと",
+      "a": "lebih",
+      "e": "belajar *lebih* giat",
+      "c": 1,
+      "x": "adverbia untuk menyatakan lebih banyak/lebih intens\nberlawanan dengan もっと少なく (motto sukunaku/lebih sedikit)\nsering digunakan dalam perbandingan atau dorongan"
+    },
+    {
+      "q": "それなら",
+      "f": "それなら",
+      "a": "kalau begitu",
+      "e": "*kalau begitu* kita pergi",
+      "c": 1,
+      "x": "konjungsi untuk menarik kesimpulan dari situasi\nberarti 'jika memang begitu'\nlebih kasual daripada それでは (sore de wa)"
+    },
+    {
+      "q": "夜行バス",
+      "f": "やこうばす",
+      "a": "bus malam",
+      "e": "naik *bus malam* ke Tokyo",
+      "c": 1,
+      "x": "gabungan 夜行 (perjalanan malam) + バス (bus)\nbus yang berjalan di malam hari\nmurah untuk perjalanan jauh, bisa tidur di bus"
+    },
+    {
+      "q": "旅行社",
+      "f": "りょこうしゃ",
+      "a": "agen perjalanan",
+      "e": "pesan tiket di *agen perjalanan*",
+      "c": 1,
+      "x": "gabungan 旅行 (perjalanan) + 社 (perusahaan)\nmenjual tiket dan paket wisata\nbeda dengan 旅行会社 (ryokou gaisha) yang lebih umum"
+    },
+    {
+      "q": "詳しい",
+      "f": "くわしい",
+      "a": "detail, paham",
+      "e": "dia sangat *detail*\nsaya tidak *paham* soal ini",
+      "c": 1,
+      "x": "i-adjective\nmengetahui banyak tentang suatu topik\nberlawanan dengan 知らない (shiranai/tidak tahu)\nuntuk orang yang paham atau informasi yang detail"
+    },
+    {
+      "q": "スキー場",
+      "f": "すきーじょう",
+      "a": "tempat ski",
+      "e": "pergi ke *tempat ski*",
+      "c": 1,
+      "x": "gabungan スキー (ski) + 場 (tempat)\nresort untuk bermain ski\ndi Jepang banyak di Hokkaido dan Nagano"
+    }
+  ]
+}
