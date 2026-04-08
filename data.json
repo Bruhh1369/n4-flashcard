@@ -5293,5 +5293,343 @@
       "c": 1,
       "x": "kondisi tubuh dan pikiran yang baik\nberlawanan dengan 不健康 (fukenkou/tidak sehat)\nada ungkapan 健康第一 (kenkou daiichi/kesehatan nomor satu)"
     }
+  ],
+  "17": [
+    {
+      "q": "規則正しい",
+      "f": "きそくただしい",
+      "a": "teratur",
+      "e": "hidup *teratur*",
+      "c": 1,
+      "x": "teratur dalam perilaku atau jadwal\nberlawanan dengan 不規則 (fukisoku/tidak teratur)\nbaik untuk kesehatan mental dan fisik"
+    },
+    {
+      "q": "夜更かし［をする］",
+      "f": "よふかし",
+      "a": "begadang",
+      "e": "jangan *begadang*",
+      "c": 1,
+      "x": "begadang atau tidak tidur semalaman\nberlawanan dengan 早寝 (hayane/cepat tidur)\ndapat menyebabkan masalah kesehatan"
+    },
+    {
+      "q": "早寝",
+      "f": "はやね",
+      "a": "cepat tidur",
+      "e": "biasakan *cepat tidur*",
+      "c": 1,
+      "x": "tidur lebih awal dari biasanya\nberlawanan dengan 夜更かし (yofukashi/begadang)\nbagian dari gaya hidup sehat"
+    },
+    {
+      "q": "早起き［をする］",
+      "f": "はやおき",
+      "a": "bangun pagi-pagi",
+      "e": "saya *bangun pagi-pagi*",
+      "c": 1,
+      "x": "bangun pagi-pagi sekali\nberlawanan dengan 寝坊 (nebou/tidur kesiangan)\nbudaya Jepang (早起きは三文の徳)"
+    },
+    {
+      "q": "好き嫌い［がある］",
+      "f": "すききらい",
+      "a": "pilih-pilih",
+      "e": "dia *pilih-pilih* makanan",
+      "c": 1,
+      "x": "pilih-pilih makanan\nberlawanan dengan 何でも食べる (nandemo taberu/makan apa saja)\nbiasanya untuk anak-anak"
+    },
+    {
+      "q": "インスタント食品",
+      "f": "いんすたんとしょくひん",
+      "a": "makanan instan",
+      "e": "hindari *makanan instan*",
+      "c": 1,
+      "x": "makanan yang bisa disiapkan cepat\ncontoh: mi instan, frozen food, kalengan\nberlawanan dengan 手作り (tedukuri/buatan rumah)"
+    },
+    {
+      "q": "外食",
+      "f": "がいしょく",
+      "a": "makan di luar",
+      "e": "saya sering *makan di luar*",
+      "c": 1,
+      "x": "makan di restoran atau luar rumah\nberlawanan dengan 内食 (naishoku/makan di rumah)\npopuler di Jepang karena sibuk"
+    },
+    {
+      "q": "栄養",
+      "f": "えいよう",
+      "a": "gizi",
+      "e": "pentingnya *gizi*",
+      "c": 1,
+      "x": "zat yang dibutuhkan tubuh untuk hidup\nberlawanan dengan ジャンクフード (janku fuudo/makanan tidak sehat)\npenting untuk tumbuh kembang"
+    },
+    {
+      "q": "健康診断",
+      "f": "けんこうしんだん",
+      "a": "pemeriksaan kesehatan",
+      "e": "ikut *pemeriksaan kesehatan*",
+      "c": 1,
+      "x": "pemeriksaan rutin kondisi tubuh\nbiasanya setahun sekali di Jepang\nmeliputi tinggi, berat, tensi, darah"
+    },
+    {
+      "q": "栄養素",
+      "f": "えいようそ",
+      "a": "nutrisi",
+      "e": "butuh *nutrisi*",
+      "c": 1,
+      "x": "zat spesifik dalam makanan yang dibutuhkan tubuh\ncontoh: protein, vitamin, mineral\nbeda dengan 栄養 (eiyou) yang lebih umum"
+    },
+    {
+      "q": "含む",
+      "f": "ふくむ",
+      "a": "mengandung",
+      "e": "makanan ini *mengandung* vitamin",
+      "c": 1,
+      "x": "memiliki atau terdiri dari bagian di dalamnya\npakai partikel を untuk objek yang mengandung\nberlawanan dengan 除く (nozoku/mengecualikan)",
+      "t": "を"
+    },
+    {
+      "q": "炭水化物",
+      "f": "たんすいかぶつ",
+      "a": "karbohidrat",
+      "e": "nasi sumber *karbohidrat*",
+      "c": 1,
+      "x": "sumber energi utama tubuh\nditemukan di nasi, roti, pasta\nberlawanan dengan タンパク質 (tanpakushitsu/protein)"
+    },
+    {
+      "q": "芋",
+      "f": "いも",
+      "a": "kentang",
+      "e": "makan *kentang*",
+      "c": 1,
+      "x": "umbi-umbian seperti kentang, ubi jalar\nbisa direbus, digoreng, atau ditumbuk\nsumber karbohidrat dan serat"
+    },
+    {
+      "q": "脂肪",
+      "f": "しぼう",
+      "a": "lemak",
+      "e": "kurangi *lemak*",
+      "c": 1,
+      "x": "lemak dalam tubuh atau makanan\nberlawanan dengan 低脂肪 (teishibou/rendah lemak)\nada lemak baik dan jahat"
+    },
+    {
+      "q": "豆腐",
+      "f": "とうふ",
+      "a": "tahu",
+      "e": "makan *tahu*",
+      "c": 1,
+      "x": "makanan dari kedelai yang digumpalkan\nsumber protein nabati\nbisa untuk sup, tumis, atau mentah"
+    },
+    {
+      "q": "豆",
+      "f": "まめ",
+      "a": "kacang-kacangan",
+      "e": "suka *kacang-kacangan*",
+      "c": 1,
+      "x": "kacang-kacangan dan biji-bijian\nsumber protein dan serat\ncontoh: kedelai, kacang hijau, kacang merah"
+    },
+    {
+      "q": "海苔",
+      "f": "のり",
+      "a": "nori\nolahan rumput laut",
+      "e": "makan *nori*\nsuka *olahan rumput laut*",
+      "c": 2,
+      "x": "rumput laut yang dipres menjadi lembaran\nsering untuk bungkus sushi atau topping\nkaya akan mineral dan vitamin"
+    },
+    {
+      "q": "カルシウム",
+      "f": "かるしうむ",
+      "a": "kalsium",
+      "e": "butuh *kalsium*",
+      "c": 1,
+      "x": "mineral untuk tulang dan gigi\nada di susu, ikan, dan sayuran hijau\nberlawanan dengan kekurangan kalsium (osteoporosis)"
+    },
+    {
+      "q": "海草",
+      "f": "かいそう",
+      "a": "rumput laut",
+      "e": "makan *rumput laut*",
+      "c": 1,
+      "x": "tumbuhan yang hidup di laut\ncontoh: nori, wakame, kombu\nkaya akan yodium dan mineral"
+    },
+    {
+      "q": "ビタミン",
+      "f": "びたみん",
+      "a": "vitamin",
+      "e": "minum *vitamin*",
+      "c": 1,
+      "x": "senyawa organik penting untuk tubuh\nada berbagai jenis (A, B, C, D, E)\ndiperoleh dari buah, sayur, dan suplemen"
+    },
+    {
+      "q": "褒める",
+      "f": "ほめる",
+      "a": "memuji",
+      "e": "guru *memuji*",
+      "c": 1,
+      "x": "mengatakan hal baik tentang seseorang\nberlawanan dengan 叱る (shikaru/memarahi)\nbisa untuk hasil kerja atau perilaku",
+      "t": "を"
+    },
+    {
+      "q": "叱る",
+      "f": "しかる",
+      "a": "memarahi",
+      "e": "ibu *memarahi*",
+      "c": 1,
+      "x": "mengatakan hal buruk atau kesalahan seseorang\nberlawanan dengan 褒める (homeru/memuji)\nbiasanya untuk koreksi atau disiplin",
+      "t": "を"
+    },
+    {
+      "q": "招待する",
+      "f": "しょうたいする",
+      "a": "mengundang",
+      "e": "saya *mengundang* teman",
+      "c": 1,
+      "x": "mengajak seseorang datang ke acara\npakai partikel を untuk orang yang diundang\nberlawanan dengan 断る (kotowaru/menolak)",
+      "t": "を"
+    },
+    {
+      "q": "頼む",
+      "f": "たのむ",
+      "a": "meminta",
+      "e": "saya *meminta* bantuan",
+      "c": 1,
+      "x": "meminta tolong atau memesan sesuatu\npakai partikel に untuk orang yang dimintai\nberlawanan dengan 断る (kotowaru/menolak)",
+      "t": "を"
+    },
+    {
+      "q": "注意する",
+      "f": "ちゅういする",
+      "a": "menasihati",
+      "e": "dia *menasihati* saya",
+      "c": 1,
+      "x": "memberi peringatan agar hati-hati\npakai partikel を untuk hal yang diperingatkan\nberlawanan dengan 無視する (mushi suru/mengabaikan)",
+      "t": "を"
+    },
+    {
+      "q": "取る",
+      "f": "とる",
+      "a": "mencuri",
+      "e": "dia *mencuri* uang",
+      "c": 1,
+      "x": "mengambil milik orang lain tanpa izin\nberlawanan dengan 返す (kaesu/mengembalikan)\ntermasuk tindakan kriminal",
+      "t": "を"
+    },
+    {
+      "q": "踏む",
+      "f": "ふむ",
+      "a": "menginjak",
+      "e": "jangan *menginjak* rumput",
+      "c": 1,
+      "x": "meletakkan kaki di atas sesuatu\npakai partikel を untuk benda yang diinjak\nberlawanan dengan 避ける (sakeru/menghindari)",
+      "t": "を"
+    },
+    {
+      "q": "壊す",
+      "f": "こわす",
+      "a": "merusak",
+      "e": "jangan *merusak* barang",
+      "c": 1,
+      "x": "membuat sesuatu menjadi tidak berfungsi\nberlawanan dengan 直す (naosu/memperbaiki)\nbisa untuk barang atau sistem",
+      "t": "を"
+    },
+    {
+      "q": "汚す",
+      "f": "よごす",
+      "a": "mengotori",
+      "e": "jangan *mengotori* lantai",
+      "c": 1,
+      "x": "membuat sesuatu menjadi kotor\nberlawanan dengan 掃除する (souji suru/membersihkan)\nbisa untuk baju, lantai, atau nama baik",
+      "t": "を"
+    },
+    {
+      "q": "行う",
+      "f": "おこなう",
+      "a": "mengadakan",
+      "e": "mereka *mengadakan* acara",
+      "c": 1,
+      "x": "melakukan atau melaksanakan sesuatu\npakai partikel を untuk kegiatan yang dilakukan\nlebih formal daripada する (suru)",
+      "t": "を"
+    },
+    {
+      "q": "輸出する",
+      "f": "ゆしゅつする",
+      "a": "mengekspor",
+      "e": "negara itu *mengekspor* barang",
+      "c": 1,
+      "x": "mengirim barang ke luar negeri untuk dijual\nberlawanan dengan 輸入する (yunyuu suru/mengimpor)\npenting untuk ekonomi Jepang",
+      "t": "を"
+    },
+    {
+      "q": "輸入する",
+      "f": "ゆにゅうする",
+      "a": "mengimpor",
+      "e": "kita *mengimpor* bahan",
+      "c": 1,
+      "x": "membawa barang dari luar negeri\nberlawanan dengan 輸出する (yushutsu suru/mengekspor)\nbanyak produk asing di Jepang",
+      "t": "を"
+    },
+    {
+      "q": "翻訳する",
+      "f": "ほんやくする",
+      "a": "menerjemahkan",
+      "e": "dia *menerjemahkan* teks",
+      "c": 1,
+      "x": "mengubah teks dari satu bahasa ke bahasa lain\npakai partikel を untuk teks yang diterjemahkan\nberlawanan dengan 誤訳する (goyaku suru/salah terjemah)",
+      "t": "を"
+    },
+    {
+      "q": "発明する",
+      "f": "はつめいする",
+      "a": "menciptakan",
+      "e": "ilmuwan *menciptakan* alat",
+      "c": 1,
+      "x": "menciptakan sesuatu yang belum pernah ada sebelumnya\nberlawanan dengan 模倣する (mohou suru/meniru)\ncontoh: mesin, teknologi, obat",
+      "t": "を"
+    },
+    {
+      "q": "発見する",
+      "f": "はっけんする",
+      "a": "menemukan",
+      "e": "dia *menemukan* solusi",
+      "c": 1,
+      "x": "menemukan sesuatu yang sudah ada tapi belum diketahui\nberlawanan dengan 隠す (kakusu/menyembunyikan)\ncontoh: planet, bakteri, hukum alam",
+      "t": "を"
+    },
+    {
+      "q": "米",
+      "f": "こめ",
+      "a": "beras",
+      "e": "beli *beras*",
+      "c": 1,
+      "x": "biji-bijian pokok makanan Jepang\nbisa untuk nasi, kue, atau sake\nberlawanan dengan パン (pan/roti)"
+    },
+    {
+      "q": "麦",
+      "f": "むぎ",
+      "a": "gandum",
+      "e": "makan *gandum*",
+      "c": 1,
+      "x": "biji-bijian untuk roti, pasta, atau bir\ncontoh: gandum, barley, oat\nbeda dengan 米 (kome/beras)"
+    },
+    {
+      "q": "石油",
+      "f": "せきゆ",
+      "a": "minyak tanah",
+      "e": "pakai *minyak tanah*",
+      "c": 1,
+      "x": "cairan hitam kental untuk bahan bakar\nsumber energi utama dunia\nberlawanan dengan 再生可能エネルギー (saisei kanou enerugii/energi terbarukan)"
+    },
+    {
+      "q": "原料",
+      "f": "げんりょう",
+      "a": "bahan baku",
+      "e": "siapkan *bahan baku*",
+      "c": 1,
+      "x": "bahan dasar untuk membuat produk\ncontoh: kayu untuk meja, besi untuk mobil\nberlawanan dengan 製品 (seihin/barang jadi)"
+    },
+    {
+      "q": "インスタントラーメン",
+      "f": "いんすたんとらーめん",
+      "a": "mie instan",
+      "e": "makan *mie instan*",
+      "c": 1,
+      "x": "mi yang dimasak cepat dengan air panas\ndiciptakan oleh Momofuku Ando di Jepang\npopuler di seluruh dunia"
+    }
   ]
 }
