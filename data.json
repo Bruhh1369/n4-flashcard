@@ -5631,5 +5631,340 @@
       "c": 1,
       "x": "mi yang dimasak cepat dengan air panas\ndiciptakan oleh Momofuku Ando di Jepang\npopuler di seluruh dunia"
     }
+  ],
+  "18": [
+    {
+      "q": "デート",
+      "f": "でーと",
+      "a": "kencan",
+      "e": "pergi *kencan*",
+      "c": 1,
+      "x": "janji bertemu dengan pacar atau calon pasangan\nbiasanya ke restoran, film, atau taman\npopuler di hari libur atau akhir pekan"
+    },
+    {
+      "q": "泥棒",
+      "f": "どろぼう",
+      "a": "pencuri",
+      "e": "dia seorang *pencuri*",
+      "c": 1,
+      "x": "orang yang mengambil barang milik orang lain tanpa izin\nberlawanan dengan 警察 (keisatsu/polisi)\nhati-hati di tempat ramai"
+    },
+    {
+      "q": "警官",
+      "f": "けいかん",
+      "a": "polisi",
+      "e": "dia *polisi*",
+      "c": 1,
+      "x": "aparat penegak hukum yang menangkap penjahat\nnomor darurat di Jepang: 110\nada di kantor polisi (交番) di setiap daerah"
+    },
+    {
+      "q": "世界中",
+      "f": "せかいじゅう",
+      "a": "seluruh dunia",
+      "e": "terkenal di *seluruh dunia*",
+      "c": 1,
+      "x": "seluruh negara atau wilayah di bumi\nberlawanan dengan 日本中 (nihonjuu/seluruh Jepang)\nbiasa untuk berita atau fenomena global"
+    },
+    {
+      "q": "〜中",
+      "f": "じゅう",
+      "a": "seluruh 〜",
+      "e": "berlaku *seluruh* kota",
+      "c": 1,
+      "x": "seluruh bagian dari sesuatu\ncontoh: 世界中 (sekaijuu/seluruh dunia)\nmelekat pada kata benda untuk menunjukkan keseluruhan"
+    },
+    {
+      "q": "何語",
+      "f": "何語",
+      "a": "bahasa apa",
+      "e": "ini *bahasa apa*",
+      "c": 1,
+      "x": "menanyakan nama bahasa yang digunakan\ncontoh jawaban: 日本語 (nihongo/bahasa Jepang)\nuntuk turis atau belajar bahasa"
+    },
+    {
+      "q": "ロシア",
+      "f": "ろしあ",
+      "a": "rusia",
+      "e": "dia dari *Rusia*",
+      "c": 1,
+      "x": "negara terbesar di dunia\nberbatasan dengan banyak negara di Eropa dan Asia\nibukota Moskow, bahasa Rusia"
+    },
+    {
+      "q": "皆様",
+      "f": "みなさま",
+      "a": "semuanya",
+      "e": "*semuanya* hadir",
+      "c": 1,
+      "x": "bentuk sangat sopan untuk 'semua orang'\ndari 皆 (mina/semua) + 様 (sama/hormat)\ndigunakan dalam pidato atau pengumuman"
+    },
+    {
+      "q": "［うちが］焼ける",
+      "f": "やける",
+      "a": "[rumah] terbakar",
+      "e": "*rumah terbakar*",
+      "c": 1,
+      "x": "rumah atau bangunan terbakar karena api\nberlawanan dengan 消える (kieru/padam)\nbisa karena kebakaran atau pembakaran",
+      "t": "が"
+    },
+    {
+      "q": "その後",
+      "f": "そのご",
+      "a": "setelah, sesudah",
+      "e": "*setelah* itu saya pulang",
+      "c": 2,
+      "x": "waktu setelah suatu peristiwa\nberlawanan dengan 前 (mae/sebelum)\nsering untuk cerita atau urutan kejadian"
+    },
+    {
+      "q": "世界遺産",
+      "f": "せかいいさん",
+      "a": "situs warisan dunia (UNESCO)",
+      "e": "ini *situs warisan dunia*",
+      "c": 1,
+      "x": "tempat atau benda yang diakui UNESCO\ncontoh di Jepang: Gunung Fuji, Hiroshima, Kyoto\ndilindungi untuk generasi mendatang"
+    },
+    {
+      "q": "〜の一つ",
+      "f": "のひとつ",
+      "a": "salah satu 〜",
+      "e": "ini *salah satu* contoh",
+      "c": 1,
+      "x": "salah satu dari banyak pilihan atau anggota\ncontoh: 日本の一つの都市 (salah satu kota di Jepang)\nuntuk menyebut contoh tanpa menyebut semua"
+    },
+    {
+      "q": "本物",
+      "f": "ほんもの",
+      "a": "asli",
+      "e": "ini barang *asli*",
+      "c": 1,
+      "x": "benda asli bukan tiruan atau palsu\nberlawanan dengan 偽物 (nisemono/palsu)\nbiasanya untuk barang mewah atau karya seni"
+    },
+    {
+      "q": "〜キロ",
+      "f": "きろ",
+      "a": "〜 kilogram\n〜 kilometer",
+      "e": "beratnya 5 *kilogram*\njaraknya 5 *kilometer*",
+      "c": 2,
+      "x": "satuan panjang (kilometer) atau berat (kilogram)\n1 km = 1000 meter, 1 kg = 1000 gram\nuntuk jarak antar kota atau berat badan"
+    },
+    {
+      "q": "美しい",
+      "f": "うつくしい",
+      "a": "indah, elok",
+      "e": "pemandangan itu *indah*\n*elok*",
+      "c": 2,
+      "x": "enak dipandang atau didengar\nberlawanan dengan 醜い (minikui/jelek)\nuntuk pemandangan, wajah, atau suara"
+    },
+    {
+      "q": "豪華［な］",
+      "f": "ごうか",
+      "a": "mewah",
+      "e": "hotel itu *mewah*",
+      "c": 1,
+      "x": "mewah atau megah dalam penampilan\nberlawanan dengan 質素 (shisso/sederhana)\nuntuk hotel, mobil, atau pesta"
+    },
+    {
+      "q": "彫刻",
+      "f": "ちょうこく",
+      "a": "ukiran, pahatan",
+      "e": "ini hasil *pahatan*",
+      "c": 1,
+      "x": "seni membuat patung atau relief dari bahan keras\nbahan: batu, kayu, logam, es\ncontoh: patung Buddha di Nara"
+    },
+    {
+      "q": "言い伝え",
+      "f": "いいつたえ",
+      "a": "tradisi",
+      "e": "itu hanya *tradisi*",
+      "c": 1,
+      "x": "cerita atau kepercayaan yang turun temurun\nberlawanan dengan 事実 (jijitsu/fakta)\nsering mengandung nilai moral atau sejarah"
+    },
+    {
+      "q": "眠る",
+      "f": "ねむる",
+      "a": "tidur",
+      "e": "dia sedang *tidur*",
+      "c": 1,
+      "x": "beristirahat dengan mata tertutup (tubuh istirahat)\nberlawanan dengan 起きる (okiru/bangun)\npenting untuk kesehatan fisik dan mental",
+      "t": "が"
+    },
+    {
+      "q": "彫る",
+      "f": "ほる",
+      "a": "mengukir, memahat",
+      "e": "dia *mengukir*\n*memahat* kayu",
+      "c": 2,
+      "x": "membuat desain atau gambar pada permukaan keras\npakai partikel を untuk benda yang dipahat\nuntuk kayu, batu, atau logam",
+      "t": "を"
+    },
+    {
+      "q": "仲間",
+      "f": "なかま",
+      "a": "teman",
+      "e": "dia teman *dekat*",
+      "c": 1,
+      "x": "orang yang bersama dalam aktivitas atau tujuan\nberlawanan dengan 敵 (teki/musuh)\nbisa untuk kerja, sekolah, atau hobi"
+    },
+    {
+      "q": "しかし",
+      "f": "しかし",
+      "a": "tetapi",
+      "e": "saya mau ikut *tetapi* sibuk",
+      "c": 1,
+      "x": "kata hubung untuk menunjukkan pertentangan\nberlawanan dengan だから (dakara/karena itu)\nmenghubungkan dua kalimat yang berlawanan"
+    },
+    {
+      "q": "そのあと",
+      "f": "そのあと",
+      "a": "setelah itu\nsesudah itu",
+      "e": "*setelah itu*\n*sesudah itu* kita makan",
+      "c": 2,
+      "x": "waktu setelah suatu peristiwa\nsinonim dengan その後 (sonogo)\nlebih kasual dan lisan"
+    },
+    {
+      "q": "一生懸命",
+      "f": "いっしょうけんめい",
+      "a": "sungguh-sungguh",
+      "e": "dia belajar *sungguh-sungguh*",
+      "c": 1,
+      "x": "melakukan sesuatu dengan sungguh-sungguh dan maksimal\nberasal dari 一生 (seumur hidup) + 懸命 (berusaha keras)\nuntuk belajar, kerja, atau olahraga"
+    },
+    {
+      "q": "鼠",
+      "f": "ねずみ",
+      "a": "tikus",
+      "e": "ada *tikus* di dapur",
+      "c": 1,
+      "x": "hewan pengerat kecil yang sering dianggap hama\nada ungkapan 鼠色 (nezumiiro/warna abu-abu tikus)\npopuler dalam cerita anak (Mickey Mouse)"
+    },
+    {
+      "q": "一匹もいない",
+      "f": "いっぴきもいない",
+      "a": "tidak ada seekor pun",
+      "e": "di sini *tidak ada seekor pun*",
+      "c": 1,
+      "x": "tidak ada seekor pun hewan (biasanya tikus atau kucing)\npakai も untuk penekanan negatif\nuntuk menyatakan ketiadaan total"
+    },
+    {
+      "q": "事故",
+      "f": "じこ",
+      "a": "kecelakaan",
+      "e": "terjadi *kecelakaan*",
+      "c": 1,
+      "x": "kejadian tidak sengaja yang merugikan\ncontoh: kecelakaan mobil, kerja, atau rumah tangga\nberlawanan dengan 安全 (anzen/keselamatan)"
+    },
+    {
+      "q": "事件",
+      "f": "じけん",
+      "a": "kejadian",
+      "e": "itu sebuah *kejadian*",
+      "c": 1,
+      "x": "kejadian atau peristiwa penting\nbisa kriminal atau non-kriminal\nberlawanan dengan 日常 (nichijou/aktivitas sehari-hari)"
+    },
+    {
+      "q": "殺す",
+      "f": "ころす",
+      "a": "membunuh",
+      "e": "dia *membunuh* musuh",
+      "c": 1,
+      "x": "mengakhiri hidup seseorang dengan sengaja\nberlawanan dengan 生かす (ikasu/membiarkan hidup)\nkejahatan berat dengan hukuman berat",
+      "t": "を"
+    },
+    {
+      "q": "撃つ",
+      "f": "うつ",
+      "a": "menembak",
+      "e": "polisi *menembak*",
+      "c": 1,
+      "x": "menembak dengan senjata api\nberlawanan dengan 避ける (sakeru/menghindar)\nbiasanya oleh polisi atau militer",
+      "t": "を"
+    },
+    {
+      "q": "刺す",
+      "f": "さす",
+      "a": "menikam",
+      "e": "dia *menikam* korban",
+      "c": 1,
+      "x": "menusuk dengan benda tajam (pisau, jarum, tombak)\nberlawanan dengan 抜く (nuku/mencabut)\nbisa untuk kejahatan atau kecelakaan",
+      "t": "を"
+    },
+    {
+      "q": "轢く",
+      "f": "ひく",
+      "a": "melindas",
+      "e": "mobil itu *melindas*",
+      "c": 1,
+      "x": "kendaraan melewati tubuh orang atau hewan di jalan\nbiasanya kecelakaan lalu lintas\nberlawanan dengan 避ける (sakeru/menghindar)",
+      "t": "を"
+    },
+    {
+      "q": "はねる",
+      "f": "はねる",
+      "a": "menabrak (hingga terpental)",
+      "e": "dia *menabrak* pagar",
+      "c": 1,
+      "x": "kendaraan menabrak sesuatu hingga terpental\nlebih kuat dari 轢く (hiku)\nbiasa untuk kecelakaan hewan kecil",
+      "t": "を"
+    },
+    {
+      "q": "衝突する",
+      "f": "しょうとつする",
+      "a": "menabrak",
+      "e": "motor itu *menabrak* orang",
+      "c": 1,
+      "x": "dua benda atau kendaraan bertabrakan\npakai partikel に untuk yang ditabrak\nberlawanan dengan 避ける (sakeru/menghindar)"
+    },
+    {
+      "q": "追突する",
+      "f": "ついとつする",
+      "a": "menabrak dari belakang",
+      "e": "mobil itu *menabrak dari belakang*",
+      "c": 1,
+      "x": "kendaraan menabrak dari belakang\npakai partikel に untuk kendaraan yang ditabrak\nsering terjadi di jalan macet"
+    },
+    {
+      "q": "盗む",
+      "f": "ぬすむ",
+      "a": "mencuri",
+      "e": "dia *mencuri* uang",
+      "c": 1,
+      "x": "mengambil barang milik orang lain tanpa izin\nberlawanan dengan 返す (kaesu/mengembalikan)\ntermasuk kriminal, bisa dihukum penjara",
+      "t": "を"
+    },
+    {
+      "q": "誘拐する",
+      "f": "ゆうかいする",
+      "a": "menculik",
+      "e": "anak itu *diculik*",
+      "c": 1,
+      "x": "mengambil seseorang paksa untuk tebusan\nberlawanan dengan 解放する (kaihou suru/membebaskan)\nkejahatan serius di seluruh dunia",
+      "t": "を"
+    },
+    {
+      "q": "ハイジャックする",
+      "f": "はいじゃっくする",
+      "a": "membajak",
+      "e": "pesawat *dibajak*",
+      "c": 1,
+      "x": "mengambil alih kendaraan (pesawat, bus, kapal) secara paksa\nbiasanya oleh teroris\nberlawanan dengan 解放する (kaihou suru/membebaskan)",
+      "t": "を"
+    },
+    {
+      "q": "［飛行機が］墜落する",
+      "f": "ついらくする",
+      "a": "[pesawat] jatuh",
+      "e": "pesawat itu *jatuh*",
+      "c": 1,
+      "x": "pesawat jatuh dari langit ke tanah\nbisa karena mesin rusak atau cuaca buruk\nberlawanan dengan 着陸する (chakuriku suru/mendarat)",
+      "t": "が"
+    },
+    {
+      "q": "助ける",
+      "f": "たすける",
+      "a": "menolong, menyelamatkan",
+      "e": "dia *menolong*\n*menyelamatkan* korban",
+      "c": 2,
+      "x": "memberikan bantuan kepada yang kesusahan\npakai partikel を untuk orang yang ditolong\nberlawanan dengan 邪魔する (jama suru/menghalangi)",
+      "t": "を"
+    }
   ]
 }
