@@ -5966,5 +5966,339 @@
       "x": "memberikan bantuan kepada yang kesusahan\npakai partikel を untuk orang yang ditolong\nberlawanan dengan 邪魔する (jama suru/menghalangi)",
       "t": "を"
     }
+  ],
+  "19": [
+    {
+      "q": "爆発する",
+      "f": "ばくはつする",
+      "a": "meledak",
+      "e": "bom itu tiba-tiba *meledak*",
+      "c": 1,
+      "x": "meledak dengan tiba-tiba disertai suara keras dan api\nberlawanan dengan 鎮火する (chinka suru/padam)\nbahaya untuk bahan kimia atau gas",
+      "t": "が"
+    },
+    {
+      "q": "［船が］沈没する",
+      "f": "ちんぼつする",
+      "a": "[kapal] tenggelam",
+      "e": "kapal itu *tenggelam*",
+      "c": 1,
+      "x": "kapal tenggelam ke dasar laut\nberlawanan dengan 浮かぶ (ukabu/mengapung)\nbisa karena tabrakan atau bocor",
+      "t": "が"
+    },
+    {
+      "q": "育てる",
+      "f": "そだてる",
+      "a": "memelihara",
+      "e": "dia *memelihara* kucing",
+      "c": 1,
+      "x": "merawat anak atau hewan hingga besar\nberlawanan dengan 捨てる (suteru/membuang)\nbutuh kasih sayang dan perhatian",
+      "t": "を"
+    },
+    {
+      "q": "入院する",
+      "f": "にゅういんする",
+      "a": "opname",
+      "e": "dia harus *opname* di rumah sakit",
+      "c": 1,
+      "x": "masuk rumah sakit untuk perawatan\nberlawanan dengan 退院する (taiin suru/keluar RS)\nbiasanya karena sakit atau operasi",
+      "t": "が"
+    },
+    {
+      "q": "退院する",
+      "f": "たいいんする",
+      "a": "keluar rumah sakit",
+      "e": "dia sudah *keluar rumah sakit* kemarin",
+      "c": 1,
+      "x": "keluar dari rumah sakit setelah sembuh\nberlawanan dengan 入院する (nyuuin suru/masuk RS)\nhari bahagia bagi pasien",
+      "t": "が"
+    },
+    {
+      "q": "［電源を］入れる",
+      "f": "いれる",
+      "a": "menghidupkan [power supply]",
+      "e": "saya *menghidupkan* listrik",
+      "c": 1,
+      "x": "menghidupkan aliran listrik ke perangkat\nberlawanan dengan 電源を切る (kiru/mematikan)\nuntuk TV, komputer, atau lampu",
+      "t": "を"
+    },
+    {
+      "q": "［電源を］切る",
+      "f": "きる",
+      "a": "mematikan [power supply]",
+      "e": "tolong *mematikan* lampu",
+      "c": 1,
+      "x": "mematikan aliran listrik ke perangkat\nberlawanan dengan 電源を入れる (ireru/menghidupkan)\nhemat energi dan aman",
+      "t": "を"
+    },
+    {
+      "q": "掛ける",
+      "f": "かける",
+      "a": "mengunci",
+      "e": "dia lupa *mengunci* pintu",
+      "c": 1,
+      "x": "mengunci pintu agar tidak terbuka\nberlawanan dengan 開ける (akeru/membuka)\npakai untuk pintu, jendela, atau lemari",
+      "t": "を"
+    },
+    {
+      "q": "［嘘を］つく",
+      "f": "つく",
+      "a": "berbohong",
+      "e": "jangan *berbohong* lagi",
+      "c": 1,
+      "x": "mengatakan sesuatu yang tidak benar\nberlawanan dengan 真実を言う (shinjitsu wo iu/mengatakan kebenaran)\nmerusak kepercayaan",
+      "t": "を"
+    },
+    {
+      "q": "気持ちがいい",
+      "f": "きもちがいい",
+      "a": "rasa enak",
+      "e": "makanan ini terasa *rasa enak*",
+      "c": 1,
+      "x": "perasaan nyaman dan enak\nberlawanan dengan 気持ちが悪い (kimochi ga warui/tidak enak)\nuntuk suasana, tempat, atau tindakan"
+    },
+    {
+      "q": "気持ちが悪い",
+      "f": "きもちがわるい",
+      "a": "rasa tidak enak, jijik",
+      "e": "obat ini terasa *rasa tidak enak*\nsaya merasa *jijik*",
+      "c": 1,
+      "x": "perasaan tidak nyaman atau jijik\nberlawanan dengan 気持ちがいい (kimochi ga ii/enak)\nuntuk bau, pemandangan, atau perilaku"
+    },
+    {
+      "q": "大きな〜",
+      "f": "おおきな〜",
+      "a": "besar 〜",
+      "e": "ini *besar* sekali",
+      "c": 1,
+      "x": "menunjukkan ukuran besar (subjektif)\nberlawanan dengan 小さな (chiisana/kecil)\nhanya dipakai sebelum kata benda"
+    },
+    {
+      "q": "小さな〜",
+      "f": "ちいさな〜",
+      "a": "kecil 〜",
+      "e": "itu *kecil* sekali",
+      "c": 1,
+      "x": "menunjukkan ukuran kecil (subjektif)\nberlawanan dengan 大きな (ookina/besar)\nhanya dipakai sebelum kata benda"
+    },
+    {
+      "q": "赤ちゃん",
+      "f": "あかちゃん",
+      "a": "bayi",
+      "e": "*bayi* itu lucu",
+      "c": 1,
+      "x": "manusia usia 0-12 bulan\nbelum bisa bicara atau jalan\nbutuh perawatan khusus"
+    },
+    {
+      "q": "小学校",
+      "f": "しょうがっこう",
+      "a": "sd",
+      "e": "saya sekolah di *sd*",
+      "c": 1,
+      "x": "sekolah dasar di Jepang (kelas 1-6)\nwajib untuk semua anak\nbelajar membaca, menulis, berhitung"
+    },
+    {
+      "q": "中学校",
+      "f": "ちゅうがっこう",
+      "a": "smp",
+      "e": "kakak saya di *smp*",
+      "c": 1,
+      "x": "sekolah menengah pertama (kelas 7-9)\nsetelah SD, sebelum SMA\nmasa pubertas dan eksplorasi diri"
+    },
+    {
+      "q": "海岸",
+      "f": "かいがん",
+      "a": "pantai laut",
+      "e": "kami berjalan di *pantai laut*",
+      "c": 1,
+      "x": "batas antara daratan dan lautan\npasir, batu, atau tebing\nwisata populer di musim panas"
+    },
+    {
+      "q": "工場",
+      "f": "こうじょう",
+      "a": "pabrik",
+      "e": "ayah bekerja di *pabrik*",
+      "c": 1,
+      "x": "bangunan tempat produksi barang\nbisa untuk mobil, elektronik, atau makanan\nsumber polusi jika tidak dikelola"
+    },
+    {
+      "q": "仮名",
+      "f": "かな",
+      "a": "huruf jepang (hiragana/katakana)",
+      "e": "saya belajar *huruf jepang*",
+      "c": 1,
+      "x": "huruf Jepang hiragana dan katakana\n46 karakter dasar masing-masing\nuntuk menulis kata asli Jepang dan serapan"
+    },
+    {
+      "q": "指輪",
+      "f": "ゆびわ",
+      "a": "cincin",
+      "e": "dia memakai *cincin*",
+      "c": 1,
+      "x": "perhiasan yang dipakai di jari\nsimbol pernikahan atau pertunangan\nbiasanya emas, perak, atau platinum"
+    },
+    {
+      "q": "電源",
+      "f": "でんげん",
+      "a": "power supply",
+      "e": "*power supply* ini rusak",
+      "c": 1,
+      "x": "sumber listrik untuk perangkat\nberlawanan dengan 電池 (denchi/baterai)\nstopkontak atau genset"
+    },
+    {
+      "q": "習慣",
+      "f": "しゅうかん",
+      "a": "kebiasaan",
+      "e": "itu sudah jadi *kebiasaan*",
+      "c": 1,
+      "x": "perilaku yang dilakukan berulang secara otomatis\nberlawanan dengan 新しい習慣 (atarashii shuukan/kebiasaan baru)\nbutuh 21 hari untuk membentuk"
+    },
+    {
+      "q": "〜製",
+      "f": "せい",
+      "a": "buatan 〜",
+      "e": "ini produk *buatan* Jepang",
+      "c": 1,
+      "x": "menunjukkan tempat asal pembuatan\ncontoh: 日本製 (nihonsei/buatan Jepang)\nberlawanan dengan 外国製 (gaikokusei/buatan luar)"
+    },
+    {
+      "q": "一昨年",
+      "f": "おととし",
+      "a": "dua tahun lalu",
+      "e": "saya ke Jepang *dua tahun lalu*",
+      "c": 1,
+      "x": "tahun dua tahun sebelum tahun ini\nberlawanan dengan 来年 (rainen/tahun depan)\nistilah spesifik dalam bahasa Jepang"
+    },
+    {
+      "q": "回覧",
+      "f": "かいらん",
+      "a": "memo edaran\ndokumen edaran",
+      "e": "ini *memo edaran*\nsaya menerima *dokumen edaran*",
+      "c": 1,
+      "x": "dokumen atau informasi yang diedarkan ke banyak orang\nbiasanya di kantor atau sekolah\nuntuk pengumuman atau agenda"
+    },
+    {
+      "q": "研究室",
+      "f": "けんきゅうしつ",
+      "a": "laboratorium\nruang dosen",
+      "e": "dia bekerja di *laboratorium*\ndia ada di *ruang dosen*",
+      "c": 1,
+      "x": "tempat untuk penelitian ilmiah\nbiasanya di universitas\nada dosen, mahasiswa, dan peralatan"
+    },
+    {
+      "q": "きちんと",
+      "f": "きちんと",
+      "a": "dengan rapi\ndengan benar\nsecara teratur",
+      "e": "kamar ini disusun *dengan rapi*\njawab *dengan benar*\nbekerja *secara teratur*",
+      "c": 1,
+      "x": "dengan rapi, benar, atau teratur\nberlawanan dengan 適当 (tekitou/sembarangan)\nuntuk penampilan atau tindakan"
+    },
+    {
+      "q": "整理する",
+      "f": "せいりする",
+      "a": "mengatur",
+      "e": "dia sedang *mengatur* meja",
+      "c": 1,
+      "x": "membereskan barang agar rapi\nberlawanan dengan 散らかす (chirakasu/membiarkan berantakan)\nuntuk kamar, meja, atau data",
+      "t": "を"
+    },
+    {
+      "q": "方法",
+      "f": "ほうほう",
+      "a": "cara",
+      "e": "ini cara yang benar sebagai *cara*",
+      "c": 1,
+      "x": "cara atau langkah untuk melakukan sesuatu\nberlawanan dengan 結果 (kekka/hasil)\npenting untuk efisiensi kerja"
+    },
+    {
+      "q": "〜という",
+      "f": "という",
+      "a": "berjudul 〜",
+      "e": "buku ini *berjudul* menarik",
+      "c": 1,
+      "x": "menunjukkan nama atau judul sesuatu\ncontoh: という本 (toiu hon/buku berjudul)\nuntuk memperkenalkan informasi"
+    },
+    {
+      "q": "〜冊",
+      "f": "さつ",
+      "a": "〜 jilid",
+      "e": "saya membeli satu *jilid* buku",
+      "c": 1,
+      "x": "penghitung untuk buku atau publikasi\n1冊 (issatsu), 2冊 (nisatsu), 3冊 (sansatsu)\nuntuk novel, majalah, atau komik"
+    },
+    {
+      "q": "はんこ",
+      "f": "はんこ",
+      "a": "stempel nama\ncap nama",
+      "e": "ini ada *stempel nama*\nsaya melihat *cap nama*",
+      "c": 1,
+      "x": "stempel nama pribadi untuk tanda tangan\ndi Jepang wajib untuk dokumen resmi\nada yang bulat (丸はんこ) dan persegi"
+    },
+    {
+      "q": "［はんこを］押す",
+      "f": "おす",
+      "a": "mencap\nmemasang stempel",
+      "e": "dia *mencap* dokumen\ntolong *memasang stempel* di sini",
+      "c": 1,
+      "x": "membubuhkan stempel pada dokumen\npakai partikel を untuk stempel\nlegalisasi dokumen di Jepang",
+      "t": "を"
+    },
+    {
+      "q": "双子",
+      "f": "ふたご",
+      "a": "anak kembar",
+      "e": "mereka adalah *anak kembar*",
+      "c": 1,
+      "x": "dua anak yang lahir dari ibu yang sama\nbisa identik (satu telur) atau fraternal (dua telur)\nada anak kembar tiga (三つ子)"
+    },
+    {
+      "q": "姉妹",
+      "f": "しまい",
+      "a": "saudara perempuan",
+      "e": "dia punya satu *saudara perempuan*",
+      "c": 1,
+      "x": "saudara kandung perempuan\nberlawanan dengan 兄弟 (kyoudai/saudara laki-laki)\nuntuk kakak atau adik perempuan"
+    },
+    {
+      "q": "〜年生",
+      "f": "ねんせい",
+      "a": "kelas 〜",
+      "e": "saya kelas 3 sebagai *kelas*",
+      "c": 1,
+      "x": "tahun atau tingkat di sekolah\ncontoh: 一年生 (ichinensei/kelas 1)\nuntuk SD, SMP, SMA, atau kuliah"
+    },
+    {
+      "q": "似ている",
+      "f": "にている",
+      "a": "mirip",
+      "e": "wajah mereka sangat *mirip*",
+      "c": 1,
+      "x": "memiliki kemiripan fisik atau sifat\npakai partikel に untuk objek yang mirip\nberlawanan dengan 違う (chigau/berbeda)",
+      "t": "が"
+    },
+    {
+      "q": "性格",
+      "f": "せいかく",
+      "a": "sifat",
+      "e": "itu bagian dari *sifat* dia",
+      "c": 1,
+      "x": "watak dasar seseorang\nberlawanan dengan 性格が悪い (seikaku ga warui/sifat buruk)\nterbentuk sejak kecil"
+    },
+    {
+      "q": "おとなしい",
+      "f": "おとなしい",
+      "a": "pendiam",
+      "e": "anak itu sangat *pendiam*",
+      "c": 1,
+      "x": "pendiam dan tidak banyak bicara\nberlawanan dengan 騒がしい (sawagashii/ribut)\nbiasanya untuk anak yang patuh"
+    },
+    {
+      "q": "優しい",
+      "f": "やさしい",
+      "a": "baik hati",
+      "e": "dia orang yang *baik hati*",
+      "c": 1,
+      "x": "baik hati dan peduli pada orang lain\nberlawanan dengan 冷たい (tsumetai/dingin)\nuntuk tindakan atau perkataan"
+    }
   ]
 }
