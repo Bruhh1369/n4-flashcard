@@ -6300,5 +6300,340 @@
       "c": 1,
       "x": "baik hati dan peduli pada orang lain\nberlawanan dengan 冷たい (tsumetai/dingin)\nuntuk tindakan atau perkataan"
     }
+  ],
+  "20": [
+    {
+      "q": "世話をする",
+      "f": "せわをする",
+      "a": "merawat",
+      "e": "saya akan *merawat* kucing ini",
+      "c": 1,
+      "x": "merawat atau menjaga orang lain (anak, orang tua, sakit)\npakai partikel を untuk orang yang dirawat\nberlawanan dengan 無視する (mushi suru/mengabaikan)",
+      "t": "を"
+    },
+    {
+      "q": "時間が経つ",
+      "f": "じかんがたつ",
+      "a": "waktu berlalu",
+      "e": "*waktu berlalu* begitu cepat",
+      "c": 1,
+      "x": "waktu berlalu atau berjalan\nsubjek waktu pakai が\nberlawanan dengan 止まる (tomaru/berhenti)",
+      "t": "が"
+    },
+    {
+      "q": "大好き［な］",
+      "f": "だいすき",
+      "a": "suka sekali",
+      "e": "saya *suka sekali* makanan ini",
+      "c": 1,
+      "x": "sangat menyukai sesuatu atau seseorang\nlebih kuat dari 好き (suki/suka)\nberlawanan dengan 大嫌い (daikirai/sangat benci)"
+    },
+    {
+      "q": "〜点",
+      "f": "てん",
+      "a": "〜 poin",
+      "e": "nilainya 100 *poin*",
+      "c": 1,
+      "x": "satuan untuk nilai atau skor\ndi sekolah: 100点満点 (hyaku ten manten/nilai sempurna)\nuntuk ujian atau kompetisi"
+    },
+    {
+      "q": "気が強い",
+      "f": "きがつよい",
+      "a": "keras kepala, tegas",
+      "e": "dia *keras kepala*\ndia orangnya *tegas*",
+      "c": 1,
+      "x": "memiliki pendirian kuat dan tidak mudah kalah\nberlawanan dengan 気が弱い (ki ga yowai/penakut)\nuntuk orang yang tegas"
+    },
+    {
+      "q": "喧嘩する",
+      "f": "けんかする",
+      "a": "bertengkar",
+      "e": "mereka sering *bertengkar*",
+      "c": 1,
+      "x": "bertengkar dengan orang lain (biasanya fisik atau mulut)\nberlawanan dengan 仲良くする (nakayoku suru/rukun)\nsebagai kata kerja intransitif",
+      "t": "が"
+    },
+    {
+      "q": "年齢",
+      "f": "ねんれい",
+      "a": "usia, umur",
+      "e": "*usia* saya 20 tahun\n*umur* dia masih muda",
+      "c": 1,
+      "x": "berapa lama seseorang hidup\nberlawanan dengan 若さ (wakasa/usia muda)\nuntuk KTP, data diri, atau pernikahan"
+    },
+    {
+      "q": "仕方",
+      "f": "しかた",
+      "a": "jalan\ncara\npilihan",
+      "e": "saya mencari *jalan*\nini *cara* yang benar\nitu *pilihan* terbaik",
+      "c": 1,
+      "x": "cara atau pilihan untuk menyelesaikan masalah\nbiasa dalam ungkapan 仕方がない (shikata ga nai/tidak ada pilihan)\nberlawanan dengan 対策 (taisaku/solusi)"
+    },
+    {
+      "q": "位置",
+      "f": "いち",
+      "a": "lokasi, posisi",
+      "e": "tentukan *lokasi*\nlihat *posisi* nya",
+      "c": 1,
+      "x": "letak atau koordinat sesuatu\nberlawanan dengan 方向 (houkou/arah)\nuntuk benda, orang, atau tempat"
+    },
+    {
+      "q": "［上から〜］段目",
+      "f": "だんめ",
+      "a": "ke[〜 dari atas]",
+      "e": "duduk di *ke[〜 dari atas]*",
+      "c": 1,
+      "x": "menunjukkan urutan dari atas ke bawah\ncontoh: 3段目 (sandanme/baris ke-3)\nuntuk rak, tangga, atau podium"
+    },
+    {
+      "q": "［テレビの］横",
+      "f": "よこ",
+      "a": "sebelah [televisi]",
+      "e": "duduk di *sebelah* televisi",
+      "c": 1,
+      "x": "sisi samping kiri atau kanan dari sesuatu\nberlawanan dengan 前 (mae/depan)\nuntuk TV, bangunan, atau orang"
+    },
+    {
+      "q": "奥",
+      "f": "おく",
+      "a": "bagian dalam",
+      "e": "simpan di *bagian dalam*",
+      "c": 1,
+      "x": "bagian dalam atau jauh dari pintu masuk\nberlawanan dengan 手前 (temae/depan)\nuntuk rumah, toko, atau lemari"
+    },
+    {
+      "q": "手前",
+      "f": "てまえ",
+      "a": "bagian depan",
+      "e": "letakkan di *bagian depan*",
+      "c": 1,
+      "x": "bagian depan atau sisi dekat dengan pembicara\nberlawanan dengan 奥 (oku/dalam)\nuntuk posisi relatif"
+    },
+    {
+      "q": "［前から〜］列目",
+      "f": "れつめ",
+      "a": "deretan ke[〜 dari depan]",
+      "e": "duduk di *deretan ke[〜 dari depan]*",
+      "c": 1,
+      "x": "urutan dari depan ke belakang dalam barisan\ncontoh: 2列目 (niretsume/baris ke-2)\nuntuk kursus, antrian, atau panggung"
+    },
+    {
+      "q": "斜め〜",
+      "f": "ななめ",
+      "a": "di samping 〜\ndiagonal\nserong",
+      "e": "duduk *di samping*\nposisinya *diagonal*\ngarisnya *serong*",
+      "c": 1,
+      "x": "posisi diagonal atau tidak lurus\ndi samping dengan sudut 45 derajat\nberlawanan dengan 真っ直ぐ (massugu/lurus)"
+    },
+    {
+      "q": "［本の］そば",
+      "f": "そば",
+      "a": "samping [buku]",
+      "e": "buku ada di *samping* buku lain",
+      "c": 1,
+      "x": "area tepat di sisi kiri atau kanan\nberlawanan dengan 遠く (tooku/jauh)\nuntuk posisi dekat"
+    },
+    {
+      "q": "〜行目",
+      "f": "ぎょうめ",
+      "a": "baris ke〜",
+      "e": "lihat *baris ke〜*",
+      "c": 1,
+      "x": "urutan baris dalam teks dari atas ke bawah\ncontoh: 5行目 (gogyoume/baris ke-5)\nuntuk buku, surat, atau dokumen"
+    },
+    {
+      "q": "〜ページ",
+      "f": "ぺーじ",
+      "a": "halaman 〜",
+      "e": "buka *halaman* ini",
+      "c": 1,
+      "x": "nomor halaman dalam buku atau dokumen\ndi pojok atas atau bawah\nuntuk membaca atau mencari informasi"
+    },
+    {
+      "q": "［質問に］答える",
+      "f": "こたえる",
+      "a": "menjawab [pada pertanyaan]",
+      "e": "saya akan *menjawab* pertanyaan",
+      "c": 1,
+      "x": "memberikan jawaban atas pertanyaan\npakai partikel に untuk pertanyaan\nberlawanan dengan 質問する (shitsumon suru/bertanya)"
+    },
+    {
+      "q": "［ビルが］倒れる",
+      "f": "たおれる",
+      "a": "[bangunan] roboh",
+      "e": "gedung itu *roboh*",
+      "c": 1,
+      "x": "bangunan tumbang ke tanah\nbiasa karena gempa, angin, atau usia tua\nberlawanan dengan 建つ (tatsu/berdiri)",
+      "t": "が"
+    },
+    {
+      "q": "［道を］通る",
+      "f": "とおる",
+      "a": "melewati [jalan]\nmelalui [jalan]",
+      "e": "saya *melewati* jalan ini\nkami *melalui* jalan kecil",
+      "c": 1,
+      "x": "melewati jalan atau rute tertentu\npakai partikel を untuk jalan yang dilewati\nberlawanan dengan 止まる (tomaru/berhenti)",
+      "t": "を"
+    },
+    {
+      "q": "死ぬ",
+      "f": "しぬ",
+      "a": "meninggal dunia",
+      "e": "dia *meninggal dunia*",
+      "c": 1,
+      "x": "berhenti hidup secara permanen\nberlawanan dengan 生きる (ikiru/hidup)\npast tense: 死んだ (shinda)",
+      "t": "が"
+    },
+    {
+      "q": "びっくりする",
+      "f": "びっくりする",
+      "a": "kaget",
+      "e": "saya *kaget* mendengarnya",
+      "c": 1,
+      "x": "terkejut karena hal tak terduga\nbisa positif atau negatif\nberlawanan dengan 冷静 (reisei/tenang)",
+      "t": "が"
+    },
+    {
+      "q": "がっかりする",
+      "f": "がっかりする",
+      "a": "putus asa",
+      "e": "saya *putus asa*",
+      "c": 1,
+      "x": "kecewa karena harapan tidak terpenuhi\nberlawanan dengan 満足する (manzoku suru/puas)\nsering untuk janji atau hasil",
+      "t": "が"
+    },
+    {
+      "q": "安心する",
+      "f": "あんしんする",
+      "a": "lega",
+      "e": "saya merasa *lega*",
+      "c": 1,
+      "x": "merasa tenang karena tidak ada masalah\nberlawanan dengan 心配する (shinpai suru/khawatir)\nsetelah situasi berbahaya berlalu",
+      "t": "が"
+    },
+    {
+      "q": "離婚する",
+      "f": "りこんする",
+      "a": "bercerai",
+      "e": "mereka *bercerai*",
+      "c": 1,
+      "x": "mengakhiri pernikahan secara resmi\nberlawanan dengan 結婚する (kekkon suru/menikah)\nproses hukum yang panjang",
+      "t": "が"
+    },
+    {
+      "q": "太る",
+      "f": "ふとる",
+      "a": "menjadi gemuk",
+      "e": "dia mulai *menjadi gemuk*",
+      "c": 1,
+      "x": "berat badan bertambah karena makan banyak\nberlawanan dengan 痩せる (yaseru/kurus)\nbisa karena gen atau gaya hidup",
+      "t": "が"
+    },
+    {
+      "q": "痩せる",
+      "f": "やせる",
+      "a": "menjadi kurus",
+      "e": "dia sekarang *menjadi kurus*",
+      "c": 1,
+      "x": "berat badan berkurang karena diet atau sakit\nberlawanan dengan 太る (futoru/gemuk)\nbisa karena olahraga atau stres",
+      "t": "が"
+    },
+    {
+      "q": "複雑［な］",
+      "f": "ふくざつ",
+      "a": "rumit",
+      "e": "soal ini *rumit*",
+      "c": 1,
+      "x": "sulit dipahami karena banyak komponen\nberlawanan dengan 単純 (tanjun/sederhana)\nuntuk masalah, mesin, atau perasaan"
+    },
+    {
+      "q": "邪魔［な］",
+      "f": "じゃま",
+      "a": "mengganggu\njadi penghalang",
+      "e": "suara itu *mengganggu*\nini jadi *penghalang*",
+      "c": 1,
+      "x": "menghalangi atau mengganggu aktivitas\nberlawanan dengan 助ける (tasukeru/membantu)\nbisa untuk orang atau barang"
+    },
+    {
+      "q": "硬い",
+      "f": "かたい",
+      "a": "keras",
+      "e": "batu itu *keras*",
+      "c": 1,
+      "x": "padat dan sulit diubah bentuknya\nberlawanan dengan 軟らかい (yawarakai/lembut)\nuntuk batu, kayu, atau logam"
+    },
+    {
+      "q": "軟らかい",
+      "f": "やわらかい",
+      "a": "lembut",
+      "e": "bantal ini *lembut*",
+      "c": 1,
+      "x": "mudah diubah bentuknya atau empuk\nberlawanan dengan 硬い (katai/keras)\nuntuk bantal, roti, atau tanah"
+    },
+    {
+      "q": "汚い",
+      "f": "きたない",
+      "a": "kotor",
+      "e": "pakaian ini *kotor*",
+      "c": 1,
+      "x": "tidak bersih atau kotor\nberlawanan dengan きれい (kirei/bersih)\nuntuk baju, kamar, atau perilaku"
+    },
+    {
+      "q": "悲しい",
+      "f": "かなしい",
+      "a": "sedih",
+      "e": "saya merasa *sedih*",
+      "c": 1,
+      "x": "perasaan kecewa atau tidak bahagia\nberlawanan dengan 嬉しい (ureshii/senang)\nbiasa untuk kehilangan atau kegagalan"
+    },
+    {
+      "q": "恥ずかしい",
+      "f": "はずかしい",
+      "a": "malu",
+      "e": "saya *malu*",
+      "c": 1,
+      "x": "perasaan malu di depan umum\nberlawanan dengan 堂々と (doudou to/pede)\nuntuk kesalahan atau penampilan"
+    },
+    {
+      "q": "首相",
+      "f": "しゅしょう",
+      "a": "perdana menteri",
+      "e": "dia seorang *perdana menteri*",
+      "c": 1,
+      "x": "pemimpin pemerintahan di negara parlementer\ndi Jepang: 岸田文雄 (Kishida Fumio)\nkepala kabinet dan eksekutif"
+    },
+    {
+      "q": "ハイキング",
+      "f": "はいきんぐ",
+      "a": "hiking",
+      "e": "kami pergi *hiking*",
+      "c": 1,
+      "x": "jalan-jalan di alam terbuka (gunung, hutan, pantai)\nberlawanan dengan 都会 (tokai/kota)\nolahraga populer di akhir pekan"
+    },
+    {
+      "q": "［お］見合い",
+      "f": "みあい",
+      "a": "perjodohan",
+      "e": "mereka melakukan *perjodohan*",
+      "c": 1,
+      "x": "pertemuan calon pasangan untuk menikah (tradisi Jepang)\ndiatur oleh perantara atau orang tua\nmasih ada di era modern"
+    },
+    {
+      "q": "操作［する］",
+      "f": "そうさ",
+      "a": "operasi, mengoperasi",
+      "e": "saya akan *operasi*\ndokter sedang *mengoperasi*",
+      "c": 1,
+      "x": "menjalankan atau mengendalikan mesin atau sistem\npakai partikel を untuk mesin yang dioperasi\nberlawanan dengan 止める (tomeru/menghentikan)",
+      "t": "を"
+    },
+    {
+      "q": "会場",
+      "f": "かいじょう",
+      "a": "tempat",
+      "e": "acara diadakan di *tempat* ini",
+      "c": 1,
+      "x": "tempat berlangsungnya acara (konser, seminar, pesta)\nberlawanan dengan 自宅 (jitaku/rumah sendiri)\nperlu persiapan dan perizinan"
+    }
   ]
 }
