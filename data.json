@@ -6635,5 +6635,346 @@
       "c": 1,
       "x": "tempat berlangsungnya acara (konser, seminar, pesta)\nberlawanan dengan 自宅 (jitaku/rumah sendiri)\nperlu persiapan dan perizinan"
     }
+  ],
+  "21": [
+    {
+      "q": "〜代",
+      "f": "だい",
+      "a": "umur 〜an\nsekitar 〜 tahun",
+      "e": "dia masih di *umur 20-an*\numurnya *sekitar 30 tahun*",
+      "c": 1,
+      "x": "menunjukkan rentang umur sekitar angka tersebut\ncontoh: 20代 (nijidai/umur 20-an)\nberlawanan dengan 〜歳 (sai/umur tepat)"
+    },
+    {
+      "q": "〜屋",
+      "f": "や",
+      "a": "penjual 〜",
+      "e": "dia adalah *penjual roti*",
+      "c": 1,
+      "x": "penjual atau toko khusus barang tertentu\ncontoh: 魚屋 (sakanaya/penjual ikan)\nberlawanan dengan 客 (kyaku/pelanggan)"
+    },
+    {
+      "q": "フロント",
+      "f": "ふろんと",
+      "a": "resepsionis",
+      "e": "tanya ke *resepsionis*",
+      "c": 1,
+      "x": "meja depan hotel atau resepsionis\ntempat check-in dan check-out\nuntuk hotel, kantor, atau apartemen"
+    },
+    {
+      "q": "〜号室",
+      "f": "ごうしつ",
+      "a": "kamar nomor 〜",
+      "e": "ini *kamar nomor 101*",
+      "c": 1,
+      "x": "nomor kamar di hotel atau apartemen\nbiasanya kombinasi angka lantai dan urutan\ncontoh: 205号室 (ni zero go shitsu/kamar 205)"
+    },
+    {
+      "q": "タオル",
+      "f": "たおる",
+      "a": "handuk",
+      "e": "lap pakai *handuk*",
+      "c": 1,
+      "x": "kain untuk mengeringkan tubuh atau tangan\nberlawanan dengan 布巾 (fukin/kain lap)\nada handuk mandi (バスタオル) dan handuk wajah"
+    },
+    {
+      "q": "石鹸",
+      "f": "せっけん",
+      "a": "sabun",
+      "e": "cuci tangan dengan *sabun*",
+      "c": 1,
+      "x": "pembersih dari lemak dan alkali\nuntuk mandi, cuci tangan, atau cuci pakaian\nada padat, cair, atau bubuk"
+    },
+    {
+      "q": "大勢",
+      "f": "おおぜい",
+      "a": "banyak orang, ramai",
+      "e": "di sana *banyak orang*\ntempatnya *ramai*",
+      "c": 1,
+      "x": "jumlah orang yang sangat banyak\nberlawanan dengan 少人数 (shouninzuu/sedikit orang)\nsuasana ramai dan hiruk-pikuk"
+    },
+    {
+      "q": "伺う",
+      "f": "うかがう",
+      "a": "datang\nbertanya\nmendengar",
+      "e": "saya akan *datang*\nsaya ingin *bertanya*\nsaya pernah *mendengar* itu",
+      "c": 1,
+      "x": "bentuk sopan untuk datang, bertanya, atau mendengar\npakai partikel を untuk objek pertanyaan\nuntuk menghormati atasan atau tamu",
+      "t": "を"
+    },
+    {
+      "q": "途中で",
+      "f": "とちゅうで",
+      "a": "di tengah jalan\nsedang dalam perjalanan",
+      "e": "kami berhenti *di tengah jalan*\nsaya jatuh *sedang dalam perjalanan*",
+      "c": 1,
+      "x": "saat sedang dalam perjalanan atau proses\nberlawanan dengan 最初 (saisho/awal)\nbisa untuk perjalanan atau pekerjaan"
+    },
+    {
+      "q": "トラック",
+      "f": "とらっく",
+      "a": "truk",
+      "e": "lewat sebuah *truk*",
+      "c": 1,
+      "x": "kendaraan besar untuk mengangkut barang\nbisa untuk logistik, konstruksi, atau pindahan\nberlawanan dengan 乗用車 (jouyousha/mobil penumpang)"
+    },
+    {
+      "q": "ぶつかる",
+      "f": "ぶつかる",
+      "a": "menabrak, terbentur",
+      "e": "mobil itu *menabrak*\nkepalanya *terbentur*",
+      "c": 1,
+      "x": "benda menyentuh benda lain secara tidak sengaja\npakai partikel に untuk benda yang tertabrak\nberlawanan dengan 避ける (sakeru/menghindar)",
+      "t": "が"
+    },
+    {
+      "q": "大人",
+      "f": "おとな",
+      "a": "orang dewasa",
+      "e": "dia sudah *orang dewasa*",
+      "c": 1,
+      "x": "manusia yang sudah dewasa (biasanya 18-20 tahun ke atas)\nberlawanan dengan 子供 (kodomo/anak-anak)\nbertanggung jawab atas tindakan sendiri"
+    },
+    {
+      "q": "また",
+      "f": "また",
+      "a": "dan\nlagi\njuga",
+      "e": "saya makan roti *dan*\nsaya mau lagi\nsaya juga ikut",
+      "c": 1,
+      "x": "kata hubung untuk menambah informasi atau pengulangan\nberlawanan dengan もう (mou/cukup)\nbisa berarti 'lagi' atau 'juga'"
+    },
+    {
+      "q": "洋服",
+      "f": "ようふく",
+      "a": "baju ala barat",
+      "e": "dia memakai *baju ala barat*",
+      "c": 1,
+      "x": "pakaian gaya Barat (bukan kimono atau tradisional Jepang)\nberlawanan dengan 和服 (wafuku/pakaian tradisional Jepang)\nsehari-hari di Jepang modern"
+    },
+    {
+      "q": "西洋化する",
+      "f": "せいようかする",
+      "a": "membarat\nmeniru budaya barat",
+      "e": "budaya itu mulai *membarat*\nmereka *meniru budaya barat*",
+      "c": 1,
+      "x": "berubah menjadi budaya atau gaya Barat\nberlawanan dengan 日本化する (nihonka suru/menjepang)\nterjadi setelah Restorasi Meiji",
+      "t": "が"
+    },
+    {
+      "q": "合う",
+      "f": "あう",
+      "a": "cocok",
+      "e": "baju ini *cocok* untukmu",
+      "c": 1,
+      "x": "cocok atau sesuai antara dua hal\npakai partikel に untuk objek yang dicocokkan\nberlawanan dengan 合わない (awanai/tidak cocok)",
+      "t": "が"
+    },
+    {
+      "q": "今では",
+      "f": "いまでは",
+      "a": "sekarang, saat ini",
+      "e": "*sekarang* saya sibuk\n* saat ini* berbeda",
+      "c": 1,
+      "x": "waktu saat ini berbeda dengan masa lalu\nberlawanan dengan 昔は (mukashi wa/dulu)\nbiasanya untuk perbandingan"
+    },
+    {
+      "q": "成人式",
+      "f": "せいじんしき",
+      "a": "upacara kedewasaan",
+      "e": "ikut *upacara kedewasaan*",
+      "c": 1,
+      "x": "upacara untuk orang yang mencapai usia 20 tahun di Jepang\ndiadakan setiap bulan Januari\nmenandai status dewasa secara hukum"
+    },
+    {
+      "q": "伝統的［な］",
+      "f": "でんとうてき",
+      "a": "secara tradisional\ntradisional",
+      "e": "ini *secara tradisional*\npakaian *tradisional*",
+      "c": 1,
+      "x": "mengikuti kebiasaan atau nilai dari masa lalu\nberlawanan dengan 現代的な (gendaiteki/modern)\nuntuk makanan, pakaian, atau seni"
+    },
+    {
+      "q": "楽しい",
+      "f": "たのしい",
+      "a": "senang, menyenangkan",
+      "e": "saya merasa *senang*\nfilm ini *menyenangkan*",
+      "c": 1,
+      "x": "perasaan senang dan bahagia\nberlawanan dengan 悲しい (kanashii/sedih)\nuntuk aktivitas, momen, atau berita"
+    },
+    {
+      "q": "寂しい",
+      "f": "さびしい",
+      "a": "kesepian, sepi",
+      "e": "dia merasa *kesepian*\nkota ini *sepi*",
+      "c": 1,
+      "x": "perasaan sendirian dan tidak ada teman\nberlawanan dengan 賑やか (nigiyaka/ramai)\nbisa untuk tempat atau perasaan"
+    },
+    {
+      "q": "面白い",
+      "f": "おもしろい",
+      "a": "menarik\nlucu\nmengasyikkan",
+      "e": "film ini *menarik*\nitu *lucu*\nacaranya *mengasyikkan*",
+      "c": 1,
+      "x": "menarik perhatian atau mengasyikkan\nberlawanan dengan つまらない (tsumanai/membosankan)\nuntuk cerita, film, atau orang"
+    },
+    {
+      "q": "羨ましい",
+      "f": "うらやましい",
+      "a": "iri, iri hati",
+      "e": "saya *iri*\ndia punya *iri hati*",
+      "c": 1,
+      "x": "perasaan ingin memiliki apa yang orang lain miliki\nberlawanan dengan 満足 (manzoku/puas)\nbisa untuk benda, kemampuan, atau keberuntungan"
+    },
+    {
+      "q": "懐かしい",
+      "f": "なつかしい",
+      "a": "terkenang\nbernostalgia\nrindu masa lalu",
+      "e": "lagu itu *terkenang*\nsaya *bernostalgia*\nsaya *rindu masa lalu*",
+      "c": 1,
+      "x": "perasaan rindu pada masa lalu\nberlawanan dengan 新しい (atarashii/baru)\nuntuk tempat, lagu, atau kenangan"
+    },
+    {
+      "q": "うっとりする",
+      "f": "うっとりする",
+      "a": "terpukau\nterpesona\nmelamun kagum",
+      "e": "dia *terpukau*\nsaya *terpesona*\ndia *melamun kagum*",
+      "c": 1,
+      "x": "terpesona melihat sesuatu yang indah atau menarik\nberlawanan dengan 冷める (sameru/kecewa)\nbiasanya untuk pemandangan atau penampilan",
+      "t": "が"
+    },
+    {
+      "q": "イライラする",
+      "f": "いらいらする",
+      "a": "kesal\ngelisah\njengkel",
+      "e": "saya *kesal*\nsaya *gelisah*\ndia *jengkel*",
+      "c": 1,
+      "x": "perasaan kesal atau tidak sabar\nberlawanan dengan 落ち着く (ochitsuku/tenang)\nuntuk situasi macet, menunggu, atau suara",
+      "t": "が"
+    },
+    {
+      "q": "ドキドキする",
+      "f": "どきどきする",
+      "a": "deg-degan, berdebar",
+      "e": "saya *deg-degan*\njantung *berdebar*",
+      "c": 1,
+      "x": "perasaan jantung berdebar karena gugup atau senang\nberlawanan dengan 冷静 (reisei/tenang)\nuntuk sebelum presentasi, bertemu pacar, atau ketakutan",
+      "t": "が"
+    },
+    {
+      "q": "ハラハラする",
+      "f": "はらはらする",
+      "a": "tegang\ncemas\nkhawatir",
+      "e": "saya *tegang*\nsaya *cemas*\nsaya *khawatir*",
+      "c": 1,
+      "x": "perasaan cemas melihat situasi menegangkan\nberlawanan dengan 安心 (anshin/tenang)\nuntuk menonton film horor atau anak bermain",
+      "t": "が"
+    },
+    {
+      "q": "ワクワクする",
+      "f": "わくわくする",
+      "a": "girang\nbersemangat\ntidak sabar",
+      "e": "saya *girang*\nsaya *bersemangat*\nsaya *tidak sabar*",
+      "c": 1,
+      "x": "perasaan bersemangat menunggu sesuatu yang menyenangkan\nberlawanan dengan 憂鬱 (yuuutsu/lesu)\nuntuk sebelum liburan, pesta, atau perjalanan",
+      "t": "が"
+    },
+    {
+      "q": "数える",
+      "f": "かぞえる",
+      "a": "menghitung",
+      "e": "saya akan *menghitung* uang",
+      "c": 1,
+      "x": "menentukan jumlah benda dengan angka\npakai partikel を untuk objek yang dihitung\nberlawanan dengan 数えない (kazoenai/tidak menghitung)",
+      "t": "を"
+    },
+    {
+      "q": "測る",
+      "f": "はかる",
+      "a": "mengukur",
+      "e": "saya akan *mengukur* panjang",
+      "c": 1,
+      "x": "menentukan panjang, lebar, atau tinggi\npakai partikel を untuk objek yang diukur\nberlawanan dengan 測らない (hakaranai/tidak mengukur)",
+      "t": "を"
+    },
+    {
+      "q": "量る",
+      "f": "はかる",
+      "a": "menimbang",
+      "e": "saya akan *menimbang* buah",
+      "c": 1,
+      "x": "menentukan berat dengan timbangan\npakai partikel を untuk objek yang ditimbang\nberlawanan dengan 量らない (hakaranai/tidak menimbang)",
+      "t": "を"
+    },
+    {
+      "q": "確かめる",
+      "f": "たしかめる",
+      "a": "mengecek, memastikan",
+      "e": "saya akan *mengecek*\nsaya ingin *memastikan*",
+      "c": 1,
+      "x": "memverifikasi kebenaran suatu hal\npakai partikel を untuk objek yang dicek\nberlawanan dengan 疑う (utagau/meragukan)",
+      "t": "を"
+    },
+    {
+      "q": "出発する",
+      "f": "しゅっぱつする",
+      "a": "berangkat",
+      "e": "kami akan *berangkat* sekarang",
+      "c": 1,
+      "x": "memulai perjalanan dari suatu tempat\nberlawanan dengan 到着する (touchaku suru/tiba)\nbiasa untuk pesawat, kereta, atau mobil",
+      "t": "が"
+    },
+    {
+      "q": "到着する",
+      "f": "とうちゃくする",
+      "a": "tiba",
+      "e": "mereka sudah *tiba*",
+      "c": 1,
+      "x": "tiba di tempat tujuan\nberlawanan dengan 出発する (shuppatsu suru/berangkat)\nperasaan lega saat sampai",
+      "t": "が"
+    },
+    {
+      "q": "酔う",
+      "f": "よう",
+      "a": "mabuk",
+      "e": "dia *mabuk*",
+      "c": 1,
+      "x": "kepala pusing atau mual karena gerakan atau alkohol\npakai partikel に untuk penyebab mabuk\nberlawanan dengan 醒める (sameru/sadar)",
+      "t": "が"
+    },
+    {
+      "q": "うまくいく",
+      "f": "うまくいく",
+      "a": "berjalan lancar\nberhasil sukses",
+      "e": "semuanya *berjalan lancar*\nacara itu *berhasil sukses*",
+      "c": 1,
+      "x": "berjalan sesuai rencana atau harapan\nberlawanan dengan 失敗する (shippai suru/gagal)\nuntuk proyek, hubungan, atau usaha",
+      "t": "が"
+    },
+    {
+      "q": "［問題が］出る",
+      "f": "でる",
+      "a": "keluar [soal]",
+      "e": "*soal keluar* di ujian",
+      "c": 1,
+      "x": "soal atau pertanyaan muncul dalam ujian\npakai partikel が untuk subjek soal\nberlawanan dengan 答えが出る (kotae ga deru/jawaban keluar)",
+      "t": "が"
+    },
+    {
+      "q": "相談する",
+      "f": "そうだんする",
+      "a": "berkonsultasi\nberdiskusi\nmembicarakan",
+      "e": "saya akan *berkonsultasi*\nkita *berdiskusi*\nkita *membicarakan* masalah ini",
+      "c": 1,
+      "x": "bertukar pikiran untuk mencari solusi\npakai partikel に untuk orang yang diajak diskusi\nberlawanan dengan 独断 (dokudan/keputusan sendiri)",
+      "t": "を"
+    },
+    {
+      "q": "天気予報",
+      "f": "てんきよほう",
+      "a": "prakiraan cuaca, ramalan cuaca",
+      "e": "lihat *prakiraan cuaca*\ncek *ramalan cuaca*",
+      "c": 1,
+      "x": "ramalan kondisi cuaca besok atau minggu depan\ndi TV, radio, atau aplikasi\npenting untuk perjalanan dan kegiatan luar"
+    }
   ]
 }
