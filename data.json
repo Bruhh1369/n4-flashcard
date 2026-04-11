@@ -6976,5 +6976,654 @@
       "c": 1,
       "x": "ramalan kondisi cuaca besok atau minggu depan\ndi TV, radio, atau aplikasi\npenting untuk perjalanan dan kegiatan luar"
     }
+  ],
+  "22": [
+    {
+      "q": "読書",
+      "f": "どくしょ",
+      "a": "membaca",
+      "e": "hobi saya adalah *membaca* buku",
+      "c": 1,
+      "x": "membaca buku sebagai hobi atau kegiatan\nberlawanan dengan 不読書 (fudokusho/tidak membaca)\nbaik untuk pengetahuan dan imajinasi"
+    },
+    {
+      "q": "通り",
+      "f": "とおり",
+      "a": "jalan",
+      "e": "saya berjalan di *jalan* ini",
+      "c": 1,
+      "x": "jalanan di antara bangunan atau pepohonan\nberlawanan dengan 裏通り (ura-douri/gang belakang)\ntempat pejalan kaki dan kendaraan"
+    },
+    {
+      "q": "文化",
+      "f": "ぶんか",
+      "a": "kebudayaan",
+      "e": "ini adalah *kebudayaan* Jepang",
+      "c": 1,
+      "x": "adat istiadat dan tradisi masyarakat\nberlawanan dengan 自然 (shizen/alam)\ntari, musik, seni, dan makanan"
+    },
+    {
+      "q": "支社",
+      "f": "ししゃ",
+      "a": "kantor cabang",
+      "e": "dia bekerja di *kantor cabang*",
+      "c": 1,
+      "x": "kantor di daerah yang bukan kantor pusat\nberlawanan dengan 本社 (honsha/kantor pusat)\nmelayani pelanggan di wilayah tertentu"
+    },
+    {
+      "q": "お祝い",
+      "f": "おいわい",
+      "a": "perayaan",
+      "e": "mereka mengadakan *perayaan* ulang tahun",
+      "c": 1,
+      "x": "acara atau pesta untuk merayakan sesuatu\ncontoh: ulang tahun, pernikahan, kelahiran\nmemberi hadiah dan ucapan selamat"
+    },
+    {
+      "q": "自己紹介",
+      "f": "じこしょうかい",
+      "a": "perkenalan",
+      "e": "saya melakukan *perkenalan* diri",
+      "c": 1,
+      "x": "memperkenalkan diri kepada orang lain\nberlawanan dengan 他己紹介 (takoshoukai/diperkenalkan orang lain)\nnama, asal, hobi, dll"
+    },
+    {
+      "q": "〜 番目",
+      "f": "ばんめ",
+      "a": "urutan ke 〜",
+      "e": "saya nomor *urutan ke 〜* tiga",
+      "c": 1,
+      "x": "menunjukkan urutan atau posisi dalam deretan\ncontoh: 一番目 (ichibanme/pertama)\nmelekat pada angka"
+    },
+    {
+      "q": "洋食",
+      "f": "ようしょく",
+      "a": "makanan barat",
+      "e": "saya suka *makanan barat*",
+      "c": 1,
+      "x": "makanan gaya Eropa (Prancis, Italia, Inggris)\nberlawanan dengan 和食 (washoku/makanan Jepang)\nroti, pasta, steak"
+    },
+    {
+      "q": "和食",
+      "f": "わしょく",
+      "a": "makanan jepang",
+      "e": "saya makan *makanan jepang*",
+      "c": 1,
+      "x": "makanan tradisional Jepang\nberlawanan dengan 洋食 (youshoku/makanan Barat)\nnasi, ikan, sup miso, tsukemono"
+    },
+    {
+      "q": "地方",
+      "f": "ちほう",
+      "a": "daerah, wilayah",
+      "e": "saya tinggal di *daerah* ini\nini adalah *wilayah* yang luas",
+      "c": 1,
+      "x": "area di luar kota utama\nberlawanan dengan 都会 (tokai/kota besar)\nsetiap daerah punya ciri khas"
+    },
+    {
+      "q": "生",
+      "f": "なま",
+      "a": "mentah\nsegar",
+      "e": "ikan ini masih *mentah*\nsayur ini *segar*",
+      "c": 1,
+      "x": "tidak dimasak atau masih mentah\nberlawanan dengan 火を通す (hi wo toosu/dimasak)\nuntuk sashimi, salad, atau buah"
+    },
+    {
+      "q": "苦手［な］",
+      "f": "にがて",
+      "a": "kurang bisa\ntidak suka",
+      "e": "saya *kurang bisa* matematika\nsaya *tidak suka* kopi",
+      "c": 1,
+      "x": "kurang bisa atau tidak suka melakukan sesuatu\nberlawanan dengan 得意 (tokui/bisa atau suka)\nuntuk makanan, pelajaran, atau aktivitas"
+    },
+    {
+      "q": "森",
+      "f": "もり",
+      "a": "hutan",
+      "e": "ada banyak pohon di *hutan*",
+      "c": 1,
+      "x": "area dengan banyak pohon lebat\nberlawanan dengan 公園 (kouen/taman)\ntempat hewan liar dan tumbuhan"
+    },
+    {
+      "q": "自然",
+      "f": "しぜん",
+      "a": "alam",
+      "e": "kita harus menjaga *alam*",
+      "c": 1,
+      "x": "alam tanpa campur tangan manusia\nberlawanan dengan 人工 (jinkou/buatan)\ngunung, sungai, laut, hutan"
+    },
+    {
+      "q": "観光地",
+      "f": "かんこうち",
+      "a": "tempat wisata",
+      "e": "Bali adalah *tempat wisata* terkenal",
+      "c": 1,
+      "x": "tempat yang menarik untuk wisatawan\ncontoh: kuil, taman, pantai, museum\npunya fasilitas untuk pengunjung"
+    },
+    {
+      "q": "空気",
+      "f": "くうき",
+      "a": "udara",
+      "e": "*udara* di sini bersih",
+      "c": 1,
+      "x": "campuran gas di sekitar bumi\nberlawanan dengan 真空 (shinkuu/vakum)\nuntuk bernafas, terbang, dan cuaca"
+    },
+    {
+      "q": "料金",
+      "f": "りょうきん",
+      "a": "biaya, tarif",
+      "e": "*biaya* hidup mahal\n*tarif* hotel mahal",
+      "c": 1,
+      "x": "uang yang harus dibayar untuk jasa\nberlawanan dengan 無料 (muryou/gratis)\nuntuk transportasi, listrik, atau telepon"
+    },
+    {
+      "q": "一年中",
+      "f": "いちねんじゅう",
+      "a": "dalam setahun",
+      "e": "saya belajar *dalam setahun*",
+      "c": 1,
+      "x": "selama setahun penuh\nberlawanan dengan 一時 (ichiji/sementara)\nuntuk aktivitas rutin atau iklim"
+    },
+    {
+      "q": "受付",
+      "f": "うけつけ",
+      "a": "penerima tamu",
+      "e": "saya tanya ke *penerima tamu*",
+      "c": 1,
+      "x": "tempat untuk menerima tamu atau klien\nberlawanan dengan 出口 (deguchi/pintu keluar)\nada di hotel, kantor, atau rumah sakit"
+    },
+    {
+      "q": "広場",
+      "f": "ひろば",
+      "a": "lapangan",
+      "e": "anak-anak bermain di *lapangan*",
+      "c": 1,
+      "x": "area terbuka yang luas\nberlawanan dengan 狭い場所 (semai basho/tempat sempit)\ntempat berkumpul atau bermain"
+    },
+    {
+      "q": "集まる",
+      "f": "あつまる",
+      "a": "berkumpul",
+      "e": "mereka *berkumpul* di taman",
+      "c": 1,
+      "x": "orang atau hewan datang ke satu tempat\nberlawanan dengan 散る (chiru/tersebar)\nuntuk rapat, pesta, atau komunitas",
+      "t": "が"
+    },
+    {
+      "q": "中止する",
+      "f": "ちゅうしする",
+      "a": "membatalkan",
+      "e": "acara itu *membatalkan* karena hujan",
+      "c": 1,
+      "x": "membatalkan acara atau kegiatan yang sudah dijadwalkan\nberlawanan dengan 開催する (kaisai suru/mengadakan)\nkarena cuaca atau alasan tertentu",
+      "t": "を"
+    },
+    {
+      "q": "入場料",
+      "f": "にゅうじょうりょう",
+      "a": "tarif masuk",
+      "e": "*tarif masuk* di sini mahal",
+      "c": 1,
+      "x": "uang untuk masuk ke tempat wisata atau acara\nberlawanan dengan 無料 (muryou/gratis)\nuntuk museum, taman, konser"
+    },
+    {
+      "q": "急ぐ",
+      "f": "いそぐ",
+      "a": "buru-buru",
+      "e": "saya *buru-buru* ke sekolah",
+      "c": 1,
+      "x": "bergerak cepat karena waktu terbatas\nberlawanan dengan ゆっくりする (yukkuri suru/santai)\nhati-hati menyebabkan kecelakaan"
+    },
+    {
+      "q": "年末",
+      "f": "ねんまつ",
+      "a": "akhir tahun",
+      "e": "ini adalah *akhir tahun*",
+      "c": 1,
+      "x": "akhir bulan Desember\nberlawanan dengan 年始 (nenshi/awal tahun)\npersiapan tahun baru dan liburan"
+    },
+    {
+      "q": "年始",
+      "f": "ねんし",
+      "a": "awal tahun",
+      "e": "ini adalah *awal tahun*",
+      "c": 1,
+      "x": "awal bulan Januari\nberlawanan dengan 年末 (nenmatsu/akhir tahun)\nbertemu keluarga dan teman"
+    },
+    {
+      "q": "親",
+      "f": "おや",
+      "a": "orang tua",
+      "e": "saya tinggal dengan *orang tua*",
+      "c": 1,
+      "x": "ayah dan ibu (atau orangtua asuh)\nberlawanan dengan 子 (ko/anak)\nharus dihormati dan dirawat"
+    },
+    {
+      "q": "帰国",
+      "f": "きこく",
+      "a": "pulang ke negara",
+      "e": "dia *pulang ke negara* asalnya",
+      "c": 1,
+      "x": "kembali ke negara asal setelah di luar negeri\nberlawanan dengan 渡航する (tokou suru/berangkat ke luar negeri)\nbiasanya karena libur atau tugas selesai"
+    },
+    {
+      "q": "喜ぶ",
+      "f": "よろこぶ",
+      "a": "senang",
+      "e": "saya sangat *senang* hari ini",
+      "c": 1,
+      "x": "merasa senang karena sesuatu yang baik\nberlawanan dengan 悲しむ (kanashimu/sedih)\nuntuk hadiah, kabar, atau pertemuan",
+      "t": "が"
+    },
+    {
+      "q": "幸せ［な］",
+      "f": "しあわせ",
+      "a": "bahagia",
+      "e": "saya merasa *bahagia*",
+      "c": 1,
+      "x": "perasaan damai dan puas\nberlawanan dengan 不幸 (fukou/tidak bahagia)\ntergantung pada diri sendiri"
+    },
+    {
+      "q": "成長",
+      "f": "せいちょう",
+      "a": "perkembangan",
+      "e": "ini adalah *perkembangan* teknologi",
+      "c": 1,
+      "x": "proses menjadi lebih besar atau dewasa\nberlawanan dengan 衰退 (suitai/kemunduran)\nuntuk anak, bisnis, atau teknologi"
+    },
+    {
+      "q": "長生き",
+      "f": "ながいき",
+      "a": "umur panjang",
+      "e": "dia ingin *umur panjang*",
+      "c": 1,
+      "x": "hidup sampai usia tua\nberlawanan dengan 早死にする (hayajini suru/mati muda)\ndo'a untuk orang lanjut usia"
+    },
+    {
+      "q": "願い事",
+      "f": "ねがいこと",
+      "a": "keinginan",
+      "e": "saya menulis *keinginan* di kertas",
+      "c": 1,
+      "x": "permintaan yang diharapkan terkabul\nbiasanya pada tahun baru atau ulang tahun\nberdoa di kuil atau lilin ulang tahun"
+    },
+    {
+      "q": "〜市",
+      "f": "し",
+      "a": "kota 〜",
+      "e": "saya tinggal di *kota 〜* Jakarta",
+      "c": 1,
+      "x": "pembagian wilayah administratif di Jepang\ncontoh: 大阪市 (Oosaka-shi/Kota Osaka)\ndi bawah prefektur"
+    },
+    {
+      "q": "商品",
+      "f": "しょうひん",
+      "a": "barang dagangan",
+      "e": "ini adalah *barang dagangan* murah",
+      "c": 1,
+      "x": "barang yang dijual ke konsumen\nberlawanan dengan 原材料 (genzairyou/bahan baku)\nada di toko atau online"
+    },
+    {
+      "q": "電気製品",
+      "f": "でんきせいひん",
+      "a": "peralatan listrik",
+      "e": "saya membeli *peralatan listrik*",
+      "c": 1,
+      "x": "alat yang menggunakan listrik untuk berfungsi\nberlawanan dengan 手動 (shudou/manual)\nTV, kulkas, AC, komputer"
+    },
+    {
+      "q": "動く",
+      "f": "うごく",
+      "a": "bergerak",
+      "e": "mesin ini bisa *bergerak*",
+      "c": 1,
+      "x": "berubah posisi atau keadaan\nberlawanan dengan 止まる (tomaru/berhenti)\nuntuk mesin, kendaraan, atau benda hidup",
+      "t": "が"
+    },
+    {
+      "q": "機能",
+      "f": "きのう",
+      "a": "fungsi",
+      "e": "HP ini punya banyak *fungsi*",
+      "c": 1,
+      "x": "kegunaan atau tugas dari suatu alat\nberlawanan dengan 無機能 (mukinou/tidak punya fungsi)\nsetiap produk punya fungsi tertentu"
+    },
+    {
+      "q": "省エネ",
+      "f": "しょうえね",
+      "a": "penghematan energi",
+      "e": "ini produk *penghematan energi*",
+      "c": 1,
+      "x": "mengurangi penggunaan energi\nberlawanan dengan 浪費 (rouhi/boros)\nbaik untuk lingkungan dan biaya"
+    },
+    {
+      "q": "満足する",
+      "f": "まんぞくする",
+      "a": "puas",
+      "e": "saya merasa *puas*",
+      "c": 1,
+      "x": "merasa cukup dengan apa yang ada\nberlawanan dengan 不満 (fuman/tidak puas)\nuntuk hasil kerja, pelayanan, atau barang",
+      "t": "が"
+    }
+  ],
+  "23": [
+    {
+      "q": "仏教",
+      "f": "ぶっきょう",
+      "a": "agama buddha",
+      "e": "ini adalah *agama buddha*",
+      "c": 2,
+      "x": "agama yang didasarkan pada ajaran Siddhartha Gautama\ndi Jepang banyak aliran (Zen, Jodo, Shingon)\nada kuil Buddha di setiap kota"
+    },
+    {
+      "q": "中心",
+      "f": "ちゅうしん",
+      "a": "pusat",
+      "e": "ini adalah *pusat* kota",
+      "c": 1,
+      "x": "titik atau bagian paling penting atau utama\nberlawanan dengan 周辺 (shuuhen/sekeliling)\nuntuk kota, lingkaran, atau perhatian"
+    },
+    {
+      "q": "〜的",
+      "f": "てき",
+      "a": "bersifat 〜\nsecara 〜",
+      "e": "ini *bersifat* penting\nini dilakukan *secara* khusus",
+      "c": 2,
+      "x": "sufiks yang mengubah kata benda menjadi kata sifat\ncontoh: 経済的 (keizaiteki/ekonomis)\nberarti 'bersifat seperti' atau 'berkaitan dengan'"
+    },
+    {
+      "q": "歴史的［な］",
+      "f": "れきしてき",
+      "a": "bersejarah",
+      "e": "ini bangunan *bersejarah*",
+      "c": 2,
+      "x": "berkaitan dengan masa lalu atau peristiwa bersejarah\ncontoh: 歴史的な建物 (bangunan bersejarah)\nberlawanan dengan 現代的 (gendaiteki/modern)"
+    },
+    {
+      "q": "飲食",
+      "f": "いんしょく",
+      "a": "makan minum",
+      "e": "dia menjaga *makan minum*",
+      "c": 2,
+      "x": "aktivitas makan dan minum untuk hidup\nbisa untuk bisnis (restoran, kafe)\nberlawanan dengan 断食 (danjiki/puasa)"
+    },
+    {
+      "q": "禁止",
+      "f": "きんし",
+      "a": "larangan",
+      "e": "itu adalah *larangan* keras",
+      "c": 2,
+      "x": "aturan yang melarang sesuatu\nberlawanan dengan 許可 (kyoka/izin)\nada tanda 禁止 di tempat umum"
+    },
+    {
+      "q": "説明",
+      "f": "せつめい",
+      "a": "penjelasan",
+      "e": "saya memberi *penjelasan*",
+      "c": 2,
+      "x": "informasi untuk membuat sesuatu jelas\nberlawanan dengan 質問 (shitsumon/pertanyaan)\nbiasanya lisan atau tulisan"
+    },
+    {
+      "q": "必要",
+      "f": "ひつよう",
+      "a": "kebutuhan",
+      "e": "ini adalah *kebutuhan* dasar",
+      "c": 2,
+      "x": "keadaan yang mengharuskan sesuatu\nberlawanan dengan 不要 (fuyuu/tidak perlu)\nuntuk uang, waktu, atau tenaga"
+    },
+    {
+      "q": "温度",
+      "f": "おんど",
+      "a": "suhu",
+      "e": "*suhu* hari ini tinggi",
+      "c": 1,
+      "x": "ukuran panas atau dingin\nsatuan Celcius di Jepang\nuntuk cuaca, tubuh, atau mesin"
+    },
+    {
+      "q": "活動",
+      "f": "かつどう",
+      "a": "aktivitas",
+      "e": "ini adalah *aktivitas* harian",
+      "c": 1,
+      "x": "gerakan atau tindakan yang dilakukan\nberlawanan dengan 静止 (seishi/diam)\nuntuk tubuh, organisasi, atau mesin"
+    },
+    {
+      "q": "度",
+      "f": "ど",
+      "a": "derajat",
+      "e": "*derajat* suhu naik",
+      "c": 1,
+      "x": "satuan untuk sudut, suhu, atau level\ncontoh: 90度 (kyuu juu do/90 derajat)\njuga untuk level kecanduan"
+    },
+    {
+      "q": "用",
+      "f": "よう",
+      "a": "keperluan",
+      "e": "ini untuk *keperluan* kerja",
+      "c": 1,
+      "x": "keperluan atau pemakaian sesuatu\ncontoh: 使用用 (shiyou you/untuk pemakaian)\nmelekat pada kata benda untuk menunjukkan tujuan"
+    },
+    {
+      "q": "子供用",
+      "f": "こどもよう",
+      "a": "untuk anak",
+      "e": "ini khusus *untuk anak*",
+      "c": 1,
+      "x": "khusus dibuat atau dirancang untuk anak-anak\ncontoh: 子供用メニュー (menu anak-anak)\nberlawanan dengan 大人用 (otona you/untuk dewasa)"
+    },
+    {
+      "q": "人生",
+      "f": "じんせい",
+      "a": "kehidupan",
+      "e": "ini cerita *kehidupan* saya",
+      "c": 1,
+      "x": "perjalanan hidup dari lahir sampai mati\nberlawanan dengan 死 (shi/kematian)\nada suka dan duka"
+    },
+    {
+      "q": "入学",
+      "f": "にゅがく",
+      "a": "masuk sekolah",
+      "e": "dia *masuk sekolah* hari ini",
+      "c": 2,
+      "x": "masuk atau terdaftar di sekolah\nberlawanan dengan 卒業 (sotsugyou/kelulusan)\nmomen penting dalam hidup"
+    },
+    {
+      "q": "思い出",
+      "f": "おもいで",
+      "a": "kenangan",
+      "e": "ini adalah *kenangan* indah",
+      "c": 1,
+      "x": "sesuatu yang diingat dari masa lalu\nberlawanan dengan 忘れ物 (wasuremono/barang lupa)\nbisa indah atau pahit"
+    },
+    {
+      "q": "サッカー場",
+      "f": "さっかーば",
+      "a": "lapangan sepak bola",
+      "e": "dia bermain di *lapangan sepak bola*",
+      "c": 1,
+      "x": "tempat bermain sepak bola dengan gawang\nstandar internasional\nada rumput alami atau sintetis"
+    },
+    {
+      "q": "対",
+      "f": "たい",
+      "a": "lawan",
+      "e": "dia adalah *lawan* kuat",
+      "c": 1,
+      "x": "posisi berhadapan atau melawan\ncontoh: 対話 (taiwa/dialog)\nuntuk perbandingan atau kompetisi"
+    },
+    {
+      "q": "通勤",
+      "f": "つうきん",
+      "a": "perjalanan ke kantor",
+      "e": "saya melakukan *perjalanan ke kantor*",
+      "c": 1,
+      "x": "perjalanan rutin dari rumah ke tempat kerja\nberlawanan dengan 帰宅 (kitaku/pulang rumah)\npengeluaran waktu dan biaya"
+    },
+    {
+      "q": "食生活",
+      "f": "しょくせいかつ",
+      "a": "pola makan",
+      "e": "saya menjaga *pola makan*",
+      "c": 1,
+      "x": "kebiasaan makan seseorang sehari-hari\nberlawanan dengan 不規則な食事 (fukisoku na shokuji/makan tidak teratur)\npengaruh besar pada kesehatan"
+    },
+    {
+      "q": "家庭料理",
+      "f": "かていりょうり",
+      "a": "masakan rumahan",
+      "e": "ini *masakan rumahan*",
+      "c": 1,
+      "x": "masakan yang dimasak sendiri di rumah\nberlawanan dengan 外食 (gaishoku/makan di luar)\nlebih sehat dan hemat"
+    },
+    {
+      "q": "食",
+      "f": "しょく",
+      "a": "makan",
+      "e": "saya sedang *makan*",
+      "c": 1,
+      "x": "segala sesuatu yang dimakan untuk hidup\nberlawanan dengan 断食 (danjiki/puasa)\npenting untuk energi dan nutrisi"
+    },
+    {
+      "q": "朝食",
+      "f": "ちょうしょく",
+      "a": "makan pagi",
+      "e": "saya sudah *makan pagi*",
+      "c": 1,
+      "x": "makanan yang dimakan di pagi hari\nberlawanan dengan 夕食 (yuushoku/makan malam)\nmemberi energi untuk aktivitas"
+    },
+    {
+      "q": "昼食",
+      "f": "ちゅうしょく",
+      "a": "makan siang",
+      "e": "saya *makan siang* di kantor",
+      "c": 1,
+      "x": "makanan yang dimakan di siang hari\nberlawanan dengan 朝食 (choushoku/makan pagi)\nsaat istirahat kerja atau sekolah"
+    },
+    {
+      "q": "夕食",
+      "f": "ゆうしょく",
+      "a": "makan malam",
+      "e": "saya *makan malam* bersama keluarga",
+      "c": 1,
+      "x": "makanan yang dimakan di malam hari\nberlawanan dengan 朝食 (choushoku/makan pagi)\nbersama keluarga sering di rumah"
+    },
+    {
+      "q": "訪問",
+      "f": "ほうもん",
+      "a": "kunjungan",
+      "e": "saya melakukan *kunjungan*",
+      "c": 2,
+      "x": "datang ke tempat atau orang\nberlawanan dengan 帰宅 (kitaku/pulang)\nuntuk rumah, kantor, atau teman"
+    },
+    {
+      "q": "観",
+      "f": "かん",
+      "a": "pemandangan\nmelihat\nwisata",
+      "e": "ini *pemandangan* indah\nsaya *melihat* itu\ndia pergi *wisata*",
+      "c": 2,
+      "x": "melihat pemandangan atau objek wisata\ncontoh: 観光 (kankou/wisata)\nuntuk menikmati keindahan"
+    },
+    {
+      "q": "約",
+      "f": "やく",
+      "a": "kira-kira",
+      "e": "ini *kira-kira* benar",
+      "c": 1,
+      "x": "kira-kira atau sekitar (perkiraan)\ncontoh: 約100人 (yaku hyaku nin/sekitar 100 orang)\nberlawanan dengan 正確 (seikaku/tepat)"
+    },
+    {
+      "q": "計画",
+      "f": "けいかく",
+      "a": "rencana",
+      "e": "ini adalah *rencana* saya",
+      "c": 2,
+      "x": "rencana atau rancangan untuk masa depan\nberlawanan dengan 実行 (jikkou/pelaksanaan)\nuntuk proyek, perjalanan, atau karir"
+    },
+    {
+      "q": "自信",
+      "f": "じしん",
+      "a": "percaya diri",
+      "e": "dia punya *percaya diri*",
+      "c": 1,
+      "x": "keyakinan pada kemampuan diri sendiri\nberlawanan dengan 自信がない (jishin ga nai/tidak percaya diri)\npenting untuk sukses"
+    },
+    {
+      "q": "目的",
+      "f": "もくてき",
+      "a": "tujuan",
+      "e": "ini adalah *tujuan* utama",
+      "c": 2,
+      "x": "sasaran yang ingin dicapai\nberlawanan dengan 手段 (shudan/cara)\nbutuh motivasi untuk mencapainya"
+    },
+    {
+      "q": "通じる",
+      "f": "つうじる",
+      "a": "terhubung\nbisa dipahami",
+      "e": "kita *terhubung*\nini bisa *dipahami*",
+      "c": 1,
+      "x": "terhubung atau bisa dipahami (logika, bahasa, perasaan)\npakai partikel に untuk objek\nberlawanan dengan 不通 (futsuu/tidak terhubung)"
+    },
+    {
+      "q": "級",
+      "f": "きゅう",
+      "a": "tingkat",
+      "e": "ini adalah *tingkat* sulit",
+      "c": 1,
+      "x": "tingkatan atau peringkat dalam sistem\ncontoh: 等級 (toukyuu/kelas)\nuntuk bahasa, olahraga, atau kemampuan"
+    },
+    {
+      "q": "初級",
+      "f": "しょきゅう",
+      "a": "kelas dasar",
+      "e": "ini kelas *kelas dasar*",
+      "c": 1,
+      "x": "level paling dasar atau awal\nberlawanan dengan 上級 (joukyuu/level atas)\nuntuk pembelajar baru"
+    },
+    {
+      "q": "中級",
+      "f": "ちゅうきゅう",
+      "a": "kelas menengah",
+      "e": "ini kelas *kelas menengah*",
+      "c": 1,
+      "x": "level menengah antara pemula dan mahir\nberlawanan dengan 初級 (shokyu/level dasar)\nbisa memahami percakapan umum"
+    },
+    {
+      "q": "上級",
+      "f": "じょうきゅう",
+      "a": "kelas atas",
+      "e": "ini kelas *kelas atas*",
+      "c": 1,
+      "x": "level tertinggi atau mahir\nberlawanan dengan 初級 (shokyu/level dasar)\nbisa debat atau baca koran"
+    },
+    {
+      "q": "相手",
+      "f": "あいて",
+      "a": "pasangan",
+      "e": "dia adalah *pasangan* saya",
+      "c": 1,
+      "x": "orang yang menjadi pasangan atau lawan bicara\nberlawanan dengan 味方 (mikata/sekutu)\nuntuk olahraga, bisnis, atau percintaan"
+    },
+    {
+      "q": "出会い",
+      "f": "であい",
+      "a": "pertemuan",
+      "e": "itu adalah *pertemuan* pertama",
+      "c": 1,
+      "x": "peristiwa bertemu pertama kali dengan seseorang\nberlawanan dengan 別れ (wakare/perpisahan)\nbisa indah atau tidak disengaja"
+    },
+    {
+      "q": "最高［な］",
+      "f": "さいこう",
+      "a": "tertinggi",
+      "e": "ini hasil *tertinggi*",
+      "c": 1,
+      "x": "yang paling tinggi atau terbaik\nberlawanan dengan 最低 (saitei/terendah)\nuntuk nilai, kualitas, atau rekaman"
+    },
+    {
+      "q": "出席",
+      "f": "しゅっせき",
+      "a": "kehadiran",
+      "e": "ini adalah *kehadiran* wajib",
+      "c": 1,
+      "x": "kehadiran di acara atau tempat\nberlawanan dengan 欠席 (kesseki/absen)\nbiasanya untuk kelas atau rapat"
+    }
   ]
 }
