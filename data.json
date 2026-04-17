@@ -8277,5 +8277,337 @@
       "c": 1,
       "x": "pola atau desain pada permukaan kain, kertas, atau dinding\ncontoh: 花模様 (hana moyou/pola bunga)\nuntuk estetika dan dekorasi"
     }
+  ],
+  "26": [
+    {
+      "q": "平方センチメートル",
+      "f": "へいほうせんちめーとる",
+      "a": "sentimeter persegi",
+      "e": "luasnya *sentimeter persegi*",
+      "c": 2,
+      "x": "satuan luas untuk bidang persegi 1cm × 1cm\ndipakai untuk mengukur luas kecil (buku, kertas)\n1 平方センチメートル = 0.0001 平方メートル"
+    },
+    {
+      "q": "平方メートル",
+      "f": "へいほうめーとる",
+      "a": "meter persegi",
+      "e": "ruangan ini *meter persegi*",
+      "c": 2,
+      "x": "satuan luas untuk bidang persegi 1m × 1m\ndipakai untuk mengukur luas ruangan atau tanah\n1 平方メートル = 10,000 平方センチメートル"
+    },
+    {
+      "q": "平方キロメートル",
+      "f": "へいほうきろめーとる",
+      "a": "kilometer persegi",
+      "e": "wilayah itu *kilometer persegi*",
+      "c": 2,
+      "x": "satuan luas untuk bidang persegi 1km × 1km\ndipakai untuk mengukur luas kota, pulau, atau negara\n1 平方キロメートル = 1,000,000 平方メートル"
+    },
+    {
+      "q": "体積",
+      "f": "たいせき",
+      "a": "volume",
+      "e": "ini adalah *volume* air",
+      "c": 2,
+      "x": "ruang yang ditempati oleh benda tiga dimensi\nberlawanan dengan 面積 (menseki/luas permukaan)\nsatuan dalam meter kubik atau sentimeter kubik"
+    },
+    {
+      "q": "容積",
+      "f": "ようせき",
+      "a": "kapasitas",
+      "e": "botol ini punya *kapasitas* besar",
+      "c": 2,
+      "x": "kapasitas maksimum yang bisa ditampung wadah\nberlawanan dengan 空き容量 (aki youryou/kapasitas kosong)\nuntuk botol, tangki, atau ruangan"
+    },
+    {
+      "q": "立方センチメートル",
+      "f": "りっぽうせんちめーとる",
+      "a": "sentimeter kubik",
+      "e": "ini *sentimeter kubik*",
+      "c": 2,
+      "x": "satuan volume untuk kubus 1cm × 1cm × 1cm\ndipakai untuk volume kecil (kotak, ponsel)\n1 立方センチメートル = 1 ミリリットル"
+    },
+    {
+      "q": "立方メートル",
+      "f": "りっぽうめーとる",
+      "a": "meter kubik",
+      "e": "ini *meter kubik*",
+      "c": 2,
+      "x": "satuan volume untuk kubus 1m × 1m × 1m\ndipakai untuk volume besar (ruangan, air kolam)\n1 立方メートル = 1000 リットル"
+    },
+    {
+      "q": "ミリリットル",
+      "f": "みりりっとる",
+      "a": "mililiter",
+      "e": "isi airnya *mililiter*",
+      "c": 1,
+      "x": "satuan volume untuk cairan, 1 ml = 0.001 liter\ndipakai untuk obat, parfum, atau minuman kecil\n1 ミリリットル = 1 シーシー"
+    },
+    {
+      "q": "シーシー",
+      "f": "しーしー",
+      "a": "cc",
+      "e": "obat ini 5 *cc*",
+      "c": 1,
+      "x": "satuan volume yang sama dengan mililiter (1 ml)\nsingkatan dari 'cubic centimeter'\npopuler untuk mesin dan otomotif"
+    },
+    {
+      "q": "リットル",
+      "f": "りっとる",
+      "a": "liter",
+      "e": "botol ini 1 *liter*",
+      "c": 1,
+      "x": "satuan volume untuk cairan (susu, bensin, air)\n1 リットル = 1000 ミリリットル\ndipakai sehari-hari untuk belanja dan masak"
+    },
+    {
+      "q": "ミリグラム",
+      "f": "みりぐらむ",
+      "a": "miligram",
+      "e": "ini *miligram* kecil",
+      "c": 2,
+      "x": "satuan berat yang sangat kecil, 1 mg = 0.001 g\ndipakai untuk obat-obatan atau bahan kimia\nhati-hati dengan dosis"
+    },
+    {
+      "q": "キロ［グラム］",
+      "f": "きろぐらむ",
+      "a": "kilogram",
+      "e": "beratnya 1 *kilogram*",
+      "c": 2,
+      "x": "satuan berat dasar, 1 kg = 1000 gram\ndipakai untuk belanja, masak, dan berat badan\nsingkatan: キロ (kiro)"
+    },
+    {
+      "q": "トン",
+      "f": "とん",
+      "a": "ton",
+      "e": "barang ini 1 *ton*",
+      "c": 2,
+      "x": "satuan berat yang sangat besar, 1 ton = 1000 kg\ndipakai untuk mobil, bangunan, atau hasil panen\nada ton metrik dan ton imperial"
+    },
+    {
+      "q": "計算",
+      "f": "けいさん",
+      "a": "perhitungan",
+      "e": "ini adalah *perhitungan* sulit",
+      "c": 2,
+      "x": "proses matematika untuk mendapatkan hasil\nsebagai kata kerja: 計算する (keisan suru)\nberlawanan dengan 暗算 (anzan/hitung mental)"
+    },
+    {
+      "q": "足す",
+      "f": "たす",
+      "a": "tambah",
+      "e": "saya *tambah* angka itu",
+      "c": 1,
+      "x": "operasi matematika menambahkan angka\nberlawanan dengan 引く (hiku/kurang)\ncontoh: 1 + 1 = 2",
+      "t": "を"
+    },
+    {
+      "q": "引く",
+      "f": "ひく",
+      "a": "kurang",
+      "e": "saya *kurang* angka itu",
+      "c": 1,
+      "x": "operasi matematika mengurangi angka\nberlawanan dengan 足す (tasu/tambah)\ncontoh: 5 - 3 = 2",
+      "t": "を"
+    },
+    {
+      "q": "掛ける",
+      "f": "かける",
+      "a": "kali",
+      "e": "saya *kali* angka itu",
+      "c": 1,
+      "x": "operasi matematika mengalikan angka\nberlawanan dengan 割る (waru/bagi)\ncontoh: 3 × 4 = 12",
+      "t": "を"
+    },
+    {
+      "q": "割る",
+      "f": "わる",
+      "a": "bagi",
+      "e": "saya *bagi* angka itu",
+      "c": 1,
+      "x": "operasi matematika membagi angka\nberlawanan dengan 掛ける (kakeru/kali)\ncontoh: 10 ÷ 2 = 5",
+      "t": "を"
+    },
+    {
+      "q": "は［イコール］",
+      "f": "わ",
+      "a": "sama dengan",
+      "e": "hasilnya *sama dengan* 10",
+      "c": 1,
+      "x": "partikel untuk menunjukkan hasil yang sama\nbisa dibaca は (wa) atau イコール (iikooru)\ncontoh: 2 + 2 は 4"
+    },
+    {
+      "q": "直線",
+      "f": "ちょくせん",
+      "a": "garis lurus",
+      "e": "ini *garis lurus*",
+      "c": 1,
+      "x": "garis yang tidak berbelok atau melengkung\nberlawanan dengan 曲線 (kyokusen/garis lengkung)\nterpendek antara dua titik"
+    },
+    {
+      "q": "曲線",
+      "f": "きょくせん",
+      "a": "garis kurva\ngaris lengkung",
+      "e": "ini *garis kurva*\nini *garis lengkung*",
+      "c": 1,
+      "x": "garis yang berbelok atau melengkung\nberlawanan dengan 直線 (chokusen/garis lurus)\ncontoh: lingkaran, parabola"
+    },
+    {
+      "q": "点線",
+      "f": "てんせん",
+      "a": "garis titik",
+      "e": "ini *garis titik*",
+      "c": 1,
+      "x": "garis yang terdiri dari titik-titik\nsering untuk potongan, lipatan, atau batas sementara\nberlawanan dengan 実線 (jissen/garis utuh)"
+    },
+    {
+      "q": "円（丸）",
+      "f": "えん",
+      "a": "bulat",
+      "e": "bentuknya *bulat*",
+      "c": 1,
+      "x": "bentuk bulat sempurna tanpa sudut\nberlawanan dengan 四角 (shikaku/persegi)\ncontoh: uang koin, roda"
+    },
+    {
+      "q": "三角［形］",
+      "f": "さんかくけい",
+      "a": "[bentuk] segi tiga",
+      "e": "ini *segi tiga*",
+      "c": 1,
+      "x": "bentuk dengan tiga sisi dan tiga sudut\nberlawanan dengan 四角 (shikaku/segi empat)\ncontoh: rambu jalan, gunung"
+    },
+    {
+      "q": "四角［形］",
+      "f": "しかくけい",
+      "a": "[bentuk] segi empat",
+      "e": "ini *segi empat*",
+      "c": 1,
+      "x": "bentuk dengan empat sisi dan empat sudut\nberlawanan dengan 三角 (sankaku/segi tiga)\ncontoh: meja, kertas, lapangan"
+    },
+    {
+      "q": "模様",
+      "f": "もよう",
+      "a": "corak",
+      "e": "ini *corak* unik",
+      "c": 1,
+      "x": "desain atau gambar pada permukaan kain atau kertas\nberlawanan dengan 無地 (muji/polos)\nuntuk pakaian, kertas, atau keramik"
+    },
+    {
+      "q": "縦縞",
+      "f": "たてじま",
+      "a": "belang vertikal",
+      "e": "bajunya *belang vertikal*",
+      "c": 1,
+      "x": "garis atau jalur vertikal pada pakaian\nberlawanan dengan 横縞 (yokojima/garis horizontal)\nuntuk baju, kemeja, atau gorden"
+    },
+    {
+      "q": "横縞",
+      "f": "よこじま",
+      "a": "belang horizontal",
+      "e": "bajunya *belang horizontal*",
+      "c": 1,
+      "x": "garis atau jalur horizontal pada pakaian\nberlawanan dengan 縦縞 (tatejima/garis vertikal)\nuntuk baju, kemeja, atau gorden"
+    },
+    {
+      "q": "チェック",
+      "f": "ちぇっく",
+      "a": "berpetak-petak",
+      "e": "ini motif *berpetak-petak*",
+      "c": 1,
+      "x": "corak kotak-kotak atau petak-petak\nserapan dari 'check'\npopuler untuk baju flanel dan meja"
+    },
+    {
+      "q": "花柄",
+      "f": "はながら",
+      "a": "corak bunga",
+      "e": "ini *corak bunga*",
+      "c": 1,
+      "x": "motif atau gambar bunga pada pakaian\nsering untuk gaun, rok, atau kimono\nberlawanan dengan 無地 (muji/polos)"
+    },
+    {
+      "q": "無地",
+      "f": "むじ",
+      "a": "polos",
+      "e": "ini polos atau *polos*",
+      "c": 1,
+      "x": "tidak ada gambar atau corak, hanya warna polos\nberlawanan dengan 模様 (moyou/bercorak)\nuntuk kemeja formal, sprei, atau dinding"
+    },
+    {
+      "q": "いただく",
+      "f": "いただく",
+      "a": "menerima",
+      "e": "saya *menerima* hadiah",
+      "c": 1,
+      "x": "bentuk sopan dari もらう (menerima)\ndipakai untuk diri sendiri atau orang dekat\nberlawanan dengan あげる (ageru/memberi)",
+      "t": "を"
+    },
+    {
+      "q": "くださる",
+      "f": "くださる",
+      "a": "memberikan",
+      "e": "sensei *memberikan* buku",
+      "c": 3,
+      "x": "bentuk sopan dari くれる (memberi)\norang lain memberikan sesuatu kepada pembicara\ndipakai untuk orang yang dihormati",
+      "t": "を"
+    },
+    {
+      "q": "やる",
+      "f": "やる",
+      "a": "memberi",
+      "e": "saya *memberi* teman hadiah",
+      "c": 4,
+      "x": "bentuk kasual dari あげる (memberi)\ndipakai untuk teman sebaya atau bawahan\nhati-hati karena bisa terdengar kasar",
+      "t": "を"
+    },
+    {
+      "q": "上げる",
+      "f": "あげる",
+      "a": "menaikkan",
+      "e": "saya *menaikkan* harga",
+      "c": 0,
+      "x": "memberi sesuatu kepada orang lain\nberlawanan dengan もらう (morau/menerima)\nbisa untuk barang atau bantuan",
+      "t": "を"
+    },
+    {
+      "q": "下げる",
+      "f": "さげる",
+      "a": "menurunkan",
+      "e": "saya *menurunkan* volume",
+      "c": 1,
+      "x": "memindahkan sesuatu ke posisi yang lebih rendah\nberlawanan dengan 上げる (ageru/naikkan)\nuntuk barang, harga, atau volume",
+      "t": "を"
+    },
+    {
+      "q": "親切にする",
+      "f": "しんせつにする",
+      "a": "berbaik hati",
+      "e": "dia *berbaik hati*",
+      "c": 1,
+      "x": "melakukan tindakan baik untuk orang lain\npakai partikel に untuk penerima kebaikan\nberlawanan dengan 意地悪する (ijiwaru suru/berbuat jahat)",
+      "t": "を"
+    },
+    {
+      "q": "可愛い",
+      "f": "かわいい",
+      "a": "manis",
+      "e": "anak itu *manis*",
+      "c": 1,
+      "x": "imut dan menggemaskan\nberlawanan dengan 醜い (minikui/jelek)\nsering untuk anak, hewan, atau pakaian"
+    },
+    {
+      "q": "珍しい",
+      "f": "めずらしい",
+      "a": "langka",
+      "e": "itu barang *langka*",
+      "c": 1,
+      "x": "jarang ditemui atau tidak biasa\nberlawanan dengan 普通 (futsuu/biasa)\nbisa untuk benda, peristiwa, atau orang"
+    },
+    {
+      "q": "水玉",
+      "f": "みずたま",
+      "a": "berbintik-bintik",
+      "e": "baju ini *berbintik-bintik*",
+      "c": 1,
+      "x": "corak berupa titik-titik bulat seperti air\nsering untuk pakaian, dasi, atau aksesoris\npopuler untuk gaya retro"
+    }
   ]
 }

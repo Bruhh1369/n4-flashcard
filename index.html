@@ -4,8 +4,2335 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Flashcard Bahasa Jepang</title>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+    body {
+      background: #0f1117;
+      color: white;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      min-height: 100vh;
+      position: relative;
+      overflow: hidden;
+    }
+    body::before {
+      content: "";
+      position: fixed;
+      top: -50%;
+      left: -50%;
+      width: 200%;
+      height: 200%;
+      background: 
+        radial-gradient(circle at 20% 50%, rgba(102, 126, 234, 0.07) 0%, transparent 50%),
+        radial-gradient(circle at 80% 80%, rgba(118, 75, 162, 0.07) 0%, transparent 50%),
+        radial-gradient(circle at 40% 20%, rgba(79, 172, 254, 0.05) 0%, transparent 50%);
+      animation: gradientMove 15s ease infinite;
+      z-index: 0;
+    }
+    @keyframes gradientMove {
+      0%, 100% { transform: translate(0, 0) rotate(0deg); }
+      33% { transform: translate(5%, 5%) rotate(120deg); }
+      66% { transform: translate(-5%, 5%) rotate(240deg); }
+    }
+    body::after {
+      content: "";
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      background: url('data:image/svg+xml;utf8,<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="grid" width="100" height="100" patternUnits="userSpaceOnUse"><path d="M 100 0 L 0 0 0 100" fill="none" stroke="rgba(255,255,255,0.02)" stroke-width="1"/></pattern></defs><rect width="100%" height="100%" fill="url(%23grid)"/></svg>');
+      opacity: 0.5;
+      z-index: 0;
+    }
+    .container {
+      display: flex;
+      min-height: 100vh;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding: 20px;
+      position: relative;
+      z-index: 1;
+    }
+    .progress {
+      margin-bottom: 25px;
+      font-size: 16px;
+      font-weight: 600;
+      color: rgba(160, 174, 192, 0.7);
+      letter-spacing: 0.5px;
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.95; transform: scale(1.02); }
+    }
+    .card-wrapper {
+      perspective: 1500px;
+      margin-bottom: 30px;
+      filter: drop-shadow(0 20px 40px rgba(0, 0, 0, 0.5));
+    }
+    .text-card {
+      background: transparent;
+      width: 22rem;
+      height: 18.4rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 20px;
+      cursor: pointer;
+      transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+      transform-style: preserve-3d;
+      position: relative;
+      user-select: none;
+    }
+    .text-card:hover { transform: translateY(-4px) scale(1.01); }
+    .text-card:active { transform: translateY(-2px) scale(1.005); }
+    .text-card.flipped { transform: rotateY(180deg); }
+    .text-card.flipped:hover { transform: rotateY(180deg) translateY(-4px) scale(1.01); }
+    .card-face {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      backface-visibility: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      padding: 20px;
+      border-radius: 18px;
+    }
+    .card-back { justify-content: flex-start; }
+    .card-back-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      flex: 1;
+      width: 100%;
+    }
+    .card-front {
+      background: #f0eff5;
+      color: #1a1a2e;
+      border: 1px solid rgba(102, 126, 234, 0.12);
+      box-shadow:
+        0 0 0 1px rgba(255,255,255,0.6) inset,
+        0 20px 40px rgba(0,0,0,0.4);
+    }
+    .card-back {
+      background: linear-gradient(145deg, #1e1b4b, #2d1b4e);
+      color: white;
+      transform: rotateY(180deg);
+      border: 1px solid rgba(139, 92, 246, 0.25);
+      box-shadow:
+        0 0 0 1px rgba(255,255,255,0.05) inset,
+        0 20px 40px rgba(0,0,0,0.5);
+    }
+    .card-text {
+      font-size: 2.8rem;
+      font-weight: 800;
+      text-align: center;
+      white-space: pre-line;
+      word-wrap: break-word;
+      max-width: 100%;
+      letter-spacing: 0.5px;
+      color: #1a1a2e;
+    }
+    .card-back .card-text {
+      color: #f0f0ff;
+      text-shadow: 0 2px 8px rgba(0,0,0,0.3);
+    }
+    .card-hint { display: none; }
+    .card-example {
+      font-size: 0.78rem;
+      margin-top: 10px;
+      text-align: center;
+      line-height: 1.7;
+      opacity: 0.75;
+      font-style: italic;
+      max-width: 100%;
+      word-wrap: break-word;
+      white-space: pre-line;
+      color: #a5b4fc;
+      letter-spacing: 0.2px;
+    }
+    .card-example .example-line { display: block; margin: 1px 0; }
+    .card-example .highlight { color: #fbbf24; font-weight: 700; font-style: normal; }
+    .highlight { color: #4f46e5; font-weight: 900; }
+    .card-back .highlight { color: #fbbf24; font-weight: 900; }
+    .line-sep {
+      display: block;
+      width: 40%;
+      margin: 6px auto;
+      border: none;
+      border-top: 1px solid rgba(255,255,255,0.1);
+      border-radius: 2px;
+    }
+    .card-back .line-sep { border-top-color: rgba(255,255,255,0.12); }
+    .mode-indicator {
+      position: absolute;
+      top: 15px;
+      right: 15px;
+      background: rgba(0, 0, 0, 0.15);
+      backdrop-filter: blur(10px);
+      padding: 6px 14px;
+      border-radius: 25px;
+      font-size: 0.85rem;
+      font-weight: 700;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      letter-spacing: 0.5px;
+    }
+    .card-back .mode-indicator {
+      background: rgba(255, 255, 255, 0.2);
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.3);
+    }
+    .swapped .mode-indicator {
+      background: linear-gradient(135deg, rgba(255, 200, 0, 0.4), rgba(255, 150, 0, 0.4));
+      backdrop-filter: blur(10px);
+      animation: glow 2s ease-in-out infinite;
+    }
+    @keyframes glow {
+      0%, 100% { box-shadow: 0 4px 10px rgba(255, 200, 0, 0.4); }
+      50% { box-shadow: 0 4px 20px rgba(255, 200, 0, 0.6); }
+    }
+    .type-badge {
+      position: absolute;
+      top: 12px;
+      right: 12px;
+      width: 2rem;
+      height: 2rem;
+      min-width: 2rem;
+      min-height: 2rem;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.85rem;
+      font-weight: 800;
+      font-family: "Hiragino Sans", "Yu Gothic", "Meiryo", sans-serif;
+      z-index: 2;
+      user-select: none;
+      box-sizing: border-box;
+      transition: all 0.3s ease;
+      backdrop-filter: blur(8px);
+    }
+    .type-badge.t-wo {
+      background: rgba(79, 172, 254, 0.18);
+      border: 1.5px solid rgba(79, 172, 254, 0.55);
+      color: #4facfe;
+    }
+    .type-badge.t-ga {
+      background: rgba(67, 233, 123, 0.18);
+      border: 1.5px solid rgba(67, 233, 123, 0.55);
+      color: #2ecc71;
+    }
+    .type-badge.t-none {
+      background: rgba(100, 100, 120, 0.08);
+      border: 1.5px solid rgba(100, 100, 120, 0.2);
+      color: rgba(100, 100, 120, 0.5);
+      font-size: 0.75rem;
+    }
+    .card-back .type-badge.t-wo {
+      background: rgba(120, 200, 255, 0.2);
+      border-color: rgba(160, 220, 255, 0.55);
+      color: #a8d8ff;
+    }
+    .card-back .type-badge.t-ga {
+      background: rgba(100, 255, 160, 0.2);
+      border-color: rgba(150, 255, 190, 0.55);
+      color: #a0ffcc;
+    }
+    .card-back .type-badge.t-none {
+      background: rgba(255, 255, 255, 0.06);
+      border-color: rgba(255, 255, 255, 0.2);
+      color: rgba(255, 255, 255, 0.3);
+    }
+    .buttons {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      justify-content: center;
+      max-width: 32rem;
+      margin-bottom: 10px;
+    }
+    button {
+      padding: 11px 20px;
+      font-size: 13px;
+      font-weight: 600;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      flex: 1;
+      min-width: 90px;
+      position: relative;
+      overflow: hidden;
+      letter-spacing: 0.3px;
+      background: #1a1d27;
+      color: #a0aec0;
+      border: 1px solid rgba(255,255,255,0.08);
+      box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+    }
+    button:hover {
+      transform: translateY(-2px);
+      border-color: rgba(102,126,234,0.4);
+      color: #e2e8f0;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.4);
+    }
+    button:active { transform: translateY(0); }
+    button span { position: relative; z-index: 1; }
+    #shuffle { border-color: rgba(67,233,123,0.2); color: #6ee7b7; }
+    #shuffle:hover { background: rgba(67,233,123,0.08); border-color: rgba(67,233,123,0.5); color: #6ee7b7; }
+    #swap { border-color: rgba(240,147,251,0.2); color: #e879f9; }
+    #swap:hover { background: rgba(240,147,251,0.08); border-color: rgba(240,147,251,0.5); color: #e879f9; }
+    #next { border-color: rgba(79,172,254,0.2); color: #60a5fa; }
+    #next:hover { background: rgba(79,172,254,0.08); border-color: rgba(79,172,254,0.5); color: #60a5fa; }
+    #kanji { border-color: rgba(250,112,154,0.2); color: #f472b6; }
+    #kanji:hover { background: rgba(250,112,154,0.08); border-color: rgba(250,112,154,0.5); color: #f472b6; }
+    #kanji.kanji-on { background: rgba(250,112,154,0.12); border-color: rgba(250,112,154,0.5); color: #f472b6; }
+    #furigana { border-color: rgba(160,174,192,0.15); color: #718096; }
+    #furigana:hover { background: rgba(160,174,192,0.06); border-color: rgba(160,174,192,0.3); color: #a0aec0; }
+    #hafal { border-color: rgba(67,233,123,0.25); color: #6ee7b7; }
+    #hafal:hover { background: rgba(67,233,123,0.1); border-color: rgba(67,233,123,0.5); box-shadow: 0 4px 14px rgba(67,233,123,0.15); }
+    #hafal.hafal-flash { animation: hafalFlash 0.4s ease; }
+    @keyframes hafalFlash {
+      0%   { transform: scale(1); }
+      40%  { transform: scale(0.93); background: rgba(245,87,108,0.15); color: #f87171; border-color: rgba(245,87,108,0.4); }
+      100% { transform: scale(1); }
+    }
+    .keyboard-hints {
+      margin-top: 20px;
+      font-size: 11px;
+      color: rgba(160,174,192,0.35);
+      text-align: center;
+      letter-spacing: 0.3px;
+      font-weight: 500;
+    }
+    .sidebar {
+      background: #0f1117;
+      width: 82%;
+      max-width: 400px;
+      z-index: 999;
+      position: fixed;
+      height: 100%;
+      left: -100%;
+      transition: 350ms cubic-bezier(0.4, 0, 0.2, 1);
+      overflow-y: auto;
+      overscroll-behavior: none;
+      padding: 0;
+      box-shadow: 8px 0 40px rgba(0, 0, 0, 0.7);
+      border-right: 1px solid rgba(102, 126, 234, 0.15);
+    }
+    .sidebar::-webkit-scrollbar { width: 4px; }
+    .sidebar::-webkit-scrollbar-track { background: transparent; }
+    .sidebar::-webkit-scrollbar-thumb {
+      background: linear-gradient(145deg, #667eea, #764ba2);
+      border-radius: 10px;
+    }
+    .overlay {
+      width: 100%;
+      height: 100%;
+      position: fixed;
+      z-index: 998;
+      display: none;
+      background: rgba(0, 0, 0, 0.6);
+      backdrop-filter: blur(4px);
+    }
+    #sidebarCheckbox:checked ~ .sidebar { left: 0; }
+    #sidebarCheckbox:checked ~ .overlay { display: block; }
+
+    /* ── Sidebar Header ── */
+    .sidebar-header {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      background: #0f1117;
+      padding: 22px 20px 16px;
+      border-bottom: 1px solid rgba(102, 126, 234, 0.12);
+    }
+    .sidebar-header h2 {
+      font-size: 1.1rem;
+      font-weight: 800;
+      letter-spacing: 0.5px;
+      background: linear-gradient(135deg, #667eea, #a78bfa);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      margin: 0 0 12px;
+    }
+    .sidebar-search {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(102,126,234,0.2);
+      border-radius: 10px;
+      padding: 7px 12px;
+      transition: border-color 0.2s;
+    }
+    .sidebar-search:focus-within {
+      border-color: rgba(102,126,234,0.5);
+      background: rgba(102,126,234,0.07);
+    }
+    .sidebar-search span { font-size: 13px; opacity: 0.4; }
+    .sidebar-search input {
+      background: transparent;
+      border: none;
+      outline: none;
+      color: #e2e8f0;
+      font-size: 0.82rem;
+      width: 100%;
+      appearance: none;
+      -webkit-appearance: none;
+      position: static;
+      cursor: text;
+      transition: none;
+    }
+    .sidebar-search input::placeholder { color: rgba(160,174,192,0.45); }
+
+    /* ── Category body ── */
+    .sidebar-body { padding: 14px 16px 10px; }
+
+    .category-section {
+      margin-bottom: 10px;
+      background: rgba(255,255,255,0.02);
+      border-radius: 14px;
+      border: 1px solid rgba(102, 126, 234, 0.1);
+      overflow: hidden;
+      transition: border-color 0.2s;
+    }
+    .category-section:hover { border-color: rgba(102,126,234,0.25); }
+
+    .category-title {
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 1.2px;
+      text-transform: uppercase;
+      color: #667eea;
+      padding: 12px 14px 4px;
+      opacity: 0.7;
+    }
+
+    /* ── Array row (bab) ── */
+    .array-row {
+      display: flex;
+      align-items: center;
+      gap: 0;
+      border-radius: 10px;
+      margin: 4px 8px;
+      transition: background 0.2s;
+    }
+    .array-row:hover { background: rgba(79,172,254,0.07); }
+
+    .array-checkbox-label {
+      display: flex;
+      align-items: center;
+      flex: 1;
+      cursor: pointer;
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: #cbd5e0;
+      padding: 9px 6px 9px 10px;
+      border-radius: 10px;
+      transition: color 0.2s;
+      margin-bottom: 0;
+      background: transparent;
+    }
+    .array-checkbox-label:hover { color: #e2e8f0; background: transparent; transform: none; }
+    .array-checkbox-label input[type="checkbox"] { margin-right: 10px; }
+
+    /* ── Expand/collapse button ── */
+    .expand-btn {
+      flex-shrink: 0;
+      width: 28px;
+      height: 28px;
+      min-width: 28px;
+      background: transparent;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: rgba(160,174,192,0.5);
+      font-size: 11px;
+      transition: all 0.2s ease;
+      margin-right: 6px;
+      padding: 0;
+    }
+    .expand-btn:hover {
+      background: rgba(79,172,254,0.12);
+      color: #4facfe;
+    }
+    .expand-btn.open {
+      color: #4facfe;
+      transform: rotate(180deg);
+    }
+
+    /* ── Word list ── */
+    .word-list {
+      margin: 0 8px 6px 8px;
+      padding: 6px 8px;
+      background: rgba(0,0,0,0.2);
+      border-radius: 10px;
+      border: 1px solid rgba(160,174,192,0.06);
+      display: none;
+    }
+    .word-list.open { display: block; }
+
+    .word-checkbox-label {
+      display: flex;
+      align-items: center;
+      margin-bottom: 2px;
+      cursor: pointer;
+      font-size: 0.83rem;
+      color: #718096;
+      padding: 5px 8px;
+      border-radius: 7px;
+      transition: all 0.18s ease;
+      background: transparent;
+    }
+    .word-checkbox-label:hover {
+      background: rgba(240,147,251,0.07);
+      color: #cbd5e0;
+      transform: none;
+    }
+    .word-checkbox-label input[type="checkbox"] { margin-right: 9px; }
+
+    .word-text {
+      font-family: "Hiragino Sans", "Yu Gothic", "Meiryo", sans-serif;
+      margin-right: 8px;
+      font-size: 1em;
+      font-weight: 600;
+      color: #c8d0e0;
+    }
+    .category-count {
+      color: #4a5568;
+      font-size: 0.75rem;
+      margin-left: auto;
+      padding: 2px 7px;
+      background: rgba(74,85,104,0.18);
+      border-radius: 8px;
+      font-weight: 500;
+      flex-shrink: 0;
+    }
+
+    /* ── Subcategory (nested object) ── */
+    .subcategory {
+      margin: 0 8px 4px;
+      padding-left: 10px;
+      border-left: 2px solid rgba(79,172,254,0.15);
+    }
+    .subcategory:hover { border-left-color: rgba(79,172,254,0.4); }
+    .parent-checkbox-label {
+      display: flex;
+      align-items: center;
+      margin-bottom: 6px;
+      cursor: pointer;
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: #e2e8f0;
+      padding: 7px 10px;
+      border-radius: 8px;
+      transition: all 0.2s ease;
+      background: rgba(255,255,255,0.02);
+    }
+    .parent-checkbox-label:hover { background: rgba(102,126,234,0.08); transform: none; }
+    .parent-checkbox-label input[type="checkbox"] { margin-right: 10px; }
+
+    /* ── Sidebar footer buttons ── */
+    .sidebar-buttons {
+      position: sticky;
+      bottom: 0;
+      background: #0f1117;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      padding: 14px 16px;
+      border-top: 1px solid rgba(102,126,234,0.12);
+    }
+    .sidebar-buttons .sidebar-btn-row {
+      display: flex;
+      gap: 10px;
+      width: 100%;
+    }
+    .sidebar-btn {
+      flex: 1;
+      padding: 10px 12px;
+      font-size: 12px;
+      border-radius: 10px;
+      cursor: pointer;
+      border: none;
+      font-weight: 700;
+      transition: all 0.25s ease;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+    }
+    .sidebar-btn:hover { transform: translateY(-2px); }
+    .sidebar-btn:active { transform: translateY(0); }
+    .select-all-btn {
+      background: linear-gradient(135deg, #43e97b, #38f9d7);
+      color: #0f1117;
+      box-shadow: 0 4px 14px rgba(67,233,123,0.3);
+    }
+    .select-all-btn:hover { box-shadow: 0 6px 20px rgba(67,233,123,0.45); }
+    .deselect-all-btn {
+      background: linear-gradient(135deg, #f5576c, #f093fb);
+      color: white;
+      box-shadow: 0 4px 14px rgba(245,87,108,0.3);
+    }
+    .deselect-all-btn:hover { box-shadow: 0 6px 20px rgba(245,87,108,0.45); }
+
+    #menu {
+      position: fixed;
+      right: 1.25rem;
+      top: 1.25rem;
+      width: 44px;
+      height: 44px;
+      background: rgba(15, 17, 23, 0.75);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-radius: 12px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      z-index: 1000;
+      box-shadow:
+        0 4px 16px rgba(0, 0, 0, 0.4),
+        inset 0 1px 0 rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(102, 126, 234, 0.3);
+      transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+      overflow: hidden;
+    }
+    #menu::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      border-radius: 12px;
+      background: linear-gradient(135deg, rgba(102,126,234,0.15), rgba(118,75,162,0.1));
+      opacity: 0;
+      transition: opacity 0.25s;
+    }
+    #menu:hover::after { opacity: 1; }
+    #menu:hover {
+      border-color: rgba(102, 126, 234, 0.6);
+      box-shadow:
+        0 6px 20px rgba(0, 0, 0, 0.5),
+        0 0 0 1px rgba(102, 126, 234, 0.2),
+        inset 0 1px 0 rgba(255, 255, 255, 0.1);
+      transform: translateY(-1px);
+    }
+    #menu:active { transform: translateY(0) scale(0.97); }
+    /* hamburger icon drawn with CSS */
+    #menu .ham {
+      display: flex;
+      flex-direction: column;
+      gap: 4.5px;
+      position: relative;
+      z-index: 1;
+    }
+    #menu .ham span {
+      display: block;
+      width: 18px;
+      height: 2px;
+      background: #e2e8f0;
+      border-radius: 2px;
+      transition: all 0.25s ease;
+    }
+    #menu .ham span:nth-child(2) { width: 13px; }
+    #menu:hover .ham span { background: #a5b4fc; }
+    #menu:hover .ham span:nth-child(2) { width: 18px; }
+    #sidebarCheckbox:checked ~ .sidebar {
+      left: 0;
+    }
+    #sidebarCheckbox:checked ~ .overlay {
+      display: block;
+    }
+    .sidebar-header-row {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .sidebar-header-row .sidebar-search { flex: 1; }
+    .config-btn {
+      flex-shrink: 0;
+      width: 36px;
+      height: 36px;
+      min-width: 36px;
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(102,126,234,0.2);
+      border-radius: 10px;
+      color: #718096;
+      font-size: 16px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.2s ease;
+      padding: 0;
+    }
+    .config-btn:hover {
+      background: rgba(102,126,234,0.12);
+      border-color: rgba(102,126,234,0.45);
+      color: #a5b4fc;
+      transform: rotate(30deg);
+    }
+    /* Config Modal */
+    .config-overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.65);
+      backdrop-filter: blur(4px);
+      z-index: 1100;
+      align-items: center;
+      justify-content: center;
+    }
+    .config-overlay.open { display: flex; }
+    .config-modal {
+      background: #16181f;
+      border: 1px solid rgba(102,126,234,0.2);
+      border-radius: 18px;
+      padding: 28px 24px;
+      width: 88%;
+      max-width: 360px;
+      box-shadow: 0 24px 60px rgba(0,0,0,0.6);
+      position: relative;
+    }
+    .config-modal-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 22px;
+    }
+    .config-modal-header h3 {
+      font-size: 1rem;
+      font-weight: 700;
+      background: linear-gradient(135deg, #667eea, #a78bfa);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .config-close-btn {
+      width: 28px;
+      height: 28px;
+      background: rgba(255,255,255,0.06);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 8px;
+      color: #718096;
+      font-size: 14px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.2s;
+      padding: 0;
+    }
+    .config-close-btn:hover { background: rgba(245,87,108,0.15); color: #f87171; border-color: rgba(245,87,108,0.3); }
+    .config-field {
+      margin-bottom: 18px;
+    }
+    .config-field label {
+      display: block;
+      font-size: 0.78rem;
+      font-weight: 600;
+      color: #718096;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+      margin-bottom: 8px;
+    }
+    .config-field input[type="number"] {
+      width: 100%;
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(102,126,234,0.2);
+      border-radius: 10px;
+      padding: 10px 14px;
+      color: #e2e8f0;
+      font-size: 0.9rem;
+      outline: none;
+      transition: border-color 0.2s;
+      appearance: none;
+      -webkit-appearance: none;
+      position: static;
+      cursor: text;
+      box-sizing: border-box;
+    }
+    .config-field input[type="number"]:focus {
+      border-color: rgba(102,126,234,0.5);
+      background: rgba(102,126,234,0.07);
+    }
+    .config-field .field-hint {
+      font-size: 0.72rem;
+      color: #4a5568;
+      margin-top: 5px;
+    }
+    /* Disabled checkboxes in review mode */
+    .review-active .word-checkbox:not([data-array-path="__review__"]),
+    .review-active .array-checkbox:not([data-path="__review__"]),
+    .review-active .parent-checkbox {
+      opacity: 0.3;
+      pointer-events: none;
+      cursor: not-allowed;
+    }
+    /* Cancel button */
+    .review-cancel-btn {
+      background: rgba(160,174,192,0.1);
+      color: #718096;
+      border: 1px solid rgba(160,174,192,0.2);
+    }
+    .review-cancel-btn:hover {
+      background: rgba(245,87,108,0.1);
+      color: #f87171;
+      border-color: rgba(245,87,108,0.3);
+      transform: translateY(-2px);
+    }
+    /* Custom Checkbox Styles */
+    input[type="checkbox"] {
+      appearance: none;
+      -webkit-appearance: none;
+      position: relative;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+    
+    /* Parent Checkbox (Level 1) */
+    .parent-checkbox-label input[type="checkbox"] {
+      width: 22px;
+      height: 22px;
+      border: 2.5px solid #667eea;
+      border-radius: 6px;
+      background: rgba(102, 126, 234, 0.1);
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    }
+    .parent-checkbox-label input[type="checkbox"]:hover {
+      border-color: #764ba2;
+      background: rgba(118, 75, 162, 0.15);
+      transform: scale(1.05);
+      box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
+    }
+    .parent-checkbox-label input[type="checkbox"]:checked {
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      border-color: #667eea;
+    }
+    .parent-checkbox-label input[type="checkbox"]:checked::after {
+      content: "✓";
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 14px;
+      font-weight: bold;
+    }
+    .parent-checkbox-label input[type="checkbox"]:indeterminate {
+      background: linear-gradient(135deg, #f093fb, #f5576c);
+      border-color: #f093fb;
+    }
+    .parent-checkbox-label input[type="checkbox"]:indeterminate::after {
+      content: "−";
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 16px;
+      font-weight: bold;
+    }
+    
+    /* Array Checkbox (Level 2) */
+    .array-checkbox-label input[type="checkbox"] {
+      width: 20px;
+      height: 20px;
+      border: 2px solid #4facfe;
+      border-radius: 5px;
+      background: rgba(79, 172, 254, 0.1);
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    }
+    .array-checkbox-label input[type="checkbox"]:hover {
+      border-color: #00f2fe;
+      background: rgba(0, 242, 254, 0.15);
+      transform: scale(1.05);
+      box-shadow: 0 3px 10px rgba(79, 172, 254, 0.3);
+    }
+    .array-checkbox-label input[type="checkbox"]:checked {
+      background: linear-gradient(135deg, #4facfe, #00f2fe);
+      border-color: #4facfe;
+    }
+    .array-checkbox-label input[type="checkbox"]:checked::after {
+      content: "✓";
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 12px;
+      font-weight: bold;
+    }
+    .array-checkbox-label input[type="checkbox"]:indeterminate {
+      background: linear-gradient(135deg, #43e97b, #38f9d7);
+      border-color: #43e97b;
+    }
+    .array-checkbox-label input[type="checkbox"]:indeterminate::after {
+      content: "−";
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 14px;
+      font-weight: bold;
+    }
+    
+    /* Word Checkbox (Level 3) */
+    .word-checkbox-label input[type="checkbox"] {
+      width: 18px;
+      height: 18px;
+      border: 2px solid #a0aec0;
+      border-radius: 4px;
+      background: rgba(160, 174, 192, 0.1);
+      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+    }
+    .word-checkbox-label input[type="checkbox"]:hover {
+      border-color: #cbd5e0;
+      background: rgba(203, 213, 224, 0.15);
+      transform: scale(1.08);
+      box-shadow: 0 2px 8px rgba(160, 174, 192, 0.3);
+    }
+    .word-checkbox-label input[type="checkbox"]:checked {
+      background: linear-gradient(135deg, #f093fb, #f5576c);
+      border-color: #f093fb;
+    }
+    .word-checkbox-label input[type="checkbox"]:checked::after {
+      content: "✓";
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 11px;
+      font-weight: bold;
+    }
+    
+    .parent-checkbox-label {
+      display: flex;
+      align-items: center;
+      margin-bottom: 12px;
+      cursor: pointer;
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: #e2e8f0;
+      padding: 8px 10px;
+      border-radius: 8px;
+      transition: all 0.3s ease;
+      background: rgba(255, 255, 255, 0.02);
+    }
+    .parent-checkbox-label:hover {
+      background: rgba(102, 126, 234, 0.1);
+      transform: translateX(3px);
+    }
+    .parent-checkbox-label input[type="checkbox"] {
+      margin-right: 12px;
+    }
+    .subcategory {
+      margin-left: 15px;
+      margin-bottom: 15px;
+      padding-left: 15px;
+      border-left: 2px solid rgba(79, 172, 254, 0.2);
+      transition: all 0.3s ease;
+    }
+    .subcategory:hover {
+      border-left-color: rgba(79, 172, 254, 0.5);
+    }
+    .array-checkbox-label {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+      cursor: pointer;
+      font-size: 0.98rem;
+      font-weight: 600;
+      color: #cbd5e0;
+      padding: 6px 10px;
+      border-radius: 6px;
+      transition: all 0.3s ease;
+      background: rgba(255, 255, 255, 0.02);
+    }
+    .array-checkbox-label:hover {
+      background: rgba(79, 172, 254, 0.1);
+      transform: translateX(2px);
+    }
+    .array-checkbox-label input[type="checkbox"] {
+      margin-right: 10px;
+    }
+    .word-list {
+      margin-left: 35px;
+      margin-top: 8px;
+      margin-bottom: 12px;
+      padding: 10px;
+      background: rgba(0, 0, 0, 0.15);
+      border-radius: 8px;
+      border: 1px solid rgba(160, 174, 192, 0.1);
+    }
+    .word-checkbox-label {
+      display: flex;
+      align-items: center;
+      margin-bottom: 6px;
+      cursor: pointer;
+      font-size: 0.88rem;
+      color: #a0aec0;
+      padding: 5px 8px;
+      border-radius: 5px;
+      transition: all 0.25s ease;
+      background: rgba(255, 255, 255, 0.01);
+    }
+    .word-checkbox-label:hover {
+      background: rgba(240, 147, 251, 0.08);
+      color: #cbd5e0;
+      transform: translateX(2px);
+    }
+    .word-checkbox-label input[type="checkbox"] {
+      margin-right: 10px;
+    }
+    .word-text {
+      font-family: "Hiragino Sans", "Yu Gothic", "Meiryo", sans-serif;
+      margin-right: 8px;
+      font-size: 1.05em;
+      font-weight: 500;
+      color: #e2e8f0;
+    }
+    .category-count {
+      color: #718096;
+      font-size: 0.82rem;
+      margin-left: auto;
+      padding: 2px 8px;
+      background: rgba(113, 128, 150, 0.15);
+      border-radius: 10px;
+      font-weight: 500;
+    }
+    .sidebar-buttons {
+      display: flex;
+      gap: 12px;
+      margin-top: 25px;
+      padding-top: 25px;
+      border-top: 2px solid rgba(102, 126, 234, 0.3);
+    }
+    .sidebar-btn {
+      flex: 1;
+      padding: 12px 16px;
+      font-size: 14px;
+      border-radius: 8px;
+      cursor: pointer;
+      border: none;
+      font-weight: 700;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      letter-spacing: 0.3px;
+      text-transform: uppercase;
+    }
+    .sidebar-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+    }
+    .sidebar-btn:active {
+      transform: translateY(0);
+    }
+    .select-all-btn {
+      background: rgba(67, 233, 123, 0.12);
+      color: #6ee7b7;
+      border: 1px solid rgba(67, 233, 123, 0.25);
+    }
+    .select-all-btn:hover {
+      background: rgba(67, 233, 123, 0.2);
+      border-color: rgba(67, 233, 123, 0.5);
+      box-shadow: 0 4px 14px rgba(67, 233, 123, 0.15);
+    }
+    .deselect-all-btn {
+      background: rgba(245, 87, 108, 0.12);
+      color: #f87171;
+      border: 1px solid rgba(245, 87, 108, 0.25);
+    }
+    .deselect-all-btn:hover {
+      background: rgba(245, 87, 108, 0.2);
+      border-color: rgba(245, 87, 108, 0.5);
+      box-shadow: 0 4px 14px rgba(245, 87, 108, 0.15);
+    }
+    .review-mode-btn {
+      background: rgba(102, 126, 234, 0.15);
+      color: #a5b4fc;
+      border: 1px solid rgba(102, 126, 234, 0.3);
+    }
+    .review-mode-btn:hover {
+      background: rgba(102, 126, 234, 0.25);
+      border-color: rgba(102, 126, 234, 0.6);
+      color: #c7d2fe;
+      transform: translateY(-2px);
+    }
+    .review-confirm-btn {
+      background: linear-gradient(135deg, #f59e0b, #f97316);
+      color: white;
+      animation: reviewPulse 2s ease-in-out infinite;
+    }
+    .review-confirm-btn:hover {
+      background: linear-gradient(135deg, #f97316, #f59e0b);
+      transform: translateY(-2px);
+    }
+    @keyframes reviewPulse {
+      0%, 100% { box-shadow: 0 4px 14px rgba(245,158,11,0.3); }
+      50%       { box-shadow: 0 4px 20px rgba(245,158,11,0.55); }
+    }
+    .review-done-btn {
+      background: linear-gradient(135deg, #ef4444, #f97316);
+      color: white;
+    }
+    .review-done-btn:hover {
+      background: linear-gradient(135deg, #f97316, #ef4444);
+      transform: translateY(-2px);
+    }
+    .review-banner {
+      margin: 0 8px 8px;
+      padding: 8px 12px;
+      background: rgba(245, 158, 11, 0.1);
+      border: 1px solid rgba(245, 158, 11, 0.3);
+      border-radius: 8px;
+      font-size: 0.75rem;
+      color: #fcd34d;
+      text-align: center;
+      font-weight: 600;
+      letter-spacing: 0.3px;
+    }
+    @media (max-width: 480px) {
+      .text-card {
+        width: 90vw;
+        height: 18.4rem;
+      }
+      .card-text { font-size: 2.1rem; }
+      button {
+        min-width: 80px;
+        font-size: 12px;
+        padding: 10px 14px;
+      }
+      .sidebar { width: 90%; }
+      #menu {
+        right: 1rem;
+        top: 1rem;
+        width: 40px;
+        height: 40px;
+      }
+      .progress { font-size: 14px; }
+      .buttons { gap: 8px; max-width: 90vw; }
+    }
+    .courtesy-badge {
+      position: absolute;
+      top: 12px;
+      left: 12px;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      padding: 5px 10px;
+      border-radius: 20px;
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.4px;
+      backdrop-filter: blur(8px);
+      border: 1.5px solid transparent;
+      transition: all 0.3s ease;
+      z-index: 2;
+      user-select: none;
+    }
+    .courtesy-badge:empty {
+      display: none;
+    }
+    .courtesy-badge.c-kasar {
+      background: rgba(245, 87, 108, 0.15);
+      border-color: rgba(245, 87, 108, 0.5);
+      color: #f5576c;
+    }
+    .courtesy-badge.c-biasa {
+      background: rgba(79, 172, 254, 0.15);
+      border-color: rgba(79, 172, 254, 0.5);
+      color: #4facfe;
+    }
+    .courtesy-badge.c-formal {
+      background: rgba(250, 225, 64, 0.15);
+      border-color: rgba(250, 225, 64, 0.5);
+      color: #c9a800;
+    }
+    .courtesy-badge.c-merendah {
+      background: rgba(67, 233, 123, 0.15);
+      border-color: rgba(67, 233, 123, 0.5);
+      color: #43e97b;
+    }
+    .courtesy-badge.c-hormat {
+      background: rgba(250, 112, 154, 0.15);
+      border-color: rgba(250, 112, 154, 0.5);
+      color: #fa709a;
+    }
+    .courtesy-dots {
+      display: flex;
+      gap: 3px;
+      align-items: center;
+    }
+    .courtesy-dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      opacity: 0.3;
+      transition: all 0.3s ease;
+    }
+    .courtesy-dot.active {
+      opacity: 1;
+      transform: scale(1.2);
+    }
+    .c-kasar .courtesy-dot { background: #f5576c; }
+    .c-biasa .courtesy-dot { background: #4facfe; }
+    .c-formal .courtesy-dot { background: #c9a800; }
+    .c-merendah .courtesy-dot { background: #43e97b; }
+    .c-hormat .courtesy-dot { background: #fa709a; }
+    .card-back .courtesy-badge.c-kasar {
+      background: rgba(255, 120, 130, 0.25);
+      border-color: rgba(255, 180, 185, 0.6);
+      color: #ffb3ba;
+    }
+    .card-back .courtesy-badge.c-biasa {
+      background: rgba(120, 200, 255, 0.25);
+      border-color: rgba(160, 220, 255, 0.6);
+      color: #a8d8ff;
+    }
+    .card-back .courtesy-badge.c-formal {
+      background: rgba(255, 240, 100, 0.2);
+      border-color: rgba(255, 235, 130, 0.6);
+      color: #fff0a0;
+    }
+    .card-back .courtesy-badge.c-merendah {
+      background: rgba(100, 255, 160, 0.25);
+      border-color: rgba(150, 255, 190, 0.6);
+      color: #a0ffcc;
+    }
+    .card-back .courtesy-badge.c-hormat {
+      background: rgba(255, 180, 210, 0.25);
+      border-color: rgba(255, 200, 220, 0.6);
+      color: #ffc8dc;
+    }
+    .card-back .c-kasar .courtesy-dot  { background: #ffb3ba; }
+    .card-back .c-biasa .courtesy-dot  { background: #a8d8ff; }
+    .card-back .c-formal .courtesy-dot { background: #fff0a0; }
+    .card-back .c-merendah .courtesy-dot { background: #a0ffcc; }
+    .card-back .c-hormat .courtesy-dot { background: #ffc8dc; }
+    @media (max-width: 480px) {
+      .courtesy-badge {
+        font-size: 0.65rem;
+        padding: 4px 8px;
+        top: 10px;
+        left: 10px;
+      }
+    }
+    /* Hint Context Text */
+    .card-hint-context {
+      display: none;
+      width: 100%;
+      padding-top: 7px;
+      border-top: 1px solid rgba(255, 255, 255, 0.15);
+      font-size: 0.68rem;
+      line-height: 1.6;
+      text-align: left;
+      color: rgba(255, 255, 255, 0.75);
+      flex-shrink: 0;
+    }
+    .card-hint-context.visible { display: block; }
+    .card-hint-context ol {
+      margin: 0;
+      padding-left: 16px;
+    }
+    .card-hint-context ol li { margin-bottom: 2px; }
+    .card-hint-context ol li:last-child { margin-bottom: 0; }
+  </style>
 </head>
 <body>
-  apa liat liat
+  <div class="container">
+    <input style="display: none" type="checkbox" id="sidebarCheckbox" />
+    <label for="sidebarCheckbox" class="overlay"></label>
+    
+    <div class="sidebar">
+      <div class="sidebar-header">
+        <h2>📚 Pilih Kosakata</h2>
+        <div class="sidebar-header-row">
+          <div class="sidebar-search">
+            <span>🔍</span>
+            <input type="text" id="sidebarSearch" placeholder="Cari kosakata...">
+          </div>
+          <button class="config-btn" id="configBtn" title="Pengaturan">⚙</button>
+        </div>
+        <div id="reviewBanner" class="review-banner" style="display:none;margin-top:10px;margin-bottom:0"></div>
+      </div>
+      <div class="sidebar-body">
+        <div id="categoryList"></div>
+      </div>
+      <div class="sidebar-buttons">
+        <div class="sidebar-btn-row">
+          <button class="sidebar-btn select-all-btn" id="selectAll">✓ Pilih Semua</button>
+          <button class="sidebar-btn deselect-all-btn" id="deselectAll">✕ Hapus Semua</button>
+        </div>
+        <div class="sidebar-btn-row" id="reviewBtnRow">
+          <button class="sidebar-btn review-mode-btn" id="reviewBtn">📝 Mode Review</button>
+        </div>
+      </div>
+    </div>
+    
+    <label for="sidebarCheckbox" id="menu">
+      <div class="ham">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </label>
+    
+    <div class="progress" id="progress">Kartu 1 dari 0</div>
+    
+    <div class="card-wrapper">
+      <div class="text-card" id="card">
+        <div class="card-face card-front">
+          <div class="courtesy-badge" id="courtesyBadge"></div>
+          <div class="type-badge t-none" id="typeBadgeFront">-</div>
+          <h2 class="card-text" id="frontText">Pilih kategori</h2>
+        </div>
+        <div class="card-face card-back">
+          <div class="courtesy-badge courtesy-badge-back" id="courtesyBadgeBack"></div>
+          <div class="type-badge t-none" id="typeBadgeBack">-</div>
+          <div class="card-back-content">
+            <h2 class="card-text" id="backText"></h2>
+            <div class="card-example" id="exampleText"></div>
+          </div>
+          <div class="card-hint-context" id="hintContext"></div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="buttons">
+      <button id="shuffle">🔀 Shuffle</button>
+      <button id="swap">🔄 Swap</button>
+      <button id="kanji">漢 Kanji</button>
+      <button id="next">→ Next</button>
+      <button id="hafal">✓ Hafal</button>
+      <button id="furigana">ふ Furigana</button>
+    </div>
+    
+    <div class="keyboard-hints">
+      Pintasan: Space = Flip | → = Next | S = Swap | H = Hafal | K = Kanji | R = Shuffle
+    </div>
+  </div>
+
+  <!-- Config Modal -->
+  <div class="config-overlay" id="configOverlay">
+    <div class="config-modal">
+      <div class="config-modal-header">
+        <h3>⚙ Pengaturan Flashcard</h3>
+        <button class="config-close-btn" id="configCloseBtn">✕</button>
+      </div>
+      <div class="config-field">
+        <label>Kosakata per Bab</label>
+        <input type="number" id="configWordsPerChapter" min="1" placeholder="Contoh: 10">
+        <div class="field-hint">Jumlah kosakata yang ditampilkan per bab saat memilih</div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    let jisho = null;
+
+let selectedWords = new Set();
+    let cardOrder = [];
+    let currentCardIndex = 0;
+    let swapped = false;
+
+    let kanjiMode = true;
+    let learnedCards = new Set();
+    let isFlipped = false;
+    let allWords = [];
+    let displayFurigana = false;
+
+    const card = document.getElementById("card");
+    const frontText = document.getElementById("frontText");
+    const backText = document.getElementById("backText");
+    const exampleText = document.getElementById("exampleText");
+    const swapBtn = document.getElementById("swap");
+    const nextBtn = document.getElementById("next");
+    const shuffleBtn = document.getElementById("shuffle");
+    const progress = document.getElementById("progress");
+    const hafalBtn = document.getElementById("hafal");
+    const kanjiBtn = document.getElementById("kanji");
+    const categoryList = document.getElementById("categoryList");
+    const selectAllBtn = document.getElementById("selectAll");
+    const furiganaBtn = document.getElementById("furigana")
+    const deselectAllBtn = document.getElementById("deselectAll");
+    const reviewBtn = document.getElementById("reviewBtn");
+
+    let reviewModeState = 'off'; // 'off' | 'selecting' | 'active'
+    let savedCheckboxStates = [];
+
+    function parseHighlight(text) {
+      if (!text) return "";
+      return text
+        .replace(/\*([^*]+)\*/g, '<span class="highlight">$1</span>')
+        .replace(/\n/g, '<hr class="line-sep">');
+    }
+
+    function renderExample(exampleStr) {
+      if (!exampleStr) { exampleText.innerHTML = ""; return; }
+      const lines = exampleStr.split("\n");
+      exampleText.innerHTML = lines.map(line =>
+        `<span class="example-line">${line.replace(/\*([^*]+)\*/g, '<span class="highlight">$1</span>')}</span>`
+      ).join("");;
+    }
+
+    const courtesyConfig = [
+      { cls: "c-kasar",    icon: "💢", label: "Kasar",    dots: 1 },
+      { cls: "c-biasa",    icon: "💬", label: "Biasa",    dots: 2 },
+      { cls: "c-formal",   icon: "👔", label: "Formal",   dots: 3 },
+      { cls: "c-merendah", icon: "🙇", label: "Merendah", dots: 4 },
+      { cls: "c-hormat",   icon: "👑", label: "Hormat",   dots: 5 },
+    ];
+
+    function renderCourtesy(level) {
+      const badge = document.getElementById("courtesyBadge");
+      const badgeBack = document.getElementById("courtesyBadgeBack");
+      if (level === undefined || level === null) {
+        badge.className = "courtesy-badge";
+        badge.innerHTML = "";
+        badgeBack.className = "courtesy-badge courtesy-badge-back";
+        badgeBack.innerHTML = "";
+        return;
+      }
+      const cfg = courtesyConfig[level];
+      if (!cfg) { badge.innerHTML = ""; badgeBack.innerHTML = ""; return; }
+      
+      const dotsHTML = Array.from({length: 5}, (_, i) =>
+        `<span class="courtesy-dot${i < cfg.dots ? ' active' : ''}"></span>`
+      ).join("");
+
+      const innerHTML = `
+        <span>${cfg.icon}</span>
+        <span>${cfg.label}</span>
+        <span class="courtesy-dots">${dotsHTML}</span>
+      `;
+
+      badge.className = `courtesy-badge ${cfg.cls}`;
+      badge.innerHTML = innerHTML;
+
+      badgeBack.className = `courtesy-badge courtesy-badge-back ${cfg.cls}`;
+      badgeBack.innerHTML = innerHTML;
+    }
+
+    function renderType(t) {
+      const badges = [
+        document.getElementById("typeBadgeFront"),
+        document.getElementById("typeBadgeBack"),
+      ];
+      const hasType = t === "を" || t === "が";
+      const cls  = !hasType ? "t-none" : (t === "を" ? "t-wo" : "t-ga");
+      const text = !hasType ? "-" : t;
+      badges.forEach(b => {
+        b.className = `type-badge ${cls}`;
+        b.textContent = text;
+      });
+    }
+
+    function renderHint(contextStr) {
+      const el = document.getElementById("hintContext");
+      if (!contextStr) { el.className = "card-hint-context"; el.innerHTML = ""; return; }
+      const lines = contextStr.split("\n").filter(l => l.trim() !== "");
+      el.innerHTML = "<ol>" + lines.map(l => `<li>${l.trim()}</li>`).join("") + "</ol>";
+      el.className = "card-hint-context visible";
+    }
+
+    function closeAllHints() { /* no-op, kept for compatibility */ }
+
+    function buildRubyHTML(questionText, furiganaText, showFurigana) {
+      if (!questionText) return "";
+      const qLines = questionText.split("\n");
+      const fLines = furiganaText ? furiganaText.split("\n") : [];
+      return qLines.map((qLine, i) => {
+        const fLine = showFurigana ? (fLines[i] || "") : "";
+        return `<ruby>${parseHighlight(qLine)}<rt>${parseHighlight(fLine)}</rt></ruby>`;
+      }).join('<hr class="line-sep">');
+    }
+
+    function buildCategoryUI() {
+      let html = "";
+      
+      function getCategoryPath(path) {
+        return path.join(".");
+      }
+      
+      function getWordId(path, index) {
+        return `${getCategoryPath(path)}.${index}`;
+      }
+      
+      function getAllWordIds(obj, currentPath = []) {
+        let ids = [];
+        for (let key in obj) {
+          const newPath = [...currentPath, key];
+          if (Array.isArray(obj[key])) {
+            for (let i = 0; i < obj[key].length; i++) {
+              ids.push(getWordId(newPath, i));
+            }
+          } else if (typeof obj[key] === "object") {
+            ids = ids.concat(getAllWordIds(obj[key], newPath));
+          }
+        }
+        return ids;
+      }
+      
+      function getAllArrayPaths(obj, currentPath = []) {
+        let paths = [];
+        for (let key in obj) {
+          const newPath = [...currentPath, key];
+          if (Array.isArray(obj[key])) {
+            paths.push(getCategoryPath(newPath));
+          } else if (typeof obj[key] === "object") {
+            paths = paths.concat(getAllArrayPaths(obj[key], newPath));
+          }
+        }
+        return paths;
+      }
+      
+      function traverse(obj, path = []) {
+        for (let key in obj) {
+          const currentPath = [...path, key];
+          const pathString = getCategoryPath(currentPath);
+          
+          if (Array.isArray(obj[key])) {
+            const displayName = `Bab ${key}`;
+            const wordIds = obj[key].map((_, i) => getWordId(currentPath, i));
+            const listId = `wlist-${pathString.replace(/\./g, '-')}`;
+            const btnId  = `ebtn-${pathString.replace(/\./g, '-')}`;
+            
+            html += `
+              <div class="array-row">
+                <label class="array-checkbox-label">
+                  <input type="checkbox" data-path="${pathString}" data-word-ids='${JSON.stringify(wordIds)}' class="array-checkbox">
+                  <span>${displayName} <span class="category-count">${obj[key].length} kata</span></span>
+                </label>
+                <button class="expand-btn" id="${btnId}" data-target="${listId}" onclick="toggleWordList(event,'${btnId}','${listId}')">&#9660;</button>
+              </div>
+              <div class="word-list" id="${listId}">
+            `;
+            
+            obj[key].forEach((word, index) => {
+              const wordId = getWordId(currentPath, index);
+              const displayText = word.q || word.f;
+              const extractHighlight = (text) => {
+                if (!text) return "";
+                const matches = [...text.matchAll(/\*([^*]+)\*/g)].map(m => m[1]);
+                if (matches.length > 0) {
+                  const unique = [...new Set(matches)];
+                  return unique[0];
+                }
+                return text.split("\n")[0];
+              };
+              const highlightText = extractHighlight(displayText);
+              const highlightAnswer = extractHighlight(word.a);
+              html += `
+                <label class="word-checkbox-label">
+                  <input type="checkbox" data-word-id="${wordId}" data-array-path="${pathString}" class="word-checkbox">
+                  <span class="word-text">${highlightText}</span>
+                  <span class="category-count">${highlightAnswer}</span>
+                </label>
+              `;
+            });
+            
+            html += `</div>`;
+          } else if (typeof obj[key] === "object") {
+            const displayName = key;
+            const childArrayPaths = getAllArrayPaths(obj[key], currentPath);
+            
+            if (path.length === 0) {
+              html += `<div class="category-section"><div class="category-title">${displayName}</div>`;
+            } else {
+              html += `
+                <div class="subcategory">
+                  <label class="parent-checkbox-label">
+                    <input type="checkbox" data-path="${pathString}" data-child-arrays='${JSON.stringify(childArrayPaths)}' class="parent-checkbox">
+                    <span>${displayName} <span class="category-count">${childArrayPaths.length} kategori</span></span>
+                  </label>
+              `;
+            }
+            
+            traverse(obj[key], currentPath);
+            
+            html += `</div>`;
+          }
+        }
+      }
+      
+      traverse(jisho);
+      categoryList.innerHTML = html;
+
+      // ── Expand/collapse per bab ──
+      function toggleWordList(e, btnId, listId) {
+        e.stopPropagation();
+        const btn  = document.getElementById(btnId);
+        const list = document.getElementById(listId);
+        const isOpen = list.classList.contains("open");
+        list.classList.toggle("open", !isOpen);
+        btn.classList.toggle("open", !isOpen);
+      }
+      window.toggleWordList = toggleWordList;
+
+      // ── Search filter ──
+      const searchInput = document.getElementById("sidebarSearch");
+      if (searchInput) {
+        searchInput.addEventListener("input", () => {
+          const q = searchInput.value.trim().toLowerCase();
+
+          // Saat review active, hanya search di reviewSection
+          const scope = (reviewModeState === 'active')
+            ? document.querySelectorAll("#reviewSection .word-checkbox-label")
+            : document.querySelectorAll(".word-checkbox-label");
+
+          scope.forEach(label => {
+            const txt = label.textContent.toLowerCase();
+            label.style.display = (!q || txt.includes(q)) ? "" : "none";
+          });
+
+          // Expand/collapse dan hide array-row
+          const listScope = (reviewModeState === 'active')
+            ? document.querySelectorAll("#reviewSection .word-list")
+            : document.querySelectorAll(".word-list");
+
+          listScope.forEach(list => {
+            const hasMatch = q && [...list.querySelectorAll(".word-checkbox-label")]
+              .some(l => l.style.display !== "none");
+
+            list.classList.toggle("open", hasMatch);
+            const btn = document.getElementById(list.id.replace("wlist-", "ebtn-"));
+            if (btn) btn.classList.toggle("open", hasMatch);
+
+            const row = list.previousElementSibling;
+            if (row && row.classList.contains("array-row")) {
+              row.style.display = (!q || hasMatch) ? "" : "none";
+            }
+
+            if (!q) list.classList.remove("open");
+          });
+        });
+      }
+      
+      // Word checkbox events
+      document.querySelectorAll(".word-checkbox").forEach(cb => {
+        cb.addEventListener("change", () => {
+          handleWordSelection();
+          updateArrayCheckboxes();
+          updateParentCheckboxes();
+        });
+      });
+      
+      // Array checkbox events
+      document.querySelectorAll(".array-checkbox").forEach(arrayCb => {
+        arrayCb.addEventListener("change", () => {
+          const wordIds = JSON.parse(arrayCb.dataset.wordIds);
+          const isChecked = arrayCb.checked;
+          
+          wordIds.forEach(wordId => {
+            const wordCheckbox = document.querySelector(`.word-checkbox[data-word-id="${wordId}"]`);
+            if (wordCheckbox) {
+              wordCheckbox.checked = isChecked;
+            }
+          });
+          
+          handleWordSelection();
+          updateParentCheckboxes();
+        });
+      });
+      
+      // Parent checkbox events
+      document.querySelectorAll(".parent-checkbox").forEach(parentCb => {
+        parentCb.addEventListener("change", () => {
+          const childArrays = JSON.parse(parentCb.dataset.childArrays);
+          const isChecked = parentCb.checked;
+          
+          childArrays.forEach(arrayPath => {
+            const arrayCb = document.querySelector(`.array-checkbox[data-path="${arrayPath}"]`);
+            if (arrayCb) {
+              arrayCb.checked = isChecked;
+              const wordIds = JSON.parse(arrayCb.dataset.wordIds);
+              
+              wordIds.forEach(wordId => {
+                const wordCb = document.querySelector(`.word-checkbox[data-word-id="${wordId}"]`);
+                if (wordCb) {
+                  wordCb.checked = isChecked;
+                }
+              });
+            }
+          });
+          
+          handleWordSelection();
+        });
+      });
+      
+      updateArrayCheckboxes();
+      updateParentCheckboxes();
+    }
+
+    function updateArrayCheckboxes() {
+      document.querySelectorAll(".array-checkbox").forEach(arrayCb => {
+        const wordIds = JSON.parse(arrayCb.dataset.wordIds);
+        const allChecked = wordIds.every(wordId => {
+          const cb = document.querySelector(`.word-checkbox[data-word-id="${wordId}"]`);
+          return cb && cb.checked;
+        });
+        const someChecked = wordIds.some(wordId => {
+          const cb = document.querySelector(`.word-checkbox[data-word-id="${wordId}"]`);
+          return cb && cb.checked;
+        });
+        
+        arrayCb.checked = allChecked;
+        arrayCb.indeterminate = !allChecked && someChecked;
+      });
+    }
+
+    function updateParentCheckboxes() {
+      document.querySelectorAll(".parent-checkbox").forEach(parentCb => {
+        const childArrays = JSON.parse(parentCb.dataset.childArrays);
+        const allChecked = childArrays.every(arrayPath => {
+          const cb = document.querySelector(`.array-checkbox[data-path="${arrayPath}"]`);
+          if (!cb) return false;
+          const wordIds = JSON.parse(cb.dataset.wordIds);
+          return wordIds.every(wordId => {
+            const wordCb = document.querySelector(`.word-checkbox[data-word-id="${wordId}"]`);
+            return wordCb && wordCb.checked;
+          });
+        });
+        const someChecked = childArrays.some(arrayPath => {
+          const cb = document.querySelector(`.array-checkbox[data-path="${arrayPath}"]`);
+          if (!cb) return false;
+          const wordIds = JSON.parse(cb.dataset.wordIds);
+          return wordIds.some(wordId => {
+            const wordCb = document.querySelector(`.word-checkbox[data-word-id="${wordId}"]`);
+            return wordCb && wordCb.checked;
+          });
+        });
+        
+        parentCb.checked = allChecked;
+        parentCb.indeterminate = !allChecked && someChecked;
+      });
+    }
+
+    function handleWordSelection() {
+      selectedWords.clear();
+      allWords = [];
+      
+      document.querySelectorAll(".word-checkbox:checked").forEach(cb => {
+        const wordId = cb.dataset.wordId;
+        selectedWords.add(wordId);
+        
+        const parts = wordId.split(".");
+        const index = parseInt(parts.pop());
+        const keys = parts;
+        
+        let current = jisho;
+        for (let key of keys) {
+          current = current[key];
+        }
+        
+        if (Array.isArray(current)) {
+          allWords.push(current[index]);
+        }
+      });
+      
+      initializeCards();
+    }
+
+    function shuffleArray(array) {
+      const newArray = [...array];
+      for (let i = newArray.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [newArray[i], newArray[j]] = [newArray[j], newArray[i]];
+      }
+      return newArray;
+    }
+
+    function initializeCards() {
+      if (allWords.length === 0) {
+        frontText.textContent = "Pilih kata";
+        backText.textContent = "";
+        progress.textContent = "Kartu 0 dari 0";
+        renderCourtesy(null);
+        renderType(null);
+        renderHint(null);
+        return;
+      }
+      
+      cardOrder = shuffleArray([...Array(allWords.length).keys()]);
+      currentCardIndex = 0;
+      updateCard();
+    }
+
+    function updateCard() {
+      if (allWords.length === 0) {
+        frontText.textContent = "Pilih kata";
+        backText.textContent = "";
+        progress.textContent = "Kartu 0 dari 0";
+        return;
+      }
+      
+      if (cardOrder.length === 0) {
+        frontText.textContent = "Tidak ada kartu";
+        backText.textContent = "";
+        progress.textContent = "Kartu 0 dari 0";
+        return;
+      }
+
+      const index = cardOrder[currentCardIndex];
+      const word = allWords[index];
+      let currentWords;
+
+      if (swapped) {
+        // ID → JP
+        currentWords = { 
+          q: word.a, 
+          a: word.q || word.f,
+          furigana: word.f,
+          hasKanji: !!word.q,
+          mode: "ID → JP" 
+        };
+      } else {
+        // JP → ID
+        currentWords = { 
+          q: word.q || word.f, 
+          a: word.a,
+          furigana: word.f,
+          hasKanji: !!word.q,
+          mode: "JP → ID" 
+        };
+      }
+
+      // Display with ruby text for kanji + furigana
+      if (kanjiMode && currentWords.hasKanji && currentWords.mode === "JP → ID") {
+        frontText.innerHTML = buildRubyHTML(word.q, word.f, displayFurigana);
+      } else if (!kanjiMode && currentWords.mode === "JP → ID") {
+        frontText.innerHTML = parseHighlight(word.f);
+      } else {
+        frontText.innerHTML = parseHighlight(currentWords.q);
+      }
+      
+      // Display answer with ruby text if showing Japanese with kanji
+      if (kanjiMode && currentWords.hasKanji && currentWords.mode === "ID → JP") {
+        backText.innerHTML = buildRubyHTML(word.q, word.f, displayFurigana);
+        renderExample(null);
+      } else if (!kanjiMode && currentWords.mode === "ID → JP") {
+        backText.innerHTML = parseHighlight(word.f);
+        renderExample(null);
+      } else {
+        backText.innerHTML = parseHighlight(currentWords.a);
+        renderExample(word.e || null);
+      }
+      
+      renderCourtesy(word.c);
+      renderType(word.t);
+      renderHint(word.x || null);
+      progress.textContent = `Kartu ${currentCardIndex + 1} dari ${cardOrder.length}`;
+
+      if (isFlipped) {
+        card.classList.remove("flipped");
+        isFlipped = false;
+      }
+    }
+
+    function flipCard() {
+      if (allWords.length === 0) return;
+      closeAllHints();
+      card.classList.toggle("flipped");
+      isFlipped = !isFlipped;
+    }
+
+    function nextCard() {
+      if (cardOrder.length === 0 || allWords.length === 0) return;
+      const currentIndex = cardOrder[currentCardIndex];
+      learnedCards.add(currentIndex);
+
+      currentCardIndex = (currentCardIndex + 1) % cardOrder.length;
+      
+      if (isFlipped) {
+        card.classList.remove("flipped");
+        isFlipped = false;
+        updateCardWithDelay();
+      } else {
+        updateCard();
+      }
+    }
+
+    function updateCardWithDelay() {
+      if (allWords.length === 0 || cardOrder.length === 0) return;
+      
+      const index = cardOrder[currentCardIndex];
+      const word = allWords[index];
+      let currentWords;
+
+      if (swapped) {
+        // ID → JP
+        currentWords = { 
+          q: word.a, 
+          a: word.q || word.f,
+          furigana: word.f,
+          hasKanji: !!word.q,
+          mode: "ID → JP" 
+        };
+      } else {
+        // JP → ID
+        currentWords = { 
+          q: word.q || word.f, 
+          a: word.a,
+          furigana: word.f,
+          hasKanji: !!word.q,
+          mode: "JP → ID" 
+        };
+      }
+
+      // Display with ruby text for kanji + furigana
+      if (kanjiMode && currentWords.hasKanji && currentWords.mode === "JP → ID") {
+        frontText.innerHTML = buildRubyHTML(word.q, word.f, displayFurigana);
+      } else if (!kanjiMode && currentWords.mode === "JP → ID") {
+        frontText.innerHTML = parseHighlight(word.f);
+      } else {
+        frontText.innerHTML = parseHighlight(currentWords.q);
+      }
+      
+      renderCourtesy(word.c);
+      renderType(word.t);
+      renderHint(word.x || null);
+      progress.textContent = `Kartu ${currentCardIndex + 1} dari ${cardOrder.length}`;
+
+      setTimeout(() => {
+        // Display answer with ruby text if showing Japanese with kanji
+        if (kanjiMode && currentWords.hasKanji && currentWords.mode === "ID → JP") {
+          backText.innerHTML = buildRubyHTML(word.q, word.f, displayFurigana);
+          renderExample(null);
+        } else if (!kanjiMode && currentWords.mode === "ID → JP") {
+          backText.innerHTML = parseHighlight(word.f);
+          renderExample(null);
+        } else {
+          backText.innerHTML = parseHighlight(currentWords.a);
+          renderExample(word.e || null);
+        }
+      }, 200);
+    }
+
+    function toggleSwap() {
+      swapped = !swapped;
+      card.classList.toggle("swapped", swapped);
+      
+      if (isFlipped) {
+        card.classList.remove("flipped");
+        isFlipped = false;
+        setTimeout(() => {
+          updateCard();
+        }, 200);
+      } else {
+        updateCard();
+      }
+    }
+
+    function markHafal() {
+      if (allWords.length === 0 || cardOrder.length === 0) return;
+
+      const currentIndex = cardOrder[currentCardIndex];
+      const word = allWords[currentIndex];
+
+      // Uncheck checkbox yang sesuai di sidebar
+      document.querySelectorAll(".word-checkbox:checked").forEach(cb => {
+        const parts = cb.dataset.wordId.split(".");
+        const idx = parseInt(parts[parts.length - 1]);
+        const keys = parts.slice(0, -1);
+        let current = jisho;
+        for (let k of keys) current = current[k];
+        if (Array.isArray(current) && current[idx] === word) {
+          cb.checked = false;
+        }
+      });
+      updateArrayCheckboxes();
+      updateParentCheckboxes();
+
+      // Hapus kata dari allWords secara langsung
+      allWords.splice(currentIndex, 1);
+
+      // Hapus entry ini dari cardOrder, lalu remap semua index
+      // yang nilainya > currentIndex karena allWords sudah digeser
+      cardOrder.splice(currentCardIndex, 1);
+      cardOrder = cardOrder.map(i => i > currentIndex ? i - 1 : i);
+
+      // Update selectedWords agar sinkron
+      selectedWords.clear();
+      document.querySelectorAll(".word-checkbox:checked").forEach(cb => {
+        selectedWords.add(cb.dataset.wordId);
+      });
+
+      // Kalau semua kata udah di-hafal
+      if (cardOrder.length === 0 || allWords.length === 0) {
+        allWords = [];
+        cardOrder = [];
+        frontText.textContent = "Semua kata hafal! 🎉";
+        backText.textContent = "";
+        progress.textContent = "Kartu 0 dari 0";
+        renderCourtesy(null);
+        renderType(null);
+        renderHint(null);
+        return;
+      }
+
+      // Jaga index tetap dalam batas
+      if (currentCardIndex >= cardOrder.length) currentCardIndex = 0;
+
+      // Animasi feedback tombol
+      hafalBtn.classList.remove("hafal-flash");
+      void hafalBtn.offsetWidth;
+      hafalBtn.classList.add("hafal-flash");
+      hafalBtn.addEventListener("animationend", () => hafalBtn.classList.remove("hafal-flash"), { once: true });
+
+      // Lanjut tampilkan kartu berikutnya
+      if (isFlipped) {
+        card.classList.remove("flipped");
+        isFlipped = false;
+        updateCardWithDelay();
+      } else {
+        updateCard();
+      }
+    }
+
+    function toggleKanji() {
+      kanjiMode = !kanjiMode;
+      kanjiBtn.textContent = kanjiMode ? "漢 Kanji ON" : "漢 Kanji";
+      
+      if (kanjiMode) {
+        kanjiBtn.classList.add("kanji-on");
+        furiganaBtn.style.display = "inline"
+      } else {
+        kanjiBtn.classList.remove("kanji-on");
+        furiganaBtn.style.display = "none"
+      }
+      
+      if (isFlipped) {
+        card.classList.remove("flipped");
+        isFlipped = false;
+        setTimeout(() => {
+          updateCard();
+        }, 200);
+      } else {
+        updateCard();
+      }
+    }
+
+    function shuffleCards() {
+      if (allWords.length === 0) return;
+      
+      cardOrder = shuffleArray([...Array(allWords.length).keys()]);
+      learnedCards.clear();
+      currentCardIndex = 0;
+      
+      if (isFlipped) {
+        card.classList.remove("flipped");
+        isFlipped = false;
+        setTimeout(() => {
+          updateCard();
+        }, 200);
+      } else {
+        updateCard();
+      }
+    }
+
+    selectAllBtn.addEventListener("click", () => {
+      document.querySelectorAll(".word-checkbox").forEach(cb => {
+        if (!cb.closest('.review-active') || cb.dataset.arrayPath === '__review__') cb.checked = true;
+        else if (reviewModeState === 'active') return;
+        else cb.checked = true;
+      });
+      document.querySelectorAll(".array-checkbox").forEach(cb => {
+        if (reviewModeState === 'active' && cb.dataset.path !== '__review__') return;
+        cb.checked = true;
+        cb.indeterminate = false;
+      });
+      document.querySelectorAll(".parent-checkbox").forEach(cb => {
+        if (reviewModeState === 'active') return;
+        cb.checked = true;
+        cb.indeterminate = false;
+      });
+      handleWordSelection();
+    });
+
+    deselectAllBtn.addEventListener("click", () => {
+      document.querySelectorAll(".word-checkbox").forEach(cb => {
+        cb.checked = false;
+      });
+      document.querySelectorAll(".array-checkbox").forEach(cb => {
+        cb.checked = false;
+        cb.indeterminate = false;
+      });
+      document.querySelectorAll(".parent-checkbox").forEach(cb => {
+        cb.checked = false;
+        cb.indeterminate = false;
+      });
+      handleWordSelection();
+    });
+
+    function handleReviewBtn() {
+      if (reviewModeState === 'off') {
+        // ── Masuk mode seleksi ──
+        reviewModeState = 'selecting';
+        reviewBtn.textContent = "✔ Konfirmasi Kosakata";
+        reviewBtn.className = "sidebar-btn review-confirm-btn";
+
+        // Tampilkan tombol Batal di sebelah Konfirmasi
+        const reviewBtnRow = document.getElementById("reviewBtnRow");
+        if (!document.getElementById("cancelReviewBtn")) {
+          const cancelBtn = document.createElement("button");
+          cancelBtn.id = "cancelReviewBtn";
+          cancelBtn.className = "sidebar-btn review-cancel-btn";
+          cancelBtn.textContent = "✕ Batal";
+          cancelBtn.addEventListener("click", cancelReview);
+          reviewBtnRow.insertBefore(cancelBtn, reviewBtn);
+        }
+
+        // Deselect semua, biar user mulai pilih fresh
+        document.querySelectorAll(".word-checkbox").forEach(cb => cb.checked = false);
+        document.querySelectorAll(".array-checkbox").forEach(cb => { cb.checked = false; cb.indeterminate = false; });
+        document.querySelectorAll(".parent-checkbox").forEach(cb => { cb.checked = false; cb.indeterminate = false; });
+        handleWordSelection();
+
+        // Tampilkan banner
+        const banner = document.getElementById("reviewBanner");
+        banner.textContent = "📝 Pilih kosakata yang ingin direview, lalu tekan Konfirmasi";
+        banner.style.display = "block";
+
+      } else if (reviewModeState === 'selecting') {
+        // ── Konfirmasi seleksi → aktifkan review ──
+        const checkedCbs = [...document.querySelectorAll('.word-checkbox:checked')];
+        if (checkedCbs.length === 0) return;
+
+        // Simpan state checkbox asli
+        savedCheckboxStates = [...document.querySelectorAll('.word-checkbox')]
+          .map(cb => ({ id: cb.dataset.wordId, checked: cb.checked }));
+
+        const checkedIds = checkedCbs.map(cb => cb.dataset.wordId);
+
+        // Uncheck semua checkbox asli
+        document.querySelectorAll('.word-checkbox').forEach(cb => cb.checked = false);
+        document.querySelectorAll('.array-checkbox').forEach(cb => { cb.checked = false; cb.indeterminate = false; });
+        document.querySelectorAll('.parent-checkbox').forEach(cb => { cb.checked = false; cb.indeterminate = false; });
+
+        // Sembunyikan banner
+        document.getElementById("reviewBanner").style.display = "none";
+
+        // Hapus tombol Batal
+        const cancelBtn = document.getElementById("cancelReviewBtn");
+        if (cancelBtn) cancelBtn.remove();
+
+        // Sembunyikan semua bab asli + tandai review-active
+        document.querySelectorAll('#categoryList > *').forEach(el => el.style.display = 'none');
+        categoryList.classList.add('review-active');
+
+        // Bangun bab sementara Review
+        const reviewSection = document.createElement('div');
+        reviewSection.id = 'reviewSection';
+        reviewSection.className = 'category-section';
+
+        const wordListHTML = checkedIds.map(id => {
+          const parts = id.split('.');
+          const idx = parseInt(parts[parts.length - 1]);
+          const keys = parts.slice(0, -1);
+          let cur = jisho;
+          for (let k of keys) cur = cur[k];
+          const word = Array.isArray(cur) ? cur[idx] : null;
+          const dText = word ? (word.q || word.f || '?') : '?';
+          const aText = word ? (word.a || '') : '';
+          return `
+            <label class="word-checkbox-label">
+              <input type="checkbox" class="word-checkbox" data-word-id="${id}" data-array-path="__review__" checked>
+              <span class="word-text">${dText}</span>
+              <span class="category-count">${aText}</span>
+            </label>`;
+        }).join('');
+
+        reviewSection.innerHTML = `
+          <div class="category-title">📝 Sesi Review</div>
+          <div class="array-row">
+            <label class="array-checkbox-label">
+              <input type="checkbox" class="array-checkbox" data-path="__review__" data-word-ids='${JSON.stringify(checkedIds)}' checked>
+              <span>Sesi Review <span class="category-count">${checkedIds.length} kata</span></span>
+            </label>
+          </div>
+          <div class="word-list open" id="reviewWordList">${wordListHTML}</div>
+        `;
+        categoryList.appendChild(reviewSection);
+
+        // Event checkboxes bab review
+        reviewSection.querySelectorAll('.word-checkbox').forEach(cb => {
+          cb.addEventListener('change', () => { handleWordSelection(); updateArrayCheckboxes(); });
+        });
+        reviewSection.querySelector('.array-checkbox').addEventListener('change', function() {
+          const ids = JSON.parse(this.dataset.wordIds);
+          ids.forEach(id => {
+            const cb = reviewSection.querySelector(`.word-checkbox[data-word-id="${id}"]`);
+            if (cb) cb.checked = this.checked;
+          });
+          handleWordSelection();
+        });
+
+        handleWordSelection();
+        reviewModeState = 'active';
+        reviewBtn.textContent = "⏹ Selesai Review";
+        reviewBtn.className = "sidebar-btn review-done-btn";
+
+      } else if (reviewModeState === 'active') {
+        finishReview();
+      }
+    }
+
+    function cancelReview() {
+      // Batal dari mode selecting — kembalikan ke off
+      reviewModeState = 'off';
+      reviewBtn.textContent = "📝 Mode Review";
+      reviewBtn.className = "sidebar-btn review-mode-btn";
+      document.getElementById("reviewBanner").style.display = "none";
+      const cancelBtn = document.getElementById("cancelReviewBtn");
+      if (cancelBtn) cancelBtn.remove();
+      // Tidak pulihkan checkbox karena di selecting semua sudah di-deselect — biarkan kosong
+      handleWordSelection();
+    }
+
+    function finishReview() {
+      const reviewSection = document.getElementById('reviewSection');
+      if (reviewSection) reviewSection.remove();
+
+      // Hapus review-active class
+      categoryList.classList.remove('review-active');
+
+      // Tampilkan kembali bab asli
+      document.querySelectorAll('#categoryList > *').forEach(el => el.style.display = '');
+
+      // Pulihkan checkbox states
+      savedCheckboxStates.forEach(({ id, checked }) => {
+        const cb = document.querySelector(`.word-checkbox[data-word-id="${id}"]`);
+        if (cb) cb.checked = checked;
+      });
+      updateArrayCheckboxes();
+      updateParentCheckboxes();
+      handleWordSelection();
+
+      reviewModeState = 'off';
+      reviewBtn.textContent = "📝 Mode Review";
+      reviewBtn.className = "sidebar-btn review-mode-btn";
+    }
+
+    card.addEventListener("click", flipCard);
+    swapBtn.addEventListener("click", () => { closeAllHints(); toggleSwap(); });
+    nextBtn.addEventListener("click", () => { closeAllHints(); nextCard(); });
+    shuffleBtn.addEventListener("click", () => { closeAllHints(); shuffleCards(); });
+    hafalBtn.addEventListener("click", () => { closeAllHints(); markHafal(); });
+    kanjiBtn.addEventListener("click", () => { closeAllHints(); toggleKanji(); });
+    furiganaBtn.addEventListener("click", () => {
+        closeAllHints();
+        displayFurigana = !displayFurigana;
+        updateCard();
+    });
+
+
+
+    reviewBtn.addEventListener("click", handleReviewBtn);
+
+    // Config modal
+    const configBtn     = document.getElementById("configBtn");
+    const configOverlay = document.getElementById("configOverlay");
+    const configCloseBtn = document.getElementById("configCloseBtn");
+    configBtn.addEventListener("click", () => configOverlay.classList.add("open"));
+    configCloseBtn.addEventListener("click", () => configOverlay.classList.remove("open"));
+    configOverlay.addEventListener("click", (e) => {
+      if (e.target === configOverlay) configOverlay.classList.remove("open");
+    });
+
+    document.addEventListener("keydown", (e) => {
+      switch (e.key) {
+        case " ":
+          e.preventDefault();
+          flipCard();
+          break;
+        case "ArrowRight":
+          e.preventDefault();
+          nextCard();
+          break;
+        case "s":
+        case "S":
+          e.preventDefault();
+          toggleSwap();
+          break;
+        case "h":
+        case "H":
+          e.preventDefault();
+          markHafal();
+          break;
+        case "k":
+        case "K":
+          e.preventDefault();
+          toggleKanji();
+          break;
+        case "r":
+        case "R":
+          e.preventDefault();
+          shuffleCards();
+          break;
+      }
+    });
+
+    const DATA_URL   = "https://n4-flashcard.vercel.app/data.json";
+    const CACHE_KEY  = "jisho_cache";
+
+    async function init() {
+      frontText.textContent = "⏳ Memuat data...";
+      progress.textContent  = "";
+
+      if (navigator.onLine) {
+        // Online: fetch terbaru, simpan ke cache
+        try {
+          const res = await fetch(DATA_URL);
+          if (!res.ok) throw new Error(`HTTP ${res.status}`);
+          const data = await res.json();
+          jisho = data;
+          localStorage.setItem(CACHE_KEY, JSON.stringify(data));
+          frontText.textContent = "Pilih kategori";
+          progress.textContent  = "Kartu 1 dari 0";
+          buildCategoryUI();
+        } catch (err) {
+          // Fetch gagal walau online, coba fallback ke cache
+          console.warn("Fetch gagal, coba cache:", err);
+          loadFromCache();
+        }
+      } else {
+        // Offline: langsung pakai cache
+        loadFromCache();
+      }
+    }
+
+    function loadFromCache() {
+      const cached = localStorage.getItem(CACHE_KEY);
+      if (cached) {
+        try {
+          jisho = JSON.parse(cached);
+          frontText.textContent = "Pilih kategori";
+          progress.textContent  = "Kartu 1 dari 0";
+          buildCategoryUI();
+        } catch (err) {
+          frontText.textContent = "Cache rusak 😢";
+          progress.textContent  = "Coba refresh saat online";
+        }
+      } else {
+        frontText.textContent = "Tidak ada data 😢";
+        progress.textContent  = "Sambungkan internet lalu refresh";
+      }
+    }
+
+    init();
+  </script>
 </body>
 </html>
