@@ -8557,5 +8557,327 @@
     "e": "baju ini *berbintik-bintik*",
     "c": 1,
     "x": "corak berupa titik-titik bulat seperti air\nsering untuk pakaian, dasi, atau aksesoris\npopuler untuk gaya retro"
+  },
+  {
+    "q": "お祝い［をする］",
+    "f": "おいわい",
+    "a": "perayaan\nmerayakan",
+    "e": "ini adalah *perayaan*\nkami *merayakan* ulang tahun",
+    "c": 2,
+    "x": "merayakan acara bahagia seperti ulang tahun atau pernikahan\nsebagai kata kerja: お祝いをする\nberlawanan dengan 弔う (tomurau/berkabung)"
+  },
+  {
+    "q": "お年玉",
+    "f": "おとしだま",
+    "a": "angpao",
+    "e": "anak mendapat *angpao*",
+    "c": 1,
+    "x": "uang yang diberikan kepada anak saat Tahun Baru di Jepang\ndimasukkan ke amplop khusus\njumlah tergantung usia anak"
+  },
+  {
+    "q": "［お］見舞い",
+    "f": "みまい",
+    "a": "menjenguk orng sakit",
+    "e": "saya pergi *menjenguk orang sakit*",
+    "c": 2,
+    "x": "mengunjungi orang sakit di rumah sakit atau rumah\nbisa bawa buah atau bunga\nberlawanan dengan お祝い (oiwai/perayaan)"
+  },
+  {
+    "q": "［携帯に］興味［がある］",
+    "f": "きょうみ",
+    "a": "minat\nberminat [pada hp]",
+    "e": "saya punya *minat*\nsaya *berminat* pada HP",
+    "c": 1,
+    "x": "rasa ingin tahu atau perhatian pada sesuatu\npakai partikel に untuk objek yang diminati\nbisa untuk hobi, berita, atau orang"
+  },
+  {
+    "q": "発音",
+    "f": "はつおん",
+    "a": "pengucapan, pelafalan",
+    "e": "*pengucapan* bahasa Jepang sulit\n*pelafalan* ini penting",
+    "c": 1,
+    "x": "cara mengucapkan kata atau bunyi dalam bahasa\nberlawanan dengan 聴解 (choukai/mendengar pemahaman)\npenting untuk belajar bahasa asing"
+  },
+  {
+    "q": "猿",
+    "f": "さる",
+    "a": "monyet",
+    "e": "itu adalah *monyet*",
+    "c": 1,
+    "x": "hewan primata yang cerdas dan lincah\nbisa dilatih untuk sirkus\nada spesies di Jepang (kera salju)"
+  },
+  {
+    "q": "餌",
+    "f": "えさ",
+    "a": "makanan hewan, umpan",
+    "e": "ini adalah *makanan hewan*\nini digunakan sebagai *umpan*",
+    "c": 1,
+    "x": "makanan yang diberikan kepada hewan peliharaan atau liar\nberlawanan dengan 食べ物 (tabemono/makanan manusia)\nuntuk kucing, anjing, burung, atau ikan"
+  },
+  {
+    "q": "玩具",
+    "f": "おもちゃ",
+    "a": "mainan",
+    "e": "anak bermain dengan *mainan*",
+    "c": 1,
+    "x": "benda untuk bermain anak-anak\nberlawanan dengan 道具 (dougu/alat kerja)\nada yang edukatif atau hiburan"
+  },
+  {
+    "q": "絵本",
+    "f": "えほん",
+    "a": "buku cerita bergambar",
+    "e": "saya membaca *buku cerita bergambar*",
+    "c": 1,
+    "x": "buku dengan cerita dan ilustrasi untuk anak-anak\nmembantu imajinasi dan membaca\npopuler sebelum tidur"
+  },
+  {
+    "q": "絵葉書",
+    "f": "えはがき",
+    "a": "kartu pos bergambar",
+    "e": "saya mengirim *kartu pos bergambar*",
+    "c": 1,
+    "x": "kartu pos dengan foto atau ilustrasi\nuntuk ucapan selamat atau kenangan wisata\nbeda dengan 年賀状 (nengajou/kartu Tahun Baru)"
+  },
+  {
+    "q": "ドライバー",
+    "f": "どらいばー",
+    "a": "obeng",
+    "e": "saya memakai *obeng*",
+    "c": 1,
+    "x": "alat untuk memutar baut atau sekrup\nada mata plus dan minus\npenting untuk perbaikan furnitur"
+  },
+  {
+    "q": "ハンカチ",
+    "f": "はんかち",
+    "a": "sapu tangan",
+    "e": "saya membawa *sapu tangan*",
+    "c": 1,
+    "x": "kain kecil untuk mengelap tangan atau mulut\nbiasanya dilipat di saku\nada berbagai warna dan motif"
+  },
+  {
+    "q": "靴下",
+    "f": "くつした",
+    "a": "kaos kaki",
+    "e": "saya membeli *kaos kaki*",
+    "c": 1,
+    "x": "pakaian penutup kaki dari ujung jari sampai mata kaki\nberlawanan dengan 靴 (kutsu/sepatu)\nada berbagai panjang dan bahan"
+  },
+  {
+    "q": "手袋",
+    "f": "れぶくろ",
+    "a": "sarung tangan",
+    "e": "saya memakai *sarung tangan*",
+    "c": 1,
+    "x": "pakaian penutup tangan dengan lima jari\nberlawanan dengan 手袋なし (tebukuro nashi/tanpa sarung tangan)\nuntuk dingin, kerja, atau fashion"
+  },
+  {
+    "q": "幼稚園",
+    "f": "ようちえん",
+    "a": "TK",
+    "e": "adik masuk *TK*",
+    "c": 1,
+    "x": "pendidikan formal untuk anak usia 3-6 tahun\nbelajar sosialisasi dan dasar-dasar\nberlawanan dengan 小学校 (shougakkou/SD)"
+  },
+  {
+    "q": "暖房",
+    "f": "だんぼう",
+    "a": "pemanas ruangan",
+    "e": "ini adalah *pemanas ruangan*",
+    "c": 1,
+    "x": "perangkat untuk menghangatkan ruangan di musim dingin\nberlawanan dengan 冷房 (reibou/pendingin ruangan)\ncontoh: heater, AC, keramik"
+  },
+  {
+    "q": "冷房",
+    "f": "れいぼう",
+    "a": "AC",
+    "e": "ini adalah *AC*",
+    "c": 1,
+    "x": "perangkat untuk mendinginkan ruangan di musim panas\nberlawanan dengan 暖房 (danbou/pemanas ruangan)\ncontoh: AC, kipas angin"
+  },
+  {
+    "q": "温度",
+    "f": "おんど",
+    "a": "suhu",
+    "e": "*suhu* hari ini tinggi",
+    "c": 1,
+    "x": "ukuran panas atau dingin suatu benda atau lingkungan\nsatuan Celcius di Jepang\nuntuk cuaca, tubuh, atau mesin"
+  },
+  {
+    "q": "祖父",
+    "f": "そふ",
+    "a": "kakek",
+    "e": "ini adalah *kakek* saya",
+    "c": 1,
+    "x": "ayah dari orang tua seseorang (kakek)\nberlawanan dengan 祖母 (sobo/nenek)\nada kakek pihak ibu dan bapak"
+  },
+  {
+    "q": "祖母",
+    "f": "そぼ",
+    "a": "nenek",
+    "e": "ini adalah *nenek* saya",
+    "c": 1,
+    "x": "ibu dari orang tua seseorang (nenek)\nberlawanan dengan 祖父 (sofu/kakek)\nada nenek pihak ibu dan bapak"
+  },
+  {
+    "q": "［お］孫［さん］",
+    "f": "まご",
+    "a": "cucu",
+    "e": "dia adalah *cucu*",
+    "c": 1,
+    "x": "anak dari anak seseorang\nberlawanan dengan 祖父母 (sofubo/kakek nenek)\nsering dimanja oleh kakek nenek"
+  },
+  {
+    "q": "叔父［さん］",
+    "f": "おじ",
+    "a": "om",
+    "e": "dia adalah *om* saya",
+    "c": 1,
+    "x": "adik laki-laki dari orang tua (paman)\nberlawanan dengan 叔母 (oba/tante)\nada dari pihak ibu atau bapak"
+  },
+  {
+    "q": "小母［さん］",
+    "f": "おば",
+    "a": "tante",
+    "e": "dia adalah *tante* saya",
+    "c": 1,
+    "x": "adik perempuan dari orang tua (bibi)\nberlawanan dengan 叔父 (oji/paman)\nada dari pihak ibu atau bapak"
+  },
+  {
+    "q": "管理人",
+    "f": "かんりにん",
+    "a": "penjaga",
+    "e": "dia adalah *penjaga* gedung",
+    "c": 1,
+    "x": "orang yang bertanggung jawab merawat atau mengelola\ncontoh: gedung, parkir, atau properti\nberlawanan dengan 住人 (juunin/penghuni)"
+  },
+  {
+    "q": "［員］さん",
+    "f": "さん",
+    "a": "petugas [pegawai]",
+    "e": "dia adalah *petugas*",
+    "c": 1,
+    "x": "orang yang bekerja di suatu institusi\ncontoh: 駅員 (ekiin/petugas stasiun)\nada di kantor, toko, atau transportasi"
+  },
+  {
+    "q": "この間",
+    "f": "このあいだ",
+    "a": "beberapa saat lalu",
+    "e": "itu terjadi *beberapa saat lalu*",
+    "c": 1,
+    "x": "waktu beberapa waktu yang lalu (tidak terlalu lama)\nberbeda dengan 先週 (senshuu/minggu lalu)\nuntuk cerita pengalaman baru"
+  },
+  {
+    "q": "一言",
+    "f": "ひとこと",
+    "a": "sepatah kata",
+    "e": "dia hanya berkata *sepatah kata*",
+    "c": 1,
+    "x": "satu kata atau kalimat pendek\nberlawanan dengan 長話 (nagabanashi/cerita panjang)\ncontoh: 一言お願いします (satu kata mohon)"
+  },
+  {
+    "q": "〜ずつ",
+    "f": "ずつ",
+    "a": "setiap 〜",
+    "e": "saya bagi *setiap* orang satu",
+    "c": 1,
+    "x": "partikel untuk menunjukkan distribusi sama rata\ncontoh: 少しずつ (sukoshi zutsu/sedikit demi sedikit)\nmelekat pada kata benda atau angka"
+  },
+  {
+    "q": "二人",
+    "f": "ふたり",
+    "a": "pasangan",
+    "e": "kami berdua adalah *pasangan*",
+    "c": 1,
+    "x": "dua orang yang berpasangan\ncontoh: suami istri atau teman\nberlawanan dengan 一人 (hitori/sendirian)"
+  },
+  {
+    "q": "お宅",
+    "f": "おたく",
+    "a": "rumah",
+    "e": "ini adalah *rumah* saya",
+    "c": 2,
+    "x": "bentuk sopan untuk rumah seseorang\nbisa untuk keluarga sendiri atau orang lain\nberlawanan dengan 自宅 (jitaku/rumah sendiri)"
+  },
+  {
+    "q": "昔話",
+    "f": "むかしばなし",
+    "a": "cerita dongeng",
+    "e": "saya membaca *cerita dongeng*",
+    "c": 1,
+    "x": "cerita tradisional turun-temurun secara lisan\ncontoh: Momotaro, Kintaro, Urashima Taro\nmengandung pesan moral"
+  },
+  {
+    "q": "男",
+    "f": "おとこ",
+    "a": "laki-laki",
+    "e": "dia adalah *laki-laki*",
+    "c": 1,
+    "x": "manusia dengan jenis kelamin jantan\nberlawanan dengan 女 (onna/perempuan)\nuntuk dewasa atau anak"
+  },
+  {
+    "q": "虐める",
+    "f": "いじめる",
+    "a": "menyiksa, menganiayai",
+    "e": "dia suka *menyiksa*\ndia *menganiayai* orang",
+    "c": 0,
+    "x": "menyakiti orang atau hewan yang lebih lemah\npakai partikel を untuk korban\nberlawanan dengan 守る (mamoru/melindungi)",
+    "t": "を"
+  },
+  {
+    "q": "亀",
+    "f": "かめ",
+    "a": "kura-kura",
+    "e": "itu adalah *kura-kura*",
+    "c": 1,
+    "x": "reptil dengan tempurung keras di punggung\nhidup di air dan darat\nlambang umur panjang di Jepang"
+  },
+  {
+    "q": "お姫様",
+    "f": "おひめさま",
+    "a": "putri",
+    "e": "dia seperti *putri*",
+    "c": 1,
+    "x": "putri raja dalam kerajaan (dongeng)\nberlawanan dengan 王子 (ouji/pangeran)\nsering jadi tokoh utama"
+  },
+  {
+    "q": "暮らす",
+    "f": "くらす",
+    "a": "hidup",
+    "e": "saya *hidup* di kota",
+    "c": 1,
+    "x": "menjalani kehidupan sehari-hari di suatu tempat\npakai partikel で untuk tempat tinggal\nberlawanan dengan 死ぬ (shinu/mati)",
+    "t": "が"
+  },
+  {
+    "q": "陸",
+    "f": "りく",
+    "a": "daratan",
+    "e": "ini adalah *daratan*",
+    "c": 1,
+    "x": "daratan bukan lautan atau air\nberlawanan dengan 海 (umi/laut)\nuntuk hewan, tanaman, atau manusia"
+  },
+  {
+    "q": "煙",
+    "f": "けむり",
+    "a": "asap",
+    "e": "terlihat *asap*",
+    "c": 1,
+    "x": "partikel kecil hasil pembakaran yang naik ke udara\nberlawanan dengan 空気 (kuuki/udara bersih)\nberbahaya bagi pernapasan"
+  },
+  {
+    "q": "真っ白［な］",
+    "f": "まっしろ",
+    "a": "putih bersih\nputih seluruhnya\nserba putih",
+    "e": "langit *putih bersih*\ndunia jadi *putih seluruhnya*\nsalju membuat semuanya *serba putih*",
+    "c": 1,
+    "x": "sangat putih tanpa noda atau warna lain\nberlawanan dengan 黒い (kuroi/hitam)\nuntuk salju, awan, atau baju"
+  },
+  {
+    "q": "中身",
+    "f": "なかみ",
+    "a": "isi",
+    "e": "lihat *isi* kotak ini",
+    "c": 1,
+    "x": "isi di dalam suatu wadah atau kemasan\nberlawanan dengan 外側 (sotogawa/luar)\nuntuk kotak, botol, atau hati"
   }
 ]
