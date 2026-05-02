@@ -16808,6 +16808,334 @@
       "e": "saya minum *sake*",
       "c": 1,
       "x": "minuman alkohol tradisional Jepang dari fermentasi beras\nbiasa diminum hangat atau dingin\nada berbagai jenis (daiginjo, honjozo, junmai)"
+    },
+    {
+      "q": "論文",
+      "f": "ろんぶん",
+      "a": "tesis",
+      "e": "ini adalah *tesis*",
+      "c": 2,
+      "x": "karya tulis ilmiah untuk gelar S1/S2/S3\nberlawanan dengan レポート (repooto/tugas biasa)\nbutuh penelitian dan analisis"
+    },
+    {
+      "q": "楽しみ",
+      "f": "たのしみ",
+      "a": "kesenangan",
+      "e": "ini *kesenangan* saya",
+      "c": 1,
+      "x": "sesuatu yang dinanti atau disukai\nsebagai kata benda dari 楽しむ (tanoshimu/menikmati)\nuntuk waktu, acara, atau kegiatan"
+    },
+    {
+      "q": "ミキサー",
+      "f": "みきさー",
+      "a": "mixer",
+      "e": "ibu memakai *mixer*",
+      "c": 1,
+      "x": "alat listrik untuk menghaluskan atau mencampur makanan\nuntuk jus, sup, atau smoothie\nberlawanan dengan ブレンダー (burendaa/blender)"
+    },
+    {
+      "q": "缶詰",
+      "f": "かんづめ",
+      "a": "makanan kaleng",
+      "e": "saya membeli *makanan kaleng*",
+      "c": 1,
+      "x": "makanan yang diawetkan dalam kaleng tertutup\ncontoh: tuna, buah, sup\nberlawanan dengan 生鮮食品 (seisen shokuhin/makanan segar)"
+    },
+    {
+      "q": "のし袋",
+      "f": "のしぶくろ",
+      "a": "amplop uang",
+      "e": "ini *amplop uang*",
+      "c": 2,
+      "x": "amplop khusus untuk uang hadiah di Jepang\ndipakai untuk pernikahan, kelahiran, atau duka\nada aturan cara menulis nama"
+    },
+    {
+      "q": "風呂敷",
+      "f": "ふろしき",
+      "a": "kain pembungkus",
+      "e": "dia membungkus hadiah dengan *kain pembungkus*",
+      "c": 1,
+      "x": "kain persegi untuk membungkus barang\nbisa untuk baju, kotak, atau botol\nramah lingkungan karena bisa dipakai ulang"
+    },
+    {
+      "q": "算盤",
+      "f": "そろばん",
+      "a": "sempoa",
+      "e": "kakek memakai *sempoa*",
+      "c": 1,
+      "x": "alat hitung tradisional Jepang dengan manik-manik\nuntuk penjumlahan, pengurangan, perkalian, pembagian\nmasih diajarkan di beberapa sekolah"
+    },
+    {
+      "q": "体温計",
+      "f": "たいおんけい",
+      "a": "termometer",
+      "e": "ini adalah *termometer*",
+      "c": 1,
+      "x": "alat untuk mengukur suhu tubuh\nada digital atau air raksa\ndipakai saat sakit atau cek kesehatan"
+    },
+    {
+      "q": "なぜ",
+      "f": "なぜ",
+      "a": "kenapa",
+      "e": "*kenapa* kamu terlambat",
+      "c": 1,
+      "x": "kata tanya untuk alasan atau sebab\nberlawanan dengan なぜなら (nazenara/karena)\nsering dijawab dengan から (kara/karena)"
+    },
+    {
+      "q": "どのくらい",
+      "f": "どのくらい",
+      "a": "berapa banyak",
+      "e": "*berapa banyak* uangmu",
+      "c": 1,
+      "x": "kata tanya untuk jumlah, harga, atau durasi\nberlawanan dengan どれくらい (dorekurai/sama tetapi kasual)\nuntuk berat, waktu, atau umur"
+    },
+    {
+      "q": "国連",
+      "f": "こくれん",
+      "a": "PBB",
+      "e": "ini rapat *PBB*",
+      "c": 2,
+      "x": "organisasi internasional untuk perdamaian dunia\ndidirikan setelah Perang Dunia II\nIndonesia anggota PBB"
+    },
+    {
+      "q": "子供ニュース",
+      "f": "こどもにゅーす",
+      "a": "berita anak-anak",
+      "e": "adik menonton *berita anak-anak*",
+      "c": 1,
+      "x": "program berita yang dibuat khusus untuk anak\nbahasa mudah, topik tidak terlalu berat\nada di NHK Jepang"
+    },
+    {
+      "q": "［ボーナスが］出る",
+      "f": "でる",
+      "a": "[bonus] keluar\ndapat [bonus]",
+      "e": "*bonus keluar* bulan ini\nsaya *dapat bonus* besar",
+      "c": 1,
+      "x": "bonus keluar atau diberikan (biasanya dua kali setahun)\nberlawanan dengan ボーナスがない (bonus ga nai/tidak ada bonus)\nmomen bahagia pekerja Jepang",
+      "t": "が"
+    },
+    {
+      "q": "半分",
+      "f": "はんぶん",
+      "a": "setengah",
+      "e": "makan saja *setengah*",
+      "c": 1,
+      "x": "satu dari dua bagian yang sama besar\nberlawanan dengan 全部 (zenbu/seluruhnya)\ncontoh: setengah lingkaran"
+    },
+    {
+      "q": "ローン",
+      "f": "ろーん",
+      "a": "kredit",
+      "e": "dia membeli rumah dengan *kredit*",
+      "c": 1,
+      "x": "pinjaman uang dari bank untuk rumah, mobil, atau pendidikan\nberlawanan dengan 貯金 (chokin/tabungan)\nbunga dan cicilan bulanan"
+    },
+    {
+      "q": "カップ麺",
+      "f": "かっぷめん",
+      "a": "mie instan",
+      "e": "saya makan *mie instan*",
+      "c": 1,
+      "x": "mi instan dalam cangkir styrofoam atau kertas\ntinggal seduh air panas\npopuler untuk makan cepat"
+    },
+    {
+      "q": "世界初",
+      "f": "せかいはつ",
+      "a": "pertama di dunia",
+      "e": "ini produk *pertama di dunia*",
+      "c": 2,
+      "x": "pertama kalinya di seluruh dunia\ncontoh: teknologi, penemuan, rekor\nberlawanan dengan 世界で最後 (sekai de saigo/terakhir di dunia)"
+    },
+    {
+      "q": "〜によって",
+      "f": "によって",
+      "a": "oleh 〜",
+      "e": "acara ini dibuat *oleh Pak Tanaka*",
+      "c": 2,
+      "x": "menunjukkan penyebab, cara, atau agen\ncontoh: 地震によって (jishin ni yotte/oleh gempa)\nsering untuk berita atau penjelasan"
+    },
+    {
+      "q": "麺",
+      "f": "めん",
+      "a": "mie",
+      "e": "saya makan *mie*",
+      "c": 1,
+      "x": "bahan makanan dari tepung yang direbus\ntipis dan panjang\nada basah dan kering"
+    },
+    {
+      "q": "広める",
+      "f": "ひろめる",
+      "a": "menyebarluaskan",
+      "e": "internet membantu *menyebarluaskan* informasi",
+      "c": 2,
+      "x": "menyebarkan informasi atau kebiasaan ke banyak orang\npakai partikel を untuk yang disebar\nberlawanan dengan 隠す (kakusu/menyembunyikan)",
+      "t": "を"
+    },
+    {
+      "q": "市場調査",
+      "f": "しじょうちょうさ",
+      "a": "riset pemasaran",
+      "e": "perusahaan melakukan *riset pemasaran*",
+      "c": 1,
+      "x": "penelitian tentang keinginan konsumen sebelum produk keluar\ncontoh: kuesioner, wawancara, analisis\npenting untuk bisnis sukses"
+    },
+    {
+      "q": "注ぐ",
+      "f": "そそぐ",
+      "a": "menuangkan",
+      "e": "ibu *menuangkan* teh",
+      "c": 2,
+      "x": "menuangkan cairan ke wadah\npakai partikel を untuk cairan yang dituang\nberlawanan dengan こぼす (kobosu/tumpah)",
+      "t": "を"
+    },
+    {
+      "q": "事務用品",
+      "f": "じむようひん",
+      "a": "perlengkapan kantor",
+      "e": "ini *perlengkapan kantor*",
+      "c": 1,
+      "x": "barang yang dipakai di kantor\ncontoh: kertas, pulpen, map, lem, stepler\nbisa beli di toko alat tulis"
+    },
+    {
+      "q": "綴じる",
+      "f": "とじる",
+      "a": "menjilid, mengikat",
+      "e": "dia *menjilid* dokumen\ndia *mengikat* kertas",
+      "c": 2,
+      "x": "mengikat atau menjilid kertas menjadi buku\npakai partikel を untuk kertas yang dijilid\nberlawanan dengan 離す (hanasu/memisahkan)",
+      "t": "を"
+    },
+    {
+      "q": "ホッチキス",
+      "f": "ほっちきす",
+      "a": "stepler",
+      "e": "ini adalah *stepler*",
+      "c": 1,
+      "x": "alat untuk menyatukan kertas dengan logam\ntekan lalu kertas tersteples\nberlawanan dengan ホッチキス抜き (hotchikisu nuki/pencabut steples)"
+    },
+    {
+      "q": "挟む",
+      "f": "はさむ",
+      "a": "menjepit",
+      "e": "dia *menjepit* kertas",
+      "c": 1,
+      "x": "menjepit sesuatu di antara dua benda\npakai partikel を untuk yang dijepit\nuntuk kertas, rambut, atau makanan",
+      "t": "を"
+    },
+    {
+      "q": "クリップ",
+      "f": "くりっぷ",
+      "a": "jepitan",
+      "e": "pakai *jepitan* ini",
+      "c": 1,
+      "x": "alat kecil untuk menjepit kertas sementara\nbisa dilepas dan dipakai ulang\nberlawanan dengan ステープル (suteepuru/steples permanen)"
+    },
+    {
+      "q": "留める",
+      "f": "とめる",
+      "a": "menyematkan",
+      "e": "dia *menyematkan* kertas di dinding",
+      "c": 1,
+      "x": "menyematkan atau mengikat sesuatu agar tidak lepas\npakai partikel を untuk yang disemat\nuntuk rambut, pakaian, atau kertas",
+      "t": "を"
+    },
+    {
+      "q": "画鋲",
+      "f": "がびょう",
+      "a": "paku payung",
+      "e": "ini *paku payung*",
+      "c": 1,
+      "x": "paku kecil dengan kepala besar untuk papan buletin\ncukup tekan dengan jempol\nberlawanan dengan 抜く (nuku/mencabut)"
+    },
+    {
+      "q": "カッター",
+      "f": "かったー",
+      "a": "pisau",
+      "e": "hati-hati dengan *pisau*",
+      "c": 1,
+      "x": "pisau kecil yang bisa ditarik untuk memotong kertas\ntidak terlalu tajam, aman untuk anak\nuntuk kerajinan tangan"
+    },
+    {
+      "q": "鋏",
+      "f": "はさみ",
+      "a": "gunting",
+      "e": "ini *gunting*",
+      "c": 1,
+      "x": "alat potong dengan dua bilah yang bergerak\nberlawanan dengan のり (nori/lem)\nhati-hati karena tajam"
+    },
+    {
+      "q": "セロテープ",
+      "f": "せろてーぷ",
+      "a": "selotip",
+      "e": "pakai *selotip*",
+      "c": 1,
+      "x": "selotip bening untuk menempel kertas atau plastik\nmerek terkenal di Jepang\nberlawanan dengan 剥がす (hagasu/melepas)"
+    },
+    {
+      "q": "ガムテープ",
+      "f": "がむてーぷ",
+      "a": "selotip kertas",
+      "e": "dia membeli *selotip kertas*",
+      "c": 1,
+      "x": "selotip coklat atau putih untuk kardus\ntahan air dan kuat\nuntuk packing barang"
+    },
+    {
+      "q": "糊",
+      "f": "のり",
+      "a": "lem",
+      "e": "pakai *lem* ini",
+      "c": 1,
+      "x": "perekat untuk menempel kertas atau kain\nberlawanan dengan 剥がす (hagasu/melepas)\nada cair, batang, atau stik"
+    },
+    {
+      "q": "鉛筆削り",
+      "f": "えんぴつけずり",
+      "a": "peruncing pensil",
+      "e": "ini *peruncing pensil*",
+      "c": 1,
+      "x": "alat untuk meruncingkan ujung pensil yang tumpul\ntangan atau listrik\npenting untuk menulis"
+    },
+    {
+      "q": "ファイル",
+      "f": "ふぁいる",
+      "a": "map",
+      "e": "masukkan dokumen ke *map*",
+      "c": 1,
+      "x": "map atau binder untuk menyimpan dokumen\nberlawanan dengan 散らかる (chirakaru/berantakan)\nada berbagai ukuran dan warna"
+    },
+    {
+      "q": "消す",
+      "f": "けす",
+      "a": "menghapus",
+      "e": "saya *menghapus* tulisan",
+      "c": 1,
+      "x": "membuat sesuatu menghilang dari permukaan\npakai partikel を untuk yang dihapus\nuntuk tulisan, gambar, atau debu",
+      "t": "を"
+    },
+    {
+      "q": "消しゴム",
+      "f": "けしごむ",
+      "a": "penghapus karet",
+      "e": "ini *penghapus karet*",
+      "c": 1,
+      "x": "alat karet untuk menghapus tulisan pensil\nberlawanan dengan ペン (pen/tinta permanen)\nbisa patah jika terlalu keras"
+    },
+    {
+      "q": "修正液",
+      "f": "しゅうせいえき",
+      "a": "penghapus cair",
+      "e": "pakai *penghapus cair*",
+      "c": 1,
+      "x": "cairan putih untuk menutupi kesalahan tinta\nberlawanan dengan 消しゴム (keshigomu/penghapus karet)\nharus tunggu kering sebelum menulis ulang"
+    },
+    {
+      "q": "［穴を］開ける",
+      "f": "あける",
+      "a": "melubangi",
+      "e": "dia *melubangi* kertas",
+      "c": 1,
+      "x": "membuat lubang pada permukaan benda\npakai partikel を untuk yang dilubangi\npakai bor, paku, atau pelubang kertas",
+      "t": "を"
     }
   ]
 }
